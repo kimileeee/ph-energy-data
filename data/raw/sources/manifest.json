@@ -1,0 +1,382 @@
+{
+  "aec/Bill-Insert-for-August-2026-1.pdf": {
+    "bytes": 260717,
+    "sha256": "6aacf9770fa4bac819cfc04152493fd7d31869364ffb9ff6b0886c0d66f3a0af",
+    "url": "https://angeleselectric.com.ph/wp-content/uploads/2026/08/Bill-Insert-for-August-2026-1.pdf"
+  },
+  "aec/Bill-Insert-for-November-2026.pdf": {
+    "bytes": 261828,
+    "sha256": "1e20ca0fa86d4a0a6c9234f1be17b570155ef9ba9ce2f2af0c18ff84f7b8f651",
+    "url": "https://angeleselectric.com.ph/wp-content/uploads/2026/11/Bill-Insert-for-November-2026.pdf"
+  },
+  "aec/Bill-Insert-for-October-2026-2.pdf": {
+    "bytes": 266780,
+    "sha256": "4646bec14e6e57af472db4c18b2664ec53d1d3d2b2365ab99d705434706489e3",
+    "url": "https://angeleselectric.com.ph/wp-content/uploads/2026/10/Bill-Insert-for-October-2026-2.pdf"
+  },
+  "aec/Bill-Insert-for-September-2026.pdf": {
+    "bytes": 307454,
+    "sha256": "93b9b7fa4ba07b2ca695476347802b10246ad34110744121dac732e3e0fbfd2b",
+    "url": "https://angeleselectric.com.ph/wp-content/uploads/2026/09/Bill-Insert-for-September-2026.pdf"
+  },
+  "cedc/2025-12-dec2025_gencharge.png": {
+    "bytes": 64555,
+    "sha256": "08973bd665ce99fa85b318a37e3ffc90d6abdba240116b8bc9371bbcba80ef10",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/dec2025_gencharge.png"
+  },
+  "cedc/2025-12-dec2025_monthlyrates.png": {
+    "bytes": 50516,
+    "sha256": "33ef0aa80de95e8a3e2cca9cd134d6d45fc9e1a669c934eeb40e1e56316c80fa",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/dec2025_monthlyrates.png"
+  },
+  "cedc/2026-01-gencharge01.png": {
+    "bytes": 127219,
+    "sha256": "56200a262fec985077ad0d6feb461b5ae600002b99f992c9c15247bba4460092",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge01.png"
+  },
+  "cedc/2026-01-monthlyrate01.png": {
+    "bytes": 64346,
+    "sha256": "3c4f52d7cbf9a44e8679281546bceb62897a92f4a53456164f7da6c10418c9e2",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate01.png"
+  },
+  "cedc/2026-02-generation-charge-feb.png": {
+    "bytes": 64107,
+    "sha256": "cb9ea930d55eeeb2ad41cd755b872bc8f5a1e0d8e499729e6940714b61540029",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/generation-charge-feb.png"
+  },
+  "cedc/2026-02-monthly-rates-feb.png": {
+    "bytes": 47326,
+    "sha256": "5031b80c0d0582d69158cfa919be2ce89f7a93e3c0a8c20bc0b01697531393f0",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthly-rates-feb.png"
+  },
+  "cedc/2026-03-gencharge03.png": {
+    "bytes": 85433,
+    "sha256": "790c742244c08b27fa4026193e53d1c208260cd57ca60ffc077813b60bb56b42",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge03.png"
+  },
+  "cedc/2026-03-monthlyrate03.png": {
+    "bytes": 62136,
+    "sha256": "67b72a411d3731700b59aa7fdb7ecb24fec234f457b739331ef0a0090e52a944",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate03.png"
+  },
+  "cedc/2026-04-gencharge04.png": {
+    "bytes": 78470,
+    "sha256": "3f82ded1078bb96cd85f2319bdfb574925640d13228a1de6a1de3ca41941d13b",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge04.png"
+  },
+  "cedc/2026-04-monthlyrate04.png": {
+    "bytes": 84075,
+    "sha256": "b11137fce8c237e0eb1918ceafa3a36f52d211f5f50ec4adc992b755228571dc",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate04.png"
+  },
+  "cedc/2026-05-gencharge05.png": {
+    "bytes": 113169,
+    "sha256": "2a036e20ff7951fb5194121cc80b8f9b4c6edda247cd2e34d359ea9fbead3808",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge05.png"
+  },
+  "cedc/2026-05-monthlyrate05.png": {
+    "bytes": 138498,
+    "sha256": "c890b671a6e8615c6d12239899c860f0a7cfee8eee08977ed7981070ea0d9609",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate05.png"
+  },
+  "cedc/2026-06-gencharge06.png.jpg": {
+    "bytes": 93586,
+    "sha256": "ecbe356eb63fe72d4d6d4bf90cfb18e46ba27e4d42bf2ab50723652ae8a9a77b",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge06.png.jpg"
+  },
+  "cedc/2026-06-monthlyrate06.png.jpg": {
+    "bytes": 77337,
+    "sha256": "4c703b0ecf21b4ebd3bb0d678b562f180e81b810e55a4a15778886fbfd43367b",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate06.png.jpg"
+  },
+  "cedc/2026-07-gencharge07.png.jpg": {
+    "bytes": 94189,
+    "sha256": "3d9b41551842391b1c2fd0c336507cbe4061b59dba42a1156554fb478b6e49ae",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge07.png.jpg"
+  },
+  "cedc/2026-07-monthlyrate07.png.jpg": {
+    "bytes": 146545,
+    "sha256": "de775b304422555376f2907b20f30a920eadee8afb5acc78fac77721de7d8351",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate07.png.jpg"
+  },
+  "cedc/2026-08-gencharge08.png": {
+    "bytes": 146160,
+    "sha256": "1ac658708f6f2a75aad4971ce7eeb1fc67adb3e3f0337ad0564a07437d94c4e3",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge08.png"
+  },
+  "cedc/2026-08-monthlyrate08.png": {
+    "bytes": 88736,
+    "sha256": "08d6cb723ee4d3a1e462afb9db6964c0fc5c43db75740ec7ddddbb71637b5e7d",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate08.png"
+  },
+  "cedc/2026-09-gencharge09.png": {
+    "bytes": 149146,
+    "sha256": "4a2f2e6546507b6dd79918d9baf481fa5fa51e8c6155acefdec44d959ab9397d",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge09.png"
+  },
+  "cedc/2026-09-monthlyrate09.png": {
+    "bytes": 87268,
+    "sha256": "100984de1785ee2f9c0e8b8e64ea6cef4830bfdc3e516189e4318b1eb9213bbb",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate09.png"
+  },
+  "cedc/2026-10-gencharge10.png": {
+    "bytes": 101990,
+    "sha256": "8527addd60f65076c154be68e87b4df43d10cabb606cef5e7d166f672ba1fd60",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/gencharge10.png"
+  },
+  "cedc/2026-10-monthlyrate10.png": {
+    "bytes": 71427,
+    "sha256": "ae7a2a2d401bf7f1c7c2a4ecc5244a93e2e29559c8d1b8c07010e1a5defb0654",
+    "url": "https://www.clarkelectric.ph/sites/default/files/inline-images/monthlyrate10.png"
+  },
+  "celcor/2025-12-residential-bills.pdf": {
+    "bytes": 64433,
+    "sha256": "fe0c3b37390dd35aa892aed460289ead53ca2743897d0909ecb4a2c081991f16",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2025-12.pdf"
+  },
+  "celcor/2026-01-residential-bills.pdf": {
+    "bytes": 64664,
+    "sha256": "09afcfcd257ff03f25d124c32509787dd2a0a641c1991153aa2b9a5b2d9c82b6",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-01.pdf"
+  },
+  "celcor/2026-02-residential-bills.pdf": {
+    "bytes": 64413,
+    "sha256": "7e510d2289504055785f39100ef76d7378688e6a92bb5c7715a090642099ca8c",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-02.pdf"
+  },
+  "celcor/2026-03-residential-bills.pdf": {
+    "bytes": 64582,
+    "sha256": "4061baa22ede693f92bb133c6464c1ae05ed9c7fef18141997620544f7eeeb37",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-03.pdf"
+  },
+  "celcor/2026-04-residential-bills.pdf": {
+    "bytes": 64458,
+    "sha256": "a98665dddd7d76ce7c2e5a6db2fcce594263ff6fc3d0c79d81663ccecea39ac4",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-04.pdf"
+  },
+  "celcor/2026-05-residential-bills.pdf": {
+    "bytes": 64464,
+    "sha256": "9b685c6c7fc14bf91058a3a6f002a0a9a3d9474e8be675a7f07d59e64ae2c196",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-05.pdf"
+  },
+  "celcor/2026-06-residential-bills.pdf": {
+    "bytes": 64669,
+    "sha256": "19fa331fa8ba8037b0535cca219124bdc27876c9b97abf69d28f8679491be2b4",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-06.pdf"
+  },
+  "celcor/2026-07-residential-bills.pdf": {
+    "bytes": 65226,
+    "sha256": "7f526c322995eb17513ce552e4e641bb3c7a5a54bc8559422504d60d2c499477",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-07.pdf"
+  },
+  "celcor/2026-08-residential-bills.pdf": {
+    "bytes": 65020,
+    "sha256": "0db19c26eaa5f889d0d16518c4d69af9f81bff4c3bd98852bbca60fb8dac88ee",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-08.pdf"
+  },
+  "celcor/2026-09-residential-bills.pdf": {
+    "bytes": 64946,
+    "sha256": "5e896472a96a9b0c69f060ff32f4547df958fa70c7f255d4285505de088abe29",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-09.pdf"
+  },
+  "celcor/2026-10-residential-bills.pdf": {
+    "bytes": 64980,
+    "sha256": "9ea243cbfb0134fa1d1f2dc215c323cb5aedb47af4153a6b7a2403d48165306e",
+    "url": "https://restapi.celcor.com.ph/files/rates/Residential_Bills_at_Typical_Consumption_2026-10.pdf"
+  },
+  "meralco/2025-12-meralco-doc-113dcee7e5b14d33.pdf": {
+    "bytes": 117448,
+    "sha256": "113dcee7e5b14d3307cdc2f901f7fbd8efafa7f5c121b071b04ac22c74843ccc",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/11/meralco-doc-113dcee7e5b14d33.pdf?v=1788353405"
+  },
+  "meralco/2025-12-meralco-doc-5a76e545d3273652.pdf": {
+    "bytes": 201008,
+    "sha256": "5a76e545d3273652d84efeffc6a9bd4cae2ab2ae1ae6e30b173cd803ddbfff34",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/5a/meralco-doc-5a76e545d3273652.pdf?v=1788353713"
+  },
+  "meralco/2025-12-meralco-doc-c61f7c4a800c18c3.pdf": {
+    "bytes": 280358,
+    "sha256": "c61f7c4a800c18c3d468b017f3fda920f0f00454e5af6884815f92a7a79213a1",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/c6/meralco-doc-c61f7c4a800c18c3.pdf?v=1788354185"
+  },
+  "meralco/2026-01-meralco-doc-338e4b8d9859587e.pdf": {
+    "bytes": 283673,
+    "sha256": "338e4b8d9859587eb5fee3838ff95b244254a1d875625992d06f208bc01607e8",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/33/meralco-doc-338e4b8d9859587e.pdf?v=1788353544"
+  },
+  "meralco/2026-01-meralco-doc-6101262dc0e0ac07.pdf": {
+    "bytes": 202224,
+    "sha256": "6101262dc0e0ac07ef4ecc7ee339671d8e0668c508655d4721fe7f02c983097c",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/61/meralco-doc-6101262dc0e0ac07.pdf?v=1788353740"
+  },
+  "meralco/2026-01-meralco-doc-793d5eaae26cee22.pdf": {
+    "bytes": 81312,
+    "sha256": "793d5eaae26cee226cf727024cc0933a140346b65f4735f2395329752f16ac68",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/79/meralco-doc-793d5eaae26cee22.pdf?v=1788353844"
+  },
+  "meralco/2026-02-meralco-doc-9e9250779d8ec811.pdf": {
+    "bytes": 201220,
+    "sha256": "9e9250779d8ec81140a43aed942d6d241e286098866e3d6cb00cad1c869ae481",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/9e/meralco-doc-9e9250779d8ec811.pdf?v=1788354002"
+  },
+  "meralco/2026-02-meralco-doc-beb8598407e3501a.pdf": {
+    "bytes": 272604,
+    "sha256": "beb8598407e3501a7249601eceaf6a52e5eeac1f64d28195632df0b810311b81",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/be/meralco-doc-beb8598407e3501a.pdf?v=1788354152"
+  },
+  "meralco/2026-02-meralco-doc-f6da0d81432c7c09.pdf": {
+    "bytes": 283446,
+    "sha256": "f6da0d81432c7c09e685f91221212290eb37e453c43fb18d5b9949caaa2ce311",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/f6/meralco-doc-f6da0d81432c7c09.pdf?v=1788354414"
+  },
+  "meralco/2026-03-meralco-doc-3ac26f2c8fe984d2.pdf": {
+    "bytes": 201136,
+    "sha256": "3ac26f2c8fe984d28d6596768b1a67b12ffd616a9813b48e9e4ff7a1af759f0f",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/3a/meralco-doc-3ac26f2c8fe984d2.pdf?v=1788353578"
+  },
+  "meralco/2026-03-meralco-doc-69f1b65b2efc9062.pdf": {
+    "bytes": 211501,
+    "sha256": "69f1b65b2efc906261b875982507b5f2d761e83f28169b4e2e9536aac8110ee1",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/69/meralco-doc-69f1b65b2efc9062.pdf?v=1788353784"
+  },
+  "meralco/2026-03-meralco-doc-c94c288ca7b62431.pdf": {
+    "bytes": 283516,
+    "sha256": "c94c288ca7b62431b7ab1c5f05787e0b2bfa0600d64314d99e44829593fd2ae9",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/c9/meralco-doc-c94c288ca7b62431.pdf?v=1788354200"
+  },
+  "meralco/2026-04-meralco-doc-6e2793d83fb71be4.pdf": {
+    "bytes": 321573,
+    "sha256": "6e2793d83fb71be4014aec774d5f030b7e318e6a634cba8d984d8b79e6039e01",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/6e/meralco-doc-6e2793d83fb71be4.pdf?v=1788353804"
+  },
+  "meralco/2026-04-meralco-doc-e94f7cda46b8f1e3.pdf": {
+    "bytes": 413334,
+    "sha256": "e94f7cda46b8f1e30505fb8bb0245344b3f1218890c71071b2307802ae642a20",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/e9/meralco-doc-e94f7cda46b8f1e3.pdf?v=1788354350"
+  },
+  "meralco/2026-04-meralco-doc-f1ef52bdcd9e965b.pdf": {
+    "bytes": 300762,
+    "sha256": "f1ef52bdcd9e965b3a5631093581a1f696206f4b6a9ef52a52a97cf672d24f63",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/f1/meralco-doc-f1ef52bdcd9e965b.pdf?v=1788354393"
+  },
+  "meralco/2026-05-meralco-doc-03585bf9910a16cd.pdf": {
+    "bytes": 245279,
+    "sha256": "03585bf9910a16cd1527347c01d58cb0e3d2fbab2c1e5978a42d734398015d14",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/03/meralco-doc-03585bf9910a16cd.pdf?v=1788353347"
+  },
+  "meralco/2026-05-meralco-doc-c80614974a4eee3b.pdf": {
+    "bytes": 410893,
+    "sha256": "c80614974a4eee3bbead75d3f281d5718837cddfec1db258699853ccbc6beb27",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/c8/meralco-doc-c80614974a4eee3b.pdf?v=1788354194"
+  },
+  "meralco/2026-05-meralco-doc-ddfa24ff8f9269ce.pdf": {
+    "bytes": 301813,
+    "sha256": "ddfa24ff8f9269ceacb22a310bdca970a61a8ff1307e8f870c48a79929a043c2",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/dd/meralco-doc-ddfa24ff8f9269ce.pdf?v=1788354297"
+  },
+  "meralco/2026-06-meralco-doc-c5ce4c25b15488f5.pdf": {
+    "bytes": 299929,
+    "sha256": "c5ce4c25b15488f526b0b0966e844d20d02342d8ad078d586889b4db5d0b26ef",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/c5/meralco-doc-c5ce4c25b15488f5.pdf?v=1788354184"
+  },
+  "meralco/2026-06-meralco-doc-d405a608726a2569.pdf": {
+    "bytes": 245644,
+    "sha256": "d405a608726a2569c9bd8de95c17e129770b1681a1754b9bc469bef903dd1701",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/d4/meralco-doc-d405a608726a2569.pdf?v=1788354245"
+  },
+  "meralco/2026-06-meralco-doc-f2364be52a9f35e0.pdf": {
+    "bytes": 410888,
+    "sha256": "f2364be52a9f35e057b7e2b8cbc0747c7633d67948cac5e0799f4ffa8f5281c2",
+    "url": "https://www.meralco.com.ph/uploads/documents/legacy-documents/v2/unclassified/f2/meralco-doc-f2364be52a9f35e0.pdf?v=1788354395"
+  },
+  "meralco/2026-07-07-2026-residential-bills.pdf": {
+    "bytes": 244603,
+    "sha256": "ce258e5cad04516e90ff2e43679353e1774bb8e8760dede9e1314fbb0af437fa",
+    "url": "https://www.meralco.com.ph/uploads/documents/regulatory/rates/2026-07/07-2026-residential-bills.pdf?v=1790789577"
+  },
+  "meralco/2026-08-08-2026-residential-bills.pdf": {
+    "bytes": 537381,
+    "sha256": "4f2f5c84388948d20dd2411ae60f3cc3522a2185793f826705d3b5d2f1511829",
+    "url": "https://www.meralco.com.ph/uploads/documents/regulatory/rates/2026-08/08-2026-residential-bills.pdf?v=1790789576"
+  },
+  "meralco/2026-09-09-2026-residential-bills.pdf": {
+    "bytes": 343311,
+    "sha256": "f5ca1090edf91dc01dd6bee7b0c29d690ebf7e3bb229fc53670cb5c195d8dd5b",
+    "url": "https://www.meralco.com.ph/uploads/documents/regulatory/rates/2026-09/09-2026-residential-bills.pdf?v=1790785709"
+  },
+  "meralco/2026-10-2261186e3b589989a7e61a7e6b2d129b73b2b19eefaccc8ed52c80bb39e41506.pdf": {
+    "bytes": 230677,
+    "sha256": "2261186e3b589989a7e61a7e6b2d129b73b2b19eefaccc8ed52c80bb39e41506",
+    "url": "https://www.meralco.com.ph/uploads/documents/source-delta/2026-10-25/2261186e3b589989a7e61a7e6b2d129b73b2b19eefaccc8ed52c80bb39e41506.pdf?v=1793354024"
+  },
+  "meralco/2026-10-5afca4c86acee54e324a937c7481894500ae62aa0a92140d65f6a0e6ea943f79.pdf": {
+    "bytes": 338092,
+    "sha256": "5afca4c86acee54e324a937c7481894500ae62aa0a92140d65f6a0e6ea943f79",
+    "url": "https://www.meralco.com.ph/uploads/documents/source-delta/2026-10-25/5afca4c86acee54e324a937c7481894500ae62aa0a92140d65f6a0e6ea943f79.pdf?v=1793354026"
+  },
+  "meralco/2026-10-9ff0654887cd04d3322f3c8ffd578aad81f777d587cee620a1ae7150d04054e0.pdf": {
+    "bytes": 423452,
+    "sha256": "9ff0654887cd04d3322f3c8ffd578aad81f777d587cee620a1ae7150d04054e0",
+    "url": "https://www.meralco.com.ph/uploads/documents/source-delta/2026-10-25/9ff0654887cd04d3322f3c8ffd578aad81f777d587cee620a1ae7150d04054e0.pdf?v=1793354027"
+  },
+  "meralco/2026-11-11-2026-Residential-Bills-1.pdf": {
+    "bytes": 339700,
+    "sha256": "8fd3d118c5d1fdb0b44d76e9e342820c6fec3f16c3ebfe3397fc98cf6ce4a995",
+    "url": "https://www.meralco.com.ph/uploads/documents/11-2026-Residential-Bills-1.pdf?v=1794557170"
+  },
+  "meralco/rates-archive.html": {
+    "bytes": 1210481,
+    "sha256": "af4cd96fde55e739027fe0f6118157f345b805a26afb39475adc53cd480b497a",
+    "url": "https://www.meralco.com.ph/governance/regulatory/rates-archive"
+  },
+  "tei/2026-01.pdf": {
+    "bytes": 163027,
+    "sha256": "a09e05a6aa64307237ee2578eda26bd1312f825f7ed4145377323cca23520222",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/01/Rate-Schedule-January-2026.pdf"
+  },
+  "tei/2026-02.pdf": {
+    "bytes": 271059,
+    "sha256": "574b505fe413d868708c92875cd1635880b48aafadf642f9b3ebfefae2bfd751",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/02/Rate-Schedule-February-2026.pdf"
+  },
+  "tei/2026-03.pdf": {
+    "bytes": 375397,
+    "sha256": "110434425c3ba8596739a7f79e68ef075f8d692a6d979eb21dad9e15c2830cb9",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/03/Rate-Schedule-March-2026.pdf"
+  },
+  "tei/2026-04.pdf": {
+    "bytes": 391835,
+    "sha256": "3bded95d336fb4fe5de3c4a493e7ecfda244a62304723d6197826a1c7ba1896b",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/05/Rate-Schedule-April-2026.pdf"
+  },
+  "tei/2026-05.pdf": {
+    "bytes": 374733,
+    "sha256": "4d5738a55b2ff2112c2f2c5bd960fc257a8e4f1be254e94286f666b3c6e3bd68",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/05/Rate-Schedule-May-2026.pdf"
+  },
+  "tei/2026-06.pdf": {
+    "bytes": 165159,
+    "sha256": "d61a23528815b235f789fc4fbc82f4e6199bb3e785bc2666156a450f9cd8f79f",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/06/Rate-Schedule-June-2026.pdf"
+  },
+  "tei/2026-07.pdf": {
+    "bytes": 164088,
+    "sha256": "6391c05ab4182dc1ec77e47150d0bf4e3f242e1ef2e70ee10f4c3f345ee9aff4",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/07/Detailed-Rate-Schedule-July-2026-v2.pdf"
+  },
+  "tei/2026-08.pdf": {
+    "bytes": 118778,
+    "sha256": "cf87ed9a91fbc90fe09484e790932b4ca1dfbf4d5bbc9c29ddadb17626034c66",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/08/Detailed-Rate-Schedule-August-2026.pdf"
+  },
+  "tei/2026-09.pdf": {
+    "bytes": 119231,
+    "sha256": "b30db3b9fba82a02680266891a77c906da8bf243de726731232abde344bcface",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/09/Detailed-Rate-Schedule-September-2026.pdf"
+  },
+  "tei/2026-10.pdf": {
+    "bytes": 697561,
+    "sha256": "95c5a8193890a611eb07e74b25a022ed7937cf109d96ac57a488138f1eab1c0d",
+    "url": "https://tarlacelectric.com/wp-content/uploads/2026/10/Detailed-Rate-Schedule-October-2026_1.pdf"
+  }
+}

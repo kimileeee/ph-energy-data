@@ -1,0 +1,3081 @@
+{{Short description|None}}
+{{Use mdy dates|date=May 2026}}
+{{Use Philippine English|date=May 2026}}
+This is a complete '''list of electric utilities in the Philippines'''. There are 152 [[electric utilities]] in the [[Philippines|country]].<ref name="duprofile">{{Cite web |title=Distribution Utility (DU) Profile |url=https://www.doe.gov.ph/duprofile |access-date=July 17, 2021 |website=Department of Energy (Philippines) |archive-date=June 16, 2021 |archive-url=https://web.archive.org/web/20210616043217/https://www.doe.gov.ph/duprofile |url-status=live }}</ref>
+
+== List ==
+{{mw-datatable}}
+{| class="wikitable sortable mw-datatable" style="margin:auto; font-size:95%;"
+|+ class="nowrap" | List of electric utilities in the Philippines<ref name="duprofile" /><ref name="ddp">Distribution development plans published by the [[Department of Energy (Philippines)|Department of Energy]] (DOE):
+* {{Cite web |last=Electric Power Industry Management Bureau |title=Distribution Development Plan 2008–2017 |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/development_plans/ddp_2008-2017.pdf |access-date=July 20, 2021 |publisher=Department of Energy (Philippines) |publication-date=August 2009 |archive-date=July 20, 2021 |archive-url=https://web.archive.org/web/20210720082402/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/development_plans/ddp_2008-2017.pdf |url-status=live }}
+* {{Cite web |last=Electric Power Industry Management Bureau |title=Distribution Development Plan 2009–2018 |url=https://policy.asiapacificenergy.org/sites/default/files/2009%20DDP%20FINAL.pdf |access-date=July 20, 2021 |website=Asian and Pacific Energy Forum |publisher=Department of Energy (Philippines) |publication-date=September 2010 |archive-date=July 20, 2021 |archive-url=https://web.archive.org/web/20210720082434/https://policy.asiapacificenergy.org/sites/default/files/2009%20DDP%20FINAL.pdf |url-status=live }}
+* {{Cite web |title=Distribution Development Plan 2010–2019 |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/development_plans/ddp_2010-2019.pdf |access-date=July 20, 2021 |publisher=Department of Energy (Philippines) |publication-date=January 2012 |archive-date=July 20, 2021 |archive-url=https://web.archive.org/web/20210720082439/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/development_plans/ddp_2010-2019.pdf |url-status=live }}
+* {{Cite web |date=May 3, 2018 |title=Distribution Development Plan 2016–2025 |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/ddp_2016-2025_as_of_may_3_2018_edited_page_37.pdf |access-date=July 17, 2021 |website=Department of Energy (Philippines) |archive-date=July 17, 2021 |archive-url=https://web.archive.org/web/20210717155747/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/ddp_2016-2025_as_of_may_3_2018_edited_page_37.pdf |url-status=live }}
+* {{Cite web |title=2017–2026 Distribution Development Plan |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/ddp_2017-2026.pdf |access-date=July 20, 2021 |publisher=Department of Energy (Philippines) |publication-place=Bonifacio Global City, Taguig, Philippines |archive-date=July 20, 2021 |archive-url=https://web.archive.org/web/20210720082403/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/ddp_2017-2026.pdf |url-status=live }}
+* {{Cite web |title=2018–2027 Distribution Development Plan |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/2018-2027-distribution-development-plan.pdf |publisher=Department of Energy (Philippines) |publication-place=Bonifacio Global City, Taguig, Philippines |access-date=July 20, 2021 |archive-date=July 20, 2021 |archive-url=https://web.archive.org/web/20210720082403/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/2018-2027-distribution-development-plan.pdf |url-status=live }}
+* {{Cite web |title=2019–2028 Distribution Development Plan |url=https://www.doe.gov.ph/sites/default/files/pdf/electric_power/2019-2028-distribution-development-plan.pdf |access-date=July 17, 2021 |website=Department of Energy (Philippines) |archive-date=July 15, 2021 |archive-url=https://web.archive.org/web/20210715111929/https://www.doe.gov.ph/sites/default/files/pdf/electric_power/2019-2028-distribution-development-plan.pdf |url-status=live }}</ref>
+! Electric utility
+! Acronym
+! Type{{efn|Classification of electric utilities in the Philippines:
+*'''EC-CDA''' – Electric utilities under the Cooperative Development Authority<ref>{{Cite news |last=Ravanera |first=Orlando R. |date=October 14, 2020 |title=The Greatest Social Injustice: Electric Cooperatives Are Not Cooperatives |work=Cooperative Development Authority |url=https://cda.gov.ph/updates/the-greatest-social-injustice-electric-cooperatives-are-not-cooperatives/ |access-date=June 15, 2021 |archive-date=June 10, 2021 |archive-url=https://web.archive.org/web/20210610082853/https://cda.gov.ph/updates/the-greatest-social-injustice-electric-cooperatives-are-not-cooperatives/ |url-status=live }}</ref>
+*'''LGUOU''' – [[Local government in the Philippines|Local government unit]]–owned utilities<ref>{{Cite journal |date=March 2019 |title=Feasibility Study on the Regulations for Implementing Quality Electricity Infrastructure in the Philippines |url=http://dx.doi.org/10.1515/9783034609722.136 |access-date=June 15, 2021 |website=Ministry of Economy, Trade and Industry |publisher=KPMG AZSA LLC |page=3 |doi=10.1515/9783034609722.136 |archive-date=July 17, 2021 |archive-url=https://web.archive.org/web/20210717160824/https://www.degruyter.com/document/doi/10.1515/9783034609722.136/html |url-status=live |url-access=subscription }}</ref>
+*'''MPC''' – Multi-purpose cooperatives<ref>{{Cite web |title=Overview |url=http://www.magcoop.com/AboutUs#overview |access-date=June 15, 2021 |website=Magsaysay Multipurpose Cooperative |archive-date=April 11, 2020 |archive-url=https://web.archive.org/web/20200411143838/http://www.magcoop.com/AboutUs#overview |url-status=live }}</ref>
+*'''NEA-EC''' – Electric utilities under the [[National Electrification Administration]]<ref>{{Cite web |title=EC Categorization |url=https://www.nea.gov.ph/ao39/electric-cooperatives/coverage-areas |access-date=June 15, 2021 |website=National Electrification Administration |archive-date=May 12, 2021 |archive-url=https://web.archive.org/web/20210512083414/https://www.nea.gov.ph/ao39/electric-cooperatives/coverage-areas |url-status=live }}</ref>
+*'''PIOU''' – Private investor–owned utilities<ref>{{Cite web |last=Patalinghug |first=Epictetus E. |date=October 15, 2003 |title=An Analysis of the Philippine Electric Power Industry |url=https://www.ombudsman.gov.ph/UNDP4/wp-content/uploads/2013/01/An-Analysis-of-the-Philippine-Electric_Patilinhug.pdf |access-date=June 15, 2021 |website=Ombudsman of the Philippines |location=Diliman, Quezon City |page=3 |archive-date=May 17, 2017 |archive-url=https://web.archive.org/web/20170517014853/http://www.ombudsman.gov.ph/UNDP4/wp-content/uploads/2013/01/An-Analysis-of-the-Philippine-Electric_Patilinhug.pdf |url-status=live }}</ref> or privately-/independently-owned utilities<ref>{{Cite web |date=May 2009 |title=Philippines: Rural Electric Cooperatives Development Project (TA 7012-PHI) |url=https://www.adb.org/sites/default/files/project-document/65082/41067-phi-tacr.pdf |access-date=June 15, 2021 |website=Asian Development Bank |publisher=Snowy Mountain Engineering Corporation (SMEC) International Pty Ltd. |location=Australia |page=6 |archive-date=June 10, 2021 |archive-url=https://web.archive.org/web/20210610082848/https://www.adb.org/sites/default/files/project-document/65082/41067-phi-tacr.pdf |url-status=live }}</ref>
+*'''SPUG-EC''' – Small power utilities group<ref>{{Cite web |date=August 30, 2017 |title=NPC-SPUG Electricity Rates |url=https://www.napocor.gov.ph/index.php/npc-spug-electricity-rates |access-date=June 15, 2021 |website=National Power Corporation |archive-date=June 10, 2021 |archive-url=https://web.archive.org/web/20210610111509/https://www.napocor.gov.ph/index.php/npc-spug-electricity-rates |url-status=live }}</ref>
+*'''SPUG-EC CDA''' – SPUGs under the Cooperative Development Authority}}
+! Grid
+! No. of customers
+! Areas served
+|-
+| Abra Electric Cooperative
+| ABRECO
+| EC-CDA
+| Luzon
+| 47,755
+| class="nowrap" | {{Collapsible list
+ | title = List (27)
+ | [[Bangued]]
+ | [[Boliney]]
+ | [[Bucay, Abra|Bucay]]
+ | [[Bucloc]]
+ | [[Daguioman]]
+ | [[Danglas]]
+ | [[Dolores, Abra|Dolores]]
+ | [[La Paz, Abra|La Paz]]
+ | [[Lacub]]
+ | [[Lagangilang]]
+ | [[Lagayan]]
+ | [[Langiden]]
+ | [[Licuan-Baay]]
+ | [[Luba, Abra|Luba]]
+ | [[Malibcong]]
+ | [[Manabo]]
+ | [[Peñarrubia, Abra|Peñarrubia]]
+ | [[Pidigan]]
+ | [[Pilar, Abra|Pilar]]
+ | [[Sallapadan]]
+ | [[San Isidro, Abra|San Isidro]]
+ | [[San Juan, Abra|San Juan]]
+ | [[San Quintin, Abra|San Quintin]]
+ | [[Tayum]]
+ | [[Tineg]]
+ | [[Tubo, Abra|Tubo]]
+ | [[Villaviciosa, Abra|Villaviciosa]]
+}}
+|-
+| Agusan del Norte Electric Cooperative
+| ANECO
+| NEA-EC
+| Mindanao
+| 144,963 
+| {{Collapsible list
+ | title = List (12)
+ | [[Buenavista, Agusan del Norte|Buenavista]]
+ | [[Butuan]]
+ | [[Cabadbaran]]
+ | [[Carmen, Agusan del Norte|Carmen]]
+ | [[Jabonga]]
+ | [[Kitcharao]]
+ | [[Las Nieves, Agusan del Norte|Las Nieves]]
+ | [[Magallanes, Agusan del Norte|Magallanes]]
+ | [[Nasipit]]
+ | [[Remedios T. Romualdez]]
+ | [[Santiago, Agusan del Norte|Santiago]]
+ | [[Tubay]]
+ }}
+|-
+| Agusan del Sur Electric Cooperative
+| ASELCO
+| NEA-EC
+| Mindanao
+| 130,795
+| {{Collapsible list
+ | title = List (14)
+ | [[Bayugan]]
+ | [[Bunawan]]
+ | [[Esperanza, Agusan del Sur|Esperanza]]
+ | [[La Paz, Agusan del Sur|La Paz]]
+ | [[Loreto, Agusan del Sur|Loreto]]
+ | [[Prosperidad]]
+ | [[Rosario, Agusan del Sur|Rosario]]
+ | [[San Francisco, Agusan del Sur|San Francisco]]
+ | [[San Luis, Agusan del Sur|San Luis]]
+ | [[Santa Josefa]]
+ | [[Sibagat]]
+ | [[Talacogon]]
+ | [[Trento, Agusan del Sur|Trento]]
+ | [[Veruela]]
+ }}
+|-
+| Aklan Electric Cooperative
+| AKELCO
+| NEA-EC
+| Visayas
+| 139,874
+| {{Collapsible list
+ | title = List (20)
+ | [[Altavas]]
+ | [[Balete, Aklan|Balete]]
+ | [[Banga, Aklan|Banga]]
+ | [[Batan, Aklan|Batan]]
+ | [[Buruanga]]
+ | [[Ibajay]]
+ | [[Kalibo]]
+ | [[Lezo, Aklan|Lezo]]
+ | [[Libacao]]
+ | [[Libertad, Antique|Libertad]]
+ | [[Madalag]]
+ | [[Makato]]
+ | [[Malay, Aklan|Malay]]
+ | [[Malinao, Aklan|Malinao]]
+ | [[Nabas, Aklan|Nabas]]
+ | [[New Washington, Aklan|New Washington]]
+ | [[Numancia, Aklan|Numancia]]
+ | [[Pandan, Antique|Pandan]]
+ | [[Sapian]]
+ | [[Tangalan]]
+ }}
+|-
+| Albay Electric Cooperative{{efn|Also known as Albay Power Energy Corporation}}
+| ALECO/APEC
+| NEA-EC
+| Luzon
+| 186,911<!-- 185,396 + 1,515 -->
+| {{Collapsible list
+ | title = List (18)
+ | [[Bacacay]]
+ | [[Camalig]]
+ | [[Daraga]]
+ | [[Guinobatan]]
+ | [[Jovellar]]
+ | [[Legazpi, Albay|Legazpi]]
+ | [[Libon, Albay|Libon]]
+ | [[Ligao]]
+ | [[Malilipot]]
+ | [[Malinao, Albay|Malinao]]
+ | [[Manito, Albay|Manito]]
+ | [[Oas, Albay|Oas]]
+ | [[Pio Duran]]
+ | [[Polangui]]
+ | [[Rapu-Rapu]]{{efn|name=otg|[[Off-the-grid]]}}
+ | [[Santo Domingo, Albay|Santo Domingo]]
+ | [[Tabaco]]
+ | [[Tiwi, Albay|Tiwi]]
+ }}
+|-
+| Angeles Electric Corporation
+| AEC
+| PIOU
+| Luzon
+| 118,190
+| {{Collapsible list
+ | title = List (2)
+ | [[Angeles City]]
+ | [[Mabalacat]]{{efn|name=some}}
+}}
+|-
+| Antique Electric Cooperative
+| ANTECO
+| NEA-EC
+| Visayas
+| 104,349<!-- 99,039 + 5,310 -->
+| {{Collapsible list
+ | title = List (16)
+ | [[Anini-y]]
+ | [[Barbaza]]
+ | [[Belison]]
+ | [[Bugasong]]
+ | [[Caluya]]{{efn|name=otg}}
+ | [[Culasi]]
+ | [[Hamtic]]
+ | [[Laua-an]]
+ | [[Patnongon]]
+ | [[San Jose de Buenavista]]
+ | [[San Remigio, Antique|San Remigio]]
+ | [[Sebaste, Antique|Sebaste]]
+ | [[Sibalom]]
+ | [[Tibiao]]
+ | [[Tobias Fornier, Antique|Tobias Fornier]]
+ | [[Valderrama, Antique|Valderrama]]
+ }}
+|-
+| Aurora Electric Cooperative
+| AURELCO
+| NEA-EC
+| Luzon
+| 50,118<!-- 42,768 + 7,350 -->
+| {{Collapsible list
+ | title = List (10)
+ | [[Alfonso Castañeda]]
+ | [[Baler, Aurora|Baler]]
+ | [[Casiguran, Aurora|Casiguran]]{{efn|name=otg}}
+ | [[Dilasag]]{{efn|name=otg}}
+ | [[Dinalungan]]
+ | [[Dinapigue]]{{efn|name=otg}}
+ | [[Dingalan]]
+ | [[Dipaculao]]
+ | [[Maria Aurora, Aurora|Maria Aurora]]
+ | [[San Luis, Aurora|San Luis]]
+ }}
+|-
+| Balamban Enerzone Corporation
+| BEZ
+| PIOU
+| Visayas
+| 31
+| {{Collapsible list
+ | title = List (1)
+ | [[Balamban]]{{efn|West Cebu Industrial Park}}
+ }}
+|-
+| Bantayan Electric Cooperative
+| BANELCO
+| SPUG-EC
+| Visayas
+| 31,369
+| {{Collapsible list
+ | title = List (3)
+ | [[Bantayan, Cebu|Bantayan]]
+ | [[Madridejos, Cebu|Madridejos]]
+ | [[Santa Fe, Cebu|Santa Fe]]
+ }}
+|-
+| Banton Electric System{{efn|Co-managed with Romblon Electric Cooperative}}
+| Banton
+| LGUOU
+| Luzon
+| 1,508
+| {{Collapsible list
+ | title = List (1)
+ | [[Banton, Romblon|Banton]]
+ }}
+|-
+| Basilan Electric Cooperative
+| BASELCO
+| SPUG-EC
+| Mindanao
+| 30,704
+| {{Collapsible list
+ | title = List (13)
+ | [[Akbar, Basilan|Akbar]]
+ | [[Al-Barka]]
+ | [[Hadji Mohammad Ajul]]
+ | [[Hadji Muhtamad]]
+ | [[Isabela, Basilan|Isabela]]
+ | [[Lamitan]]
+ | [[Lantawan]]
+ | [[Maluso]]
+ | [[Sumisip]]
+ | [[Tabuan-Lasa]]
+ | [[Tipo-Tipo]]
+ | [[Tuburan, Basilan|Tuburan]]
+ | [[Ungkaya Pukan]]
+ }}
+|-
+| Batanes Electric Cooperative
+| BATANELCO
+| SPUG-EC
+| Luzon
+| 6,595
+| {{Collapsible list
+ | title = List (6)
+ | [[Basco, Batanes|Basco]]
+ | [[Itbayat]]
+ | [[Ivana, Batanes|Ivana]]
+ | [[Mahatao]]
+ | [[Sabtang]]
+ | [[Uyugan]]
+ }}
+|-
+| Batangas I Electric Cooperative
+| BATELEC I
+| NEA-EC
+| Luzon
+| 165,856
+| {{Collapsible list
+ | title = List (12)
+ | [[Agoncillo, Batangas|Agoncillo]]
+ | [[Balayan]]
+ | [[Calaca, Batangas|Calaca]]
+ | [[Calatagan]]
+ | [[Lemery, Batangas|Lemery]]
+ | [[Lian, Batangas|Lian]]
+ | [[Nasugbu]]
+ | [[San Luis, Batangas|San Luis]]
+ | [[San Nicolas, Batangas|San Nicolas]]
+ | [[Santa Teresita, Batangas|Santa Teresita]]
+ | [[Taal, Batangas|Taal]]
+ | [[Tuy, Batangas|Tuy]]
+ }}
+|-
+| Batangas II Electric Cooperative
+| BATELEC II
+| NEA-EC
+| Luzon
+| 272,211<!-- 269,446 + 2,765 -->
+| {{Collapsible list
+| title = List (18)|[[Alitagtag]]|[[Balete, Batangas|Balete]]|[[Batangas City]]{{efn|name=San Jose Sico}}|[[Cuenca, Batangas|Cuenca]]|[[Laurel, Batangas|Laurel]]|[[Lipa, Batangas|Lipa]]|[[Lobo, Batangas|Lobo]]|[[Mabini, Batangas|Mabini]]|[[Malvar]]|[[Mataasnakahoy]]|[[Padre Garcia]]|[[Rosario, Batangas|Rosario]]|[[San Jose, Batangas|San Jose]]|[[San Juan, Batangas|San Juan]]|[[Talisay, Batangas|Talisay]]|[[Tanauan, Batangas|Tanauan]]|[[Taysan]]|[[Tingloy]]{{efn|name=otg}}
+}}
+|-
+| Benguet Electric Cooperative
+| BENECO
+| NEA-EC
+| Luzon
+| 192,684
+| {{Collapsible list
+ | title = List (14)
+ | [[Atok, Benguet|Atok]]
+ | [[Baguio]]
+ | [[Bakun, Benguet|Bakun]]
+ | [[Bokod, Benguet|Bokod]]
+ | [[Buguias]]
+ | [[Itogon]]
+ | [[Kabayan, Benguet|Kabayan]]
+ | [[Kapangan]]
+ | [[Kibungan]]
+ | [[La Trinidad, Benguet|La Trinidad]]
+ | [[Mankayan]]
+ | [[Sablan, Benguet|Sablan]]
+ | [[Tuba, Benguet|Tuba]]
+ | [[Tublay]]
+ }}
+|-
+| Biliran Electric Cooperative
+| BILECO
+| NEA-EC
+| Visayas
+| 35,503
+| {{Collapsible list
+ | title = List (7)
+ | [[Almeria, Biliran|Almeria]]
+ | [[Biliran, Biliran|Biliran]]
+ | [[Cabucgayan]]
+ | [[Caibiran]]
+ | [[Culaba]]
+ | [[Kawayan]]
+ | [[Naval, Biliran|Naval]]
+ }}
+|-
+| Bohol I Electric Cooperative
+| BOHECO I
+| NEA-EC
+| Visayas
+| 153,229<!-- 151,197 + 2,032 -->
+| {{Collapsible list
+ | title = List (26)
+ | [[Alburquerque, Bohol|Alburquerque]]
+ | [[Antequera, Bohol|Antequera]]
+ | [[Baclayon]]{{efn|name=sotg|Some areas are [[off-the-grid]]}}
+ | [[Balilihan]]
+ | [[Batuan, Bohol|Batuan]]
+ | [[Bilar, Bohol|Bilar]]
+ | [[Calape]]{{efn|name=sotg}}
+ | [[Carmen, Bohol|Carmen]]
+ | [[Catigbian]]
+ | [[Clarin, Bohol|Clarin]]
+ | [[Corella, Bohol|Corella]]
+ | [[Cortes, Bohol|Cortes]]
+ | [[Dauis]]
+ | [[Dimiao]]
+ | [[Inabanga]]{{efn|name=sotg}}
+ | [[Lila, Bohol|Lila]]
+ | [[Loay, Bohol|Loay]]
+ | [[Loboc]]
+ | [[Loon, Bohol|Loon]]
+ | [[Maribojoc]]
+ | [[Panglao, Bohol|Panglao]]{{efn|name=sotg}}
+ | [[Sagbayan]]
+ | [[San Isidro, Bohol|San Isidro]]
+ | [[Sevilla, Bohol|Sevilla]]
+ | [[Sikatuna, Bohol|Sikatuna]]
+ | [[Tubigon]]
+ }}
+|-
+| Bohol II Electric Cooperative
+| BOHECO II
+| NEA-EC
+| Visayas
+| 124,345
+| {{Collapsible list
+ | title = List (21)
+ | [[Alicia, Bohol|Alicia]]
+ | [[Anda, Bohol|Anda]]
+ | [[Bien Unido]]
+ | [[Buenavista, Bohol|Buenavista]]
+ | [[Candijay]]
+ | [[Dagohoy, Bohol|Dagohoy]]
+ | [[Danao, Bohol|Danao]]
+ | [[Duero, Bohol|Duero]]
+ | [[Garcia Hernandez]]
+ | [[Getafe, Bohol|Getafe]]
+ | [[Guindulman]]
+ | [[Jagna]]
+ | [[Mabini, Bohol|Mabini]]
+ | [[Pilar, Bohol|Pilar]]
+ | [[President Carlos P. Garcia, Bohol|President Carlos P. Garcia]]
+ | [[San Miguel, Bohol|San Miguel]]
+ | [[Sierra Bullones]]
+ | [[Talibon]]
+ | [[Trinidad, Bohol|Trinidad]]
+ | [[Ubay, Bohol|Ubay]]
+ | [[Valencia, Bohol|Valencia]]
+ }}
+|-
+| Bohol Light Company
+| BLCI
+| PIOU
+| Visayas
+| 21,353
+| {{Collapsible list
+ | title = List (1)
+ | [[Tagbilaran]]
+ }}
+|-
+| Bukidnon II Electric Cooperative
+| BUSECO
+| NEA-EC
+| Mindanao
+| 97,715
+| {{Collapsible list
+ | title = List (10)
+ | [[Baungon]]
+ | [[Cabanglasan]]
+ | [[Impasugong]]
+ | [[Lantapan]]
+ | [[Libona]]
+ | [[Malaybalay]]
+ | [[Malitbog, Bukidnon|Malitbog]]
+ | [[Manolo Fortich]]
+ | [[Sumilao]]
+ | [[Talakag]]{{efn|name=some}}
+ }}
+|-
+| Bumbaran Electric Cooperative
+| Bumbaran
+| LGUOU
+| Mindanao
+| —
+| {{Collapsible list
+ | title = List (1)
+ | [[Amai Manabilang]]
+ }}
+|-
+| Busuanga Island Electric Cooperative
+| BISELCO
+| SPUG-EC
+| Luzon
+| 13,293
+| {{Collapsible list
+ | title = List (4)
+ | [[Busuanga, Palawan|Busuanga]]
+ | [[Coron, Palawan|Coron]]
+ | [[Culion]]
+ | [[Linapacan]]
+ }}
+|-
+| Cabanatuan Electric Corporation
+| CELCOR
+| PIOU
+| Luzon
+| 77,663
+| {{Collapsible list
+ | title = List (1)
+ | [[Cabanatuan]]
+ }}
+|-
+| Cagayan Electric Power and Light Company
+| CEPALCO
+| PIOU
+| Mindanao
+| 148,500
+| {{Collapsible list
+ | title = List (4)
+ | [[Cagayan de Oro]]
+ | [[Jasaan]]
+ | [[Tagoloan, Misamis Oriental|Tagoloan]]
+ | [[Villanueva, Misamis Oriental|Villanueva]]
+ }}
+|-
+| Cagayan I Electric Cooperative
+| CAGELCO I
+| NEA-EC
+| Luzon
+| 137,196
+| {{Collapsible list
+ | title = List (12)
+ | [[Alcala, Cagayan|Alcala]]
+ | [[Amulung]]
+ | [[Baggao]]
+ | [[Enrile, Cagayan|Enrile]]
+ | [[Iguig]]
+ | [[Peñablanca]]
+ | [[Piat, Cagayan|Piat]]
+ | [[Rizal, Cagayan|Rizal]]
+ | [[Santo Niño, Cagayan|Santo Niño]]
+ | [[Solana, Cagayan|Solana]]
+ | [[Tuao]]
+ | [[Tuguegarao]]
+ }}
+|-
+| Cagayan II Electric Cooperative
+| CAGELCO II
+| NEA-EC
+| Luzon
+| 122,078
+| {{Collapsible list
+ | title = List (20)
+ | [[Abulug]]
+ | [[Allacapan]]
+ | [[Aparri]]
+ | [[Ballesteros, Cagayan|Ballesteros]]
+ | [[Buguey]]
+ | [[Camalaniugan]]
+ | [[Claveria, Cagayan|Claveria]]
+ | [[Flora, Apayao|Flora]]
+ | [[Gattaran]]
+ | [[Gonzaga, Cagayan|Gonzaga]]
+ | [[Lal-lo]]
+ | [[Lasam]]
+ | [[Luna, Apayao|Luna]]
+ | [[Pamplona, Cagayan|Pamplona]]
+ | [[Pudtol]]
+ | [[Sanchez-Mira]]
+ | [[Santa Ana, Cagayan|Santa Ana]]
+ | [[Santa Marcela, Apayao|Santa Marcela]]
+ | [[Santa Praxedes, Cagayan|Santa Praxedes]]
+ | [[Santa Teresita, Cagayan|Santa Teresita]]
+ }}
+|-
+| Cagayan de Sulu Electric Cooperative
+| CASELCO
+| NEA-EC
+| Mindanao
+| —
+| {{Collapsible list
+ | title = List (2)
+ | [[Mapun]]
+ | [[Turtle Islands, Tawi-Tawi|Turtle Islands]]
+ }}
+|-
+| Camarines Norte Electric Cooperative
+| CANORECO
+| NEA-EC
+| Luzon
+| 102,289
+| {{Collapsible list
+ | title = List (12)
+ | [[Basud]]
+ | [[Capalonga]]
+ | [[Daet]]
+ | [[Jose Panganiban, Camarines Norte|Jose Panganiban]]
+ | [[Labo, Camarines Norte|Labo]]
+ | [[Mercedes, Camarines Norte|Mercedes]]
+ | [[Paracale]]
+ | [[San Lorenzo Ruiz, Camarines Norte|San Lorenzo Ruiz]]
+ | [[San Vicente, Camarines Norte|San Vicente]]
+ | [[Santa Elena, Camarines Norte|Santa Elena]]{{efn|name=some|Some areas only}}
+ | [[Talisay, Camarines Norte|Talisay]]
+ | [[Vinzons]]
+ }}
+|-
+| Camarines Sur I Electric Cooperative
+| CASURECO I
+| NEA-EC
+| Luzon
+| 81,468 
+| {{Collapsible list
+ | title = List (11)
+ | [[Cabusao]]
+ | [[Camaligan]]
+ | [[Del Gallego]]{{efn|name=some|Some areas only}}
+ | [[Gainza]]
+ | [[Libmanan]]
+ | [[Lupi, Camarines Sur|Lupi]]
+ | [[Pamplona, Camarines Sur|Pamplona]]
+ | [[Pasacao]]
+ | [[Ragay]]
+ | [[San Fernando, Camarines Sur|San Fernando]]
+ | [[Sipocot]]
+ }}
+|-
+| Camarines Sur II Electric Cooperative
+| CASURECO II
+| NEA-EC
+| Luzon
+| 107,076
+| {{Collapsible list
+ | title = List (10)
+ | [[Bombon, Camarines Sur|Bombon]]
+ | [[Calabanga]]
+ | [[Canaman]]
+ | [[Magarao]]
+ | [[Milaor]]
+ | [[Minalabac]]
+ | [[Naga, Camarines Sur|Naga]]
+ | [[Pili, Camarines Sur|Pili]]
+ | [[Siruma]]
+ | [[Tinambac]]
+ }}
+|-
+| Camarines Sur III Electric Cooperative
+| CASURECO III
+| NEA-EC
+| Luzon
+| 81,454
+| {{Collapsible list
+ | title = List (7)
+ | [[Baao]]
+ | [[Balatan]]
+ | [[Bato, Camarines Sur|Bato]]
+ | [[Buhi, Camarines Sur|Buhi]]
+ | [[Bula, Camarines Sur|Bula]]
+ | [[Iriga]]
+ | [[Nabua]]
+ }}
+|-
+| Camarines Sur IV Electric Cooperative
+| CASURECO IV
+| NEA-EC
+| Luzon
+| 58,137<!-- 57,681 + 456 -->
+| {{Collapsible list
+ | title = List (9)
+ | [[Caramoan]]{{efn|name=otg}}
+ | [[Garchitorena]]{{efn|name=otg}}
+ | [[Goa]]
+ | [[Lagonoy]]
+ | [[Ocampo, Camarines Sur|Ocampo]]
+ | [[Presentacion]]
+ | [[San Jose, Camarines Sur|San Jose]]
+ | [[Sagñay]]
+ | [[Tigaon, Camarines Sur|Tigaon]]
+ }}
+|-
+| Camiguin Electric Cooperative
+| CAMELCO
+| NEA-EC
+| Mindanao
+| 23,800
+| {{Collapsible list
+ | title = List (5)
+ | [[Catarman, Camiguin|Catarman]]
+ | [[Guinsiliban]]
+ | [[Mahinog]]
+ | [[Mambajao]]
+ | [[Sagay, Camiguin|Sagay]]
+ }}
+|-
+| Camotes Electric Cooperative
+| CELCO
+| SPUG-EC
+| Visayas
+| 23,707
+| {{Collapsible list
+ | title = List (4)
+ | [[Pilar, Cebu|Pilar]]
+ | [[Poro, Cebu|Poro]]
+ | [[San Francisco, Cebu|San Francisco]]
+ | [[Tudela, Cebu|Tudela]]
+ }}
+|- id="CAPELCO"
+| Capiz Electric Cooperative
+| CAPELCO
+| NEA-EC
+| Visayas
+| 154,065
+| {{Collapsible list
+ | title = List (17)
+ | [[Cuartero]]
+ | [[Dao, Capiz|Dao]]
+ | [[Dumalag]]
+ | [[Dumarao]]
+ | [[Ivisan]]
+ | [[Jamindan]]
+ | [[Ma-ayon]]
+ | [[Mambusao]]
+ | [[Panay, Capiz|Panay]]
+ | [[Panitan]]
+ | [[Pilar, Capiz|Pilar]]
+ | [[Pontevedra, Capiz|Pontevedra]]
+ | [[President Roxas, Capiz|President Roxas]]
+ | [[Roxas, Capiz|Roxas]]
+ | [[Sapian]]
+ | [[Sigma, Capiz|Sigma]]
+ | [[Tapaz]]
+ }}
+|-
+| Cebu I Electric Cooperative
+| CEBECO I
+| NEA-EC
+| Visayas
+| 138,071
+| {{Collapsible list
+ | title = List (18)
+ | [[Alcantara, Cebu|Alcantara]]
+ | [[Alcoy, Cebu|Alcoy]]
+ | [[Alegria, Cebu|Alegria]]
+ | [[Argao]]
+ | [[Badian, Cebu|Badian]]
+ | [[Barili]]
+ | [[Boljoon]]
+ | [[Carcar]]
+ | [[Dalaguete]]
+ | [[Dumanjug]]
+ | [[Ginatilan]]
+ | [[Malabuyoc]]
+ | [[Moalboal]]
+ | [[Oslob]]
+ | [[Ronda, Cebu|Ronda]]
+ | [[Samboan]]
+ | [[Santander, Cebu|Santander]]
+ | [[Sibonga]]
+ }}
+|-
+| Cebu II Electric Cooperative
+| CEBECO II
+| NEA-EC
+| Visayas
+| 151,162 
+| {{Collapsible list
+ | title = List (13)
+ | [[Bogo, Cebu|Bogo]]
+ | [[Borbon, Cebu|Borbon]]
+ | [[Carmen, Cebu|Carmen]]
+ | [[Catmon]]
+ | [[Compostela, Cebu|Compostela]]
+ | [[Daanbantayan]]
+ | [[Danao, Cebu|Danao]]
+ | [[Medellin, Cebu|Medellin]]
+ | [[San Remigio, Cebu|San Remigio]]
+ | [[Sogod, Cebu|Sogod]]
+ | [[Tabogon]]
+ | [[Tabuelan]]
+ | [[Tuburan, Cebu|Tuburan]]
+ }}
+|-
+| Cebu III Electric Cooperative
+| CEBECO III
+| NEA-EC
+| Visayas
+| 93,612
+| {{Collapsible list
+ | title = List (5)
+ | [[Aloguinsan]]
+ | [[Asturias, Cebu|Asturias]]
+ | [[Balamban]]
+ | [[Pinamungajan]]
+ | [[Toledo, Cebu|Toledo]]
+}}
+|-
+| Central Pangasinan Electric Cooperative
+| CENPELCO
+| NEA-EC
+| Luzon
+| 219,705
+| {{Collapsible list
+ | title = List (15)
+ | [[Aguilar, Pangasinan|Aguilar]]
+ | [[Alcala, Pangasinan|Alcala]]
+ | [[Basista]]
+ | [[Bautista, Pangasinan|Bautista]]
+ | [[Bayambang]]
+ | [[Binmaley]]
+ | [[Bugallon]]
+ | [[Labrador, Pangasinan|Labrador]]
+ | [[Lingayen]]
+ | [[Malasiqui]]
+ | [[Mangaldan]]
+ | [[Mangatarem]]
+ | [[San Carlos, Pangasinan|San Carlos]]
+ | [[Sual]]
+ | [[Urbiztondo]]
+ }}
+|-
+| Clark Electric Distribution Corporation
+| CEDC
+| PIOU
+| Luzon
+| 2,276
+| {{Collapsible list
+ | title = List (5)
+ | [[Angeles City]]{{efn|name=cfez|[[Clark Freeport and Special Economic Zone]]}}
+ | [[Bamban]]{{efn|name=cfez}}
+ | [[Capas]]{{efn|name=cfez}}
+ | [[Mabalacat]]{{efn|name=cfez}}
+ | [[Porac]]{{efn|name=cfez}}
+ }}
+|-
+| Concepcion Electric System{{efn|Co-managed with Romblon Electric Cooperative}}
+| Concepcion
+| LGUOU
+| Luzon
+| 1,267
+| {{Collapsible list
+ | title = List (1)
+ | [[Concepcion, Romblon|Concepcion]]
+}}
+|-
+| Corcuera Electric System{{efn|Co-managed with Romblon Electric Cooperative}}
+| Corcuera
+| LGUOU
+| Luzon
+| —
+| {{Collapsible list
+ | title = List (1)
+ | [[Corcuera]]
+}}
+|-
+| Cotabato Electric Cooperative
+| COTELCO
+| NEA-EC
+| Mindanao
+| 138,167
+| {{Collapsible list
+ | title = List (12)
+ | [[Antipas, Cotabato|Antipas]]
+ | [[Arakan, Cotabato|Arakan]]
+ | [[Banisilan]]
+ | [[Carmen, Cotabato|Carmen]]
+ | [[Kabacan]]
+ | [[Kidapawan]]
+ | [[Magpet]]
+ | [[Makilala]]
+ | [[Matalam]]
+ | [[M'lang]]
+ | [[President Roxas, Cotabato|President Roxas]]
+ | [[Tulunan]]
+ }}
+|-
+| Cotabato Electric Cooperative – PPALMA
+| COTELCO – PPALMA
+| NEA-EC
+| Mindanao
+| 80,274
+| {{Collapsible list
+ | title = List (6)
+ | [[Alamada]]
+ | [[Aleosan]]
+ | [[Libungan]]
+ | [[Midsayap]]
+ | [[Pigcawayan]]
+ | [[Pikit]]
+ }}
+|-
+| Cotabato Light and Power Company
+| CLPC
+| PIOU
+| Mindanao
+| 41,681
+| {{Collapsible list
+ | title = List (3)
+ | [[Cotabato City]]
+ | [[Datu Odin Sinsuat]]
+ | [[Sultan Kudarat, Maguindanao del Norte|Sultan Kudarat]]
+ }}
+|-
+| Dagupan Electric Corporation
+| DECORP
+| PIOU
+| Luzon
+| 118,062
+| {{Collapsible list
+ | title = List (7)
+ | [[Calasiao]]
+ | [[Dagupan]]
+ | [[Manaoag]]
+ | [[San Carlos, Pangasinan|San Carlos]]{{efn|Bolingit and Cruz}}
+ | [[San Fabian, Pangasinan|San Fabian]]
+ | [[San Jacinto, Pangasinan|San Jacinto]]
+ | [[Santa Barbara, Pangasinan|Santa Barbara]]
+ }}
+|-
+| [[Davao Light and Power Company]]
+| DLPC
+| PIOU
+| Mindanao
+| 404,574
+| {{Collapsible list
+ | title = List (16)
+ | [[Arakan, Cotabato|Arakan]]{{efn|name=some}}
+ | [[Asuncion, Davao del Norte|Asuncion]]
+ | [[Braulio E. Dujali]]
+ | [[Carmen, Davao del Norte|Carmen]]
+ | [[Davao City]]
+ | [[Kapalong]]
+ | [[Kitaotao]]{{efn|name=some}}
+ | [[New Corella]]
+ | [[Panabo]]
+ | [[Samal, Davao del Norte|Samal]]{{efn|Talikud Island is [[Off-grid|off the grid]].}}
+ | [[Santa Cruz, Davao del Sur|Santa Cruz]]{{efn|Inawayan}}
+ | [[Santo Tomas, Davao del Norte|Santo Tomas]]
+ | [[Sawata, Davao del Norte|Sawata]]
+| [[Tagum]]
+| [[Talaingod]]
+ }}
+|-
+| Davao Oriental Electric Cooperative
+| DORECO
+| NEA-EC
+| Mindanao
+| 84,297
+| {{Collapsible list
+ | title = List (11)
+ | [[Banaybanay]]
+ | [[Baganga]]
+ | [[Boston, Davao Oriental|Boston]]
+ | [[Caraga, Davao Oriental|Caraga]]
+ | [[Cateel]]
+ | [[Governor Generoso]]
+ | [[Lupon]]
+ | [[Manay, Davao Oriental|Manay]]
+ | [[Mati, Davao Oriental|Mati]]
+ | [[San Isidro, Davao Oriental|San Isidro]]
+ | [[Tarragona, Davao Oriental|Tarragona]]
+ }}
+|-
+| Davao del Sur Electric Cooperative
+| DASURECO
+| NEA-EC
+| Mindanao
+| 157,882<!-- 157,216 + 666 -->
+| {{Collapsible list
+ | title = List (15)
+ | [[Bansalan]]
+ | [[Digos]]
+ | [[Don Marcelino]]
+ | [[Hagonoy, Davao del Sur|Hagonoy]]
+ | [[Jose Abad Santos, Davao Occidental|Jose Abad Santos]]
+ | [[Kiblawan]]
+ | [[Magsaysay, Davao del Sur|Magsaysay]]
+ | [[Malalag]]
+ | [[Matanao]]
+ | [[Malita]]
+ | [[Padada]]
+ | [[Santa Cruz, Davao del Sur|Santa Cruz]]
+ | [[Santa Maria, Davao Occidental|Santa Maria]]
+ | [[Sarangani, Davao Occidental|Sarangani]]{{efn|name=sotg}}
+ | [[Sulop]]
+ }}
+|-
+| Dinagat Island Electric Cooperative
+| DIELCO
+| SPUG-EC
+| Mindanao
+| 24,770
+| {{Collapsible list
+ | title = List (7)
+ | [[Basilisa]]
+ | [[Cagdianao]]
+ | [[Dinagat, Dinagat Islands|Dinagat]]
+ | [[Libjo]]
+ | [[Loreto, Dinagat Islands|Loreto]]
+ | [[San Jose, Dinagat Islands|San Jose]]
+ | [[Tubajon]]
+ }}
+|-
+| Don Orestes Romualdez Electric Cooperative
+| DORELCO
+| NEA-EC
+| Visayas
+| 70,828
+| {{Collapsible list
+ | title = List (13)
+ | [[Abuyog]]
+ | [[Burauen]]
+ | [[Dagami]]
+ | [[Dulag, Leyte|Dulag]]
+ | [[Javier, Leyte|Javier]]
+ | [[Julita, Leyte|Julita]]
+ | [[La Paz, Leyte|La Paz]]
+ | [[MacArthur, Leyte|MacArthur]]
+ | [[Mahaplag]]
+ | [[Mayorga, Leyte|Mayorga]]
+ | [[Tabontabon]]
+ | [[Tanauan, Leyte|Tanauan]]
+ | [[Tolosa, Leyte|Tolosa]]
+ }}
+|-
+| Eastern Samar Electric Cooperative
+| ESAMELCO
+| NEA-EC
+| Visayas
+| 88,841
+| {{Collapsible list
+ | title = List (23)
+ | [[Arteche]]
+ | [[Balangiga]]
+ | [[Balangkayan]]
+ | [[Borongan]]
+ | [[Can-avid]]
+ | [[Dolores, Eastern Samar|Dolores]]
+ | [[General MacArthur, Eastern Samar|General MacArthur]]
+ | [[Giporlos]]
+ | [[Guiuan]]
+ | [[Hernani, Eastern Samar|Hernani]]
+ | [[Jipapad]]
+ | [[Lawaan]]
+ | [[Llorente, Eastern Samar|Llorente]]
+ | [[Maslog]]
+ | [[Maydolong]]
+ | [[Mercedes, Eastern Samar|Mercedes]]
+ | [[Oras, Eastern Samar|Oras]]
+ | [[Quinapondan]]
+ | [[Salcedo, Eastern Samar|Salcedo]]
+ | [[San Julian, Eastern Samar|San Julian]]
+ | [[San Policarpo, Eastern Samar|San Policarpo]]
+ | [[Sulat]]
+ | [[Taft, Eastern Samar|Taft]]
+ }}
+|-
+| First Bay Power Corporation
+| FBPC
+| LGUOU
+| Luzon
+| 23,357
+| {{Collapsible list
+ | title = List (1)
+ | [[Bauan]]
+ }}
+|-
+| First Bukidnon Electric Cooperative
+| FIBECO
+| NEA-EC
+| Mindanao
+| 139,683
+| {{Collapsible list
+ | title = List (14)
+ | [[Amai Manabilang]]
+ | [[Damulog]]
+ | [[Dangcagan]]
+ | [[Don Carlos, Bukidnon|Don Carlos]]
+ | [[Kadingilan]]
+ | [[Kalilangan]]
+ | [[Kibawe]]
+ | [[Kitaotao]]
+ | [[Maramag]]
+ | [[Pangantucan]]
+ | [[Quezon, Bukidnon|Quezon]]
+ | [[San Fernando, Bukidnon|San Fernando]]
+ | [[Valencia, Bukidnon|Valencia]]
+ | [[Wao, Lanao del Sur|Wao]]
+ }}
+|-
+| First Catanduanes Electric Cooperative
+| FICELCO
+| SPUG-EC
+| Luzon
+| 51,441
+| {{Collapsible list
+ | title = List (11)
+ | [[Bagamanoc]]
+ | [[Baras, Catanduanes|Baras]]
+ | [[Bato, Catanduanes|Bato]]
+ | [[Caramoran]]
+ | [[Gigmoto]]
+ | [[Pandan, Catanduanes|Pandan]]
+ | [[Panganiban, Catanduanes|Panganiban]]
+ | [[San Andres, Catanduanes|San Andres]]
+ | [[San Miguel, Catanduanes|San Miguel]]
+ | [[Viga, Catanduanes|Viga]]
+ | [[Virac, Catanduanes|Virac]]
+ }}
+|-
+| First Laguna Electric Cooperative
+| FLECO
+| NEA-EC
+| Luzon
+| 70,971
+| {{Collapsible list
+ | title = List (11)
+ | [[Cavinti]]
+ | [[Famy]]
+ | [[Kalayaan, Laguna|Kalayaan]]
+ | [[Lumban]]
+ | [[Mabitac]]
+ | [[Paete]]
+ | [[Pagsanjan]]
+ | [[Pakil]]
+ | [[Pangil]]
+ | [[Santa Maria, Laguna|Santa Maria]]
+ | [[Siniloan]]
+ }}
+|-
+| Guimaras Electric Cooperative
+| GUIMELCO
+| NEA-EC
+| Visayas
+| 33,796
+| {{Collapsible list
+ | title = List (5)
+ | [[Buenavista, Guimaras|Buenavista]]
+ | [[Jordan, Guimaras|Jordan]]
+ | [[Nueva Valencia]]
+ | [[San Lorenzo, Guimaras|San Lorenzo]]
+ | [[Sibunag]]
+ }}
+|-
+| Hilabaan Fishermen's Multi-Purpose Cooperative
+| HFMPC
+| MPC
+| Visayas
+| —
+| {{Collapsible list
+ | title = List (1)
+ | [[Dolores, Eastern Samar]]{{efn|Hilabaan}}
+ }}
+|-
+| Ibaan Electric Corporation
+| IEC
+| PIOU
+| Luzon
+| 13,913
+| {{Collapsible list
+ | title = List (3)
+ | [[Ibaan]]
+ | [[Lipa, Batangas|Lipa]]
+ | [[San Jose, Batangas|San Jose]]
+ }}
+|-
+| Ifugao Electric Cooperative
+| IFELCO
+| NEA-EC
+| Luzon
+| 37,201
+| {{Collapsible list
+ | title = List (11)
+ | [[Aguinaldo, Ifugao|Aguinaldo]]
+ | [[Alfonso Lista]]
+ | [[Asipulo]]
+ | [[Banaue]]
+ | [[Hingyon]]
+ | [[Hungduan]]
+ | [[Kiangan]]
+ | [[Lagawe]]
+ | [[Lamut, Ifugao|Lamut]]
+ | [[Mayoyao]]
+ | [[Tinoc]]
+ }}
+|-
+| Iligan Light and Power
+| ILPI
+| PIOU
+| Mindanao
+| 68,585
+| {{Collapsible list
+ | title = List (1)
+ | [[Iligan]]
+ }}
+|-
+| Ilocos Norte Electric Cooperative
+| INEC
+| NEA-EC
+| Luzon
+| 163,921
+| {{Collapsible list
+ | title = List (23)
+ | [[Adams, Ilocos Norte|Adams]]
+ | [[Bacarra]]
+ | [[Badoc]]
+ | [[Bangui, Ilocos Norte|Bangui]]
+ | [[Banna, Ilocos Norte|Banna]]
+ | [[Batac]]
+ | [[Burgos, Ilocos Norte|Burgos]]
+ | [[Carasi]]
+ | [[Currimao]]
+ | [[Dingras]]
+ | [[Dumalneg]]
+ | [[Laoag]]
+ | [[Marcos, Ilocos Norte|Marcos]]
+ | [[Nueva Era, Ilocos Norte|Nueva Era]]
+ | [[Pagudpud]]
+ | [[Paoay]]
+ | [[Pasuquin]]
+ | [[Piddig]]
+ | [[Pinili]]
+ | [[San Nicolas, Ilocos Norte|San Nicolas]]
+ | [[Sarrat]]
+ | [[Solsona, Ilocos Norte|Solsona]]
+ | [[Vintar]]
+ }}
+|-
+| Ilocos Sur Electric Cooperative
+| ISECO
+| NEA-EC
+| Luzon
+| 174,674
+| {{Collapsible list
+ | title = List (34)
+ | [[Alilem]]
+ | [[Banayoyo]]
+ | [[Bantay]]
+ | [[Burgos, Ilocos Sur|Burgos]]
+ | [[Cabugao]]
+ | [[Candon]]
+ | [[Caoayan]]
+ | [[Cervantes, Ilocos Sur|Cervantes]]
+ | [[Galimuyod]]
+ | [[Gregorio del Pilar, Ilocos Sur|Gregorio del Pilar]]
+ | [[Lidlidda]]
+ | [[Magsingal]]
+ | [[Nagbukel]]
+ | [[Narvacan]]
+ | [[Quirino, Ilocos Sur|Quirino]]
+ | [[Salcedo, Ilocos Sur|Salcedo]]
+ | [[San Emilio]]
+ | [[San Esteban, Ilocos Sur|San Esteban]]
+ | [[San Ildefonso, Ilocos Sur|San Ildefonso]]
+ | [[San Juan, Ilocos Sur|San Juan]]
+ | [[San Vicente, Ilocos Sur|San Vicente]]
+ | [[Santa Catalina, Ilocos Sur|Santa Catalina]]
+ | [[Santa Cruz, Ilocos Sur|Santa Cruz]]
+ | [[Santa Lucia, Ilocos Sur|Santa Lucia]]
+ | [[Santa Maria, Ilocos Sur|Santa Maria]]
+ | [[Santa, Ilocos Sur|Santa]]
+ | [[Santiago, Ilocos Sur|Santiago]]
+ | [[Santo Domingo, Ilocos Sur|Santo Domingo]]
+ | [[Sigay]]
+ | [[Sinait]]
+ | [[Sugpon]]
+ | [[Suyo, Ilocos Sur|Suyo]]
+ | [[Tagudin]]
+ | [[Vigan]]
+ }}
+|-
+| Iloilo I Electric Cooperative
+| ILECO I
+| NEA-EC
+| Visayas
+| 138,155
+| {{Collapsible list
+ | title = List (15)
+ | [[Alimodian]]
+ | [[Cabatuan, Iloilo|Cabatuan]]
+ | [[Guimbal]]
+ | [[Igbaras]]
+ | [[Leganes, Iloilo|Leganes]]
+ | [[Leon, Iloilo|Leon]]
+ | [[Maasin, Iloilo|Maasin]]
+ | [[Miagao]]
+ | [[Oton]]
+ | [[Pavia, Iloilo|Pavia]]
+ | [[San Joaquin, Iloilo|San Joaquin]]
+ | [[San Miguel, Iloilo|San Miguel]]
+ | [[Santa Barbara, Iloilo|Santa Barbara]]
+ | [[Tigbauan]]
+ | [[Tubungan]]
+ }}
+|-
+| Iloilo II Electric Cooperative
+| ILECO II
+| NEA-EC
+| Visayas
+| 131,295
+| {{Collapsible list
+ | title = List (15)
+ | [[Badiangan]]
+ | [[Barotac Nuevo]]
+ | [[Bingawan]]
+ | [[Calinog]]
+ | [[Dingle, Iloilo|Dingle]]
+ | [[Dueñas, Iloilo|Dueñas]]
+ | [[Dumangas]]
+ | [[Janiuay]]
+ | [[Lambunao]]
+ | [[Mina, Iloilo|Mina]]
+ | [[New Lucena]]
+ | [[Passi, Iloilo|Passi]]
+ | [[Pototan]]
+ | [[San Enrique, Iloilo|San Enrique]]
+ | [[Zarraga]]
+ }}
+|-
+| Iloilo III Electric Cooperative
+| ILECO III
+| NEA-EC
+| Visayas
+| 83,649<!-- 81,703 + 1,946 -->
+| {{Collapsible list
+ | title = List (13)
+ | [[Ajuy, Iloilo|Ajuy]]{{efn|name=sotg}}
+ | [[Anilao, Iloilo|Anilao]]
+ | [[Balasan]]
+ | [[Banate, Iloilo|Banate]]
+ | [[Barotac Viejo]]
+ | [[Batad, Iloilo|Batad]]
+ | [[Carles, Iloilo|Carles]]{{efn|name=sotg}}
+ | [[Concepcion, Iloilo|Concepcion]]{{efn|name=sotg}}
+ | [[Estancia, Iloilo|Estancia]]{{efn|name=sotg}}
+ | [[Lemery, Iloilo|Lemery]]
+ | [[San Dionisio, Iloilo|San Dionisio]]{{efn|name=sotg}}
+ | [[San Rafael, Iloilo|San Rafael]]
+ | [[Sara, Iloilo|Sara]]
+ }}
+|-
+| Isabela I Electric Cooperative
+| ISELCO I
+| NEA-EC
+| Luzon
+| 197,525
+| {{Collapsible list
+ | title = List (15)
+ | [[Alicia, Isabela|Alicia]]
+ | [[Angadanan]]
+ | [[Cabatuan, Isabela|Cabatuan]]
+ | [[Cauayan, Isabela|Cauayan]]
+ | [[Cordon, Isabela|Cordon]]
+ | [[Echague]]
+ | [[Jones, Isabela|Jones]]
+ | [[Luna, Isabela|Luna]]
+ | [[Ramon, Isabela|Ramon]]
+ | [[Reina Mercedes, Isabela|Reina Mercedes]]
+ | [[San Agustin, Isabela|San Agustin]]
+ | [[San Guillermo]]
+ | [[San Isidro, Isabela|San Isidro]]
+ | [[San Mateo, Isabela|San Mateo]]
+ | [[Santiago, Isabela|Santiago]]
+ }}
+|-
+| Isabela II Electric Cooperative
+| ISELCO II
+| EC-CDA
+| Luzon
+| 154,858{{efn|As of 2015<ref>{{Cite web|title=Isabela II Profile – Official Website of Isabela II Electric Cooperative|url=https://www.iselco2.com.ph/iselco-ii-profile/|access-date=July 20, 2021|website=www.iselco2.com.ph|archive-date=July 20, 2021|archive-url=https://web.archive.org/web/20210720082434/https://www.iselco2.com.ph/iselco-ii-profile/|url-status=live}}</ref>}}
+| {{Collapsible list
+ | title = List (21)
+ | [[Aurora, Isabela|Aurora]]
+ | [[Benito Soliven]]
+ | [[Burgos, Isabela|Burgos]]
+ | [[Cabagan]]
+ | [[Delfin Albano]]
+ | [[Divilacan]]
+ | [[Gamu]]
+ | [[Ilagan]]
+ | [[Maconacon]]
+ | [[Mallig]]
+ | [[Naguilian, Isabela|Naguilian]]
+ | [[Palanan]]
+ | [[Quezon, Isabela|Quezon]]
+ | [[Quirino, Isabela|Quirino]]
+ | [[Roxas, Isabela|Roxas]]
+ | [[San Manuel, Isabela|San Manuel]]
+ | [[San Mariano, Isabela|San Mariano]]
+ | [[San Pablo, Isabela|San Pablo]]
+ | [[Santa Maria, Isabela|Santa Maria]]
+ | [[Santo Tomas, Isabela|Santo Tomas]]
+ | [[Tumauini]]
+ }}
+|-
+| Kalinga-Apayao Electric Cooperative
+| KAELCO
+| NEA-EC
+| Luzon
+| 58,405
+| {{Collapsible list
+ | title = List (9)
+ | [[Balbalan]]
+ | [[Conner, Apayao|Conner]]
+ | [[Lubuagan]]
+ | [[Pasil]]
+ | [[Pinukpuk]]
+ | [[Rizal, Kalinga|Rizal]]
+ | [[Tabuk, Kalinga|Tabuk]]
+ | [[Tanudan]]
+ | [[Tinglayan]]
+ }}
+|-
+| La Union Electric Company
+| LUECO
+| PIOU
+| Luzon
+| 47,337
+| {{Collapsible list
+ | title = List (3)
+ | [[Bauang]]
+ | [[San Fernando, La Union|San Fernando]]
+ | [[San Juan, La Union|San Juan]]
+ }}
+|-
+| La Union Electric Cooperative
+| LUELCO
+| NEA-EC
+| Luzon
+| 143,107
+| {{Collapsible list
+ | title = List (24)
+ | [[Agoo]]
+ | [[Aringay]]
+ | [[Bacnotan]]
+ | [[Bagulin]]
+ | [[Balaoan]]
+ | [[Bangar, La Union|Bangar]]
+ | [[Bauang]]{{efn|name=some}}
+ | [[Burgos, La Union|Burgos]]
+ | [[Caba, La Union|Caba]]
+ | [[Luna, La Union|Luna]]
+ | [[Naguilian, La Union|Naguilian]]
+ | [[Pozorrubio]]{{efn|name=some}}
+ | [[Pugo, La Union|Pugo]]
+ | [[Rosario, La Union|Rosario]]
+ | [[San Fabian, Pangasinan|San Fabian]]{{efn|name=some}}
+ | [[San Fernando, La Union|San Fernando]]{{efn|name=some}}
+ | [[San Gabriel, La Union|San Gabriel]]
+ | [[San Jacinto, Pangasinan|San Jacinto]]{{efn|name=some}}
+ | [[San Juan, La Union|San Juan]]
+ | [[Santo Tomas, La Union|Santo Tomas]]
+ | [[Santol, La Union|Santol]]
+ | [[Sison, Pangasinan|Sison]]
+ | [[Sudipen]]
+ | [[Tubao]]
+ }}
+|-
+| Lanao del Norte Electric Cooperative
+| LANECO
+| NEA-EC
+| Mindanao
+| 83,418
+| {{Collapsible list
+ | title = List (18)
+ | [[Bacolod, Lanao del Norte|Bacolod]]
+ | [[Balo-i]]
+ | [[Baroy]]
+ | [[Kapatagan, Lanao del Norte|Kapatagan]]
+ | [[Kauswagan]]
+ | [[Kolambugan]]
+ | [[Lala, Lanao del Norte|Lala]]
+ | [[Linamon]]
+ | [[Magsaysay, Lanao del Norte|Magsaysay]]
+ | [[Maigo]]
+ | [[Matungao]]
+ | [[Munai]]
+ | [[Poona Piagapo]]
+ | [[Salvador, Lanao del Norte|Salvador]]
+ | [[Sapad]]
+ | [[Sultan Naga Dimaporo]]
+ | [[Tangcal]]
+ | [[Tubod, Lanao del Norte|Tubod]]
+ }}
+|-
+| Lanao del Sur Electric Cooperative
+| LASURECO
+| NEA-EC
+| Mindanao
+| 51,401{{efn|As of 2016<ref name="ddp" />}}
+| {{Collapsible list
+ | title = List (40)
+ | [[Bacolod-Kalawi]]
+ | [[Balabagan]]
+ | [[Balindong]]
+ | [[Balo-i]]{{efn|name=some}}
+ | [[Bayang]]
+ | [[Binidayan]]
+ | [[Buadiposo-Buntong]]
+ | [[Bubong]]
+ | [[Butig]]
+ | [[Calanogas]]
+ | [[Ditsaan-Ramain]]
+ | [[Ganassi, Lanao del Sur|Ganassi]]
+ | [[Kapai]]
+ | [[Kapatagan, Lanao del Sur|Kapatagan]]
+ | [[Lumba-Bayabao]]
+ | [[Lumbaca-Unayan]]
+ | [[Lumbatan]]
+ | [[Lumbayanague]]
+ | [[Madalum]]
+ | [[Madamba]]
+ | [[Maguing]]
+ | [[Malabang]]
+ | [[Marantao]]
+ | [[Marogong]]
+ | [[Masiu]]
+ | [[Mulondo, Lanao del Sur|Mulondo]]
+ | [[Pagayawan]]
+ | [[Pantar, Lanao del Norte|Pantar]]
+ | [[Pantao Ragat]]
+ | [[Piagapo]]
+ | [[Picong, Lanao del Sur|Picong]]
+ | [[Poona Bayabao]]
+ | [[Pualas]]
+ | [[Saguiaran]]
+ | [[Sultan Dumalondong]]
+ | [[Tagoloan, Lanao del Sur|Tagoloan]]
+ | [[Tamparan]]
+ | [[Taraka, Lanao del Sur|Taraka]]
+ | [[Tubaran]]
+ | [[Tugaya]]
+ }}
+|-
+| Leyte II Electric Cooperative
+| LEYECO II
+| NEA-EC
+| Visayas
+| 69,481
+| {{Collapsible list
+ | title = List (3)
+ | [[Babatngon]]
+ | [[Palo, Leyte|Palo]]
+ | [[Tacloban]]
+ }}
+|-
+| Leyte III Electric Cooperative
+| LEYECO III
+| NEA-EC
+| Visayas
+| 59,549
+| {{Collapsible list
+ | title = List (9)
+ | [[Alangalang]]
+ | [[Barugo]]
+ | [[Capoocan]]
+ | [[Carigara]]
+ | [[Jaro, Leyte|Jaro]]
+ | [[Pastrana, Leyte|Pastrana]]
+ | [[San Miguel, Leyte|San Miguel]]
+ | [[Santa Fe, Leyte|Santa Fe]]
+ | [[Tunga, Leyte|Tunga]]
+ }}
+|-
+| Leyte IV Electric Cooperative
+| LEYECO IV
+| NEA-EC
+| Visayas
+| 72,585
+| {{Collapsible list
+ | title = List (6)
+ | [[Bato, Leyte|Bato]]
+ | [[Baybay]]
+ | [[Hilongos]]
+ | [[Hindang]]
+ | [[Inopacan]]
+ | [[Matalom]]
+ }}
+|-
+| Leyte V Electric Cooperative
+| LEYECO V
+| NEA-EC
+| Visayas
+| 123,746
+| {{Collapsible list
+ | title = List (12)
+ | [[Albuera, Leyte|Albuera]]
+ | [[Calubian]]
+ | [[Isabel, Leyte|Isabel]]
+ | [[Kananga, Leyte|Kananga]]
+ | [[Leyte, Leyte|Leyte]]
+ | [[Matag-ob]]
+ | [[Merida, Leyte|Merida]]
+ | [[Ormoc]]
+ | [[Palompon]]
+ | [[San Isidro, Leyte|San Isidro]]
+ | [[Tabango]]
+ | [[Villaba]]
+ }}
+|-
+| Lima Enerzone Corporation
+| LEZ
+| —
+| —
+| 767
+| {{Collapsible list
+ | title = List (2)
+ | [[Lipa, Batangas|Lipa]]{{efn|name=lima|[[Lima Technology Center|Lima Technology Center – Special Economic Zone]]}}
+ | [[Malvar]]{{efn|name=lima}}
+ }}
+|-
+| Lubang Electric Cooperative
+| LUBELCO
+| SPUG-EC
+| Luzon
+| 6,592
+| {{Collapsible list
+ | title = List (2)
+ | [[Looc, Occidental Mindoro|Looc]]
+ | [[Lubang, Occidental Mindoro|Lubang]]
+ }}
+|-
+| Mactan Electric Company
+| MECO
+| PIOU
+| Visayas
+| 93,778<!-- 90,536 + 3,242 -->
+| {{Collapsible list
+ | title = List (2)
+ | [[Cordova, Cebu|Cordova]]
+ | [[Lapu-Lapu City]]{{efn|name=sotg}}
+ }}
+|-
+| Mactan Enerzone Corporation
+| MEZ
+| PIOU
+| Visayas
+| 85
+| {{Collapsible list
+ | title = List (1)
+ | [[Lapu-Lapu City]]{{efn|Mactan Economic Zone II}}
+ }}
+|-
+| Maguindanao Electric Cooperative
+| MAGELCO
+| NEA-EC
+| Mindanao
+| 42,612
+| {{Collapsible list
+ | title = List (30)
+ | [[Ampatuan, Maguindanao del Sur|Ampatuan]]
+ | [[Barira]]
+ | [[Buldon]]
+ | [[Datu Abdullah Sangki]]
+ | [[Datu Anggal Midtimbang]]
+ | [[Datu Blah T. Sinsuat, Maguindanao del Norte|Datu Blah T. Sinsuat]]
+ | [[Datu Hoffer Ampatuan]]
+ | [[Datu Montawal]]
+ | [[Datu Odin Sinsuat]]
+ | [[Datu Piang]]
+ | [[Datu Salibo]]
+ | [[Datu Saudi Ampatuan]]
+ | [[Datu Unsay]]
+ | [[Guindulungan]]
+ | [[Kabuntalan]]
+ | [[Mamasapano]]
+ | [[Matanog]]
+ | [[Northern Kabuntalan]]
+ | [[Pagalungan]]
+ | [[Parang, Maguindanao del Norte|Parang]]
+ | [[Rajah Buayan]]
+ | [[Shariff Aguak]]
+ | [[Shariff Saydona Mustapha]]
+ | [[South Upi]]
+ | [[Sultan Kudarat, Maguindanao del Norte|Sultan Kudarat]]
+ | [[Sultan Mastura]]
+ | [[Sultan sa Barongis]]
+ | [[Talayan]]
+ | [[Talitay]]
+ | [[Upi, Maguindanao del Norte|Upi]]
+ }}
+|-
+| Malvar Enerzone Corporation
+| MALVEZ
+| —
+| —
+| 2
+| {{Collapsible list
+ | title = List (1)
+ | [[Malvar]]{{efn|Light Industry and Science Park IV}}
+ }}
+|-
+| [[Meralco|Manila Electric Company]]
+| MERALCO
+| PIOU
+| Luzon
+| 6,612,523
+| {{Collapsible list
+ | title = List (114)
+ | [[Alaminos, Laguna|Alaminos]]
+ | [[Alfonso, Cavite|Alfonso]]
+ | [[Amadeo, Cavite|Amadeo]]
+ | [[Angat, Bulacan|Angat]]
+ | [[Angono]]
+ | [[Antipolo]]
+ | [[Apalit, Pampanga|Apalit]]{{efn|Balucuc and Calantipe}}
+ | [[Bacoor]]
+ | [[Balagtas, Bulacan|Balagtas]]
+ | [[Baras, Rizal]]
+ | [[Batangas City]]
+ | [[Bay, Laguna|Bay]]
+ | [[Biñan]]
+ | [[Binangonan]]
+ | [[Bocaue]]
+ | [[Bulakan, Bulacan|Bulakan]]
+ | [[Bustos, Bulacan|Bustos]]
+ | [[Cabuyao]]
+ | [[Cainta]]
+ | [[Calaca, Batangas|Calaca]]{{efn|Cahil}}
+ | [[Calamba, Laguna|Calamba]]
+ | [[Calauan]]
+ | [[Caloocan]]
+ | [[Calumpit]]
+ | [[Candaba]]{{efn|name=some}}
+ | [[Candelaria, Quezon|Candelaria]]
+ | [[Cardona, Rizal|Cardona]]
+ | [[Carmona, Cavite|Carmona]]
+ | [[Cavite City]]
+ | [[Dasmariñas]]
+ | [[Dolores, Quezon|Dolores]]
+ | [[General Emilio Aguinaldo, Cavite|General Emilio Aguinaldo]]
+ | [[General Mariano Alvarez, Cavite|General Mariano Alvarez]]
+ | [[General Trias]]
+ | [[Guiguinto]]
+ | [[Hagonoy, Bulacan|Hagonoy]]
+ | [[Imus]]
+ | [[Indang]]
+ | [[Jalajala]]
+ | [[Kawit]]
+ | [[Las Piñas]]
+ | [[Laurel, Batangas|Laurel]]{{efn|Niyugan and Dayap Itaas}}
+ | [[Liliw]]
+ | [[Los Baños, Laguna|Los Baños]]
+ | [[Lucban]]
+ | [[Lucena]]
+ | [[Luisiana]]
+ | [[Magallanes, Cavite|Magallanes]]
+ | [[Magdalena, Laguna|Magdalena]]
+ | [[Majayjay]]
+ | [[Makati]]
+ | [[Malabon]]
+ | [[Malolos]]
+ | [[Mandaluyong]]
+ | [[Manila]]
+ | [[Maragondon]]
+ | [[Marikina]]
+ | [[Marilao]]
+ | [[Mauban]]
+ | [[Mendez, Cavite|Mendez]]
+ | [[Meycauayan]]
+ | [[Morong, Rizal|Morong]]
+ | [[Muntinlupa]]
+ | [[Nagcarlan]]
+ | [[Naic]]
+ | [[Navotas]]
+ | [[Norzagaray]]
+ | [[Noveleta]]
+ | [[Obando, Bulacan|Obando]]
+ | [[Pagbilao]]
+ | [[Pandi, Bulacan|Pandi]]
+ | [[Paombong]]
+ | [[Parañaque]]
+ | [[Pasay]]
+ | [[Pasig]]
+ | [[Pateros]]
+ | [[Pila, Laguna|Pila]]
+ | [[Pililla]]
+ | [[Plaridel, Bulacan|Plaridel]]
+ | [[Pulilan]]
+ | [[Quezon City]]
+ | [[Rizal, Laguna|Rizal]]
+ | [[Rodriguez, Rizal|Rodriguez]]
+ | [[Rosario, Cavite|Rosario]]
+ | [[Sampaloc, Quezon|Sampaloc]]
+ | [[San Antonio, Quezon|San Antonio]]
+ | [[San Ildefonso, Bulacan|San Ildefonso]]
+ | [[San Jose del Monte]]
+ | [[San Juan, Metro Manila|San Juan]]
+ | [[San Mateo, Rizal|San Mateo]]
+ | [[San Miguel, Bulacan|San Miguel]]
+ | [[San Pablo, Laguna|San Pablo]]
+ | [[San Pascual, Batangas|San Pascual]]
+ | [[San Pedro, Laguna|San Pedro]]
+ | [[San Rafael, Bulacan|San Rafael]]
+ | [[Santa Cruz, Laguna|Santa Cruz]]
+ | [[Santa Maria, Bulacan|Santa Maria]]
+ | [[Santa Rosa, Laguna|Santa Rosa]]
+ | [[Santo Tomas, Batangas|Santo Tomas]]
+ | [[Sariaya]]
+ | [[Silang, Cavite|Silang]]
+ | [[San Simon, Pampanga|San Simon]]{{efn|Concepcion}} 
+ | [[Tagaytay]]
+ | [[Taguig]]
+ | [[Tanauan, Batangas|Tanauan]]
+ | [[Tanay, Rizal|Tanay]]
+ | [[Tanza]]
+ | [[Tayabas]]
+ | [[Taytay, Rizal|Taytay]]
+ | [[Teresa, Rizal|Teresa]]
+ | [[Ternate, Cavite|Ternate]]
+ | [[Tiaong]]
+ | [[Trece Martires]]
+ | [[Valenzuela, Metro Manila|Valenzuela]]
+ | [[Victoria, Laguna|Victoria]]
+ }}
+|-
+| Marinduque Electric Cooperative
+| MARELCO
+| SPUG-EC
+| Luzon
+| 52,736
+| {{Collapsible list
+ | title = List (6)
+ | [[Boac, Marinduque|Boac]]
+ | [[Buenavista, Marinduque|Buenavista]]
+ | [[Gasan, Marinduque|Gasan]]
+ | [[Mogpog]]
+ | [[Santa Cruz, Marinduque|Santa Cruz]]
+ | [[Torrijos, Marinduque|Torrijos]]
+ }}
+|-
+| Maripipi Multi-Purpose Electric Cooperative
+| MMPC
+| MPC
+| Visayas
+| 1,502
+| {{Collapsible list
+ | title = List (1)
+ | [[Maripipi]]
+ }}
+|-
+| Masbate Electric Cooperative
+| MASELCO
+| SPUG-EC
+| Luzon
+| 62,296
+| {{Collapsible list
+ | title = List (17)
+ | [[Aroroy]]
+ | [[Baleno, Masbate|Baleno]]
+ | [[Balud]]
+ | [[Cataingan]]
+ | [[Cawayan]]
+ | [[Claveria, Masbate|Claveria]]
+ | [[Dimasalang]]
+ | [[Esperanza, Masbate|Esperanza]]
+ | [[Mandaon]]
+ | [[Masbate City]]
+ | [[Milagros, Masbate|Milagros]]
+ | [[Mobo, Masbate|Mobo]]
+ | [[Palanas]]
+ | [[Pio V. Corpus]]
+ | [[Placer, Masbate|Placer]]
+ | [[San Pascual, Masbate|San Pascual]]
+ | [[Uson]]
+ }}
+|-
+| Misamis Occidental I Electric Cooperative
+| MOELCI I
+| NEA-EC
+| Mindanao
+| 52,161
+| {{Collapsible list
+ | title = List (8)
+ | [[Aloran]]
+ | [[Baliangao]]
+ | [[Calamba, Misamis Occidental|Calamba]]
+ | [[Concepcion, Misamis Occidental|Concepcion]]
+ | [[Lopez Jaena]]
+ | [[Oroquieta]]
+ | [[Plaridel, Misamis Occidental|Plaridel]]
+ | [[Sapang Dalaga]]
+ }}
+|-
+| [[Misamis Occidental II Electric Cooperative]]
+| MOELCI II
+| NEA-EC
+| Mindanao
+| 71,719
+| {{Collapsible list
+ | title = List (8)
+ | [[Bonifacio, Misamis Occidental|Bonifacio]]
+ | [[Clarin, Misamis Occidental|Clarin]]
+ | [[Jimenez, Misamis Occidental|Jimenez]]
+ | [[Ozamiz]]
+ | [[Panaon, Misamis Occidental|Panaon]]
+ | [[Sinacaban]]
+ | [[Tangub]]
+ | [[Tudela, Misamis Occidental|Tudela]]
+ }}
+|-
+| Misamis Oriental I Rural Electric Cooperative
+| MORESCO I
+| NEA-EC
+| Mindanao
+| 88,474
+| {{Collapsible list
+ | title = List (14)
+ | [[Alubijid]]
+ | [[Baungon]]
+ | [[Cagayan de Oro]]{{efn|name=some}}
+ | [[El Salvador, Misamis Oriental|El Salvador]]
+ | [[Gitagum]]
+ | [[Iligan]]{{efn|name=some}}
+ | [[Initao]]
+ | [[Laguindingan]]
+ | [[Libertad, Misamis Oriental|Libertad]]
+ | [[Lugait]]
+ | [[Manticao]]
+ | [[Naawan]]
+ | [[Opol]]
+ | [[Talakag]]
+ }}
+|-
+| Misamis Oriental II Electric Cooperative
+| MORESCO II
+| NEA-EC
+| Mindanao
+| 70,400
+| {{Collapsible list
+ | title = List (13)
+ | [[Balingasag]]
+ | [[Balingoan]]
+ | [[Binuangan]]
+ | [[Claveria, Misamis Oriental|Claveria]]
+ | [[Gingoog]]
+ | [[Jasaan]]{{efn|name=some}}
+ | [[Kinoguitan]]
+ | [[Lagonglong]]
+ | [[Magsaysay, Misamis Oriental|Magsaysay]]
+ | [[Medina, Misamis Oriental|Medina]]
+ | [[Salay]]
+ | [[Sugbongcogon]]
+ | [[Talisayan]]
+ }}
+|-
+| [[MORE Electric and Power Corporation]]
+| MEPC
+| PIOU
+| Visayas
+| 96,705
+| {{Collapsible list
+ | title = List (1)
+ | [[Iloilo City]]
+ }}
+|-
+| Mountain Province Electric Cooperative
+| MOPRECO
+| NEA-EC
+| Luzon
+| 40,140
+| {{Collapsible list
+ | title = List (13)
+ | [[Bauko]]
+ | [[Barlig]]
+ | [[Besao]]
+ | [[Bontoc, Mountain Province|Bontoc]]
+ | [[Cervantes, Ilocos Sur|Cervantes]]
+ | [[Natonin]]
+ | [[Paracelis]]
+ | [[Quirino, Ilocos Sur|Quirino]]
+ | [[Sabangan]]
+ | [[Sadanga]]
+ | [[Sagada]]
+ | [[Tadian]]
+ | [[Tinglayan]]{{efn|name=some}}
+ }}
+|-
+|Negros Electric and Power Corporation
+|NEPC
+|TBA
+|Visayas
+|190,458
+|{{Collapsible list
+ | title = List (6)
+ | [[Bacolod]]
+ | [[Bago, Negros Occidental|Bago]]
+ | [[Don Salvador Benedicto]]
+ | [[Murcia, Negros Occidental|Murcia]]
+ | [[Silay]]
+ | [[Talisay, Negros Occidental|Talisay]]
+ }}
+|-
+| Negros Occidental Electric Cooperative
+| NOCECO
+| EC-CDA
+| Visayas
+| 164,378
+| {{Collapsible list
+ | title = List (17)
+ | [[Binalbagan]]
+ | [[Candoni]]
+ | [[Cauayan, Negros Occidental|Cauayan]]
+ | [[Himamaylan]]
+ | [[Hinigaran]]
+ | [[Hinoba-an]]
+ | [[Ilog, Negros Occidental|Ilog]]
+ | [[Isabela, Negros Occidental|Isabela]]
+ | [[Kabankalan]]
+ | [[La Carlota, Negros Occidental|La Carlota]]
+ | [[La Castellana, Negros Occidental|La Castellana]]
+ | [[Moises Padilla]]
+ | [[Pontevedra, Negros Occidental|Pontevedra]]
+ | [[Pulupandan]]
+ | [[San Enrique, Negros Occidental|San Enrique]]
+ | [[Sipalay]]
+ | [[Valladolid, Negros Occidental|Valladolid]]
+ }}
+|-
+| Negros Oriental I Electric Cooperative
+| NORECO I
+| NEA-EC
+| Visayas
+| 75,949
+| {{Collapsible list
+ | title = List (10)
+ | [[Ayungon]]
+ | [[Bais, Negros Oriental|Bais]]
+ | [[Bindoy]]
+ | [[Canlaon]]
+ | [[Guihulngan]]
+ | [[La Libertad, Negros Oriental|La Libertad]]
+ | [[Mabinay]]
+ | [[Manjuyod]]
+ | [[Tayasan]]
+ | [[Vallehermoso, Negros Oriental|Vallehermoso]]
+ }}
+|-
+| Negros Oriental II Electric Cooperative
+| NORECO II
+| EC-CDA
+| Visayas
+| 141,427
+| {{Collapsible list
+ | title = List (14)
+ | [[Amlan]]
+ | [[Bacong]]
+ | [[Basay, Negros Oriental|Basay]]
+ | [[Bayawan]]
+ | [[Dauin]]
+ | [[Dumaguete]]
+ | [[Pamplona, Negros Oriental|Pamplona]]
+ | [[San Jose, Negros Oriental|San Jose]]
+ | [[Santa Catalina, Negros Oriental|Santa Catalina]]
+ | [[Siaton]]
+ | [[Sibulan]]
+ | [[Tanjay]]
+ | [[Valencia, Negros Oriental|Valencia]]
+ | [[Zamboanguita]]
+ }}
+|-
+| [[Northern Davao Electric Cooperative]]
+| NORDECO
+| NEA-EC
+| Mindanao
+| 179,800<!-- 178,918 + 882 -->
+| {{Collapsible list
+ | title = List (11)
+ | [[Compostela, Davao de Oro|Compostela]]
+ | [[Laak, Davao de Oro|Laak]]
+ | [[Mabini, Davao de Oro|Mabini]]
+ | [[Maco, Davao de Oro|Maco]]
+ | [[Maragusan]]
+ | [[Mawab]]
+ | [[Monkayo]]
+ | [[Montevista]]
+ | [[Nabunturan]]
+ | [[New Bataan]]
+ | [[Pantukan]]
+ }}
+|-
+| Northern Negros Electric Cooperative
+| NONECO
+| NEA-EC
+| Visayas
+| 146,126
+| {{Collapsible list
+ | title = List (9)
+| [[Cadiz, Negros Occidental|Cadiz]]
+ | [[Calatrava, Negros Occidental|Calatrava]]
+ | [[Enrique B. Magalona, Negros Occidental|Enrique B. Magalona]]
+ | [[Escalante, Negros Occidental|Escalante]]
+ | [[Manapla]]
+ | [[Sagay, Negros Occidental|Sagay]]
+ | [[San Carlos, Negros Occidental|San Carlos]]
+ | [[Toboso, Negros Occidental|Toboso]]
+ | [[Victorias]]
+ }}
+|-
+| Northern Samar Electric Cooperative
+| NORSAMELCO
+| NEA-EC
+| Visayas
+| 80,873<!-- 76,129 + 4,744 -->
+| {{Collapsible list
+ | title = List (24)
+ | [[Allen, Northern Samar|Allen]]
+ | [[Biri, Northern Samar|Biri]]{{efn|name=otg}}
+ | [[Bobon]]
+ | [[Capul]]{{efn|name=otg}}
+ | [[Catarman, Northern Samar|Catarman]]
+ | [[Catubig]]
+ | [[Gamay, Northern Samar|Gamay]]
+ | [[Laoang]]{{efn|Batag is [[off-the-grid]]}}
+ | [[Lapinig]]
+ | [[Las Navas]]
+ | [[Lavezares]]
+ | [[Lope de Vega, Northern Samar|Lope de Vega]]
+ | [[Mapanas]]
+ | [[Mondragon, Northern Samar|Mondragon]]
+ | [[Palapag]]
+ | [[Pambujan]]
+ | [[Rosario, Northern Samar|Rosario]]
+ | [[San Antonio, Northern Samar|San Antonio]]{{efn|name=otg}}
+ | [[San Isidro, Northern Samar|San Isidro]]
+ | [[San Jose, Northern Samar|San Jose]]
+ | [[San Roque, Northern Samar|San Roque]]
+ | [[San Vicente, Northern Samar|San Vicente]]{{efn|name=otg}}
+ | [[Silvino Lobos]]
+ | [[Victoria, Northern Samar|Victoria]]
+ }}
+|-
+| Nueva Ecija I Electric Cooperative
+| NEECO I
+| NEA-EC
+| Luzon
+| 86,819
+| {{Collapsible list
+ | title = List (5)
+ | [[Cabiao]]
+ | [[Gapan]]
+ | [[Jaen, Nueva Ecija|Jaen]]
+ | [[San Antonio, Nueva Ecija|San Antonio]]
+ | [[San Isidro, Nueva Ecija|San Isidro]]
+ }}
+|-
+| Nueva Ecija II Electric Cooperative (Area 1)
+| NEECO II – Area 1
+| NEA-EC
+| Luzon
+| 125,021
+| {{Collapsible list
+ | title = List (10)
+ | [[Aliaga, Nueva Ecija|Aliaga]]
+ | [[Carranglan]]
+ | [[Guimba]]
+ | [[Licab]]
+ | [[Lupao]]
+ | [[Muñoz, Nueva Ecija|Muñoz]]
+ | [[Quezon, Nueva Ecija|Quezon]]
+ | [[Santo Domingo, Nueva Ecija|Santo Domingo]]
+ | [[Talavera, Nueva Ecija|Talavera]]
+ | [[Talugtug]]
+ }}
+|-
+| Nueva Ecija II Electric Cooperative (Area 2)
+| NEECO II – Area 2
+| NEA-EC
+| Luzon
+| 93,138
+| {{Collapsible list
+ | title = List (11)
+ | [[Bongabon]]
+ | [[Gabaldon]]{{efn|Bitulok and Sabani}}
+ | [[General Mamerto Natividad]]
+ | [[General Tinio]]{{efn|Papaya}}
+ | [[Laur, Nueva Ecija|Laur]]
+ | [[Llanera, Nueva Ecija|Llanera]]
+ | [[Palayan]]
+ | [[Peñaranda, Nueva Ecija|Peñaranda]]
+ | [[Rizal, Nueva Ecija|Rizal]]
+ | [[San Leonardo, Nueva Ecija|San Leonardo]]
+ | [[Santa Rosa, Nueva Ecija|Santa Rosa]]
+ }}
+|-
+| Nueva Vizcaya Electric Cooperative
+| NUVELCO
+| EC-CDA
+| Luzon
+| 99,181
+| {{Collapsible list
+ | title = List (14)
+ | [[Ambaguio]]
+ | [[Aritao]]
+ | [[Bagabag, Nueva Vizcaya|Bagabag]]
+ | [[Bambang, Nueva Vizcaya|Bambang]]
+ | [[Bayombong]]
+ | [[Diadi]]
+ | [[Dupax del Norte]]
+ | [[Dupax del Sur]]
+ | [[Kasibu]]
+ | [[Kayapa]]
+ | [[Quezon, Nueva Vizcaya|Quezon]]
+ | [[Santa Fe, Nueva Vizcaya|Santa Fe]]
+ | [[Solano, Nueva Vizcaya|Solano]]
+ | [[Villaverde, Nueva Vizcaya|Villaverde]]
+ }}
+|-
+| Occidental Mindoro Electric Cooperative
+| OMECO
+| SPUG-EC
+| Luzon
+| 76,162
+| {{Collapsible list
+ | title = List (9)
+ | [[Abra de Ilog]]
+ | [[Calintaan]]
+ | [[Magsaysay, Occidental Mindoro|Magsaysay]]
+ | [[Mamburao]]
+ | [[Paluan]]
+ | [[Rizal, Occidental Mindoro|Rizal]]
+ | [[Sablayan]]
+ | [[San Jose, Occidental Mindoro|San Jose]]
+ | [[Santa Cruz, Occidental Mindoro|Santa Cruz]]
+ }}
+|-
+| Olongapo Electricity Distribution Company
+| OEDC
+| PIOU
+| Luzon
+| 51,867
+| {{Collapsible list
+ | title = List (1)
+ | [[Olongapo]]
+ }}
+|-
+| Oriental Mindoro Electric Cooperative
+| ORMECO
+| SPUG-EC
+| Luzon
+| 179,578
+| {{Collapsible list
+ | title = List (15)
+ | [[Baco, Oriental Mindoro|Baco]]
+ | [[Bansud]]
+ | [[Bongabong]]
+ | [[Bulalacao]]
+ | [[Calapan]]
+ | [[Gloria, Oriental Mindoro|Gloria]]
+ | [[Mansalay]]
+ | [[Naujan]]
+ | [[Pinamalayan]]
+ | [[Pola, Oriental Mindoro|Pola]]
+ | [[Puerto Galera]]
+ | [[Roxas, Oriental Mindoro|Roxas]]
+ | [[San Teodoro, Oriental Mindoro|San Teodoro]]
+ | [[Socorro, Oriental Mindoro|Socorro]]
+ | [[Victoria, Oriental Mindoro|Victoria]]
+ }}
+|-
+| Palawan Electric Cooperative
+| PALECO
+| class="nowrap" | SPUG-EC CDA
+| Luzon
+| 111,464
+| {{Collapsible list
+ | title = List (19)
+ | [[Aborlan]]
+ | [[Agutaya]]
+ | [[Araceli, Palawan|Araceli]]
+ | [[Balabac, Palawan|Balabac]]
+ | [[Bataraza]]
+ | [[Brooke's Point]]
+ | [[Cagayancillo]]
+ | [[Cuyo, Palawan|Cuyo]]
+ | [[Dumaran]]
+ | [[El Nido, Palawan|El Nido]]
+ | [[Magsaysay, Palawan|Magsaysay]]
+ | [[Narra, Palawan|Narra]]
+ | [[Puerto Princesa]]
+ | [[Quezon, Palawan|Quezon]]
+ | [[Rizal, Palawan|Rizal]]
+ | [[Roxas, Palawan|Roxas]]
+ | [[San Vicente, Palawan|San Vicente]]
+ | [[Sofronio Española]]
+ | [[Taytay, Palawan|Taytay]]
+ }}
+|-
+| Pampanga I Electric Cooperative
+| PELCO I
+| NEA-EC
+| Luzon
+| 100,185
+| {{Collapsible list
+ | title = List (6)
+ | [[Arayat, Pampanga|Arayat]]
+ | [[Candaba]]{{efn|name=some}}
+ | [[Magalang]]
+ | [[Mexico, Pampanga|Mexico]]
+ | [[San Luis, Pampanga|San Luis]]
+ | [[Santa Ana, Pampanga|Santa Ana]]
+ }}
+|-
+| Pampanga II Electric Cooperative
+| PELCO II
+| NEA-EC
+| Luzon
+| 199,832
+| {{Collapsible list
+ | title = List (9)
+ | [[Bacolor]]
+ | [[Floridablanca, Pampanga|Floridablanca]]{{efn|name=some}}
+ | [[Guagua]]
+ | [[Lubao]]
+ | [[Mabalacat]]
+ | [[Magalang]]{{efn|name=some}}
+ | [[Porac]]
+ | [[Santa Rita, Pampanga|Santa Rita]]
+ | [[Sasmuan]]
+ }}
+|-
+| Pampanga III Electric Cooperative
+| PELCO III
+| NEA-EC
+| Luzon
+| 75,000
+| {{Collapsible list
+ | title = List (7)
+ | [[Apalit]]
+ | [[Macabebe]]
+ | [[Masantol]]
+ | [[Minalin]]
+ | [[San Simon, Pampanga|San Simon]]
+ | [[Santo Tomas, Pampanga|Santo Tomas]]
+ | [[San Fernando, Pampanga|San Fernando]]{{efn|Pandaras}}
+ }}
+|-
+| Pampanga Rural Electric Service Cooperative
+| PRESCO
+| NEA-EC
+| Luzon
+| 21,118
+| {{Collapsible list
+ | title = List (4)
+ | [[Arayat, Pampanga|Arayat]]
+ | [[Magalang]]
+ | [[Mexico, Pampanga|Mexico]]
+ | [[Santa Ana, Pampanga|Santa Ana]]
+ }}
+|-
+| Pangasinan I Electric Cooperative
+| PANELCO I
+| EC-CDA
+| Luzon
+| 78,394
+| {{Collapsible list
+ | title = List (9)
+ | [[Agno, Pangasinan|Agno]]
+ | [[Alaminos, Pangasinan|Alaminos]]
+ | [[Anda, Pangasinan|Anda]]
+ | [[Bani, Pangasinan|Bani]]
+ | [[Bolinao]]
+ | [[Burgos, Pangasinan|Burgos]]
+ | [[Dasol]]
+ | [[Infanta, Pangasinan|Infanta]]
+ | [[Mabini, Pangasinan|Mabini]]
+ }}
+|-
+| Pangasinan III Electric Cooperative
+| PANELCO III
+| EC-CDA
+| Luzon
+| 188,102
+| {{Collapsible list
+ | title = List (17)
+ | [[Asingan]]
+ | [[Balungao]]
+ | [[Binalonan]]
+ | [[Laoac]]
+ | [[Mapandan]]
+ | [[Natividad, Pangasinan|Natividad]]
+ | [[Pozorrubio]]
+ | [[Rosales, Pangasinan|Rosales]]
+ | [[San Manuel, Pangasinan|San Manuel]]
+ | [[San Nicolas, Pangasinan|San Nicolas]]
+ | [[San Quintin, Pangasinan|San Quintin]]
+ | [[Santa Maria, Pangasinan|Santa Maria]]
+ | [[Santo Tomas, Pangasinan|Santo Tomas]]
+ | [[Tayug]]
+ | [[Umingan]]
+ | [[Urdaneta, Pangasinan|Urdaneta]]
+ | [[Villasis]]
+ }}
+|-
+| Pantabangan Municipal Electric System
+| PAMES
+| LGUOU
+| Luzon
+| —
+| {{Collapsible list
+ | title = List (1)
+ | [[Pantabangan]]
+ }}
+|-
+| Peninsula Electric Cooperative
+| PENELCO
+| NEA-EC
+| Luzon
+| 188,853
+| {{Collapsible list
+ | title = List (14)
+ | [[Abucay]]
+ | [[Bagac]]
+ | [[Balanga, Bataan|Balanga]]
+ | [[Dinalupihan]]
+ | [[Floridablanca, Pampanga|Floridablanca]]{{efn|name=some}}
+ | [[Hermosa, Bataan|Hermosa]]
+ | [[Limay]]
+ | [[Mariveles]]
+ | [[Morong, Bataan|Morong]]
+ | [[Orani]]
+ | [[Orion, Bataan|Orion]]
+ | [[Pilar, Bataan|Pilar]]
+ | [[Samal, Bataan|Samal]]
+ | [[Subic, Zambales|Subic]]{{efn|Batiawan}}
+ }}
+|-
+| Province of Siquijor Electric Cooperative
+| PROSIELCO
+| SPUG-EC
+| Visayas
+| 27,635
+| {{Collapsible list
+ | title = List (6)
+ | [[Enrique Villanueva]]
+ | [[Larena]]
+ | [[Lazi, Siquijor|Lazi]]
+ | [[Maria, Siquijor|Maria]]
+ | [[San Juan, Siquijor|San Juan]]
+ | [[Siquijor, Siquijor|Siquijor]]
+ }}
+|-
+| Quezon I Electric Cooperative
+| QUEZELCO I
+| NEA-EC
+| Luzon
+| 144,462
+| {{Collapsible list
+ | title = List (24)
+ | [[Agdangan]]
+ | [[Alabat, Quezon|Alabat]]
+ | [[Atimonan]]
+ | [[Buenavista, Quezon|Buenavista]]
+ | [[Calauag]]
+ | [[Catanauan]]
+ | [[Del Gallego, Camarines Sur|Del Gallego]]{{efn|name=some|Some areas only}}
+ | [[General Luna, Quezon|General Luna]]
+ | [[Guinayangan]]
+ | [[Gumaca]]
+ | [[Lopez, Quezon|Lopez]]
+ | [[Macalelon]]
+ | [[Mulanay]]
+ | [[Padre Burgos, Quezon|Padre Burgos]]
+ | [[Perez, Quezon|Perez]]
+ | [[Pitogo, Quezon|Pitogo]]
+ | [[Plaridel, Quezon|Plaridel]]
+ | [[Quezon, Quezon|Quezon]]
+ | [[San Andres, Quezon|San Andres]]
+ | [[San Francisco, Quezon|San Francisco]]
+ | [[San Narciso, Quezon|San Narciso]]
+ | [[Santa Elena, Camarines Norte|Santa Elena]]{{efn|name=some}}
+ | [[Tagkawayan]]
+ | [[Unisan, Quezon|Unisan]]
+ }}
+|-
+| Quezon II Electric Cooperative
+| QUEZELCO II
+| NEA-EC
+| Luzon
+| 30,648<!-- 22,535 + 8,113 -->
+| {{Collapsible list
+ | title = List (8)
+ | [[Burdeos]]{{efn|name=otg}}
+ | [[General Nakar]]
+ | [[Infanta, Quezon|Infanta]]
+ | [[Jomalig]]{{efn|name=otg}}
+ | [[Panukulan]]{{efn|name=otg}}
+ | [[Patnanungan]]{{efn|name=otg}}
+ | [[Polillo, Quezon|Polillo]]{{efn|name=otg}}
+ | [[Real, Quezon|Real]]
+ }}
+|-
+| Quirino Electric Cooperative
+| QUIRELCO
+| EC-CDA
+| Luzon
+| 41,796
+| {{Collapsible list
+ | title = List (7)
+ | [[Aglipay, Quirino|Aglipay]]
+ | [[Cabarroguis]]
+ | [[Diffun]]
+ | [[Maddela]]
+ | [[Nagtipunan]]
+ | [[Saguday]]
+ | [[San Agustin, Isabela|San Agustin]]{{efn|name=some}}
+ }}
+|-
+| Romblon Electric Cooperative
+| ROMELCO
+| SPUG-EC
+| Luzon
+| 21,449
+| {{Collapsible list
+ | title = List (4)
+ | [[Cajidiocan]]
+ | [[Magdiwang, Romblon|Magdiwang]]
+ | [[Romblon, Romblon|Romblon]]
+ | [[San Fernando, Romblon|San Fernando]]
+ }}
+|-
+| Samar I Electric Cooperative
+| SAMELCO I
+| NEA-EC
+| Visayas
+| 64,850<!-- 61,556 + 3,294 -->
+| {{Collapsible list
+ | title = List (10)
+ | [[Almagro, Samar|Almagro]]{{efn|name=otg}}
+ | [[Calbayog]]
+ | [[Gandara, Samar|Gandara]]
+ | [[Matuguinao]]
+ | [[Pagsanghan]]
+ | [[San Jorge, Samar|San Jorge]]
+ | [[Santa Margarita, Samar|Santa Margarita]]
+ | [[Santo Niño, Samar|Santo Niño]]{{efn|name=otg}}
+ | [[Tagapul-an]]{{efn|name=otg}}
+ | [[Tarangnan]]
+ }}
+|-
+| Samar II Electric Cooperative
+| SAMELCO II
+| NEA-EC
+| Visayas
+| 76,816<!-- 73,775 + 3,041 -->
+| {{Collapsible list
+ | title = List (16)
+ | [[Basey]]
+ | [[Calbiga]]
+ | [[Catbalogan]]
+ | [[Daram, Samar|Daram]]
+ | [[Hinabangan]]
+ | [[Jiabong]]
+ | [[Marabut, Samar|Marabut]]
+ | [[Motiong]]
+ | [[Paranas]]
+ | [[Pinabacdao]]
+ | [[San Jose de Buan]]
+ | [[San Sebastian, Samar|San Sebastian]]
+ | [[Santa Rita, Samar|Santa Rita]]
+ | [[Talalora]]
+ | [[Villareal, Samar|Villareal]]
+ | [[Zumarraga, Samar|Zumarraga]]{{efn|name=otg}}
+ }}
+|-
+| San Fernando Electric and Power Company
+| SFELAPCO
+| PIOU
+| Luzon
+| —
+| {{Collapsible list
+ | title = List (3)
+ | [[Bacolor]]{{efn|Cabalantian and San Isidro}}
+ | [[Floridablanca, Pampanga|Floridablanca]]
+ | [[San Fernando, Pampanga|San Fernando]]
+ }}
+|-
+| San Jose City Electric Cooperative
+| SAJELCO
+| NEA-EC
+| Luzon
+| 30,960
+| {{Collapsible list
+ | title = List (4)
+ | [[Carranglan]]{{efn|name=some}}
+ | [[Llanera, Nueva Ecija|Llanera]]{{efn|name=some}}
+ | [[Muñoz, Nueva Ecija|Muñoz]]{{efn|name=some}}
+ | [[San Jose, Nueva Ecija|San Jose]]
+ }}
+|-
+| Siargao Electric Cooperative
+| SIARELCO
+| NEA-EC
+| Mindanao
+| 34,362
+| {{Collapsible list
+ | title = List (9)
+ | [[Burgos, Surigao del Norte|Burgos]]
+ | [[Dapa, Surigao del Norte|Dapa]]
+ | [[Del Carmen, Surigao del Norte|Del Carmen]]
+ | [[General Luna, Surigao del Norte|General Luna]]
+ | [[Pilar, Surigao del Norte|Pilar]]
+ | [[San Benito, Surigao del Norte|San Benito]]
+ | [[San Isidro, Surigao del Norte|San Isidro]]
+ | [[Santa Monica, Surigao del Norte|Santa Monica]]
+ | [[Socorro, Surigao del Norte|Socorro]]
+ }}
+|-
+| Siasi Electric Cooperative
+| SIASELCO
+| SPUG-EC
+| Mindanao
+| —
+| {{Collapsible list
+ | title = List (1)
+ | [[Siasi]]
+ }}
+|-
+| Sorsogon I Electric Cooperative
+| SORECO I
+| NEA-EC
+| Luzon
+| 66,526
+| {{Collapsible list
+ | title = List (8)
+ | [[Bulan, Sorsogon|Bulan]]
+ | [[Bulusan (municipality)|Bulusan]]
+ | [[Casiguran, Sorsogon|Casiguran]]
+ | [[Irosin]]
+ | [[Juban, Sorsogon|Juban]]
+ | [[Magallanes, Sorsogon|Magallanes]]
+ | [[Matnog]]
+ | [[Santa Magdalena]]
+ }}
+|-
+| Sorsogon II Electric Cooperative
+| SORECO II
+| EC-CDA
+| Luzon
+| 93,149
+| {{Collapsible list
+ | title = List (7)
+ | [[Barcelona, Sorsogon|Barcelona]]
+ | [[Castilla, Sorsogon|Castilla]]
+ | [[Donsol]]
+ | [[Gubat]]
+ | [[Pilar, Sorsogon|Pilar]]
+ | [[Prieto Diaz]]
+ | [[Sorsogon City]]
+ }}
+|-
+| South Cotabato I Electric Cooperative
+| SOCOTECO I
+| NEA-EC
+| Mindanao
+| 118,770
+| {{Collapsible list
+ | title = List (10)
+ | [[Banga, South Cotabato|Banga]]
+ | [[Koronadal]]
+ | [[Lake Sebu, South Cotabato|Lake Sebu]]
+ | [[Lutayan]]
+ | [[Norala]]
+ | [[Santo Niño, South Cotabato|Santo Niño]]
+ | [[Surallah]]
+ | [[T'Boli, South Cotabato|T'Boli]]
+ | [[Tampakan]]
+ | [[Tantangan]]
+ }}
+|-
+| South Cotabato II Electric Cooperative
+| SOCOTECO II
+| NEA-EC
+| Mindanao
+| 185,622
+| {{Collapsible list
+ | title = List (10)
+ | [[Alabel]]
+ | [[General Santos]]
+ | [[Glan, Sarangani|Glan]]
+ | [[Kiamba, Sarangani|Kiamba]]
+ | [[Maasim]]
+ | [[Maitum]]
+ | [[Malapatan]]
+ | [[Malungon]]
+ | [[Polomolok]]
+ | [[Tupi, South Cotabato|Tupi]]
+ }}
+|-
+| Southern Leyte Electric Cooperative
+| SOLECO
+| NEA-EC
+| Visayas
+| 91,802<!-- 90,517 + 1,285 -->
+| {{Collapsible list
+ | title = List (19)
+ | [[Anahawan]]
+ | [[Bontoc, Southern Leyte|Bontoc]]
+ | [[Hinunangan]]{{efn|San Pedro and San Pablo are [[off-the-grid]]}}
+ | [[Hinundayan]]
+ | [[Libagon]]
+ | [[Liloan, Southern Leyte|Liloan]]
+ | [[Limasawa]]{{efn|name=otg}}
+ | [[Maasin]]
+ | [[Macrohon]]
+ | [[Malitbog, Southern Leyte|Malitbog]]
+ | [[Padre Burgos, Southern Leyte|Padre Burgos]]
+ | [[Pintuyan]]
+ | [[Saint Bernard, Southern Leyte|Saint Bernard]]
+ | [[San Francisco, Southern Leyte|San Francisco]]
+ | [[San Juan, Southern Leyte|San Juan]]
+ | [[San Ricardo]]
+ | [[Silago]]
+ | [[Sogod, Southern Leyte|Sogod]]
+ | [[Tomas Oppus]]
+ }}
+|-
+| Subic Enerzone Corporation
+| SEZ
+| PIOU
+| Luzon
+| 3,363
+| {{Collapsible list
+ | title = List (4)
+ | [[Hermosa, Bataan|Hermosa]]{{efn|name=sbfz|[[Subic Special Economic and Freeport Zone|Subic Bay Freeport Zone]]}}
+ | [[Morong, Bataan|Morong]]{{efn|name=sbfz}}
+ | [[Olongapo]]{{efn|name=sbfz}}
+ | [[Subic, Zambales|Subic]]{{efn|name=sbfz}}
+ }}
+|-
+| Sultan Kudarat Electric Cooperative
+| SUKELCO
+| NEA-EC
+| Mindanao
+| 114,099<!-- 81,120 + 32,979 -->
+| {{Collapsible list
+ | title = List (17)
+ | [[Bagumbayan, Sultan Kudarat|Bagumbayan]]
+ | [[Buluan]]
+ | [[Columbio]]
+ | [[Datu Paglas]]
+ | [[Esperanza, Sultan Kudarat|Esperanza]]
+ | [[General Salipada K. Pendatun, Maguindanao del Sur|General Salipada K. Pendatun]]
+ | [[Isulan]]
+ | [[Kalamansig]]{{efn|name=otg}}
+ | [[Lambayong]]
+ | [[Lebak, Sultan Kudarat|Lebak]]{{efn|name=otg}}
+ | [[Mangudadatu, Maguindanao del Sur|Mangudadatu]]
+ | [[Paglat]]
+ | [[Palimbang]]{{efn|name=otg}}
+ | [[Pandag]]
+ | [[President Quirino, Sultan Kudarat|President Quirino]]
+ | [[Senator Ninoy Aquino, Sultan Kudarat|Senator Ninoy Aquino]]{{efn|name=otg}}
+ | [[Tacurong]]
+ }}
+|-
+| Sulu Electric Cooperative
+| SULECO
+| SPUG-EC
+| Mindanao
+| 15,842
+| {{Collapsible list
+ | title = List (7)
+ | [[Indanan]]
+ | [[Jolo, Sulu|Jolo]]
+ | [[Luuk, Sulu|Luuk]]
+ | [[Maimbung]]
+ | [[Parang, Sulu|Parang]]
+ | [[Patikul]]
+ | [[Talipao]]
+ }}
+|-
+| Surigao del Norte Electric Cooperative
+| SURNECO
+| NEA-EC
+| Mindanao
+| 78,294<!-- 76,083 + 2,211 -->
+| {{Collapsible list
+ | title = List (12)
+ | [[Alegria, Surigao del Norte|Alegria]]
+ | [[Bacuag]]
+ | [[Claver, Surigao del Norte|Claver]]
+ | [[Gigaquit]]
+ | [[Mainit]]
+ | [[Malimono]]
+ | [[Placer, Surigao del Norte|Placer]]
+ | [[San Francisco, Surigao del Norte|San Francisco]]
+ | [[Sison, Surigao del Norte|Sison]]
+ | [[Surigao City]]{{efn|Hikdop and Nonoc are [[off-the-grid]]}}
+ | [[Tagana-an]]
+ | [[Tubod, Surigao del Norte|Tubod]]
+ }}
+|-
+| Surigao del Sur I Electric Cooperative
+| SURSECO I
+| NEA-EC
+| Mindanao
+| 51,734
+| {{Collapsible list
+ | title = List (5)
+ | [[Barobo]]
+ | [[Bislig]]
+ | [[Hinatuan]]
+ | [[Lingig]]
+ | [[Tagbina]]
+ }}
+|-
+| Surigao del Sur II Electric Cooperative
+| SURSECO II
+| NEA-EC
+| Mindanao
+| 68,225
+| {{Collapsible list
+ | title = List (14)
+ | [[Bayabas, Surigao del Sur|Bayabas]]
+ | [[Cagwait]]
+ | [[Cantilan]]
+ | [[Carmen, Surigao del Sur|Carmen]]
+ | [[Carrascal]]
+ | [[Cortes, Surigao del Sur|Cortes]]
+ | [[Lanuza, Surigao del Sur|Lanuza]]
+ | [[Lianga]]
+ | [[Madrid, Surigao del Sur|Madrid]]
+ | [[Marihatag]]
+ | [[San Agustin, Surigao del Sur|San Agustin]]
+ | [[San Miguel, Surigao del Sur|San Miguel]]
+ | [[Tago, Surigao del Sur|Tago]]
+ | [[Tandag]]
+ }}
+|-
+| Tablas Island Electric Cooperative
+| TIELCO
+| SPUG-EC
+| Luzon
+| 41,438
+| {{Collapsible list
+ | title = List (10)
+ | [[Alcantara, Romblon|Alcantara]]
+ | [[Calatrava, Romblon|Calatrava]]
+ | [[Ferrol, Romblon|Ferrol]]
+ | [[Looc, Romblon|Looc]]
+ | [[Odiongan]]
+ | [[San Agustin, Romblon|San Agustin]]
+ | [[San Andres, Romblon|San Andres]]
+ | [[San Jose, Romblon|San Jose]]
+ | [[Santa Fe, Romblon|Santa Fe]]
+ | [[Santa Maria, Romblon|Santa Maria]]
+ }}
+|-
+| Tarlac Electric
+| TEI
+| PIOU
+| Luzon
+| 79,542
+| {{Collapsible list
+ | title = List (1)
+ | [[Tarlac City]]
+ }}
+|-
+| Tarlac I Electric Cooperative
+| TARELCO I
+| NEA-EC
+| Luzon
+| 177,792
+| {{Collapsible list
+ | title = List (17)
+ | [[Anao, Tarlac|Anao]]
+ | [[Camiling]]
+ | [[Cuyapo]]
+ | [[Gerona, Tarlac|Gerona]]
+ | [[Guimba]]
+ | [[Mayantoc]]
+ | [[Moncada, Tarlac|Moncada]]
+ | [[Nampicuan]]
+ | [[Paniqui]]
+ | [[Pura, Tarlac|Pura]]
+ | [[Ramos, Tarlac|Ramos]]
+ | [[San Clemente, Tarlac|San Clemente]]
+ | [[San Jose, Tarlac|San Jose]]
+ | [[San Manuel, Tarlac|San Manuel]]
+ | [[Santa Ignacia]]
+ | [[Tarlac City]]{{efn|name=some}}
+ | [[Victoria, Tarlac|Victoria]]
+ }}
+|-
+| Tarlac II Electric Cooperative
+| TARELCO II
+| NEA-EC
+| Luzon
+| 102,979
+| {{Collapsible list
+ | title = List (5)
+ | [[Bamban]]
+ | [[Capas]]
+ | [[Concepcion, Tarlac|Concepcion]]
+ | [[La Paz, Tarlac|La Paz]]
+ | [[Zaragoza, Nueva Ecija|Zaragoza]]
+ }}
+|-
+| Tawi-Tawi Electric Cooperative
+| TAWELCO
+| SPUG-EC
+| Mindanao
+| 13,227
+| {{Collapsible list
+ | title = List (9)
+ | [[Bongao]]
+ | [[Languyan]]
+ | [[Panglima Sugala]]
+ | [[Sapa-Sapa]]
+ | [[Sibutu]]
+ | [[Simunul]]
+ | [[Sitangkai]]
+ | [[South Ubian]]
+ | [[Tandubas]]
+ }}
+|-
+| Ticao Island Electric Cooperative
+| TISELCO
+| SPUG-EC
+| Luzon
+| 13,685
+| {{Collapsible list
+ | title = List (4)
+ | [[Batuan, Masbate|Batuan]]
+ | [[Monreal, Masbate|Monreal]]
+ | [[San Fernando, Masbate|San Fernando]]
+ | [[San Jacinto, Masbate|San Jacinto]]
+ }}
+|-
+| [[Visayan Electric Company]]
+| VECO
+| PIOU
+| Visayas
+| 437,823
+| {{Collapsible list
+ | title = List (8)
+ | [[Cebu City]]
+ | [[Consolacion]]
+ | [[Liloan, Cebu|Liloan]]
+ | [[Mandaue]]
+ | [[Minglanilla]]
+ | [[Naga, Cebu|Naga]]
+ | [[San Fernando, Cebu|San Fernando]]
+ | [[Talisay, Cebu|Talisay]]
+ }}
+|-
+| Zambales I Electric Cooperative
+| ZAMECO I
+| NEA-EC
+| Luzon
+| 64,761
+| {{Collapsible list
+ | title = List (6)
+ | [[Botolan]]
+ | [[Candelaria, Zambales|Candelaria]]
+ | [[Iba, Zambales|Iba]]
+ | [[Masinloc]]
+ | [[Palauig]]
+ | [[Santa Cruz, Zambales|Santa Cruz]]
+ }}
+|-
+| Zambales II Electric Cooperative
+| ZAMECO II
+| NEA-EC
+| Luzon
+| 79,336
+| {{Collapsible list
+ | title = List (7)
+ | [[Cabangan]]
+ | [[Castillejos]]
+ | [[San Antonio, Zambales|San Antonio]]
+ | [[San Felipe, Zambales|San Felipe]]
+ | [[San Marcelino]]
+ | [[San Narciso, Zambales|San Narciso]]
+ | [[Subic, Zambales|Subic]]
+ }}
+|-
+| Zamboanga City Electric Cooperative
+| ZAMCELCO
+| NEA-EC
+| Mindanao
+| 121,750<!-- 121,208 + 542 -->
+| {{Collapsible list
+ | title = List (1)
+ | [[Zamboanga City]]{{efn|Sacol Island is [[off-the-grid]]}}
+ }}
+|-
+| Zamboanga del Norte Electric Cooperative
+| ZANECO
+| NEA-EC
+| Mindanao
+| 124,242
+| {{Collapsible list
+ | title = List (23)
+ | [[Dapitan]]
+ | [[Dipolog]]
+ | [[Godod]]
+ | [[Gutalac]]
+ | [[Jose Dalman]]
+ | [[Kalawit]]
+ | [[Katipunan, Zamboanga del Norte|Katipunan]]
+ | [[La Libertad, Zamboanga del Norte|La Libertad]]
+ | [[Labason]]
+ | [[Leon B. Postigo]]
+ | [[Liloy]]
+ | [[Manukan, Zamboanga del Norte|Manukan]]
+ | [[Mutia, Zamboanga del Norte|Mutia]]
+ | [[Piñan]]
+ | [[Polanco, Zamboanga del Norte|Polanco]]
+ | [[Rizal, Zamboanga del Norte|Rizal]]
+ | [[Roxas, Zamboanga del Norte|Roxas]]
+ | [[Salug]]
+ | [[Sergio Osmeña, Zamboanga del Norte|Sergio Osmeña]]
+ | [[Siayan, Zamboanga del Norte|Siayan]]
+ | [[Sibutad]]
+ | [[Sindangan]]
+ | [[Tampilisan]]
+ }}
+|-
+| Zamboanga del Sur I Electric Cooperative
+| ZAMSURECO I
+| NEA-EC
+| Mindanao
+| 134,205
+| {{Collapsible list
+ | title = List (25)
+ | [[Aurora, Zamboanga del Sur|Aurora]]
+ | [[Dimataling]]
+ | [[Dinas, Zamboanga del Sur|Dinas]]
+ | [[Don Victoriano]]
+ | [[Dumalinao]]
+ | [[Dumingag]]
+ | [[Guipos]]
+ | [[Josefina, Zamboanga del Sur|Josefina]]
+ | [[Labangan]]
+ | [[Lapuyan]]
+ | [[Mahayag]]
+ | [[Margosatubig]]
+ | [[Midsalip]]
+ | [[Molave, Zamboanga del Sur|Molave]]
+ | [[Pagadian]]
+ | [[Pitogo, Zamboanga del Sur|Pitogo]]
+ | [[Ramon Magsaysay, Zamboanga del Sur|Ramon Magsaysay]]
+ | [[San Miguel, Zamboanga del Sur|San Miguel]]
+ | [[San Pablo, Zamboanga del Sur|San Pablo]]
+ | [[Sominot]]
+ | [[Tabina]]
+ | [[Tambulig]]
+ | [[Tigbao, Zamboanga del Sur|Tigbao]]
+ | [[Tukuran]]
+ | [[Vincenzo A. Sagun]]
+ }}
+|-
+| Zamboanga del Sur II Electric Cooperative
+| ZAMSURECO II
+| NEA-EC
+| Mindanao
+| 111,020
+| {{Collapsible list
+ | title = List (23)
+ | [[Alicia, Zamboanga Sibugay|Alicia]]
+ | [[Baliguian]]
+ | [[Bayog]]
+ | [[Buug]]
+ | [[Diplahan]]
+ | [[Imelda, Zamboanga Sibugay|Imelda]]
+ | [[Ipil, Zamboanga Sibugay|Ipil]]
+ | [[Kabasalan]]
+ | [[Kumalarang]]
+ | [[Lakewood, Zamboanga del Sur|Lakewood]]
+ | [[Mabuhay, Zamboanga Sibugay|Mabuhay]]
+ | [[Malangas]]
+ | [[Naga, Zamboanga Sibugay|Naga]]
+ | [[Olutanga, Zamboanga Sibugay|Olutanga]]
+ | [[Payao, Zamboanga Sibugay|Payao]]
+ | [[Roseller Lim, Zamboanga Sibugay|Roseller Lim]]
+ | [[Siay]]
+ | [[Sibuco]]
+ | [[Siocon]]
+ | [[Sirawai]]
+ | [[Talusan]]
+ | [[Titay]]
+ | [[Tungawan]]
+ }}
+|}
+
+== See also ==
+* [[List of companies of the Philippines]]
+* [[List of power plants in the Philippines]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+*[https://www.doe.gov.ph/duprofile Distribution Utility (DU) Profile]
+
+{{Energy in the Philippines}}
+{{Authority control}}
+
+[[Category:Electric cooperatives of the Philippines| ]]
+[[Category:Electric power companies of the Philippines| ]]
+[[Category:Lists of companies of the Philippines|Electric]]
+[[Category:Electric power-related lists|Philippines]]
+[[Category:Lists of energy companies|Philippines]]

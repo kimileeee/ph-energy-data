@@ -1,0 +1,142 @@
+utility_id,doe_name,grid,region,island,du_type,doe_source_text,doe_source_url,doe_sheet_row
+aec,AEC,ONGRID,Region 3,Luzon,PIOU,Advisories – Angeles Electric,https://angeleselectric.com.ph/advisories/,11
+cedc,CEDC,ONGRID,Region 3,Luzon,PIOU,Generation Charges and Bill Rates | Clark Electric Distribution Corporation,https://www.clarkelectric.ph/bills-and-payment/generation-charges-and-bill-rates,12
+celcor,CELCOR,ONGRID,Region 3,Luzon,PIOU,CELCOR | Rates Archives,https://www.celcor.com.ph/rate-archives,13
+decorp,DECORP,ONGRID,Region 1,Luzon,PIOU,https://www.facebook.com/dagupanelectric/photos,https://www.facebook.com/dagupanelectric/photos,14
+fbpc,FBPC,ONGRID,Region 4A,Luzon,PIOU,First Bay Power Corporation,https://firstbaypower.com/,15
+ieec,IEEC,ONGRID,Region 4A,Luzon,PIOU,Ibaan Electric Corporation,https://www.facebook.com/ibaanelectric,16
+lueco,LUECO,ONGRID,Region 1,Luzon,PIOU,LUECOINC,https://www.luecoinc.com/,17
+meralco,MERALCO,ONGRID,NCR,Luzon,PIOU,News & Advisories,https://company.meralco.com.ph/news-and-advisories,18
+oedc,OEDC,ONGRID,Region 3,Luzon,PIOU,"Olongapo Electricity Distribution Company, Inc.",https://www.facebook.com/OEDCOfficial,19
+pames,PAMES,ONGRID,Region 3,Luzon,PIOU,,,20
+sfelapco,SFELAPCO,ONGRID,Region 3,Luzon,PIOU,San Fernando Electric Light and Power Company,https://www.facebook.com/sfelapco,21
+tei,TEI,ONGRID,Region 3,Luzon,PIOU,Rate Schedule / Customer Class – Tarlac Electric,https://tarlacelectric.com/rate-schedule-customer-class,22
+blci,BLCI,ONGRID,Region 7,Visayas,PIOU,"Power Rates 2024 – Bohol Light Company, Inc.",https://www.bohollight.com/main/power-rates-2024/,25
+ceneco-nepc,CENECO/NEPC,ONGRID,NIR,Visayas,PIOU,https://www.facebook.com/negrospowerph,https://www.facebook.com/negrospowerph,26
+meco,MECO,ONGRID,Region 7,Visayas,PIOU,RATES,https://mecomactan.com/rates/,27
+more-power,MORE Power,ONGRID,Region 6,Visayas,PIOU,Rates « MORE Power,https://morepower.com.ph/monthly-rates/,28
+veco,VECO,ONGRID,Region 7,Visayas,PIOU,Average Monthly Rate,https://visayanelectric.com/page.html?main=clients&sub1=your%20bill&sub2=Average%20Monthly%20Rate,29
+cepalco,CEPALCO,ONGRID,Region 10,Mindanao,PIOU,https://www.facebook.com/cepalcoofficial/,https://www.facebook.com/cepalcoofficial/,32
+clpc,CLPC,ONGRID,BARMM,Mindanao,PIOU,https://www.cotabatolight.com/index.php?option=com_content&view=article&id=330&Itemid=367,https://www.cotabatolight.com/index.php?option=com_content&view=article&id=330&Itemid=367,33
+dlpc,DLPC,ONGRID,Region 11,Mindanao,PIOU,Monthly Rate Schedule,https://www.davaolight.com/index.php/pages/rates,34
+ilpi,ILPI,ONGRID,Region 10,Mindanao,PIOU,"Photos of Iligan Light & Power, Inc.",https://www.facebook.com/iliganlight/photos,35
+abreco,ABRECO,ONGRID,CAR,Luzon,EC,Abra Electric Cooperative | Bangued,https://www.facebook.com/AbraElectricCoop/,40
+beneco,BENECO,ONGRID,CAR,Luzon,EC,Benguet Electric Cooperative | Electricity Rates,https://www.beneco.com.ph/rates.php,41
+ifelco,IFELCO,ONGRID,CAR,Luzon,EC,https://www.facebook.com/ifelco.ifugao/photos?locale=tl_PH,https://www.facebook.com/ifelco.ifugao/photos?locale=tl_PH,42
+kaelco,KAELCO,ONGRID,CAR,Luzon,EC,https://www.facebook.com/kaelcoincorporated/photos,https://www.facebook.com/kaelcoincorporated/photos,43
+mopreco,MOPRECO,ONGRID,CAR,Luzon,EC,https://mopreco.com.ph/tables.html,https://mopreco.com.ph/tables.html,44
+cenpelco,CENPELCO,ONGRID,Region 1,Luzon,EC,CENPELCO Central Pangasinan Electric Cooperative,https://cenpelco.com/,47
+inec,INEC,ONGRID,Region 1,Luzon,EC,"October Rates 2023 – Ilocos Norte Electric Cooperative, Inc.",https://inec-ec.com/residential-rate/,48
+iseco,ISECO,ONGRID,Region 1,Luzon,EC,https://www.iseco.org/rates/2025/2025.html,https://www.iseco.org/rates/2025/2025.html,49
+luelco,LUELCO,ONGRID,Region 1,Luzon,EC,https://www.iseco.org/rates/2025/2025.html,https://www.iseco.org/rates/2025/2025.html,50
+panelco-i,PANELCO I,ONGRID,Region 1,Luzon,EC,https://www.facebook.com/PANELCOI,https://www.facebook.com/PANELCOI,51
+panelco-iii,PANELCO III,ONGRID,Region 1,Luzon,EC,https://www.panelco3.online/rates/rates.php,https://www.panelco3.online/rates/rates.php,52
+batanelco,BATANELCO,OFFGRID,Region 2,Luzon,EC,https://www.facebook.com/BatanesBatanelco/photos,https://www.facebook.com/BatanesBatanelco/photos,55
+cagelco-i,CAGELCO I,ONGRID,Region 2,Luzon,EC,https://www.cagelco1.org.ph/billingrates,https://www.cagelco1.org.ph/billing-rates,56
+cagelco-ii,CAGELCO II,ONGRID,Region 2,Luzon,EC,https://cagelco2.org.ph/powerrates2024/,https://cagelco2.org.ph/power-rates-2024/,57
+iselco-i,ISELCO I,ONGRID,Region 2,Luzon,EC,ISELCO Uno  Billing Rates,https://iselcouno.com/services/billing-rates,58
+iselco-ii,ISELCO II,ONGRID,Region 2,Luzon,EC,https://www.facebook.com/ISELCOII/photos,https://www.facebook.com/ISELCOII/photos,59
+nuvelco,NUVELCO,ONGRID,Region 2,Luzon,EC,https://www.nuvelco.com/,https://www.nuvelco.com/,60
+quirelco,QUIRELCO,ONGRID,Region 2,Luzon,EC,https://www.facebook.com/quirelco/photos,https://www.facebook.com/quirelco/photos,61
+aurelco,AURELCO,ONGRID,Region 3,Luzon,EC,https://aurelco.com.ph/index.html,https://aurelco.com.ph/index.html,64
+neeco-i,NEECO I,ONGRID,Region 3,Luzon,EC,https://neeco1.org/unbundled-power-rates,https://neeco1.org/unbundled-power-rates,65
+neeco-ii-area-i,NEECO II  AREA I,ONGRID,Region 3,Luzon,EC,Neeco II  Area 1 | Rate Archive,https://neeco2area1.com/unbundled-power-rates,66
+neeco-ii-area-ii,NEECO II  AREA II,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/NEECO2AREA1OFFICIAL/photos,https://www.facebook.com/NEECO2AREA1OFFICIAL/photos,67
+pelco-i,PELCO I,ONGRID,Region 3,Luzon,EC,https://www.pelco1.org.ph/,https://www.pelco1.org.ph/,68
+pelco-ii,PELCO II,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/Pelco2/photos,https://www.facebook.com/Pelco2/photos,69
+pelco-iii,PELCO III,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/pelco3official,https://www.facebook.com/pelco3official,70
+penelco,PENELCO,ONGRID,Region 3,Luzon,EC,https://www.penelco.com/,https://www.penelco.com/,71
+presco,PRESCO,ONGRID,Region 3,Luzon,EC,https://presco1968.wixsite.com/presco/copyofrate2023,https://presco1968.wixsite.com/presco/copy-of-rate-2023,72
+sajelco,SAJELCO,ONGRID,Region 3,Luzon,EC,https://sajelco.ph/#,https://sajelco.ph/,73
+tarelco-i,TARELCO I,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/TARLAC1ELECTRICCOOPERATIVE,https://www.facebook.com/TARLAC1ELECTRICCOOPERATIVE,74
+tarelco-ii,TARELCO II,ONGRID,Region 3,Luzon,EC,rates  Tarlac,https://www.tarelco2.com/rates.html,75
+zameco-i,ZAMECO I,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/ZAMECOI/photos,https://www.facebook.com/ZAMECOI/photos,76
+zameco-ii,ZAMECO II,ONGRID,Region 3,Luzon,EC,https://www.facebook.com/zameco2official/photos,https://www.facebook.com/zameco2official/photos,77
+batelec-i,BATELEC I,ONGRID,Region 4A,Luzon,EC,BATELEC I,https://www.batelec1.com.ph/,80
+batelec-ii,BATELEC II,ONGRID,Region 4A,Luzon,EC,Batelec II Electric Cooperative,https://www.batelec2.com.ph/,81
+fleco,FLECO,ONGRID,Region 4A,Luzon,EC,Effective Unbundled Rate,https://fleco.com.ph/newsite/unbundled.php,82
+quezelco-i,QUEZELCO I,ONGRID,Region 4A,Luzon,EC,https://quezelco1.org/rates,https://quezelco1.org/rates,83
+quezelco-ii,QUEZELCO II,ONGRID,Region 4A,Luzon,EC,https://www.facebook.com/photo.php?fbid=855841420026485&set=pb.100068019054739.2207520000&type=3,https://www.facebook.com/photo.php?fbid=855841420026485&set=pb.100068019054739.-2207520000&type=3,84
+biselco,BISELCO,OFFGRID,Region 4B,Luzon,EC,Biselco EC | Facebook,https://www.facebook.com/biselco.coronpalawan/,87
+lubelco,LUBELCO,OFFGRID,Region 4B,Luzon,EC,,,88
+marelco,MARELCO,OFFGRID,Region 4B,Luzon,EC,https://www.marelco.org.ph/news_and_updates/power_rates,https://www.marelco.org.ph/news_and_updates/power_rates,89
+omeco,OMECO,OFFGRID,Region 4B,Luzon,EC,https://www.omeco.com.ph/,https://www.omeco.com.ph/,90
+ormeco,ORMECO,OFFGRID,Region 4B,Luzon,EC,https://www.facebook.com/OrientalMindoroElectricCooperativeInc/photos,https://www.facebook.com/OrientalMindoroElectricCooperativeInc/photos,91
+paleco,PALECO,OFFGRID,Region 4B,Luzon,EC,https://paleco.net/paleco/ratesgenerationcharges/,https://paleco.net/paleco/rates-generation-charges/,92
+romelco,ROMELCO,OFFGRID,Region 4B,Luzon,EC,https://www.facebook.com/officialromelco/photos,https://www.facebook.com/officialromelco/photos,93
+tielco,TIELCO,OFFGRID,Region 4B,Luzon,EC,TIELCO,https://tielcoelecdu.com/,94
+aleco,ALECO,ONGRID,Region 5,Luzon,EC,Albay Electric Cooperative. Inc.,https://web.alecoinc.com.ph/,97
+canoreco,CANORECO,ONGRID,Region 5,Luzon,EC,https://canoreco.com.ph/,https://canoreco.com.ph/,98
+casureco1,CASURECO1,ONGRID,Region 5,Luzon,EC,CASURECO I,https://www.casureco1.com/,99
+casureco2,CASURECO2,ONGRID,Region 5,Luzon,EC,CASURECO II,https://casureco2.com.ph/,100
+casureco3,CASURECO3,ONGRID,Region 5,Luzon,EC,RATES,https://www.casureco3.com/rates.html,101
+casureco4,CASURECO4,ONGRID,Region 5,Luzon,EC,https://www.casureco4.com/billingrates,https://www.casureco4.com/billingrates,102
+ficelco,FICELCO,OFFGRID,Region 5,Luzon,EC,https://www.facebook.com/ficelco/photos_by,https://www.facebook.com/ficelco/photos_by,103
+maselco,MASELCO,OFFGRID,Region 5,Luzon,EC,"Masbate Electric Coop., Inc | Mobo",https://www.facebook.com/OfficialMASELCO,104
+soreco1,SORECO1,ONGRID,Region 5,Luzon,EC,https://www.facebook.com/soreco1/photos,https://www.facebook.com/soreco1/photos,105
+soreco2,SORECO2,ONGRID,Region 5,Luzon,EC,https://www.facebook.com/profile.php?id=100068019054739&sk=photos,https://www.facebook.com/profile.php?id=100068019054739&sk=photos,106
+tiselco,TISELCO,OFFGRID,Region 5,Luzon,EC,https://www.facebook.com/profile.php?id=61557599057473&sk=photos,https://www.facebook.com/profile.php?id=61557599057473&sk=photos,107
+noceco,NOCECO,ONGRID,NIR,Visayas,EC,https://web.facebook.com/taylor.cena.52,https://web.facebook.com/taylor.cena.52,111
+noneco,NONECO,ONGRID,NIR,Visayas,EC,"Photos of Northern Negros Electric Cooperative, Inc.",https://www.facebook.com/nncooperative/photos,112
+noreco-i,NORECO I,ONGRID,NIR,Visayas,EC,https://www.facebook.com/profile.php?id=100069147744919&sk=photos_by,https://www.facebook.com/profile.php?id=100069147744919&sk=photos_by,113
+noreco-ii,NORECO II,ONGRID,NIR,Visayas,EC,Unbundled Rates | NORECO II,https://www.noreco2.com.ph/unbundled-rates,114
+akelco,AKELCO,ONGRID,Region 6,Visayas,EC,Power Rates,https://www.akelco.com.ph/rates.html,117
+anteco,ANTECO,ONGRID,Region 6,Visayas,EC,"Antique Electric Cooperative, Inc. | San Jose de Buenavista",https://www.facebook.com/antecoPH/,118
+capelco,CAPELCO,ONGRID,Region 6,Visayas,EC,"Capiz Electric Cooperative, Inc. | Roxas City",https://www.facebook.com/CAPELCO.Official/,119
+guimelco,GUIMELCO,ONGRID,Region 6,Visayas,EC,Monthly Rates Schedule | GUIMELCO Official Website,https://www.guimelco.com/member-consumer-owners/monthly-rates-schedule/,120
+ileco-i,ILECO I,ONGRID,Region 6,Visayas,EC,https://ileco1.com/rates/,https://ileco1.com/rates/,121
+ileco-ii,ILECO II,ONGRID,Region 6,Visayas,EC,ILECO 2 | GENERATION RATES,https://www.ileco2.ph/Generation/?,122
+ileco-iii,ILECO III,ONGRID,Region 6,Visayas,EC,"ILOILO III ELECTRIC COOPERATIVE, INC.",https://ileco3.com/,123
+banelco,BANELCO,OFFGRID,Region 7,Visayas,EC,October 2023 Generation Rates,https://banelcobantayan.com/october-2023-generation-rates/,126
+boheco-i,BOHECO I,ONGRID,Region 7,Visayas,EC,https://www.facebook.com/BOHECO1officialpage/photos_by,https://www.facebook.com/BOHECO1officialpage/photos_by,127
+boheco-ii,BOHECO II,ONGRID,Region 7,Visayas,EC,Rate Advisory,https://boheco2.net/rate-advisory,128
+cebeco-i,CEBECO I,ONGRID,Region 7,Visayas,EC,https://www.cebeco1.com/2024effectivepowerrates,https://www.cebeco-1.com/2024-effective-power-rates,129
+cebeco-ii,CEBECO II,ONGRID,Region 7,Visayas,EC,https://www.facebook.com/cebeco2.official/photos,https://www.facebook.com/cebeco2.official/photos,130
+cebeco-iii,CEBECO III,ONGRID,Region 7,Visayas,EC,RATE SCHEDULE FOR THE YEAR 2024 – CEBECO III,http://www.cebeco3.com.ph/2024/07/09/rate-schedule-for-the-year-2024/,131
+celco,CELCO,OFFGRID,Region 7,Visayas,EC,https://www.facebook.com/profile.php?id=100070228032299&sk=photos,https://www.facebook.com/profile.php?id=100070228032299&sk=photos,132
+prosielco,PROSIELCO,OFFGRID,Region 7,Visayas,EC,PROSIELCO Generation Charges/Unbundled Rate,https://prosielco.com/prosielco-unbundled-rate/,133
+bileco,BILECO,ONGRID,Region 8,Visayas,EC,https://www.facebook.com/bilecoofficial/photos,https://www.facebook.com/bilecoofficial/photos,136
+esamelco,ESAMELCO,ONGRID,Region 8,Visayas,EC,https://www.facebook.com/esamelco1977/photos,https://www.facebook.com/esamelco1977/photos,137
+leyeco-1-dorelco,LEYECO 1/DORELCO,ONGRID,Region 8,Visayas,EC,DORELCO | Tolosa,https://www.facebook.com/dorelco,138
+leyeco-ii,LEYECO II,ONGRID,Region 8,Visayas,EC,https://www.leyeco2.online/anonymous/ratesinquiry,https://www.leyeco2.online/anonymous/rates-inquiry,139
+leyeco-iii,LEYECO III,ONGRID,Region 8,Visayas,EC,News and Updates | leyeco3,https://www.leyeco3.com/news-and-updates,140
+leyeco-iv,LEYECO IV,ONGRID,Region 8,Visayas,EC,https://www.facebook.com/leyeco4/photos_by,https://www.facebook.com/leyeco4/photos_by,141
+leyeco-v,LEYECO V,ONGRID,Region 8,Visayas,EC,LEYECO V Power Rate  Ormoc,https://www.leyeco-v.com.ph/power-rate,142
+norsamelco,NORSAMELCO,ONGRID,Region 8,Visayas,EC,https://www.facebook.com/profile.php?id=100057438819334&sk=photos,https://www.facebook.com/profile.php?id=100057438819334&sk=photos,143
+samelco-i,SAMELCO I,ONGRID,Region 8,Visayas,EC,https://samelco1.com/monthly-power-rates/,https://samelco1.com/monthly-power-rates/,144
+samelco-ii,SAMELCO II,ONGRID,Region 8,Visayas,EC,https://www.facebook.com/samelco2paranas/photos,https://www.facebook.com/samelco2paranas/photos,145
+soleco,SOLECO,ONGRID,Region 8,Visayas,EC,https://www.soleco.com.ph/,https://www.soleco.com.ph/,146
+zamcelco,ZAMCELCO,ONGRID,Region 9,Mindanao,EC,New ZAMCELCO,https://www.zamcelco.com.ph/,150
+zamsureco-i,ZAMSURECO I,ONGRID,Region 9,Mindanao,EC,,,151
+zamsureco-ii,ZAMSURECO II,ONGRID,Region 9,Mindanao,EC,"Zamboanga del Sur II Electric Cooperative, Inc.",https://www.facebook.com/ZamsurecoDos,152
+zaneco,ZANECO,ONGRID,Region 9,Mindanao,EC,ZANECO,https://zaneco.ph/,153
+buseco,BUSECO,ONGRID,Region 10,Mindanao,EC,https://www.facebook.com/BUSECOKasanagMCOs/photos,https://www.facebook.com/BUSECOKasanagMCOs/photos,156
+camelco,CAMELCO,ONGRID,Region 10,Mindanao,EC,https://www.facebook.com/camelco1977/photos,https://www.facebook.com/camelco1977/photos,157
+fibeco,FIBECO,ONGRID,Region 10,Mindanao,EC,FIBECO INC. | Rates,https://fibeco.ph/rates.php?id=2023&Rates,158
+laneco,LANECO,ONGRID,Region 10,Mindanao,EC,https://laneco.co/electricbillingrates/,https://laneco.co/electric-billing-rates/,159
+moelci-i,MOELCI I,ONGRID,Region 10,Mindanao,EC,Power Rates | MOELCI 1,https://moelci-1.com/powerrates,160
+moelci-ii,MOELCI II,ONGRID,Region 10,Mindanao,EC,moelciii,https://moelci2.com/,161
+moresco-i,MORESCO I,ONGRID,Region 10,Mindanao,EC,Laguindingan  MORESCO1,https://www.facebook.com/moresco.one/photos,162
+moresco-ii,MORESCO II,ONGRID,Region 10,Mindanao,EC,https://www.facebook.com/MORESCOIIofficial/photos,https://www.facebook.com/MORESCOIIofficial/photos,163
+daneco-nordeco,DANECO/NORDECO,ONGRID,Region 11,Mindanao,EC,https://www.facebook.com/nordecoinc/photos,https://www.facebook.com/nordecoinc/photos,166
+dasureco,DASURECO,ONGRID,Region 11,Mindanao,EC,https://www.facebook.com/DasurecoOfficial/photos,https://www.facebook.com/DasurecoOfficial/photos,167
+doreco,DORECO,ONGRID,Region 11,Mindanao,EC,https://www.doreco.net/latestpowerrates/,https://www.doreco.net/latest-power-rates/,168
+cotelco,COTELCO,ONGRID,Region 12,Mindanao,EC,Power Rates | Cotelco Inc.,https://cotelco.com.ph/power-rates/,171
+ppalma,PPALMA,ONGRID,Region 12,Mindanao,EC,https://www.ppalmacotelco.com/powerrates,https://www.ppalmacotelco.com/powerrates,172
+socoteco-i,SOCOTECO I,ONGRID,Region 12,Mindanao,EC,https://www.facebook.com/socoteco1.koronadal/photos,https://www.facebook.com/socoteco1.koronadal/photos,173
+socoteco-ii,SOCOTECO II,ONGRID,Region 12,Mindanao,EC,https://www.socoteco2.com/,https://www.socoteco2.com/,174
+sukelco,SUKELCO,ONGRID,Region 12,Mindanao,EC,https://www.facebook.com/sukelco/photos_by,https://www.facebook.com/sukelco/photos_by,175
+aneco,ANECO,ONGRID,CARAGA,Mindanao,EC,"Agusan del Norte Electric Cooperative, Inc.",https://www.aneco.ph/,178
+aselco,ASELCO,ONGRID,CARAGA,Mindanao,EC,https://aselco.ph/consumerservices/powerrates/#tab3624510,https://aselco.ph/consumer-services/power-rates/,179
+dielco,DIELCO,OFFGRID,CARAGA,Mindanao,EC,,,180
+siarelco,SIARELCO,ONGRID,CARAGA,Mindanao,EC,https://siarelco.com/?s=rate,https://siarelco.com/?s=rate,181
+surneco,SURNECO,ONGRID,CARAGA,Mindanao,EC,https://www.facebook.com/surneco/photos_by,https://www.facebook.com/surneco/photos_by,182
+surseco-i,SURSECO I,ONGRID,CARAGA,Mindanao,EC,Comparative Average Power Rates,https://surseco1.ph/ComAvPR.aspx,183
+surseco-ii,SURSECO II,ONGRID,CARAGA,Mindanao,EC,"SURSECO II, Inc",http://surseco2.com.ph/,184
+baselco,BASELCO,OFFGRID,BARMM,Mindanao,EC,https://www.facebook.com/baselco.basilan.3720/photos_by,https://www.facebook.com/baselco.basilan.3720/photos_by,187
+caselco,CASELCO,OFFGRID,BARMM,Mindanao,EC,,,188
+lasureco,LASURECO,ONGRID,BARMM,Mindanao,EC,LASURECO,https://lasureco.com/,189
+magelco,MAGELCO,ONGRID,BARMM,Mindanao,EC,,,190
+siaselco,SIASELCO,OFFGRID,BARMM,Mindanao,EC,,,191
+suleco,SULECO,OFFGRID,BARMM,Mindanao,EC,,,192
+tawelco,TAWELCO,OFFGRID,BARMM,Mindanao,EC,,,193

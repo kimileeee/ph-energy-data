@@ -1,0 +1,446 @@
+{
+  "name": "ph-electricity-rates",
+  "title": "Philippine electricity rates per distribution utility (prototype)",
+  "description": "DOE's hand-compiled monthly rate sheet as a tidy, joinable dataset, with a master list of distribution utilities keyed by a stable ID and PSGC codes, and automated checks against utilities' own rate documents.",
+  "version": "0.1.0",
+  "created": "2026-11-16T15:54:17+00:00",
+  "licenses": [
+    {
+      "name": "ODC-BY-1.0",
+      "path": "https://opendatacommons.org/licenses/by/1-0/",
+      "title": "Open Data Commons Attribution License (compilation); source data remains under its publishers' terms"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DOE: Electricity rates per distribution utility (Google Sheet)",
+      "path": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I"
+    },
+    {
+      "title": "DOE: Data and prices, electricity",
+      "path": "https://www.doe.gov.ph/data-and-prices/electricity"
+    },
+    {
+      "title": "PSA PSGC via github.com/bendlikeabamboo/barangay (MIT)",
+      "path": "https://github.com/bendlikeabamboo/barangay"
+    },
+    {
+      "title": "Wikipedia: List of electric distribution utilities in the Philippines",
+      "path": "https://en.wikipedia.org/wiki/List_of_electric_distribution_utilities_in_the_Philippines"
+    }
+  ],
+  "resources": [
+    {
+      "name": "utilities",
+      "path": "utilities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Master list v0: one row per distribution utility in DOE's rate sheet, with PSGC coverage.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "doe_name",
+            "type": "string",
+            "description": "Utility name exactly as DOE prints it (usually the acronym)."
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Full name, from the coverage source."
+          },
+          {
+            "name": "wiki_acronym",
+            "type": "string"
+          },
+          {
+            "name": "du_type",
+            "type": "string"
+          },
+          {
+            "name": "grid",
+            "type": "string"
+          },
+          {
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "psgc_region_code",
+            "type": "string"
+          },
+          {
+            "name": "island",
+            "type": "string"
+          },
+          {
+            "name": "psgc_province_codes",
+            "type": "string",
+            "description": "Semicolon-separated 10-digit PSGC province codes of the franchise area. Empty if unsupported by the source."
+          },
+          {
+            "name": "psgc_provinces",
+            "type": "string"
+          },
+          {
+            "name": "psgc_independent_city_codes",
+            "type": "string",
+            "description": "PSGC codes of served cities that belong to no province (highly urbanised and independent component cities, all of NCR)."
+          },
+          {
+            "name": "independent_cities",
+            "type": "string"
+          },
+          {
+            "name": "area_count_listed",
+            "type": "integer"
+          },
+          {
+            "name": "area_count_matched",
+            "type": "integer"
+          },
+          {
+            "name": "doe_source_url",
+            "type": "string"
+          },
+          {
+            "name": "doe_source_text",
+            "type": "string"
+          },
+          {
+            "name": "coverage_source",
+            "type": "string"
+          },
+          {
+            "name": "coverage_note",
+            "type": "string"
+          },
+          {
+            "name": "doe_sheet_row",
+            "type": "integer"
+          }
+        ],
+        "primaryKey": [
+          "utility_id"
+        ]
+      }
+    },
+    {
+      "name": "rates",
+      "path": "rates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Monthly retail rate per customer class and blended generation charge, PHP/kWh, as DOE compiled them.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "YYYY-MM."
+          },
+          {
+            "name": "customer_class",
+            "type": "string"
+          },
+          {
+            "name": "rate_php_per_kwh",
+            "type": "number",
+            "description": "Retail rate in PHP/kWh. Null where DOE has no data (see rate_note)."
+          },
+          {
+            "name": "generation_charge",
+            "type": "number",
+            "description": "Blended generation charge in PHP/kWh for the utility-month (same on every class row)."
+          },
+          {
+            "name": "rate_note",
+            "type": "string",
+            "description": "Empty for a clean number; NDA (DOE: no data available), blank, or unparsed:<cell>."
+          },
+          {
+            "name": "generation_note",
+            "type": "string"
+          },
+          {
+            "name": "doe_source",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "utility_id",
+          "month",
+          "customer_class"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "utility_id"
+            ],
+            "reference": {
+              "resource": "utilities",
+              "fields": [
+                "utility_id"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "utility_areas",
+      "path": "utility_areas.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Cities and municipalities each utility serves (as listed by the coverage source), with PSGC codes.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "area_as_listed",
+            "type": "string"
+          },
+          {
+            "name": "qualifier",
+            "type": "string"
+          },
+          {
+            "name": "psgc_code",
+            "type": "string",
+            "description": "10-digit PSGC code of the city or municipality."
+          },
+          {
+            "name": "psgc_name",
+            "type": "string"
+          },
+          {
+            "name": "psgc_province_code",
+            "type": "string"
+          },
+          {
+            "name": "psgc_region_code",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_discrepancies",
+      "path": "qa/discrepancies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "DOE's figures checked against the utility's own published rate documents.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "YYYY-MM."
+          },
+          {
+            "name": "measure",
+            "type": "string"
+          },
+          {
+            "name": "check_type",
+            "type": "string"
+          },
+          {
+            "name": "doe_value",
+            "type": "number"
+          },
+          {
+            "name": "source_value",
+            "type": "number"
+          },
+          {
+            "name": "abs_diff",
+            "type": "number"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "explain",
+            "type": "string"
+          },
+          {
+            "name": "method",
+            "type": "string"
+          },
+          {
+            "name": "read_by",
+            "type": "string"
+          },
+          {
+            "name": "grounded",
+            "type": "string"
+          },
+          {
+            "name": "doc_status",
+            "type": "string"
+          },
+          {
+            "name": "source_document",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "source_page_url",
+            "type": "string"
+          },
+          {
+            "name": "doc",
+            "type": "string"
+          },
+          {
+            "name": "sha256",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "type": "integer"
+          },
+          {
+            "name": "row_text",
+            "type": "string"
+          },
+          {
+            "name": "row_box",
+            "type": "string"
+          },
+          {
+            "name": "value_box",
+            "type": "string"
+          },
+          {
+            "name": "breakdown",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_doe_sheet_issues",
+      "path": "qa/doe_sheet_issues.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Problems found in DOE's sheet itself: cross-tab disagreements, implausible and unparseable cells.",
+      "schema": {
+        "fields": [
+          {
+            "name": "check",
+            "type": "string"
+          },
+          {
+            "name": "doe_name",
+            "type": "string",
+            "description": "Utility name exactly as DOE prints it (usually the acronym)."
+          },
+          {
+            "name": "tab",
+            "type": "string"
+          },
+          {
+            "name": "field",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          },
+          {
+            "name": "residential_value",
+            "type": "string"
+          },
+          {
+            "name": "sheet_row",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_source_links",
+      "path": "qa/source_links.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Reachability of each link in DOE's SOURCES column.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "doe_name",
+            "type": "string",
+            "description": "Utility name exactly as DOE prints it (usually the acronym)."
+          },
+          {
+            "name": "doe_source_url",
+            "type": "string"
+          },
+          {
+            "name": "doe_source_text",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string"
+          },
+          {
+            "name": "http_status",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_unmatched_areas",
+      "path": "qa/unmatched_areas.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Areas the coverage source lists that could not be matched to one PSGC code.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "area_as_listed",
+            "type": "string"
+          },
+          {
+            "name": "qualifier",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

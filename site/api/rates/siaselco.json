@@ -1,0 +1,1 @@
+{"utility_id":"siaselco","unit":"PHP/kWh","series":{"residential":[["2023-03",14.14],["2023-04",13.25]],"commercial":[["2023-03",14.14],["2023-04",13.25]],"industrial":[["2023-03",14.14],["2023-04",13.25]],"generation":[]},"nda_months":{"residential":104,"commercial":104,"industrial":104},"flagged_by_qa":[]}

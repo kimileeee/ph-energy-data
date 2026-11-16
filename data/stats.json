@@ -1,0 +1,51 @@
+{
+  "built_at": "2026-11-16T15:54:17+00:00",
+  "utilities": 141,
+  "utilities_by_type": {
+    "EC": 120,
+    "PIOU": 21
+  },
+  "months_compiled": 106,
+  "first_month": "2018-01",
+  "latest_month": "2026-10",
+  "months_in_sheet_not_compiled": [
+    "2026-11"
+  ],
+  "rate_cells": 44838,
+  "rate_cells_with_value": 27534,
+  "rate_cells_nda": 17303,
+  "nda_share": 0.3859,
+  "nda_share_by_class": {
+    "commercial": 0.4117,
+    "industrial": 0.4661,
+    "residential": 0.2799
+  },
+  "generation_cells": 14946,
+  "generation_nda_share": 0.4485,
+  "latest_month_residential_coverage": 0.8014,
+  "utilities_with_any_residential_value": 141,
+  "utilities_with_province_psgc": 137,
+  "areas_listed": 1664,
+  "areas_matched_to_psgc": 1648,
+  "doe_sheet_issues": {
+    "outside 1.0-40.0 PHP/kWh": 15,
+    "attribute differs across tabs": 7,
+    "unparseable cell": 1
+  },
+  "source_checks": 82,
+  "source_check_utilities": [
+    "aec",
+    "cedc",
+    "celcor",
+    "meralco",
+    "tei"
+  ],
+  "source_check_mismatches": 18,
+  "source_published_but_doe_blank": 6,
+  "doe_source_links": {
+    "website": 78,
+    "facebook": 54,
+    "none": 9
+  },
+  "doe_source_links_not_ok": 19
+}

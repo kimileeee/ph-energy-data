@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+# cached utility PDFs/HTML; data/raw/sources/manifest.json keeps URL + sha256 of each
+data/raw/sources/*/
+data/raw/doe_rates.xlsx
+.DS_Store
+.vercel
+data/raw/geo/

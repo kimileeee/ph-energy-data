@@ -1,0 +1,36 @@
+{
+  "doe_0.csv": {
+    "url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/export?format=csv&gid=0",
+    "bytes": 106827
+  },
+  "doe_441532959.csv": {
+    "url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/export?format=csv&gid=441532959",
+    "bytes": 102822
+  },
+  "doe_1244383053.csv": {
+    "url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/export?format=csv&gid=1244383053",
+    "bytes": 99862
+  },
+  "doe_714337242.csv": {
+    "url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/export?format=csv&gid=714337242",
+    "bytes": 97863
+  },
+  "doe_rates.xlsx": {
+    "url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/export?format=xlsx",
+    "bytes": 1234200
+  },
+  "wikipedia/du_list.wiki": {
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_electric_distribution_utilities_in_the_Philippines&action=raw",
+    "bytes": 72856,
+    "revision": {
+      "revid": 1374171231,
+      "parentid": 1372767249,
+      "timestamp": "2026-09-10T07:19:40Z"
+    }
+  },
+  "psgc/places.csv": {
+    "url": "https://raw.githubusercontent.com/bendlikeabamboo/barangay/v2026.10.12.0/barangay/data/barangay_flat.json",
+    "rows": 1758
+  },
+  "_fetched_at": "2026-11-16T12:36:28+00:00"
+}

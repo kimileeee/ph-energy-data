@@ -1,0 +1,1649 @@
+utility_id,area_as_listed,qualifier,psgc_code,psgc_name,psgc_province_code,psgc_region_code
+aec,Angeles City,,0330100000,City of Angeles,,0300000000
+aec,Mabalacat,Some areas only,0305409000,Mabalacat City,0305400000,0300000000
+cedc,Angeles City,Clark Freeport and Special Economic Zone,0330100000,City of Angeles,,0300000000
+cedc,Bamban,Clark Freeport and Special Economic Zone,0306902000,Bamban,0306900000,0300000000
+cedc,Capas,Clark Freeport and Special Economic Zone,0306904000,Capas,0306900000,0300000000
+cedc,Mabalacat,Clark Freeport and Special Economic Zone,0305409000,Mabalacat City,0305400000,0300000000
+cedc,Porac,Clark Freeport and Special Economic Zone,0305415000,Porac,0305400000,0300000000
+celcor,Cabanatuan,,0304903000,City of Cabanatuan,0304900000,0300000000
+decorp,Calasiao,,0105517000,Calasiao,0105500000,0100000000
+decorp,Dagupan,,0105518000,City of Dagupan,0105500000,0100000000
+decorp,Manaoag,,0105525000,Manaoag,0105500000,0100000000
+decorp,"San Carlos, Pangasinan",Bolingit and Cruz,0105532000,City of San Carlos,0105500000,0100000000
+decorp,"San Fabian, Pangasinan",,0105533000,San Fabian,0105500000,0100000000
+decorp,"San Jacinto, Pangasinan",,0105534000,San Jacinto,0105500000,0100000000
+decorp,"Santa Barbara, Pangasinan",,0105538000,Santa Barbara,0105500000,0100000000
+fbpc,Bauan,,0401006000,Bauan,0401000000,0400000000
+ieec,Ibaan,,0401010000,Ibaan,0401000000,0400000000
+ieec,"Lipa, Batangas",,0401014000,City of Lipa,0401000000,0400000000
+ieec,"San Jose, Batangas",,0401022000,San Jose,0401000000,0400000000
+lueco,Bauang,,0103307000,Bauang,0103300000,0100000000
+lueco,"San Fernando, La Union",,0103314000,City of San Fernando,0103300000,0100000000
+lueco,"San Juan, La Union",,0103316000,San Juan,0103300000,0100000000
+meralco,"Alaminos, Laguna",,0403401000,Alaminos,0403400000,0400000000
+meralco,"Alfonso, Cavite",,0402101000,Alfonso,0402100000,0400000000
+meralco,"Amadeo, Cavite",,0402102000,Amadeo,0402100000,0400000000
+meralco,"Angat, Bulacan",,0301401000,Angat,0301400000,0300000000
+meralco,Angono,,0405801000,Angono,0405800000,0400000000
+meralco,Antipolo,,0405802000,City of Antipolo,0405800000,0400000000
+meralco,"Apalit, Pampanga",Balucuc and Calantipe,0305402000,Apalit,0305400000,0300000000
+meralco,Bacoor,,0402103000,City of Bacoor,0402100000,0400000000
+meralco,"Balagtas, Bulacan",,0301402000,Balagtas,0301400000,0300000000
+meralco,"Baras, Rizal",,0405803000,Baras,0405800000,0400000000
+meralco,Batangas City,,0401005000,Batangas City,0401000000,0400000000
+meralco,"Bay, Laguna",,0403402000,Bay,0403400000,0400000000
+meralco,Biñan,,0403403000,City of Biñan,0403400000,0400000000
+meralco,Binangonan,,0405804000,Binangonan,0405800000,0400000000
+meralco,Bocaue,,0301404000,Bocaue,0301400000,0300000000
+meralco,"Bustos, Bulacan",,0301406000,Bustos,0301400000,0300000000
+meralco,Cabuyao,,0403404000,City of Cabuyao,0403400000,0400000000
+meralco,Cainta,,0405805000,Cainta,0405800000,0400000000
+meralco,"Calaca, Batangas",Cahil,0401007000,City of Calaca,0401000000,0400000000
+meralco,"Calamba, Laguna",,0403405000,City of Calamba,0403400000,0400000000
+meralco,Calauan,,0403406000,Calauan,0403400000,0400000000
+meralco,Caloocan,,1380100000,City of Caloocan,,1300000000
+meralco,Calumpit,,0301407000,Calumpit,0301400000,0300000000
+meralco,Candaba,Some areas only,0305405000,Candaba,0305400000,0300000000
+meralco,"Candelaria, Quezon",,0405608000,Candelaria,0405600000,0400000000
+meralco,"Cardona, Rizal",,0405806000,Cardona,0405800000,0400000000
+meralco,"Carmona, Cavite",,0402104000,City of Carmona,0402100000,0400000000
+meralco,Cavite City,,0402105000,City of Cavite,0402100000,0400000000
+meralco,Dasmariñas,,0402106000,City of Dasmariñas,0402100000,0400000000
+meralco,"Dolores, Quezon",,0405615000,Dolores,0405600000,0400000000
+meralco,"General Emilio Aguinaldo, Cavite",,0402107000,General Emilio Aguinaldo,0402100000,0400000000
+meralco,General Trias,,0402108000,City of General Trias,0402100000,0400000000
+meralco,Guiguinto,,0301408000,Guiguinto,0301400000,0300000000
+meralco,"Hagonoy, Bulacan",,0301409000,Hagonoy,0301400000,0300000000
+meralco,Imus,,0402109000,City of Imus,0402100000,0400000000
+meralco,Indang,,0402110000,Indang,0402100000,0400000000
+meralco,Jalajala,,0405807000,Jala-Jala,0405800000,0400000000
+meralco,Kawit,,0402111000,Kawit,0402100000,0400000000
+meralco,Las Piñas,,1380200000,City of Las Piñas,,1300000000
+meralco,"Laurel, Batangas",Niyugan and Dayap Itaas,0401011000,Laurel,0401000000,0400000000
+meralco,Liliw,,0403410000,Liliw,0403400000,0400000000
+meralco,"Los Baños, Laguna",,0403411000,Los Baños,0403400000,0400000000
+meralco,Lucban,,0405623000,Lucban,0405600000,0400000000
+meralco,Lucena,,0431200000,City of Lucena,,0400000000
+meralco,Luisiana,,0403412000,Luisiana,0403400000,0400000000
+meralco,"Magallanes, Cavite",,0402112000,Magallanes,0402100000,0400000000
+meralco,"Magdalena, Laguna",,0403415000,Magdalena,0403400000,0400000000
+meralco,Majayjay,,0403416000,Majayjay,0403400000,0400000000
+meralco,Makati,,1380300000,City of Makati,,1300000000
+meralco,Malabon,,1380400000,City of Malabon,,1300000000
+meralco,Malolos,,0301410000,City of Malolos,0301400000,0300000000
+meralco,Mandaluyong,,1380500000,City of Mandaluyong,,1300000000
+meralco,Manila,,1380600000,City of Manila,,1300000000
+meralco,Maragondon,,0402113000,Maragondon,0402100000,0400000000
+meralco,Marikina,,1380700000,City of Marikina,,1300000000
+meralco,Marilao,,0301411000,Marilao,0301400000,0300000000
+meralco,Mauban,,0405627000,Mauban,0405600000,0400000000
+meralco,"Mendez, Cavite",,0402114000,Mendez,0402100000,0400000000
+meralco,Meycauayan,,0301412000,City of Meycauayan,0301400000,0300000000
+meralco,"Morong, Rizal",,0405809000,Morong,0405800000,0400000000
+meralco,Muntinlupa,,1380800000,City of Muntinlupa,,1300000000
+meralco,Nagcarlan,,0403417000,Nagcarlan,0403400000,0400000000
+meralco,Naic,,0402115000,Naic,0402100000,0400000000
+meralco,Navotas,,1380900000,City of Navotas,,1300000000
+meralco,Norzagaray,,0301413000,Norzagaray,0301400000,0300000000
+meralco,Noveleta,,0402116000,Noveleta,0402100000,0400000000
+meralco,"Obando, Bulacan",,0301414000,Obando,0301400000,0300000000
+meralco,Pagbilao,,0405630000,Pagbilao,0405600000,0400000000
+meralco,"Pandi, Bulacan",,0301415000,Pandi,0301400000,0300000000
+meralco,Paombong,,0301416000,Paombong,0301400000,0300000000
+meralco,Parañaque,,1381000000,City of Parañaque,,1300000000
+meralco,Pasay,,1381100000,Pasay City,,1300000000
+meralco,Pasig,,1381200000,City of Pasig,,1300000000
+meralco,Pateros,,1381701000,Pateros,,1300000000
+meralco,"Pila, Laguna",,0403422000,Pila,0403400000,0400000000
+meralco,Pililla,,0405810000,Pililla,0405800000,0400000000
+meralco,"Plaridel, Bulacan",,0301417000,Plaridel,0301400000,0300000000
+meralco,Pulilan,,0301418000,Pulilan,0301400000,0300000000
+meralco,Quezon City,,1381300000,Quezon City,,1300000000
+meralco,"Rizal, Laguna",,0403423000,Rizal,0403400000,0400000000
+meralco,"Rodriguez, Rizal",,0405808000,Rodriguez,0405800000,0400000000
+meralco,"Rosario, Cavite",,0402117000,Rosario,0402100000,0400000000
+meralco,"Sampaloc, Quezon",,0405639000,Sampaloc,0405600000,0400000000
+meralco,"San Antonio, Quezon",,0405641000,San Antonio,0405600000,0400000000
+meralco,"San Ildefonso, Bulacan",,0301419000,San Ildefonso,0301400000,0300000000
+meralco,San Jose del Monte,,0301420000,City of San Jose Del Monte,0301400000,0300000000
+meralco,"San Mateo, Rizal",,0405811000,San Mateo,0405800000,0400000000
+meralco,"San Miguel, Bulacan",,0301421000,San Miguel,0301400000,0300000000
+meralco,"San Pablo, Laguna",,0403424000,City of San Pablo,0403400000,0400000000
+meralco,"San Pascual, Batangas",,0401026000,San Pascual,0401000000,0400000000
+meralco,"San Pedro, Laguna",,0403425000,City of San Pedro,0403400000,0400000000
+meralco,"San Rafael, Bulacan",,0301422000,San Rafael,0301400000,0300000000
+meralco,"Santa Cruz, Laguna",,0403426000,Santa Cruz,0403400000,0400000000
+meralco,"Santa Maria, Bulacan",,0301423000,Santa Maria,0301400000,0300000000
+meralco,"Santa Rosa, Laguna",,0403428000,City of Santa Rosa,0403400000,0400000000
+meralco,Sariaya,,0405645000,Sariaya,0405600000,0400000000
+meralco,"Silang, Cavite",,0402118000,Silang,0402100000,0400000000
+meralco,"San Simon, Pampanga",Concepcion,0305418000,San Simon,0305400000,0300000000
+meralco,Tagaytay,,0402119000,City of Tagaytay,0402100000,0400000000
+meralco,Taguig,,1381500000,City of Taguig,,1300000000
+meralco,"Tanauan, Batangas",,0401031000,City of Tanauan,0401000000,0400000000
+meralco,"Tanay, Rizal",,0405812000,Tanay,0405800000,0400000000
+meralco,Tanza,,0402120000,Tanza,0402100000,0400000000
+meralco,Tayabas,,0405647000,City of Tayabas,0405600000,0400000000
+meralco,"Taytay, Rizal",,0405813000,Taytay,0405800000,0400000000
+meralco,"Teresa, Rizal",,0405814000,Teresa,0405800000,0400000000
+meralco,"Ternate, Cavite",,0402121000,Ternate,0402100000,0400000000
+meralco,Tiaong,,0405648000,Tiaong,0405600000,0400000000
+meralco,Trece Martires,,0402122000,City of Trece Martires,0402100000,0400000000
+meralco,"Valenzuela, Metro Manila",,1381600000,City of Valenzuela,,1300000000
+meralco,"Victoria, Laguna",,0403430000,Victoria,0403400000,0400000000
+meralco,"San Juan, Metro Manila",,0401023000,San Juan,0401000000,0400000000
+oedc,Olongapo,,0331400000,City of Olongapo,,0300000000
+pames,Pantabangan,,0304920000,Pantabangan,0304900000,0300000000
+sfelapco,Bacolor,Cabalantian and San Isidro,0305404000,Bacolor,0305400000,0300000000
+sfelapco,"Floridablanca, Pampanga",,0305406000,Floridablanca,0305400000,0300000000
+sfelapco,"San Fernando, Pampanga",,0305416000,City of San Fernando,0305400000,0300000000
+tei,Tarlac City,,0306916000,City of Tarlac,0306900000,0300000000
+blci,Tagbilaran,,0701242000,City of Tagbilaran,0701200000,0700000000
+ceneco-nepc,Bacolod,,1003501000,Bacolod,1003500000,1000000000
+ceneco-nepc,"Bago, Negros Occidental",,1804502000,City of Bago,1804500000,1800000000
+ceneco-nepc,"Murcia, Negros Occidental",,1804520000,Murcia,1804500000,1800000000
+ceneco-nepc,Silay,,1804526000,City of Silay,1804500000,1800000000
+ceneco-nepc,"Talisay, Negros Occidental",,1804528000,City of Talisay,1804500000,1800000000
+meco,"Cordova, Cebu",,0702220000,Cordova,0702200000,0700000000
+meco,Lapu-Lapu City,Some areas are off-the-grid,0731100000,City of Lapu-Lapu,,0700000000
+more-power,Iloilo City,,0631000000,City of Iloilo,,0600000000
+veco,Cebu City,,0730600000,City of Cebu,,0700000000
+veco,Consolacion,,0702219000,Consolacion,0702200000,0700000000
+veco,"Liloan, Cebu",,0702227000,Liloan,0702200000,0700000000
+veco,Mandaue,,0731300000,City of Mandaue,,0700000000
+veco,Minglanilla,,0702232000,Minglanilla,0702200000,0700000000
+veco,"Naga, Cebu",,0702234000,City of Naga,0702200000,0700000000
+veco,"San Fernando, Cebu",,0702241000,San Fernando,0702200000,0700000000
+veco,"Talisay, Cebu",,0702250000,City of Talisay,0702200000,0700000000
+cepalco,Cagayan de Oro,,1030500000,City of Cagayan De Oro,,1000000000
+cepalco,Jasaan,,1004311000,Jasaan,1004300000,1000000000
+cepalco,"Tagoloan, Misamis Oriental",,1004324000,Tagoloan,1004300000,1000000000
+cepalco,"Villanueva, Misamis Oriental",,1004326000,Villanueva,1004300000,1000000000
+clpc,Cotabato City,,1908703000,City of Cotabato,1908700000,1900000000
+clpc,Datu Odin Sinsuat,,1908705000,Datu Odin Sinsuat,1908700000,1900000000
+clpc,"Sultan Kudarat, Maguindanao del Norte",,1908710000,Sultan Kudarat,1908700000,1900000000
+dlpc,"Arakan, Cotabato",Some areas only,1204718000,Arakan,1204700000,1200000000
+dlpc,"Asuncion, Davao del Norte",,1102301000,Asuncion,1102300000,1100000000
+dlpc,Braulio E. Dujali,,1102323000,Braulio E. Dujali,1102300000,1100000000
+dlpc,"Carmen, Davao del Norte",,1102303000,Carmen,1102300000,1100000000
+dlpc,Davao City,,1130700000,City of Davao,,1100000000
+dlpc,Kapalong,,1102305000,Kapalong,1102300000,1100000000
+dlpc,Kitaotao,Some areas only,1001309000,Kitaotao,1001300000,1000000000
+dlpc,New Corella,,1102314000,New Corella,1102300000,1100000000
+dlpc,Panabo,,1102315000,City of Panabo,1102300000,1100000000
+dlpc,"Samal, Davao del Norte",Talikud Island is off the grid.,1102317000,Island Garden City of Samal,1102300000,1100000000
+dlpc,"Santa Cruz, Davao del Sur",Inawayan,1102412000,Santa Cruz,1102400000,1100000000
+dlpc,"Santo Tomas, Davao del Norte",,1102318000,Santo Tomas,1102300000,1100000000
+dlpc,"Sawata, Davao del Norte",,1102324000,Sawata,1102300000,1100000000
+dlpc,Tagum,,1102319000,City of Tagum,1102300000,1100000000
+dlpc,Talaingod,,1102322000,Talaingod,1102300000,1100000000
+ilpi,Iligan,,1030900000,City of Iligan,,1000000000
+abreco,Bangued,,1400101000,Bangued,1400100000,1400000000
+abreco,Boliney,,1400102000,Boliney,1400100000,1400000000
+abreco,"Bucay, Abra",,1400103000,Bucay,1400100000,1400000000
+abreco,Bucloc,,1400104000,Bucloc,1400100000,1400000000
+abreco,Daguioman,,1400105000,Daguioman,1400100000,1400000000
+abreco,Danglas,,1400106000,Danglas,1400100000,1400000000
+abreco,"Dolores, Abra",,1400107000,Dolores,1400100000,1400000000
+abreco,"La Paz, Abra",,1400108000,La Paz,1400100000,1400000000
+abreco,Lacub,,1400109000,Lacub,1400100000,1400000000
+abreco,Lagangilang,,1400110000,Lagangilang,1400100000,1400000000
+abreco,Lagayan,,1400111000,Lagayan,1400100000,1400000000
+abreco,Langiden,,1400112000,Langiden,1400100000,1400000000
+abreco,Licuan-Baay,,1400113000,Licuan-Baay,1400100000,1400000000
+abreco,"Luba, Abra",,1400114000,Luba,1400100000,1400000000
+abreco,Malibcong,,1400115000,Malibcong,1400100000,1400000000
+abreco,Manabo,,1400116000,Manabo,1400100000,1400000000
+abreco,"Peñarrubia, Abra",,1400117000,Peñarrubia,1400100000,1400000000
+abreco,Pidigan,,1400118000,Pidigan,1400100000,1400000000
+abreco,"Pilar, Abra",,1400119000,Pilar,1400100000,1400000000
+abreco,Sallapadan,,1400120000,Sallapadan,1400100000,1400000000
+abreco,"San Isidro, Abra",,1400121000,San Isidro,1400100000,1400000000
+abreco,"San Juan, Abra",,1400122000,San Juan,1400100000,1400000000
+abreco,"San Quintin, Abra",,1400123000,San Quintin,1400100000,1400000000
+abreco,Tayum,,1400124000,Tayum,1400100000,1400000000
+abreco,Tineg,,1400125000,Tineg,1400100000,1400000000
+abreco,"Tubo, Abra",,1400126000,Tubo,1400100000,1400000000
+abreco,"Villaviciosa, Abra",,1400127000,Villaviciosa,1400100000,1400000000
+beneco,"Atok, Benguet",,1401101000,Atok,1401100000,1400000000
+beneco,Baguio,,1430300000,City of Baguio,,1400000000
+beneco,"Bakun, Benguet",,1401103000,Bakun,1401100000,1400000000
+beneco,"Bokod, Benguet",,1401104000,Bokod,1401100000,1400000000
+beneco,Buguias,,1401105000,Buguias,1401100000,1400000000
+beneco,Itogon,,1401106000,Itogon,1401100000,1400000000
+beneco,"Kabayan, Benguet",,1401107000,Kabayan,1401100000,1400000000
+beneco,Kapangan,,1401108000,Kapangan,1401100000,1400000000
+beneco,Kibungan,,1401109000,Kibungan,1401100000,1400000000
+beneco,"La Trinidad, Benguet",,1401110000,La Trinidad,1401100000,1400000000
+beneco,Mankayan,,1401111000,Mankayan,1401100000,1400000000
+beneco,"Sablan, Benguet",,1401112000,Sablan,1401100000,1400000000
+beneco,"Tuba, Benguet",,1401113000,Tuba,1401100000,1400000000
+beneco,Tublay,,1401114000,Tublay,1401100000,1400000000
+ifelco,"Aguinaldo, Ifugao",,1402708000,Aguinaldo,1402700000,1400000000
+ifelco,Alfonso Lista,,1402707000,Alfonso Lista,1402700000,1400000000
+ifelco,Asipulo,,1402711000,Asipulo,1402700000,1400000000
+ifelco,Banaue,,1402701000,Banaue,1402700000,1400000000
+ifelco,Hingyon,,1402709000,Hingyon,1402700000,1400000000
+ifelco,Hungduan,,1402702000,Hungduan,1402700000,1400000000
+ifelco,Kiangan,,1402703000,Kiangan,1402700000,1400000000
+ifelco,Lagawe,,1402704000,Lagawe,1402700000,1400000000
+ifelco,"Lamut, Ifugao",,1402705000,Lamut,1402700000,1400000000
+ifelco,Mayoyao,,1402706000,Mayoyao,1402700000,1400000000
+ifelco,Tinoc,,1402710000,Tinoc,1402700000,1400000000
+kaelco,Balbalan,,1403201000,Balbalan,1403200000,1400000000
+kaelco,"Conner, Apayao",,1408102000,Conner,1408100000,1400000000
+kaelco,Lubuagan,,1403206000,Lubuagan,1403200000,1400000000
+kaelco,Pasil,,1403208000,Pasil,1403200000,1400000000
+kaelco,Pinukpuk,,1403209000,Pinukpuk,1403200000,1400000000
+kaelco,"Rizal, Kalinga",,1403211000,Rizal,1403200000,1400000000
+kaelco,"Tabuk, Kalinga",,1403213000,City of Tabuk,1403200000,1400000000
+kaelco,Tanudan,,1403214000,Tanudan,1403200000,1400000000
+kaelco,Tinglayan,,1403215000,Tinglayan,1403200000,1400000000
+mopreco,Bauko,,1404402000,Bauko,1404400000,1400000000
+mopreco,Barlig,,1404401000,Barlig,1404400000,1400000000
+mopreco,Besao,,1404403000,Besao,1404400000,1400000000
+mopreco,"Bontoc, Mountain Province",,1404404000,Bontoc,1404400000,1400000000
+mopreco,"Cervantes, Ilocos Sur",,0102908000,Cervantes,0102900000,0100000000
+mopreco,Natonin,,1404405000,Natonin,1404400000,1400000000
+mopreco,Paracelis,,1404406000,Paracelis,1404400000,1400000000
+mopreco,"Quirino, Ilocos Sur",,0102915000,Quirino,0102900000,0100000000
+mopreco,Sabangan,,1404407000,Sabangan,1404400000,1400000000
+mopreco,Sadanga,,1404408000,Sadanga,1404400000,1400000000
+mopreco,Sagada,,1404409000,Sagada,1404400000,1400000000
+mopreco,Tadian,,1404410000,Tadian,1404400000,1400000000
+mopreco,Tinglayan,Some areas only,1403215000,Tinglayan,1403200000,1400000000
+cenpelco,"Aguilar, Pangasinan",,0105502000,Aguilar,0105500000,0100000000
+cenpelco,"Alcala, Pangasinan",,0105504000,Alcala,0105500000,0100000000
+cenpelco,Basista,,0105509000,Basista,0105500000,0100000000
+cenpelco,"Bautista, Pangasinan",,0105510000,Bautista,0105500000,0100000000
+cenpelco,Bayambang,,0105511000,Bayambang,0105500000,0100000000
+cenpelco,Binmaley,,0105513000,Binmaley,0105500000,0100000000
+cenpelco,Bugallon,,0105515000,Bugallon,0105500000,0100000000
+cenpelco,"Labrador, Pangasinan",,0105521000,Labrador,0105500000,0100000000
+cenpelco,Lingayen,,0105522000,Lingayen,0105500000,0100000000
+cenpelco,Malasiqui,,0105524000,Malasiqui,0105500000,0100000000
+cenpelco,Mangaldan,,0105526000,Mangaldan,0105500000,0100000000
+cenpelco,Mangatarem,,0105527000,Mangatarem,0105500000,0100000000
+cenpelco,"San Carlos, Pangasinan",,0105532000,City of San Carlos,0105500000,0100000000
+cenpelco,Sual,,0105542000,Sual,0105500000,0100000000
+cenpelco,Urbiztondo,,0105545000,Urbiztondo,0105500000,0100000000
+inec,"Adams, Ilocos Norte",,0102801000,Adams,0102800000,0100000000
+inec,Bacarra,,0102802000,Bacarra,0102800000,0100000000
+inec,Badoc,,0102803000,Badoc,0102800000,0100000000
+inec,"Bangui, Ilocos Norte",,0102804000,Bangui,0102800000,0100000000
+inec,"Banna, Ilocos Norte",,0102811000,Banna,0102800000,0100000000
+inec,Batac,,0102805000,City of Batac,0102800000,0100000000
+inec,"Burgos, Ilocos Norte",,0102806000,Burgos,0102800000,0100000000
+inec,Carasi,,0102807000,Carasi,0102800000,0100000000
+inec,Currimao,,0102808000,Currimao,0102800000,0100000000
+inec,Dingras,,0102809000,Dingras,0102800000,0100000000
+inec,Dumalneg,,0102810000,Dumalneg,0102800000,0100000000
+inec,Laoag,,0102812000,City of Laoag,0102800000,0100000000
+inec,"Marcos, Ilocos Norte",,0102813000,Marcos,0102800000,0100000000
+inec,"Nueva Era, Ilocos Norte",,0102814000,Nueva Era,0102800000,0100000000
+inec,Pagudpud,,0102815000,Pagudpud,0102800000,0100000000
+inec,Paoay,,0102816000,Paoay,0102800000,0100000000
+inec,Pasuquin,,0102817000,Pasuquin,0102800000,0100000000
+inec,Piddig,,0102818000,Piddig,0102800000,0100000000
+inec,Pinili,,0102819000,Pinili,0102800000,0100000000
+inec,"San Nicolas, Ilocos Norte",,0102820000,San Nicolas,0102800000,0100000000
+inec,Sarrat,,0102821000,Sarrat,0102800000,0100000000
+inec,"Solsona, Ilocos Norte",,0102822000,Solsona,0102800000,0100000000
+inec,Vintar,,0102823000,Vintar,0102800000,0100000000
+iseco,Alilem,,0102901000,Alilem,0102900000,0100000000
+iseco,Banayoyo,,0102902000,Banayoyo,0102900000,0100000000
+iseco,Bantay,,0102903000,Bantay,0102900000,0100000000
+iseco,"Burgos, Ilocos Sur",,0102904000,Burgos,0102900000,0100000000
+iseco,Cabugao,,0102905000,Cabugao,0102900000,0100000000
+iseco,Candon,,0102906000,City of Candon,0102900000,0100000000
+iseco,Caoayan,,0102907000,Caoayan,0102900000,0100000000
+iseco,"Cervantes, Ilocos Sur",,0102908000,Cervantes,0102900000,0100000000
+iseco,Galimuyod,,0102909000,Galimuyod,0102900000,0100000000
+iseco,"Gregorio del Pilar, Ilocos Sur",,0102910000,Gregorio del Pilar,0102900000,0100000000
+iseco,Lidlidda,,0102911000,Lidlidda,0102900000,0100000000
+iseco,Magsingal,,0102912000,Magsingal,0102900000,0100000000
+iseco,Nagbukel,,0102913000,Nagbukel,0102900000,0100000000
+iseco,Narvacan,,0102914000,Narvacan,0102900000,0100000000
+iseco,"Quirino, Ilocos Sur",,0102915000,Quirino,0102900000,0100000000
+iseco,"Salcedo, Ilocos Sur",,0102916000,Salcedo,0102900000,0100000000
+iseco,San Emilio,,0102917000,San Emilio,0102900000,0100000000
+iseco,"San Esteban, Ilocos Sur",,0102918000,San Esteban,0102900000,0100000000
+iseco,"San Ildefonso, Ilocos Sur",,0102919000,San Ildefonso,0102900000,0100000000
+iseco,"San Juan, Ilocos Sur",,0102920000,San Juan,0102900000,0100000000
+iseco,"San Vicente, Ilocos Sur",,0102921000,San Vicente,0102900000,0100000000
+iseco,"Santa Catalina, Ilocos Sur",,0102923000,Santa Catalina,0102900000,0100000000
+iseco,"Santa Cruz, Ilocos Sur",,0102924000,Santa Cruz,0102900000,0100000000
+iseco,"Santa Lucia, Ilocos Sur",,0102925000,Santa Lucia,0102900000,0100000000
+iseco,"Santa Maria, Ilocos Sur",,0102926000,Santa Maria,0102900000,0100000000
+iseco,"Santa, Ilocos Sur",,0102922000,Santa,0102900000,0100000000
+iseco,"Santiago, Ilocos Sur",,0102927000,Santiago,0102900000,0100000000
+iseco,"Santo Domingo, Ilocos Sur",,0102928000,Santo Domingo,0102900000,0100000000
+iseco,Sigay,,0102929000,Sigay,0102900000,0100000000
+iseco,Sinait,,0102930000,Sinait,0102900000,0100000000
+iseco,Sugpon,,0102931000,Sugpon,0102900000,0100000000
+iseco,"Suyo, Ilocos Sur",,0102932000,Suyo,0102900000,0100000000
+iseco,Tagudin,,0102933000,Tagudin,0102900000,0100000000
+iseco,Vigan,,0102934000,City of Vigan,0102900000,0100000000
+luelco,Agoo,,0103301000,Agoo,0103300000,0100000000
+luelco,Aringay,,0103302000,Aringay,0103300000,0100000000
+luelco,Bacnotan,,0103303000,Bacnotan,0103300000,0100000000
+luelco,Bagulin,,0103304000,Bagulin,0103300000,0100000000
+luelco,Balaoan,,0103305000,Balaoan,0103300000,0100000000
+luelco,"Bangar, La Union",,0103306000,Bangar,0103300000,0100000000
+luelco,Bauang,Some areas only,0103307000,Bauang,0103300000,0100000000
+luelco,"Burgos, La Union",,0103308000,Burgos,0103300000,0100000000
+luelco,"Caba, La Union",,0103309000,Caba,0103300000,0100000000
+luelco,"Luna, La Union",,0103310000,Luna,0103300000,0100000000
+luelco,"Naguilian, La Union",,0103311000,Naguilian,0103300000,0100000000
+luelco,Pozorrubio,Some areas only,0105530000,Pozorrubio,0105500000,0100000000
+luelco,"Pugo, La Union",,0103312000,Pugo,0103300000,0100000000
+luelco,"Rosario, La Union",,0103313000,Rosario,0103300000,0100000000
+luelco,"San Fabian, Pangasinan",Some areas only,0105533000,San Fabian,0105500000,0100000000
+luelco,"San Fernando, La Union",Some areas only,0103314000,City of San Fernando,0103300000,0100000000
+luelco,"San Gabriel, La Union",,0103315000,San Gabriel,0103300000,0100000000
+luelco,"San Jacinto, Pangasinan",Some areas only,0105534000,San Jacinto,0105500000,0100000000
+luelco,"San Juan, La Union",,0103316000,San Juan,0103300000,0100000000
+luelco,"Santo Tomas, La Union",,0103317000,Santo Tomas,0103300000,0100000000
+luelco,"Santol, La Union",,0103318000,Santol,0103300000,0100000000
+luelco,"Sison, Pangasinan",,0105541000,Sison,0105500000,0100000000
+luelco,Sudipen,,0103319000,Sudipen,0103300000,0100000000
+luelco,Tubao,,0103320000,Tubao,0103300000,0100000000
+panelco-i,"Agno, Pangasinan",,0105501000,Agno,0105500000,0100000000
+panelco-i,"Alaminos, Pangasinan",,0105503000,City of Alaminos,0105500000,0100000000
+panelco-i,"Anda, Pangasinan",,0105505000,Anda,0105500000,0100000000
+panelco-i,"Bani, Pangasinan",,0105508000,Bani,0105500000,0100000000
+panelco-i,Bolinao,,0105514000,Bolinao,0105500000,0100000000
+panelco-i,"Burgos, Pangasinan",,0105516000,Burgos,0105500000,0100000000
+panelco-i,Dasol,,0105519000,Dasol,0105500000,0100000000
+panelco-i,"Infanta, Pangasinan",,0105520000,Infanta,0105500000,0100000000
+panelco-i,"Mabini, Pangasinan",,0105523000,Mabini,0105500000,0100000000
+panelco-iii,Asingan,,0105506000,Asingan,0105500000,0100000000
+panelco-iii,Balungao,,0105507000,Balungao,0105500000,0100000000
+panelco-iii,Binalonan,,0105512000,Binalonan,0105500000,0100000000
+panelco-iii,Laoac,,0105548000,Laoac,0105500000,0100000000
+panelco-iii,Mapandan,,0105528000,Mapandan,0105500000,0100000000
+panelco-iii,"Natividad, Pangasinan",,0105529000,Natividad,0105500000,0100000000
+panelco-iii,Pozorrubio,,0105530000,Pozorrubio,0105500000,0100000000
+panelco-iii,"Rosales, Pangasinan",,0105531000,Rosales,0105500000,0100000000
+panelco-iii,"San Manuel, Pangasinan",,0105535000,San Manuel,0105500000,0100000000
+panelco-iii,"San Nicolas, Pangasinan",,0105536000,San Nicolas,0105500000,0100000000
+panelco-iii,"San Quintin, Pangasinan",,0105537000,San Quintin,0105500000,0100000000
+panelco-iii,"Santa Maria, Pangasinan",,0105539000,Santa Maria,0105500000,0100000000
+panelco-iii,"Santo Tomas, Pangasinan",,0105540000,Santo Tomas,0105500000,0100000000
+panelco-iii,Tayug,,0105543000,Tayug,0105500000,0100000000
+panelco-iii,Umingan,,0105544000,Umingan,0105500000,0100000000
+panelco-iii,"Urdaneta, Pangasinan",,0105546000,City of Urdaneta,0105500000,0100000000
+panelco-iii,Villasis,,0105547000,Villasis,0105500000,0100000000
+batanelco,"Basco, Batanes",,0200901000,Basco,0200900000,0200000000
+batanelco,Itbayat,,0200902000,Itbayat,0200900000,0200000000
+batanelco,"Ivana, Batanes",,0200903000,Ivana,0200900000,0200000000
+batanelco,Mahatao,,0200904000,Mahatao,0200900000,0200000000
+batanelco,Sabtang,,0200905000,Sabtang,0200900000,0200000000
+batanelco,Uyugan,,0200906000,Uyugan,0200900000,0200000000
+cagelco-i,"Alcala, Cagayan",,0201502000,Alcala,0201500000,0200000000
+cagelco-i,Amulung,,0201504000,Amulung,0201500000,0200000000
+cagelco-i,Baggao,,0201506000,Baggao,0201500000,0200000000
+cagelco-i,"Enrile, Cagayan",,0201512000,Enrile,0201500000,0200000000
+cagelco-i,Iguig,,0201515000,Iguig,0201500000,0200000000
+cagelco-i,Peñablanca,,0201519000,Peñablanca,0201500000,0200000000
+cagelco-i,"Piat, Cagayan",,0201520000,Piat,0201500000,0200000000
+cagelco-i,"Rizal, Cagayan",,0201521000,Rizal,0201500000,0200000000
+cagelco-i,"Santo Niño, Cagayan",,0201526000,Santo Niño,0201500000,0200000000
+cagelco-i,"Solana, Cagayan",,0201527000,Solana,0201500000,0200000000
+cagelco-i,Tuao,,0201528000,Tuao,0201500000,0200000000
+cagelco-i,Tuguegarao,,0201529000,Tuguegarao City,0201500000,0200000000
+cagelco-ii,Abulug,,0201501000,Abulug,0201500000,0200000000
+cagelco-ii,Allacapan,,0201503000,Allacapan,0201500000,0200000000
+cagelco-ii,Aparri,,0201505000,Aparri,0201500000,0200000000
+cagelco-ii,"Ballesteros, Cagayan",,0201507000,Ballesteros,0201500000,0200000000
+cagelco-ii,Buguey,,0201508000,Buguey,0201500000,0200000000
+cagelco-ii,Camalaniugan,,0201510000,Camalaniugan,0201500000,0200000000
+cagelco-ii,"Claveria, Cagayan",,0201511000,Claveria,0201500000,0200000000
+cagelco-ii,"Flora, Apayao",,1408103000,Flora,1408100000,1400000000
+cagelco-ii,Gattaran,,0201513000,Gattaran,0201500000,0200000000
+cagelco-ii,"Gonzaga, Cagayan",,0201514000,Gonzaga,0201500000,0200000000
+cagelco-ii,Lal-lo,,0201516000,Lal-Lo,0201500000,0200000000
+cagelco-ii,Lasam,,0201517000,Lasam,0201500000,0200000000
+cagelco-ii,"Luna, Apayao",,1408105000,Luna,1408100000,1400000000
+cagelco-ii,"Pamplona, Cagayan",,0201518000,Pamplona,0201500000,0200000000
+cagelco-ii,Pudtol,,1408106000,Pudtol,1408100000,1400000000
+cagelco-ii,Sanchez-Mira,,0201522000,Sanchez Mira,0201500000,0200000000
+cagelco-ii,"Santa Ana, Cagayan",,0201523000,Santa Ana,0201500000,0200000000
+cagelco-ii,"Santa Marcela, Apayao",,1408107000,Santa Marcela,1408100000,1400000000
+cagelco-ii,"Santa Praxedes, Cagayan",,0201524000,Santa Praxedes,0201500000,0200000000
+cagelco-ii,"Santa Teresita, Cagayan",,0201525000,Santa Teresita,0201500000,0200000000
+iselco-i,"Alicia, Isabela",,0203101000,Alicia,0203100000,0200000000
+iselco-i,Angadanan,,0203102000,Angadanan,0203100000,0200000000
+iselco-i,"Cabatuan, Isabela",,0203107000,Cabatuan,0203100000,0200000000
+iselco-i,"Cauayan, Isabela",,0203108000,City of Cauayan,0203100000,0200000000
+iselco-i,"Cordon, Isabela",,0203109000,Cordon,0203100000,0200000000
+iselco-i,Echague,,0203112000,Echague,0203100000,0200000000
+iselco-i,"Jones, Isabela",,0203115000,Jones,0203100000,0200000000
+iselco-i,"Luna, Isabela",,0203116000,Luna,0203100000,0200000000
+iselco-i,"Ramon, Isabela",,0203124000,Ramon,0203100000,0200000000
+iselco-i,"Reina Mercedes, Isabela",,0203125000,Reina Mercedes,0203100000,0200000000
+iselco-i,"San Agustin, Isabela",,0203127000,San Agustin,0203100000,0200000000
+iselco-i,San Guillermo,,0203128000,San Guillermo,0203100000,0200000000
+iselco-i,"San Isidro, Isabela",,0203129000,San Isidro,0203100000,0200000000
+iselco-i,"San Mateo, Isabela",,0203132000,San Mateo,0203100000,0200000000
+iselco-i,"Santiago, Isabela",,0203135000,City of Santiago,0203100000,0200000000
+iselco-ii,"Aurora, Isabela",,0203103000,Aurora,0203100000,0200000000
+iselco-ii,Benito Soliven,,0203104000,Benito Soliven,0203100000,0200000000
+iselco-ii,"Burgos, Isabela",,0203105000,Burgos,0203100000,0200000000
+iselco-ii,Cabagan,,0203106000,Cabagan,0203100000,0200000000
+iselco-ii,Delfin Albano,,0203118000,Delfin Albano,0203100000,0200000000
+iselco-ii,Divilacan,,0203111000,Divilacan,0203100000,0200000000
+iselco-ii,Gamu,,0203113000,Gamu,0203100000,0200000000
+iselco-ii,Ilagan,,0203114000,City of Ilagan,0203100000,0200000000
+iselco-ii,Maconacon,,0203117000,Maconacon,0203100000,0200000000
+iselco-ii,Mallig,,0203119000,Mallig,0203100000,0200000000
+iselco-ii,"Naguilian, Isabela",,0203120000,Naguilian,0203100000,0200000000
+iselco-ii,Palanan,,0203121000,Palanan,0203100000,0200000000
+iselco-ii,"Quezon, Isabela",,0203122000,Quezon,0203100000,0200000000
+iselco-ii,"Quirino, Isabela",,0203123000,Quirino,0203100000,0200000000
+iselco-ii,"Roxas, Isabela",,0203126000,Roxas,0203100000,0200000000
+iselco-ii,"San Manuel, Isabela",,0203130000,San Manuel,0203100000,0200000000
+iselco-ii,"San Mariano, Isabela",,0203131000,San Mariano,0203100000,0200000000
+iselco-ii,"San Pablo, Isabela",,0203133000,San Pablo,0203100000,0200000000
+iselco-ii,"Santa Maria, Isabela",,0203134000,Santa Maria,0203100000,0200000000
+iselco-ii,"Santo Tomas, Isabela",,0203136000,Santo Tomas,0203100000,0200000000
+iselco-ii,Tumauini,,0203137000,Tumauini,0203100000,0200000000
+nuvelco,Ambaguio,,0205001000,Ambaguio,0205000000,0200000000
+nuvelco,Aritao,,0205002000,Aritao,0205000000,0200000000
+nuvelco,"Bagabag, Nueva Vizcaya",,0205003000,Bagabag,0205000000,0200000000
+nuvelco,"Bambang, Nueva Vizcaya",,0205004000,Bambang,0205000000,0200000000
+nuvelco,Bayombong,,0205005000,Bayombong,0205000000,0200000000
+nuvelco,Diadi,,0205006000,Diadi,0205000000,0200000000
+nuvelco,Dupax del Norte,,0205007000,Dupax del Norte,0205000000,0200000000
+nuvelco,Dupax del Sur,,0205008000,Dupax del Sur,0205000000,0200000000
+nuvelco,Kasibu,,0205009000,Kasibu,0205000000,0200000000
+nuvelco,Kayapa,,0205010000,Kayapa,0205000000,0200000000
+nuvelco,"Quezon, Nueva Vizcaya",,0205011000,Quezon,0205000000,0200000000
+nuvelco,"Santa Fe, Nueva Vizcaya",,0205012000,Santa Fe,0205000000,0200000000
+nuvelco,"Solano, Nueva Vizcaya",,0205013000,Solano,0205000000,0200000000
+nuvelco,"Villaverde, Nueva Vizcaya",,0205014000,Villaverde,0205000000,0200000000
+quirelco,"Aglipay, Quirino",,0205701000,Aglipay,0205700000,0200000000
+quirelco,Cabarroguis,,0205702000,Cabarroguis,0205700000,0200000000
+quirelco,Diffun,,0205703000,Diffun,0205700000,0200000000
+quirelco,Maddela,,0205704000,Maddela,0205700000,0200000000
+quirelco,Nagtipunan,,0205706000,Nagtipunan,0205700000,0200000000
+quirelco,Saguday,,0205705000,Saguday,0205700000,0200000000
+quirelco,"San Agustin, Isabela",Some areas only,0203127000,San Agustin,0203100000,0200000000
+aurelco,Alfonso Castañeda,,0205015000,Alfonso Castaneda,0205000000,0200000000
+aurelco,"Baler, Aurora",,0307701000,Baler,0307700000,0300000000
+aurelco,"Casiguran, Aurora",Off-the-grid,0307702000,Casiguran,0307700000,0300000000
+aurelco,Dilasag,Off-the-grid,0307703000,Dilasag,0307700000,0300000000
+aurelco,Dinalungan,,0307704000,Dinalungan,0307700000,0300000000
+aurelco,Dinapigue,Off-the-grid,0203110000,Dinapigue,0203100000,0200000000
+aurelco,Dingalan,,0307705000,Dingalan,0307700000,0300000000
+aurelco,Dipaculao,,0307706000,Dipaculao,0307700000,0300000000
+aurelco,"Maria Aurora, Aurora",,0307707000,Maria Aurora,0307700000,0300000000
+aurelco,"San Luis, Aurora",,0307708000,San Luis,0307700000,0300000000
+neeco-i,Cabiao,,0304904000,Cabiao,0304900000,0300000000
+neeco-i,Gapan,,0304908000,City of Gapan,0304900000,0300000000
+neeco-i,"Jaen, Nueva Ecija",,0304912000,Jaen,0304900000,0300000000
+neeco-i,"San Antonio, Nueva Ecija",,0304924000,San Antonio,0304900000,0300000000
+neeco-i,"San Isidro, Nueva Ecija",,0304925000,San Isidro,0304900000,0300000000
+neeco-ii-area-i,"Aliaga, Nueva Ecija",,0304901000,Aliaga,0304900000,0300000000
+neeco-ii-area-i,Carranglan,,0304905000,Carranglan,0304900000,0300000000
+neeco-ii-area-i,Guimba,,0304911000,Guimba,0304900000,0300000000
+neeco-ii-area-i,Licab,,0304914000,Licab,0304900000,0300000000
+neeco-ii-area-i,Lupao,,0304916000,Lupao,0304900000,0300000000
+neeco-ii-area-i,"Muñoz, Nueva Ecija",,0304917000,Science City of Muñoz,0304900000,0300000000
+neeco-ii-area-i,"Quezon, Nueva Ecija",,0304922000,Quezon,0304900000,0300000000
+neeco-ii-area-i,"Santo Domingo, Nueva Ecija",,0304929000,Santo Domingo,0304900000,0300000000
+neeco-ii-area-i,"Talavera, Nueva Ecija",,0304930000,Talavera,0304900000,0300000000
+neeco-ii-area-i,Talugtug,,0304931000,Talugtug,0304900000,0300000000
+neeco-ii-area-ii,Bongabon,,0304902000,Bongabon,0304900000,0300000000
+neeco-ii-area-ii,Gabaldon,Bitulok and Sabani,0304907000,Gabaldon,0304900000,0300000000
+neeco-ii-area-ii,General Mamerto Natividad,,0304909000,General Mamerto Natividad,0304900000,0300000000
+neeco-ii-area-ii,General Tinio,Papaya,0304910000,General Tinio,0304900000,0300000000
+neeco-ii-area-ii,"Laur, Nueva Ecija",,0304913000,Laur,0304900000,0300000000
+neeco-ii-area-ii,"Llanera, Nueva Ecija",,0304915000,Llanera,0304900000,0300000000
+neeco-ii-area-ii,Palayan,,0304919000,City of Palayan,0304900000,0300000000
+neeco-ii-area-ii,"Peñaranda, Nueva Ecija",,0304921000,Peñaranda,0304900000,0300000000
+neeco-ii-area-ii,"Rizal, Nueva Ecija",,0304923000,Rizal,0304900000,0300000000
+neeco-ii-area-ii,"San Leonardo, Nueva Ecija",,0304927000,San Leonardo,0304900000,0300000000
+neeco-ii-area-ii,"Santa Rosa, Nueva Ecija",,0304928000,Santa Rosa,0304900000,0300000000
+pelco-i,"Arayat, Pampanga",,0305403000,Arayat,0305400000,0300000000
+pelco-i,Candaba,Some areas only,0305405000,Candaba,0305400000,0300000000
+pelco-i,Magalang,,0305411000,Magalang,0305400000,0300000000
+pelco-i,"Mexico, Pampanga",,0305413000,Mexico,0305400000,0300000000
+pelco-i,"San Luis, Pampanga",,0305417000,San Luis,0305400000,0300000000
+pelco-i,"Santa Ana, Pampanga",,0305419000,Santa Ana,0305400000,0300000000
+pelco-ii,Bacolor,,0305404000,Bacolor,0305400000,0300000000
+pelco-ii,"Floridablanca, Pampanga",Some areas only,0305406000,Floridablanca,0305400000,0300000000
+pelco-ii,Guagua,,0305407000,Guagua,0305400000,0300000000
+pelco-ii,Lubao,,0305408000,Lubao,0305400000,0300000000
+pelco-ii,Mabalacat,,0305409000,Mabalacat City,0305400000,0300000000
+pelco-ii,Magalang,Some areas only,0305411000,Magalang,0305400000,0300000000
+pelco-ii,Porac,,0305415000,Porac,0305400000,0300000000
+pelco-ii,"Santa Rita, Pampanga",,0305420000,Santa Rita,0305400000,0300000000
+pelco-ii,Sasmuan,,0305422000,Sasmuan,0305400000,0300000000
+pelco-iii,Apalit,,0305402000,Apalit,0305400000,0300000000
+pelco-iii,Macabebe,,0305410000,Macabebe,0305400000,0300000000
+pelco-iii,Masantol,,0305412000,Masantol,0305400000,0300000000
+pelco-iii,Minalin,,0305414000,Minalin,0305400000,0300000000
+pelco-iii,"San Simon, Pampanga",,0305418000,San Simon,0305400000,0300000000
+pelco-iii,"San Fernando, Pampanga",Pandaras,0305416000,City of San Fernando,0305400000,0300000000
+penelco,Abucay,,0300801000,Abucay,0300800000,0300000000
+penelco,Bagac,,0300802000,Bagac,0300800000,0300000000
+penelco,"Balanga, Bataan",,0300803000,City of Balanga,0300800000,0300000000
+penelco,Dinalupihan,,0300804000,Dinalupihan,0300800000,0300000000
+penelco,"Floridablanca, Pampanga",Some areas only,0305406000,Floridablanca,0305400000,0300000000
+penelco,"Hermosa, Bataan",,0300805000,Hermosa,0300800000,0300000000
+penelco,Limay,,0300806000,Limay,0300800000,0300000000
+penelco,Mariveles,,0300807000,Mariveles,0300800000,0300000000
+penelco,"Morong, Bataan",,0300808000,Morong,0300800000,0300000000
+penelco,Orani,,0300809000,Orani,0300800000,0300000000
+penelco,"Orion, Bataan",,0300810000,Orion,0300800000,0300000000
+penelco,"Pilar, Bataan",,0300811000,Pilar,0300800000,0300000000
+penelco,"Samal, Bataan",,0300812000,Samal,0300800000,0300000000
+penelco,"Subic, Zambales",Batiawan,0307114000,Subic,0307100000,0300000000
+presco,"Arayat, Pampanga",,0305403000,Arayat,0305400000,0300000000
+presco,Magalang,,0305411000,Magalang,0305400000,0300000000
+presco,"Mexico, Pampanga",,0305413000,Mexico,0305400000,0300000000
+presco,"Santa Ana, Pampanga",,0305419000,Santa Ana,0305400000,0300000000
+sajelco,Carranglan,Some areas only,0304905000,Carranglan,0304900000,0300000000
+sajelco,"Llanera, Nueva Ecija",Some areas only,0304915000,Llanera,0304900000,0300000000
+sajelco,"Muñoz, Nueva Ecija",Some areas only,0304917000,Science City of Muñoz,0304900000,0300000000
+sajelco,"San Jose, Nueva Ecija",,0304926000,San Jose City,0304900000,0300000000
+tarelco-i,"Anao, Tarlac",,0306901000,Anao,0306900000,0300000000
+tarelco-i,Camiling,,0306903000,Camiling,0306900000,0300000000
+tarelco-i,Cuyapo,,0304906000,Cuyapo,0304900000,0300000000
+tarelco-i,"Gerona, Tarlac",,0306906000,Gerona,0306900000,0300000000
+tarelco-i,Guimba,,0304911000,Guimba,0304900000,0300000000
+tarelco-i,Mayantoc,,0306908000,Mayantoc,0306900000,0300000000
+tarelco-i,"Moncada, Tarlac",,0306909000,Moncada,0306900000,0300000000
+tarelco-i,Nampicuan,,0304918000,Nampicuan,0304900000,0300000000
+tarelco-i,Paniqui,,0306910000,Paniqui,0306900000,0300000000
+tarelco-i,"Pura, Tarlac",,0306911000,Pura,0306900000,0300000000
+tarelco-i,"Ramos, Tarlac",,0306912000,Ramos,0306900000,0300000000
+tarelco-i,"San Clemente, Tarlac",,0306913000,San Clemente,0306900000,0300000000
+tarelco-i,"San Jose, Tarlac",,0306918000,San Jose,0306900000,0300000000
+tarelco-i,"San Manuel, Tarlac",,0306914000,San Manuel,0306900000,0300000000
+tarelco-i,Santa Ignacia,,0306915000,Santa Ignacia,0306900000,0300000000
+tarelco-i,Tarlac City,Some areas only,0306916000,City of Tarlac,0306900000,0300000000
+tarelco-i,"Victoria, Tarlac",,0306917000,Victoria,0306900000,0300000000
+tarelco-ii,Bamban,,0306902000,Bamban,0306900000,0300000000
+tarelco-ii,Capas,,0306904000,Capas,0306900000,0300000000
+tarelco-ii,"Concepcion, Tarlac",,0306905000,Concepcion,0306900000,0300000000
+tarelco-ii,"La Paz, Tarlac",,0306907000,La Paz,0306900000,0300000000
+tarelco-ii,"Zaragoza, Nueva Ecija",,0304932000,Zaragoza,0304900000,0300000000
+zameco-i,Botolan,,0307101000,Botolan,0307100000,0300000000
+zameco-i,"Candelaria, Zambales",,0307103000,Candelaria,0307100000,0300000000
+zameco-i,"Iba, Zambales",,0307105000,Iba,0307100000,0300000000
+zameco-i,Masinloc,,0307106000,Masinloc,0307100000,0300000000
+zameco-i,Palauig,,0307108000,Palauig,0307100000,0300000000
+zameco-i,"Santa Cruz, Zambales",,0307113000,Santa Cruz,0307100000,0300000000
+zameco-ii,Cabangan,,0307102000,Cabangan,0307100000,0300000000
+zameco-ii,Castillejos,,0307104000,Castillejos,0307100000,0300000000
+zameco-ii,"San Antonio, Zambales",,0307109000,San Antonio,0307100000,0300000000
+zameco-ii,"San Felipe, Zambales",,0307110000,San Felipe,0307100000,0300000000
+zameco-ii,San Marcelino,,0307111000,San Marcelino,0307100000,0300000000
+zameco-ii,"San Narciso, Zambales",,0307112000,San Narciso,0307100000,0300000000
+zameco-ii,"Subic, Zambales",,0307114000,Subic,0307100000,0300000000
+batelec-i,"Agoncillo, Batangas",,0401001000,Agoncillo,0401000000,0400000000
+batelec-i,Balayan,,0401003000,Balayan,0401000000,0400000000
+batelec-i,"Calaca, Batangas",,0401007000,City of Calaca,0401000000,0400000000
+batelec-i,Calatagan,,0401008000,Calatagan,0401000000,0400000000
+batelec-i,"Lemery, Batangas",,0401012000,Lemery,0401000000,0400000000
+batelec-i,"Lian, Batangas",,0401013000,Lian,0401000000,0400000000
+batelec-i,Nasugbu,,0401019000,Nasugbu,0401000000,0400000000
+batelec-i,"San Luis, Batangas",,0401024000,San Luis,0401000000,0400000000
+batelec-i,"San Nicolas, Batangas",,0401025000,San Nicolas,0401000000,0400000000
+batelec-i,"Santa Teresita, Batangas",,0401027000,Santa Teresita,0401000000,0400000000
+batelec-i,"Taal, Batangas",,0401029000,Taal,0401000000,0400000000
+batelec-i,"Tuy, Batangas",,0401034000,Tuy,0401000000,0400000000
+batelec-ii,Alitagtag,,0401002000,Alitagtag,0401000000,0400000000
+batelec-ii,"Balete, Batangas",,0401004000,Balete,0401000000,0400000000
+batelec-ii,Batangas City,San Jose Sico,0401005000,Batangas City,0401000000,0400000000
+batelec-ii,"Cuenca, Batangas",,0401009000,Cuenca,0401000000,0400000000
+batelec-ii,"Laurel, Batangas",,0401011000,Laurel,0401000000,0400000000
+batelec-ii,"Lipa, Batangas",,0401014000,City of Lipa,0401000000,0400000000
+batelec-ii,"Lobo, Batangas",,0401015000,Lobo,0401000000,0400000000
+batelec-ii,"Mabini, Batangas",,0401016000,Mabini,0401000000,0400000000
+batelec-ii,Malvar,,0401017000,Malvar,0401000000,0400000000
+batelec-ii,Mataasnakahoy,,0401018000,Mataasnakahoy,0401000000,0400000000
+batelec-ii,Padre Garcia,,0401020000,Padre Garcia,0401000000,0400000000
+batelec-ii,"Rosario, Batangas",,0401021000,Rosario,0401000000,0400000000
+batelec-ii,"San Jose, Batangas",,0401022000,San Jose,0401000000,0400000000
+batelec-ii,"San Juan, Batangas",,0401023000,San Juan,0401000000,0400000000
+batelec-ii,"Talisay, Batangas",,0401030000,Talisay,0401000000,0400000000
+batelec-ii,"Tanauan, Batangas",,0401031000,City of Tanauan,0401000000,0400000000
+batelec-ii,Taysan,,0401032000,Taysan,0401000000,0400000000
+batelec-ii,Tingloy,Off-the-grid,0401033000,Tingloy,0401000000,0400000000
+fleco,Cavinti,,0403407000,Cavinti,0403400000,0400000000
+fleco,Famy,,0403408000,Famy,0403400000,0400000000
+fleco,"Kalayaan, Laguna",,0403409000,Kalayaan,0403400000,0400000000
+fleco,Lumban,,0403413000,Lumban,0403400000,0400000000
+fleco,Mabitac,,0403414000,Mabitac,0403400000,0400000000
+fleco,Paete,,0403418000,Paete,0403400000,0400000000
+fleco,Pagsanjan,,0403419000,Pagsanjan,0403400000,0400000000
+fleco,Pakil,,0403420000,Pakil,0403400000,0400000000
+fleco,Pangil,,0403421000,Pangil,0403400000,0400000000
+fleco,"Santa Maria, Laguna",,0403427000,Santa Maria,0403400000,0400000000
+fleco,Siniloan,,0403429000,Siniloan,0403400000,0400000000
+quezelco-i,Agdangan,,0405601000,Agdangan,0405600000,0400000000
+quezelco-i,"Alabat, Quezon",,0405602000,Alabat,0405600000,0400000000
+quezelco-i,Atimonan,,0405603000,Atimonan,0405600000,0400000000
+quezelco-i,"Buenavista, Quezon",,0405605000,Buenavista,0405600000,0400000000
+quezelco-i,Calauag,,0405607000,Calauag,0405600000,0400000000
+quezelco-i,Catanauan,,0405610000,Catanauan,0405600000,0400000000
+quezelco-i,"Del Gallego, Camarines Sur",Some areas only,0501712000,Del Gallego,0501700000,0500000000
+quezelco-i,"General Luna, Quezon",,0405616000,General Luna,0405600000,0400000000
+quezelco-i,Guinayangan,,0405618000,Guinayangan,0405600000,0400000000
+quezelco-i,Gumaca,,0405619000,Gumaca,0405600000,0400000000
+quezelco-i,"Lopez, Quezon",,0405622000,Lopez,0405600000,0400000000
+quezelco-i,Macalelon,,0405625000,Macalelon,0405600000,0400000000
+quezelco-i,Mulanay,,0405628000,Mulanay,0405600000,0400000000
+quezelco-i,"Padre Burgos, Quezon",,0405629000,Padre Burgos,0405600000,0400000000
+quezelco-i,"Perez, Quezon",,0405633000,Perez,0405600000,0400000000
+quezelco-i,"Pitogo, Quezon",,0405634000,Pitogo,0405600000,0400000000
+quezelco-i,"Plaridel, Quezon",,0405635000,Plaridel,0405600000,0400000000
+quezelco-i,"Quezon, Quezon",,0405637000,Quezon,0405600000,0400000000
+quezelco-i,"San Andres, Quezon",,0405640000,San Andres,0405600000,0400000000
+quezelco-i,"San Francisco, Quezon",,0405642000,San Francisco,0405600000,0400000000
+quezelco-i,"San Narciso, Quezon",,0405644000,San Narciso,0405600000,0400000000
+quezelco-i,"Santa Elena, Camarines Norte",Some areas only,0501610000,Santa Elena,0501600000,0500000000
+quezelco-i,Tagkawayan,,0405646000,Tagkawayan,0405600000,0400000000
+quezelco-i,"Unisan, Quezon",,0405649000,Unisan,0405600000,0400000000
+quezelco-ii,Burdeos,Off-the-grid,0405606000,Burdeos,0405600000,0400000000
+quezelco-ii,General Nakar,,0405617000,General Nakar,0405600000,0400000000
+quezelco-ii,"Infanta, Quezon",,0405620000,Infanta,0405600000,0400000000
+quezelco-ii,Jomalig,Off-the-grid,0405621000,Jomalig,0405600000,0400000000
+quezelco-ii,Panukulan,Off-the-grid,0405631000,Panukulan,0405600000,0400000000
+quezelco-ii,Patnanungan,Off-the-grid,0405632000,Patnanungan,0405600000,0400000000
+quezelco-ii,"Polillo, Quezon",Off-the-grid,0405636000,Polillo,0405600000,0400000000
+quezelco-ii,"Real, Quezon",,0405638000,Real,0405600000,0400000000
+biselco,"Busuanga, Palawan",,1705307000,Busuanga,1705300000,1700000000
+biselco,"Coron, Palawan",,1705309000,Coron,1705300000,1700000000
+biselco,Culion,,1705322000,Culion,1705300000,1700000000
+biselco,Linapacan,,1705313000,Linapacan,1705300000,1700000000
+lubelco,"Looc, Occidental Mindoro",,1705103000,Looc,1705100000,1700000000
+lubelco,"Lubang, Occidental Mindoro",,1705104000,Lubang,1705100000,1700000000
+marelco,"Boac, Marinduque",,1704001000,Boac,1704000000,1700000000
+marelco,"Buenavista, Marinduque",,1704002000,Buenavista,1704000000,1700000000
+marelco,"Gasan, Marinduque",,1704003000,Gasan,1704000000,1700000000
+marelco,Mogpog,,1704004000,Mogpog,1704000000,1700000000
+marelco,"Santa Cruz, Marinduque",,1704005000,Santa Cruz,1704000000,1700000000
+marelco,"Torrijos, Marinduque",,1704006000,Torrijos,1704000000,1700000000
+omeco,Abra de Ilog,,1705101000,Abra De Ilog,1705100000,1700000000
+omeco,Calintaan,,1705102000,Calintaan,1705100000,1700000000
+omeco,"Magsaysay, Occidental Mindoro",,1705105000,Magsaysay,1705100000,1700000000
+omeco,Mamburao,,1705106000,Mamburao,1705100000,1700000000
+omeco,Paluan,,1705107000,Paluan,1705100000,1700000000
+omeco,"Rizal, Occidental Mindoro",,1705108000,Rizal,1705100000,1700000000
+omeco,Sablayan,,1705109000,Sablayan,1705100000,1700000000
+omeco,"San Jose, Occidental Mindoro",,1705110000,San Jose,1705100000,1700000000
+omeco,"Santa Cruz, Occidental Mindoro",,1705111000,Santa Cruz,1705100000,1700000000
+ormeco,"Baco, Oriental Mindoro",,1705201000,Baco,1705200000,1700000000
+ormeco,Bansud,,1705202000,Bansud,1705200000,1700000000
+ormeco,Bongabong,,1705203000,Bongabong,1705200000,1700000000
+ormeco,Bulalacao,,1705204000,Bulalacao,1705200000,1700000000
+ormeco,Calapan,,1705205000,City of Calapan,1705200000,1700000000
+ormeco,"Gloria, Oriental Mindoro",,1705206000,Gloria,1705200000,1700000000
+ormeco,Mansalay,,1705207000,Mansalay,1705200000,1700000000
+ormeco,Naujan,,1705208000,Naujan,1705200000,1700000000
+ormeco,Pinamalayan,,1705209000,Pinamalayan,1705200000,1700000000
+ormeco,"Pola, Oriental Mindoro",,1705210000,Pola,1705200000,1700000000
+ormeco,Puerto Galera,,1705211000,Puerto Galera,1705200000,1700000000
+ormeco,"Roxas, Oriental Mindoro",,1705212000,Roxas,1705200000,1700000000
+ormeco,"San Teodoro, Oriental Mindoro",,1705213000,San Teodoro,1705200000,1700000000
+ormeco,"Socorro, Oriental Mindoro",,1705214000,Socorro,1705200000,1700000000
+ormeco,"Victoria, Oriental Mindoro",,1705215000,Victoria,1705200000,1700000000
+paleco,Aborlan,,1705301000,Aborlan,1705300000,1700000000
+paleco,Agutaya,,1705302000,Agutaya,1705300000,1700000000
+paleco,"Araceli, Palawan",,1705303000,Araceli,1705300000,1700000000
+paleco,"Balabac, Palawan",,1705304000,Balabac,1705300000,1700000000
+paleco,Bataraza,,1705305000,Bataraza,1705300000,1700000000
+paleco,Brooke's Point,,1705306000,Brooke's Point,1705300000,1700000000
+paleco,Cagayancillo,,1705308000,Cagayancillo,1705300000,1700000000
+paleco,"Cuyo, Palawan",,1705310000,Cuyo,1705300000,1700000000
+paleco,Dumaran,,1705311000,Dumaran,1705300000,1700000000
+paleco,"El Nido, Palawan",,1705312000,El Nido,1705300000,1700000000
+paleco,"Magsaysay, Palawan",,1705314000,Magsaysay,1705300000,1700000000
+paleco,"Narra, Palawan",,1705315000,Narra,1705300000,1700000000
+paleco,Puerto Princesa,,1731500000,City of Puerto Princesa,,1700000000
+paleco,"Quezon, Palawan",,1705317000,Quezon,1705300000,1700000000
+paleco,"Roxas, Palawan",,1705318000,Roxas,1705300000,1700000000
+paleco,"San Vicente, Palawan",,1705319000,San Vicente,1705300000,1700000000
+paleco,Sofronio Española,,1705324000,Sofronio Española,1705300000,1700000000
+paleco,"Taytay, Palawan",,1705320000,Taytay,1705300000,1700000000
+romelco,Cajidiocan,,1705903000,Cajidiocan,1705900000,1700000000
+romelco,"Magdiwang, Romblon",,1705908000,Magdiwang,1705900000,1700000000
+romelco,"Romblon, Romblon",,1705910000,Romblon,1705900000,1700000000
+romelco,"San Fernando, Romblon",,1705913000,San Fernando,1705900000,1700000000
+tielco,"Alcantara, Romblon",,1705901000,Alcantara,1705900000,1700000000
+tielco,"Calatrava, Romblon",,1705904000,Calatrava,1705900000,1700000000
+tielco,"Ferrol, Romblon",,1705916000,Ferrol,1705900000,1700000000
+tielco,"Looc, Romblon",,1705907000,Looc,1705900000,1700000000
+tielco,Odiongan,,1705909000,Odiongan,1705900000,1700000000
+tielco,"San Agustin, Romblon",,1705911000,San Agustin,1705900000,1700000000
+tielco,"San Andres, Romblon",,1705912000,San Andres,1705900000,1700000000
+tielco,"San Jose, Romblon",,1705914000,San Jose,1705900000,1700000000
+tielco,"Santa Fe, Romblon",,1705915000,Santa Fe,1705900000,1700000000
+tielco,"Santa Maria, Romblon",,1705917000,Santa Maria,1705900000,1700000000
+aleco,Bacacay,,0500501000,Bacacay,0500500000,0500000000
+aleco,Camalig,,0500502000,Camalig,0500500000,0500000000
+aleco,Daraga,,0500503000,Daraga,0500500000,0500000000
+aleco,Guinobatan,,0500504000,Guinobatan,0500500000,0500000000
+aleco,Jovellar,,0500505000,Jovellar,0500500000,0500000000
+aleco,"Legazpi, Albay",,0500506000,City of Legazpi,0500500000,0500000000
+aleco,"Libon, Albay",,0500507000,Libon,0500500000,0500000000
+aleco,Ligao,,0500508000,City of Ligao,0500500000,0500000000
+aleco,Malilipot,,0500509000,Malilipot,0500500000,0500000000
+aleco,"Malinao, Albay",,0500510000,Malinao,0500500000,0500000000
+aleco,"Manito, Albay",,0500511000,Manito,0500500000,0500000000
+aleco,"Oas, Albay",,0500512000,Oas,0500500000,0500000000
+aleco,Pio Duran,,0500513000,Pio Duran,0500500000,0500000000
+aleco,Polangui,,0500514000,Polangui,0500500000,0500000000
+aleco,Rapu-Rapu,Off-the-grid,0500515000,Rapu-Rapu,0500500000,0500000000
+aleco,"Santo Domingo, Albay",,0500516000,Santo Domingo,0500500000,0500000000
+aleco,Tabaco,,0500517000,City of Tabaco,0500500000,0500000000
+aleco,"Tiwi, Albay",,0500518000,Tiwi,0500500000,0500000000
+canoreco,Basud,,0501601000,Basud,0501600000,0500000000
+canoreco,Capalonga,,0501602000,Capalonga,0501600000,0500000000
+canoreco,Daet,,0501603000,Daet,0501600000,0500000000
+canoreco,"Jose Panganiban, Camarines Norte",,0501605000,Jose Panganiban,0501600000,0500000000
+canoreco,"Labo, Camarines Norte",,0501606000,Labo,0501600000,0500000000
+canoreco,"Mercedes, Camarines Norte",,0501607000,Mercedes,0501600000,0500000000
+canoreco,Paracale,,0501608000,Paracale,0501600000,0500000000
+canoreco,"San Lorenzo Ruiz, Camarines Norte",,0501604000,San Lorenzo Ruiz,0501600000,0500000000
+canoreco,"San Vicente, Camarines Norte",,0501609000,San Vicente,0501600000,0500000000
+canoreco,"Santa Elena, Camarines Norte",Some areas only,0501610000,Santa Elena,0501600000,0500000000
+canoreco,"Talisay, Camarines Norte",,0501611000,Talisay,0501600000,0500000000
+canoreco,Vinzons,,0501612000,Vinzons,0501600000,0500000000
+casureco1,Cabusao,,0501707000,Cabusao,0501700000,0500000000
+casureco1,Camaligan,,0501709000,Camaligan,0501700000,0500000000
+casureco1,Del Gallego,Some areas only,0501712000,Del Gallego,0501700000,0500000000
+casureco1,Gainza,,0501713000,Gainza,0501700000,0500000000
+casureco1,Libmanan,,0501718000,Libmanan,0501700000,0500000000
+casureco1,"Lupi, Camarines Sur",,0501719000,Lupi,0501700000,0500000000
+casureco1,"Pamplona, Camarines Sur",,0501726000,Pamplona,0501700000,0500000000
+casureco1,Pasacao,,0501727000,Pasacao,0501700000,0500000000
+casureco1,Ragay,,0501730000,Ragay,0501700000,0500000000
+casureco1,"San Fernando, Camarines Sur",,0501732000,San Fernando,0501700000,0500000000
+casureco1,Sipocot,,0501734000,Sipocot,0501700000,0500000000
+casureco2,"Bombon, Camarines Sur",,0501704000,Bombon,0501700000,0500000000
+casureco2,Calabanga,,0501708000,Calabanga,0501700000,0500000000
+casureco2,Canaman,,0501710000,Canaman,0501700000,0500000000
+casureco2,Magarao,,0501720000,Magarao,0501700000,0500000000
+casureco2,Milaor,,0501721000,Milaor,0501700000,0500000000
+casureco2,Minalabac,,0501722000,Minalabac,0501700000,0500000000
+casureco2,"Naga, Camarines Sur",,0501724000,City of Naga,0501700000,0500000000
+casureco2,"Pili, Camarines Sur",,0501728000,Pili,0501700000,0500000000
+casureco2,Siruma,,0501735000,Siruma,0501700000,0500000000
+casureco2,Tinambac,,0501737000,Tinambac,0501700000,0500000000
+casureco3,Baao,,0501701000,Baao,0501700000,0500000000
+casureco3,Balatan,,0501702000,Balatan,0501700000,0500000000
+casureco3,"Bato, Camarines Sur",,0501703000,Bato,0501700000,0500000000
+casureco3,"Buhi, Camarines Sur",,0501705000,Buhi,0501700000,0500000000
+casureco3,"Bula, Camarines Sur",,0501706000,Bula,0501700000,0500000000
+casureco3,Iriga,,0501716000,City of Iriga,0501700000,0500000000
+casureco3,Nabua,,0501723000,Nabua,0501700000,0500000000
+casureco4,Caramoan,Off-the-grid,0501711000,Caramoan,0501700000,0500000000
+casureco4,Garchitorena,Off-the-grid,0501714000,Garchitorena,0501700000,0500000000
+casureco4,Goa,,0501715000,Goa,0501700000,0500000000
+casureco4,Lagonoy,,0501717000,Lagonoy,0501700000,0500000000
+casureco4,"Ocampo, Camarines Sur",,0501725000,Ocampo,0501700000,0500000000
+casureco4,Presentacion,,0501729000,Presentacion,0501700000,0500000000
+casureco4,"San Jose, Camarines Sur",,0501733000,San Jose,0501700000,0500000000
+casureco4,Sagñay,,0501731000,Sagñay,0501700000,0500000000
+casureco4,"Tigaon, Camarines Sur",,0501736000,Tigaon,0501700000,0500000000
+ficelco,Bagamanoc,,0502001000,Bagamanoc,0502000000,0500000000
+ficelco,"Baras, Catanduanes",,0502002000,Baras,0502000000,0500000000
+ficelco,"Bato, Catanduanes",,0502003000,Bato,0502000000,0500000000
+ficelco,Caramoran,,0502004000,Caramoran,0502000000,0500000000
+ficelco,Gigmoto,,0502005000,Gigmoto,0502000000,0500000000
+ficelco,"Pandan, Catanduanes",,0502006000,Pandan,0502000000,0500000000
+ficelco,"Panganiban, Catanduanes",,0502007000,Panganiban,0502000000,0500000000
+ficelco,"San Andres, Catanduanes",,0502008000,San Andres,0502000000,0500000000
+ficelco,"San Miguel, Catanduanes",,0502009000,San Miguel,0502000000,0500000000
+ficelco,"Viga, Catanduanes",,0502010000,Viga,0502000000,0500000000
+ficelco,"Virac, Catanduanes",,0502011000,Virac,0502000000,0500000000
+maselco,Aroroy,,0504101000,Aroroy,0504100000,0500000000
+maselco,"Baleno, Masbate",,0504102000,Baleno,0504100000,0500000000
+maselco,Balud,,0504103000,Balud,0504100000,0500000000
+maselco,Cataingan,,0504105000,Cataingan,0504100000,0500000000
+maselco,Cawayan,,0504106000,Cawayan,0504100000,0500000000
+maselco,"Claveria, Masbate",,0504107000,Claveria,0504100000,0500000000
+maselco,Dimasalang,,0504108000,Dimasalang,0504100000,0500000000
+maselco,"Esperanza, Masbate",,0504109000,Esperanza,0504100000,0500000000
+maselco,Mandaon,,0504110000,Mandaon,0504100000,0500000000
+maselco,Masbate City,,0504111000,City of Masbate,0504100000,0500000000
+maselco,"Milagros, Masbate",,0504112000,Milagros,0504100000,0500000000
+maselco,"Mobo, Masbate",,0504113000,Mobo,0504100000,0500000000
+maselco,Palanas,,0504115000,Palanas,0504100000,0500000000
+maselco,Pio V. Corpus,,0504116000,Pio V. Corpus,0504100000,0500000000
+maselco,"Placer, Masbate",,0504117000,Placer,0504100000,0500000000
+maselco,"San Pascual, Masbate",,0504120000,San Pascual,0504100000,0500000000
+maselco,Uson,,0504121000,Uson,0504100000,0500000000
+soreco1,"Bulan, Sorsogon",,0506203000,Bulan,0506200000,0500000000
+soreco1,Bulusan (municipality),,0506204000,Bulusan,0506200000,0500000000
+soreco1,"Casiguran, Sorsogon",,0506205000,Casiguran,0506200000,0500000000
+soreco1,Irosin,,0506209000,Irosin,0506200000,0500000000
+soreco1,"Juban, Sorsogon",,0506210000,Juban,0506200000,0500000000
+soreco1,"Magallanes, Sorsogon",,0506211000,Magallanes,0506200000,0500000000
+soreco1,Matnog,,0506212000,Matnog,0506200000,0500000000
+soreco1,Santa Magdalena,,0506215000,Santa Magdalena,0506200000,0500000000
+soreco2,"Barcelona, Sorsogon",,0506202000,Barcelona,0506200000,0500000000
+soreco2,"Castilla, Sorsogon",,0506206000,Castilla,0506200000,0500000000
+soreco2,Donsol,,0506207000,Donsol,0506200000,0500000000
+soreco2,Gubat,,0506208000,Gubat,0506200000,0500000000
+soreco2,"Pilar, Sorsogon",,0506213000,Pilar,0506200000,0500000000
+soreco2,Prieto Diaz,,0506214000,Prieto Diaz,0506200000,0500000000
+soreco2,Sorsogon City,,0506216000,City of Sorsogon,0506200000,0500000000
+tiselco,"Batuan, Masbate",,0504104000,Batuan,0504100000,0500000000
+tiselco,"Monreal, Masbate",,0504114000,Monreal,0504100000,0500000000
+tiselco,"San Fernando, Masbate",,0504118000,San Fernando,0504100000,0500000000
+tiselco,"San Jacinto, Masbate",,0504119000,San Jacinto,0504100000,0500000000
+noceco,Binalbagan,,1804503000,Binalbagan,1804500000,1800000000
+noceco,Candoni,,1804506000,Candoni,1804500000,1800000000
+noceco,"Cauayan, Negros Occidental",,1804507000,Cauayan,1804500000,1800000000
+noceco,Himamaylan,,1804510000,City of Himamaylan,1804500000,1800000000
+noceco,Hinigaran,,1804511000,Hinigaran,1804500000,1800000000
+noceco,Hinoba-an,,1804512000,Hinoba-an,1804500000,1800000000
+noceco,"Ilog, Negros Occidental",,1804513000,Ilog,1804500000,1800000000
+noceco,"Isabela, Negros Occidental",,1804514000,Isabela,1804500000,1800000000
+noceco,Kabankalan,,1804515000,City of Kabankalan,1804500000,1800000000
+noceco,"La Carlota, Negros Occidental",,1804516000,City of La Carlota,1804500000,1800000000
+noceco,"La Castellana, Negros Occidental",,1804517000,La Castellana,1804500000,1800000000
+noceco,Moises Padilla,,1804519000,Moises Padilla,1804500000,1800000000
+noceco,"Pontevedra, Negros Occidental",,1804521000,Pontevedra,1804500000,1800000000
+noceco,Pulupandan,,1804522000,Pulupandan,1804500000,1800000000
+noceco,"San Enrique, Negros Occidental",,1804525000,San Enrique,1804500000,1800000000
+noceco,Sipalay,,1804527000,City of Sipalay,1804500000,1800000000
+noceco,"Valladolid, Negros Occidental",,1804530000,Valladolid,1804500000,1800000000
+noneco,"Cadiz, Negros Occidental",,1804504000,City of Cadiz,1804500000,1800000000
+noneco,"Calatrava, Negros Occidental",,1804505000,Calatrava,1804500000,1800000000
+noneco,"Enrique B. Magalona, Negros Occidental",,1804508000,Enrique B. Magalona,1804500000,1800000000
+noneco,"Escalante, Negros Occidental",,1804509000,City of Escalante,1804500000,1800000000
+noneco,Manapla,,1804518000,Manapla,1804500000,1800000000
+noneco,"Sagay, Negros Occidental",,1804523000,City of Sagay,1804500000,1800000000
+noneco,"San Carlos, Negros Occidental",,1804524000,City of San Carlos,1804500000,1800000000
+noneco,"Toboso, Negros Occidental",,1804529000,Toboso,1804500000,1800000000
+noneco,Victorias,,1804531000,City of Victorias,1804500000,1800000000
+noreco-i,Ayungon,,1804602000,Ayungon,1804600000,1800000000
+noreco-i,"Bais, Negros Oriental",,1804604000,City of Bais,1804600000,1800000000
+noreco-i,Bindoy,,1804607000,Bindoy,1804600000,1800000000
+noreco-i,Canlaon,,1804608000,City of Canlaon,1804600000,1800000000
+noreco-i,Guihulngan,,1804611000,City of Guihulngan,1804600000,1800000000
+noreco-i,"La Libertad, Negros Oriental",,1804613000,La Libertad,1804600000,1800000000
+noreco-i,Mabinay,,1804614000,Mabinay,1804600000,1800000000
+noreco-i,Manjuyod,,1804615000,Manjuyod,1804600000,1800000000
+noreco-i,Tayasan,,1804622000,Tayasan,1804600000,1800000000
+noreco-i,"Vallehermoso, Negros Oriental",,1804624000,Vallehermoso,1804600000,1800000000
+noreco-ii,Amlan,,1804601000,Amlan,1804600000,1800000000
+noreco-ii,Bacong,,1804603000,Bacong,1804600000,1800000000
+noreco-ii,"Basay, Negros Oriental",,1804605000,Basay,1804600000,1800000000
+noreco-ii,Bayawan,,1804606000,City of Bayawan,1804600000,1800000000
+noreco-ii,Dauin,,1804609000,Dauin,1804600000,1800000000
+noreco-ii,Dumaguete,,1804610000,City of Dumaguete,1804600000,1800000000
+noreco-ii,"Pamplona, Negros Oriental",,1804616000,Pamplona,1804600000,1800000000
+noreco-ii,"San Jose, Negros Oriental",,1804617000,San Jose,1804600000,1800000000
+noreco-ii,"Santa Catalina, Negros Oriental",,1804618000,Santa Catalina,1804600000,1800000000
+noreco-ii,Siaton,,1804619000,Siaton,1804600000,1800000000
+noreco-ii,Sibulan,,1804620000,Sibulan,1804600000,1800000000
+noreco-ii,Tanjay,,1804621000,City of Tanjay,1804600000,1800000000
+noreco-ii,"Valencia, Negros Oriental",,1804623000,Valencia,1804600000,1800000000
+noreco-ii,Zamboanguita,,1804625000,Zamboanguita,1804600000,1800000000
+akelco,Altavas,,0600401000,Altavas,0600400000,0600000000
+akelco,"Balete, Aklan",,0600402000,Balete,0600400000,0600000000
+akelco,"Banga, Aklan",,0600403000,Banga,0600400000,0600000000
+akelco,"Batan, Aklan",,0600404000,Batan,0600400000,0600000000
+akelco,Buruanga,,0600405000,Buruanga,0600400000,0600000000
+akelco,Ibajay,,0600406000,Ibajay,0600400000,0600000000
+akelco,Kalibo,,0600407000,Kalibo,0600400000,0600000000
+akelco,"Lezo, Aklan",,0600408000,Lezo,0600400000,0600000000
+akelco,Libacao,,0600409000,Libacao,0600400000,0600000000
+akelco,"Libertad, Antique",,0600610000,Libertad,0600600000,0600000000
+akelco,Madalag,,0600410000,Madalag,0600400000,0600000000
+akelco,Makato,,0600411000,Makato,0600400000,0600000000
+akelco,"Malay, Aklan",,0600412000,Malay,0600400000,0600000000
+akelco,"Malinao, Aklan",,0600413000,Malinao,0600400000,0600000000
+akelco,"Nabas, Aklan",,0600414000,Nabas,0600400000,0600000000
+akelco,"New Washington, Aklan",,0600415000,New Washington,0600400000,0600000000
+akelco,"Numancia, Aklan",,0600416000,Numancia,0600400000,0600000000
+akelco,"Pandan, Antique",,0600611000,Pandan,0600600000,0600000000
+akelco,Sapian,,0601915000,Sapi-An,0601900000,0600000000
+akelco,Tangalan,,0600417000,Tangalan,0600400000,0600000000
+anteco,Anini-y,,0600601000,Anini-Y,0600600000,0600000000
+anteco,Barbaza,,0600602000,Barbaza,0600600000,0600000000
+anteco,Belison,,0600603000,Belison,0600600000,0600000000
+anteco,Bugasong,,0600604000,Bugasong,0600600000,0600000000
+anteco,Caluya,Off-the-grid,0600605000,Caluya,0600600000,0600000000
+anteco,Culasi,,0600606000,Culasi,0600600000,0600000000
+anteco,Hamtic,,0600608000,Hamtic,0600600000,0600000000
+anteco,Laua-an,,0600609000,Laua-An,0600600000,0600000000
+anteco,Patnongon,,0600612000,Patnongon,0600600000,0600000000
+anteco,"San Remigio, Antique",,0600614000,San Remigio,0600600000,0600000000
+anteco,"Sebaste, Antique",,0600615000,Sebaste,0600600000,0600000000
+anteco,Sibalom,,0600616000,Sibalom,0600600000,0600000000
+anteco,Tibiao,,0600617000,Tibiao,0600600000,0600000000
+anteco,"Tobias Fornier, Antique",,0600607000,Tobias Fornier,0600600000,0600000000
+anteco,"Valderrama, Antique",,0600618000,Valderrama,0600600000,0600000000
+capelco,Cuartero,,0601901000,Cuartero,0601900000,0600000000
+capelco,"Dao, Capiz",,0601902000,Dao,0601900000,0600000000
+capelco,Dumalag,,0601903000,Dumalag,0601900000,0600000000
+capelco,Dumarao,,0601904000,Dumarao,0601900000,0600000000
+capelco,Ivisan,,0601905000,Ivisan,0601900000,0600000000
+capelco,Jamindan,,0601906000,Jamindan,0601900000,0600000000
+capelco,Ma-ayon,,0601907000,Ma-Ayon,0601900000,0600000000
+capelco,Mambusao,,0601908000,Mambusao,0601900000,0600000000
+capelco,"Panay, Capiz",,0601909000,Panay,0601900000,0600000000
+capelco,Panitan,,0601910000,Panitan,0601900000,0600000000
+capelco,"Pilar, Capiz",,0601911000,Pilar,0601900000,0600000000
+capelco,"Pontevedra, Capiz",,0601912000,Pontevedra,0601900000,0600000000
+capelco,"President Roxas, Capiz",,0601913000,President Roxas,0601900000,0600000000
+capelco,"Roxas, Capiz",,0601914000,City of Roxas,0601900000,0600000000
+capelco,Sapian,,0601915000,Sapi-An,0601900000,0600000000
+capelco,"Sigma, Capiz",,0601916000,Sigma,0601900000,0600000000
+capelco,Tapaz,,0601917000,Tapaz,0601900000,0600000000
+guimelco,"Buenavista, Guimaras",,0607901000,Buenavista,0607900000,0600000000
+guimelco,"Jordan, Guimaras",,0607902000,Jordan,0607900000,0600000000
+guimelco,Nueva Valencia,,0607903000,Nueva Valencia,0607900000,0600000000
+guimelco,"San Lorenzo, Guimaras",,0607904000,San Lorenzo,0607900000,0600000000
+guimelco,Sibunag,,0607905000,Sibunag,0607900000,0600000000
+ileco-i,Alimodian,,0603002000,Alimodian,0603000000,0600000000
+ileco-i,"Cabatuan, Iloilo",,0603012000,Cabatuan,0603000000,0600000000
+ileco-i,Guimbal,,0603020000,Guimbal,0603000000,0600000000
+ileco-i,Igbaras,,0603021000,Igbaras,0603000000,0600000000
+ileco-i,"Leganes, Iloilo",,0603026000,Leganes,0603000000,0600000000
+ileco-i,"Leon, Iloilo",,0603028000,Leon,0603000000,0600000000
+ileco-i,"Maasin, Iloilo",,0603029000,Maasin,0603000000,0600000000
+ileco-i,Miagao,,0603030000,Miagao,0603000000,0600000000
+ileco-i,Oton,,0603034000,Oton,0603000000,0600000000
+ileco-i,"Pavia, Iloilo",,0603036000,Pavia,0603000000,0600000000
+ileco-i,"San Joaquin, Iloilo",,0603040000,San Joaquin,0603000000,0600000000
+ileco-i,"San Miguel, Iloilo",,0603041000,San Miguel,0603000000,0600000000
+ileco-i,"Santa Barbara, Iloilo",,0603043000,Santa Barbara,0603000000,0600000000
+ileco-i,Tigbauan,,0603045000,Tigbauan,0603000000,0600000000
+ileco-i,Tubungan,,0603046000,Tubungan,0603000000,0600000000
+ileco-ii,Badiangan,,0603004000,Badiangan,0603000000,0600000000
+ileco-ii,Barotac Nuevo,,0603007000,Barotac Nuevo,0603000000,0600000000
+ileco-ii,Bingawan,,0603010000,Bingawan,0603000000,0600000000
+ileco-ii,Calinog,,0603013000,Calinog,0603000000,0600000000
+ileco-ii,"Dingle, Iloilo",,0603016000,Dingle,0603000000,0600000000
+ileco-ii,"Dueñas, Iloilo",,0603017000,Dueñas,0603000000,0600000000
+ileco-ii,Dumangas,,0603018000,Dumangas,0603000000,0600000000
+ileco-ii,Janiuay,,0603023000,Janiuay,0603000000,0600000000
+ileco-ii,Lambunao,,0603025000,Lambunao,0603000000,0600000000
+ileco-ii,"Mina, Iloilo",,0603031000,Mina,0603000000,0600000000
+ileco-ii,New Lucena,,0603032000,New Lucena,0603000000,0600000000
+ileco-ii,"Passi, Iloilo",,0603035000,City of Passi,0603000000,0600000000
+ileco-ii,Pototan,,0603037000,Pototan,0603000000,0600000000
+ileco-ii,"San Enrique, Iloilo",,0603039000,San Enrique,0603000000,0600000000
+ileco-ii,Zarraga,,0603047000,Zarraga,0603000000,0600000000
+ileco-iii,"Ajuy, Iloilo",Some areas are off-the-grid,0603001000,Ajuy,0603000000,0600000000
+ileco-iii,"Anilao, Iloilo",,0603003000,Anilao,0603000000,0600000000
+ileco-iii,Balasan,,0603005000,Balasan,0603000000,0600000000
+ileco-iii,"Banate, Iloilo",,0603006000,Banate,0603000000,0600000000
+ileco-iii,Barotac Viejo,,0603008000,Barotac Viejo,0603000000,0600000000
+ileco-iii,"Batad, Iloilo",,0603009000,Batad,0603000000,0600000000
+ileco-iii,"Carles, Iloilo",Some areas are off-the-grid,0603014000,Carles,0603000000,0600000000
+ileco-iii,"Concepcion, Iloilo",Some areas are off-the-grid,0603015000,Concepcion,0603000000,0600000000
+ileco-iii,"Estancia, Iloilo",Some areas are off-the-grid,0603019000,Estancia,0603000000,0600000000
+ileco-iii,"Lemery, Iloilo",,0603027000,Lemery,0603000000,0600000000
+ileco-iii,"San Dionisio, Iloilo",Some areas are off-the-grid,0603038000,San Dionisio,0603000000,0600000000
+ileco-iii,"San Rafael, Iloilo",,0603042000,San Rafael,0603000000,0600000000
+ileco-iii,"Sara, Iloilo",,0603044000,Sara,0603000000,0600000000
+banelco,"Bantayan, Cebu",,0702209000,Bantayan,0702200000,0700000000
+banelco,"Madridejos, Cebu",,0702228000,Madridejos,0702200000,0700000000
+banelco,"Santa Fe, Cebu",,0702244000,Santa Fe,0702200000,0700000000
+boheco-i,"Alburquerque, Bohol",,0701201000,Alburquerque,0701200000,0700000000
+boheco-i,"Antequera, Bohol",,0701204000,Antequera,0701200000,0700000000
+boheco-i,Baclayon,Some areas are off-the-grid,0701205000,Baclayon,0701200000,0700000000
+boheco-i,Balilihan,,0701206000,Balilihan,0701200000,0700000000
+boheco-i,"Batuan, Bohol",,0701207000,Batuan,0701200000,0700000000
+boheco-i,"Bilar, Bohol",,0701208000,Bilar,0701200000,0700000000
+boheco-i,Calape,Some areas are off-the-grid,0701210000,Calape,0701200000,0700000000
+boheco-i,"Carmen, Bohol",,0701212000,Carmen,0701200000,0700000000
+boheco-i,Catigbian,,0701213000,Catigbian,0701200000,0700000000
+boheco-i,"Clarin, Bohol",,0701214000,Clarin,0701200000,0700000000
+boheco-i,"Corella, Bohol",,0701215000,Corella,0701200000,0700000000
+boheco-i,"Cortes, Bohol",,0701216000,Cortes,0701200000,0700000000
+boheco-i,Dauis,,0701219000,Dauis,0701200000,0700000000
+boheco-i,Dimiao,,0701220000,Dimiao,0701200000,0700000000
+boheco-i,Inabanga,Some areas are off-the-grid,0701224000,Inabanga,0701200000,0700000000
+boheco-i,"Lila, Bohol",,0701227000,Lila,0701200000,0700000000
+boheco-i,"Loay, Bohol",,0701228000,Loay,0701200000,0700000000
+boheco-i,Loboc,,0701229000,Loboc,0701200000,0700000000
+boheco-i,"Loon, Bohol",,0701230000,Loon,0701200000,0700000000
+boheco-i,Maribojoc,,0701232000,Maribojoc,0701200000,0700000000
+boheco-i,"Panglao, Bohol",Some areas are off-the-grid,0701233000,Panglao,0701200000,0700000000
+boheco-i,Sagbayan,,0701236000,Sagbayan,0701200000,0700000000
+boheco-i,"San Isidro, Bohol",,0701237000,San Isidro,0701200000,0700000000
+boheco-i,"Sevilla, Bohol",,0701239000,Sevilla,0701200000,0700000000
+boheco-i,"Sikatuna, Bohol",,0701241000,Sikatuna,0701200000,0700000000
+boheco-i,Tubigon,,0701245000,Tubigon,0701200000,0700000000
+boheco-ii,"Alicia, Bohol",,0701202000,Alicia,0701200000,0700000000
+boheco-ii,"Anda, Bohol",,0701203000,Anda,0701200000,0700000000
+boheco-ii,Bien Unido,,0701248000,Bien Unido,0701200000,0700000000
+boheco-ii,"Buenavista, Bohol",,0701209000,Buenavista,0701200000,0700000000
+boheco-ii,Candijay,,0701211000,Candijay,0701200000,0700000000
+boheco-ii,"Dagohoy, Bohol",,0701217000,Dagohoy,0701200000,0700000000
+boheco-ii,"Danao, Bohol",,0701218000,Danao,0701200000,0700000000
+boheco-ii,"Duero, Bohol",,0701221000,Duero,0701200000,0700000000
+boheco-ii,Garcia Hernandez,,0701222000,Garcia Hernandez,0701200000,0700000000
+boheco-ii,"Getafe, Bohol",,0701226000,Getafe,0701200000,0700000000
+boheco-ii,Guindulman,,0701223000,Guindulman,0701200000,0700000000
+boheco-ii,Jagna,,0701225000,Jagna,0701200000,0700000000
+boheco-ii,"Mabini, Bohol",,0701231000,Mabini,0701200000,0700000000
+boheco-ii,"Pilar, Bohol",,0701234000,Pilar,0701200000,0700000000
+boheco-ii,"President Carlos P. Garcia, Bohol",,0701235000,President Carlos P. Garcia,0701200000,0700000000
+boheco-ii,"San Miguel, Bohol",,0701238000,San Miguel,0701200000,0700000000
+boheco-ii,Sierra Bullones,,0701240000,Sierra Bullones,0701200000,0700000000
+boheco-ii,Talibon,,0701243000,Talibon,0701200000,0700000000
+boheco-ii,"Trinidad, Bohol",,0701244000,Trinidad,0701200000,0700000000
+boheco-ii,"Ubay, Bohol",,0701246000,Ubay,0701200000,0700000000
+boheco-ii,"Valencia, Bohol",,0701247000,Valencia,0701200000,0700000000
+cebeco-i,"Alcantara, Cebu",,0702201000,Alcantara,0702200000,0700000000
+cebeco-i,"Alcoy, Cebu",,0702202000,Alcoy,0702200000,0700000000
+cebeco-i,"Alegria, Cebu",,0702203000,Alegria,0702200000,0700000000
+cebeco-i,Argao,,0702205000,Argao,0702200000,0700000000
+cebeco-i,"Badian, Cebu",,0702207000,Badian,0702200000,0700000000
+cebeco-i,Barili,,0702210000,Barili,0702200000,0700000000
+cebeco-i,Boljoon,,0702212000,Boljoon,0702200000,0700000000
+cebeco-i,Carcar,,0702214000,City of Carcar,0702200000,0700000000
+cebeco-i,Dalaguete,,0702222000,Dalaguete,0702200000,0700000000
+cebeco-i,Dumanjug,,0702224000,Dumanjug,0702200000,0700000000
+cebeco-i,Ginatilan,,0702225000,Ginatilan,0702200000,0700000000
+cebeco-i,Malabuyoc,,0702229000,Malabuyoc,0702200000,0700000000
+cebeco-i,Moalboal,,0702233000,Moalboal,0702200000,0700000000
+cebeco-i,Oslob,,0702235000,Oslob,0702200000,0700000000
+cebeco-i,"Ronda, Cebu",,0702239000,Ronda,0702200000,0700000000
+cebeco-i,Samboan,,0702240000,Samboan,0702200000,0700000000
+cebeco-i,"Santander, Cebu",,0702245000,Santander,0702200000,0700000000
+cebeco-i,Sibonga,,0702246000,Sibonga,0702200000,0700000000
+cebeco-ii,"Bogo, Cebu",,0702211000,City of Bogo,0702200000,0700000000
+cebeco-ii,"Borbon, Cebu",,0702213000,Borbon,0702200000,0700000000
+cebeco-ii,"Carmen, Cebu",,0702215000,Carmen,0702200000,0700000000
+cebeco-ii,Catmon,,0702216000,Catmon,0702200000,0700000000
+cebeco-ii,"Compostela, Cebu",,0702218000,Compostela,0702200000,0700000000
+cebeco-ii,Daanbantayan,,0702221000,Daanbantayan,0702200000,0700000000
+cebeco-ii,"Danao, Cebu",,0702223000,Danao City,0702200000,0700000000
+cebeco-ii,"Medellin, Cebu",,0702231000,Medellin,0702200000,0700000000
+cebeco-ii,"San Remigio, Cebu",,0702243000,San Remigio,0702200000,0700000000
+cebeco-ii,"Sogod, Cebu",,0702247000,Sogod,0702200000,0700000000
+cebeco-ii,Tabogon,,0702248000,Tabogon,0702200000,0700000000
+cebeco-ii,Tabuelan,,0702249000,Tabuelan,0702200000,0700000000
+cebeco-ii,"Tuburan, Cebu",,0702252000,Tuburan,0702200000,0700000000
+cebeco-iii,Aloguinsan,,0702204000,Aloguinsan,0702200000,0700000000
+cebeco-iii,"Asturias, Cebu",,0702206000,Asturias,0702200000,0700000000
+cebeco-iii,Balamban,,0702208000,Balamban,0702200000,0700000000
+cebeco-iii,Pinamungajan,,0702237000,Pinamungajan,0702200000,0700000000
+cebeco-iii,"Toledo, Cebu",,0702251000,City of Toledo,0702200000,0700000000
+celco,"Pilar, Cebu",,0702236000,Pilar,0702200000,0700000000
+celco,"Poro, Cebu",,0702238000,Poro,0702200000,0700000000
+celco,"San Francisco, Cebu",,0702242000,San Francisco,0702200000,0700000000
+celco,"Tudela, Cebu",,0702253000,Tudela,0702200000,0700000000
+prosielco,Enrique Villanueva,,1806101000,Enrique Villanueva,1806100000,1800000000
+prosielco,Larena,,1806102000,Larena,1806100000,1800000000
+prosielco,"Lazi, Siquijor",,1806103000,Lazi,1806100000,1800000000
+prosielco,"Maria, Siquijor",,1806104000,Maria,1806100000,1800000000
+prosielco,"San Juan, Siquijor",,1806105000,San Juan,1806100000,1800000000
+prosielco,"Siquijor, Siquijor",,1806106000,Siquijor,1806100000,1800000000
+bileco,"Almeria, Biliran",,0807801000,Almeria,0807800000,0800000000
+bileco,"Biliran, Biliran",,0807802000,Biliran,0807800000,0800000000
+bileco,Cabucgayan,,0807803000,Cabucgayan,0807800000,0800000000
+bileco,Caibiran,,0807804000,Caibiran,0807800000,0800000000
+bileco,Culaba,,0807805000,Culaba,0807800000,0800000000
+bileco,Kawayan,,0807806000,Kawayan,0807800000,0800000000
+bileco,"Naval, Biliran",,0807808000,Naval,0807800000,0800000000
+esamelco,Arteche,,0802601000,Arteche,0802600000,0800000000
+esamelco,Balangiga,,0802602000,Balangiga,0802600000,0800000000
+esamelco,Balangkayan,,0802603000,Balangkayan,0802600000,0800000000
+esamelco,Borongan,,0802604000,City of Borongan,0802600000,0800000000
+esamelco,Can-avid,,0802605000,Can-Avid,0802600000,0800000000
+esamelco,"Dolores, Eastern Samar",,0802606000,Dolores,0802600000,0800000000
+esamelco,"General MacArthur, Eastern Samar",,0802607000,General Macarthur,0802600000,0800000000
+esamelco,Giporlos,,0802608000,Giporlos,0802600000,0800000000
+esamelco,Guiuan,,0802609000,Guiuan,0802600000,0800000000
+esamelco,"Hernani, Eastern Samar",,0802610000,Hernani,0802600000,0800000000
+esamelco,Jipapad,,0802611000,Jipapad,0802600000,0800000000
+esamelco,Lawaan,,0802612000,Lawaan,0802600000,0800000000
+esamelco,"Llorente, Eastern Samar",,0802613000,Llorente,0802600000,0800000000
+esamelco,Maslog,,0802614000,Maslog,0802600000,0800000000
+esamelco,Maydolong,,0802615000,Maydolong,0802600000,0800000000
+esamelco,"Mercedes, Eastern Samar",,0802616000,Mercedes,0802600000,0800000000
+esamelco,"Oras, Eastern Samar",,0802617000,Oras,0802600000,0800000000
+esamelco,Quinapondan,,0802618000,Quinapondan,0802600000,0800000000
+esamelco,"Salcedo, Eastern Samar",,0802619000,Salcedo,0802600000,0800000000
+esamelco,"San Julian, Eastern Samar",,0802620000,San Julian,0802600000,0800000000
+esamelco,"San Policarpo, Eastern Samar",,0802621000,San Policarpo,0802600000,0800000000
+esamelco,Sulat,,0802622000,Sulat,0802600000,0800000000
+esamelco,"Taft, Eastern Samar",,0802623000,Taft,0802600000,0800000000
+leyeco-1-dorelco,Abuyog,,0803701000,Abuyog,0803700000,0800000000
+leyeco-1-dorelco,Burauen,,0803710000,Burauen,0803700000,0800000000
+leyeco-1-dorelco,Dagami,,0803717000,Dagami,0803700000,0800000000
+leyeco-1-dorelco,"Dulag, Leyte",,0803718000,Dulag,0803700000,0800000000
+leyeco-1-dorelco,"Javier, Leyte",,0803724000,Javier,0803700000,0800000000
+leyeco-1-dorelco,"Julita, Leyte",,0803725000,Julita,0803700000,0800000000
+leyeco-1-dorelco,"La Paz, Leyte",,0803728000,La Paz,0803700000,0800000000
+leyeco-1-dorelco,"MacArthur, Leyte",,0803730000,Macarthur,0803700000,0800000000
+leyeco-1-dorelco,Mahaplag,,0803731000,Mahaplag,0803700000,0800000000
+leyeco-1-dorelco,"Mayorga, Leyte",,0803735000,Mayorga,0803700000,0800000000
+leyeco-1-dorelco,Tabontabon,,0803746000,Tabontabon,0803700000,0800000000
+leyeco-1-dorelco,"Tanauan, Leyte",,0803748000,Tanauan,0803700000,0800000000
+leyeco-1-dorelco,"Tolosa, Leyte",,0803749000,Tolosa,0803700000,0800000000
+leyeco-ii,Babatngon,,0803705000,Babatngon,0803700000,0800000000
+leyeco-ii,"Palo, Leyte",,0803739000,Palo,0803700000,0800000000
+leyeco-ii,Tacloban,,0831600000,City of Tacloban,,0800000000
+leyeco-iii,Alangalang,,0803702000,Alangalang,0803700000,0800000000
+leyeco-iii,Barugo,,0803706000,Barugo,0803700000,0800000000
+leyeco-iii,Capoocan,,0803714000,Capoocan,0803700000,0800000000
+leyeco-iii,Carigara,,0803715000,Carigara,0803700000,0800000000
+leyeco-iii,"Jaro, Leyte",,0803723000,Jaro,0803700000,0800000000
+leyeco-iii,"Pastrana, Leyte",,0803741000,Pastrana,0803700000,0800000000
+leyeco-iii,"San Miguel, Leyte",,0803743000,San Miguel,0803700000,0800000000
+leyeco-iii,"Santa Fe, Leyte",,0803744000,Santa Fe,0803700000,0800000000
+leyeco-iii,"Tunga, Leyte",,0803750000,Tunga,0803700000,0800000000
+leyeco-iv,"Bato, Leyte",,0803707000,Bato,0803700000,0800000000
+leyeco-iv,Baybay,,0803708000,City of Baybay,0803700000,0800000000
+leyeco-iv,Hilongos,,0803719000,Hilongos,0803700000,0800000000
+leyeco-iv,Hindang,,0803720000,Hindang,0803700000,0800000000
+leyeco-iv,Inopacan,,0803721000,Inopacan,0803700000,0800000000
+leyeco-iv,Matalom,,0803734000,Matalom,0803700000,0800000000
+leyeco-v,"Albuera, Leyte",,0803703000,Albuera,0803700000,0800000000
+leyeco-v,Calubian,,0803713000,Calubian,0803700000,0800000000
+leyeco-v,"Isabel, Leyte",,0803722000,Isabel,0803700000,0800000000
+leyeco-v,"Kananga, Leyte",,0803726000,Kananga,0803700000,0800000000
+leyeco-v,"Leyte, Leyte",,0803729000,Leyte,0803700000,0800000000
+leyeco-v,Matag-ob,,0803733000,Matag-Ob,0803700000,0800000000
+leyeco-v,"Merida, Leyte",,0803736000,Merida,0803700000,0800000000
+leyeco-v,Ormoc,,0803738000,Ormoc City,0803700000,0800000000
+leyeco-v,Palompon,,0803740000,Palompon,0803700000,0800000000
+leyeco-v,"San Isidro, Leyte",,0803742000,San Isidro,0803700000,0800000000
+leyeco-v,Tabango,,0803745000,Tabango,0803700000,0800000000
+leyeco-v,Villaba,,0803751000,Villaba,0803700000,0800000000
+norsamelco,"Allen, Northern Samar",,0804801000,Allen,0804800000,0800000000
+norsamelco,"Biri, Northern Samar",Off-the-grid,0804802000,Biri,0804800000,0800000000
+norsamelco,Bobon,,0804803000,Bobon,0804800000,0800000000
+norsamelco,Capul,Off-the-grid,0804804000,Capul,0804800000,0800000000
+norsamelco,"Catarman, Northern Samar",,0804805000,Catarman,0804800000,0800000000
+norsamelco,Catubig,,0804806000,Catubig,0804800000,0800000000
+norsamelco,"Gamay, Northern Samar",,0804807000,Gamay,0804800000,0800000000
+norsamelco,Laoang,Batag is off-the-grid,0804808000,Laoang,0804800000,0800000000
+norsamelco,Lapinig,,0804809000,Lapinig,0804800000,0800000000
+norsamelco,Las Navas,,0804810000,Las Navas,0804800000,0800000000
+norsamelco,Lavezares,,0804811000,Lavezares,0804800000,0800000000
+norsamelco,"Lope de Vega, Northern Samar",,0804824000,Lope De Vega,0804800000,0800000000
+norsamelco,Mapanas,,0804812000,Mapanas,0804800000,0800000000
+norsamelco,"Mondragon, Northern Samar",,0804813000,Mondragon,0804800000,0800000000
+norsamelco,Palapag,,0804814000,Palapag,0804800000,0800000000
+norsamelco,Pambujan,,0804815000,Pambujan,0804800000,0800000000
+norsamelco,"Rosario, Northern Samar",,0804816000,Rosario,0804800000,0800000000
+norsamelco,"San Antonio, Northern Samar",Off-the-grid,0804817000,San Antonio,0804800000,0800000000
+norsamelco,"San Isidro, Northern Samar",,0804818000,San Isidro,0804800000,0800000000
+norsamelco,"San Jose, Northern Samar",,0804819000,San Jose,0804800000,0800000000
+norsamelco,"San Roque, Northern Samar",,0804820000,San Roque,0804800000,0800000000
+norsamelco,"San Vicente, Northern Samar",Off-the-grid,0804821000,San Vicente,0804800000,0800000000
+norsamelco,Silvino Lobos,,0804822000,Silvino Lobos,0804800000,0800000000
+norsamelco,"Victoria, Northern Samar",,0804823000,Victoria,0804800000,0800000000
+samelco-i,"Almagro, Samar",Off-the-grid,0806001000,Almagro,0806000000,0800000000
+samelco-i,Calbayog,,0806003000,City of Calbayog,0806000000,0800000000
+samelco-i,"Gandara, Samar",,0806007000,Gandara,0806000000,0800000000
+samelco-i,Matuguinao,,0806011000,Matuguinao,0806000000,0800000000
+samelco-i,Pagsanghan,,0806026000,Pagsanghan,0806000000,0800000000
+samelco-i,"San Jorge, Samar",,0806025000,San Jorge,0806000000,0800000000
+samelco-i,"Santa Margarita, Samar",,0806016000,Santa Margarita,0806000000,0800000000
+samelco-i,"Santo Niño, Samar",Off-the-grid,0806018000,Santo Niño,0806000000,0800000000
+samelco-i,Tagapul-an,Off-the-grid,0806024000,Tagapul-An,0806000000,0800000000
+samelco-i,Tarangnan,,0806020000,Tarangnan,0806000000,0800000000
+samelco-ii,Basey,,0806002000,Basey,0806000000,0800000000
+samelco-ii,Calbiga,,0806004000,Calbiga,0806000000,0800000000
+samelco-ii,Catbalogan,,0806005000,City of Catbalogan,0806000000,0800000000
+samelco-ii,"Daram, Samar",,0806006000,Daram,0806000000,0800000000
+samelco-ii,Hinabangan,,0806008000,Hinabangan,0806000000,0800000000
+samelco-ii,Jiabong,,0806009000,Jiabong,0806000000,0800000000
+samelco-ii,"Marabut, Samar",,0806010000,Marabut,0806000000,0800000000
+samelco-ii,Motiong,,0806012000,Motiong,0806000000,0800000000
+samelco-ii,Paranas,,0806022000,Paranas,0806000000,0800000000
+samelco-ii,Pinabacdao,,0806013000,Pinabacdao,0806000000,0800000000
+samelco-ii,San Jose de Buan,,0806014000,San Jose De Buan,0806000000,0800000000
+samelco-ii,"San Sebastian, Samar",,0806015000,San Sebastian,0806000000,0800000000
+samelco-ii,"Santa Rita, Samar",,0806017000,Santa Rita,0806000000,0800000000
+samelco-ii,Talalora,,0806019000,Talalora,0806000000,0800000000
+samelco-ii,"Villareal, Samar",,0806021000,Villareal,0806000000,0800000000
+samelco-ii,"Zumarraga, Samar",Off-the-grid,0806023000,Zumarraga,0806000000,0800000000
+soleco,Anahawan,,0806401000,Anahawan,0806400000,0800000000
+soleco,"Bontoc, Southern Leyte",,0806402000,Bontoc,0806400000,0800000000
+soleco,Hinunangan,San Pedro and San Pablo are off-the-grid,0806403000,Hinunangan,0806400000,0800000000
+soleco,Hinundayan,,0806404000,Hinundayan,0806400000,0800000000
+soleco,Libagon,,0806405000,Libagon,0806400000,0800000000
+soleco,"Liloan, Southern Leyte",,0806406000,Liloan,0806400000,0800000000
+soleco,Limasawa,Off-the-grid,0806419000,Limasawa,0806400000,0800000000
+soleco,Maasin,,0603029000,Maasin,0603000000,0600000000
+soleco,Macrohon,,0806408000,Macrohon,0806400000,0800000000
+soleco,"Malitbog, Southern Leyte",,0806409000,Malitbog,0806400000,0800000000
+soleco,"Padre Burgos, Southern Leyte",,0806410000,Padre Burgos,0806400000,0800000000
+soleco,Pintuyan,,0806411000,Pintuyan,0806400000,0800000000
+soleco,"Saint Bernard, Southern Leyte",,0806412000,Saint Bernard,0806400000,0800000000
+soleco,"San Francisco, Southern Leyte",,0806413000,San Francisco,0806400000,0800000000
+soleco,"San Juan, Southern Leyte",,0806414000,San Juan,0806400000,0800000000
+soleco,San Ricardo,,0806415000,San Ricardo,0806400000,0800000000
+soleco,Silago,,0806416000,Silago,0806400000,0800000000
+soleco,"Sogod, Southern Leyte",,0806417000,Sogod,0806400000,0800000000
+soleco,Tomas Oppus,,0806418000,Tomas Oppus,0806400000,0800000000
+zamcelco,Zamboanga City,Sacol Island is off-the-grid,0931700000,City of Zamboanga,,0900000000
+zamsureco-i,"Aurora, Zamboanga del Sur",,0907302000,Aurora,0907300000,0900000000
+zamsureco-i,Dimataling,,0907305000,Dimataling,0907300000,0900000000
+zamsureco-i,"Dinas, Zamboanga del Sur",,0907306000,Dinas,0907300000,0900000000
+zamsureco-i,Don Victoriano,,1004217000,Don Victoriano,1004200000,1000000000
+zamsureco-i,Dumalinao,,0907307000,Dumalinao,0907300000,0900000000
+zamsureco-i,Dumingag,,0907308000,Dumingag,0907300000,0900000000
+zamsureco-i,Guipos,,0907343000,Guipos,0907300000,0900000000
+zamsureco-i,"Josefina, Zamboanga del Sur",,0907337000,Josefina,0907300000,0900000000
+zamsureco-i,Labangan,,0907312000,Labangan,0907300000,0900000000
+zamsureco-i,Lapuyan,,0907313000,Lapuyan,0907300000,0900000000
+zamsureco-i,Mahayag,,0907315000,Mahayag,0907300000,0900000000
+zamsureco-i,Margosatubig,,0907317000,Margosatubig,0907300000,0900000000
+zamsureco-i,Midsalip,,0907318000,Midsalip,0907300000,0900000000
+zamsureco-i,"Molave, Zamboanga del Sur",,0907319000,Molave,0907300000,0900000000
+zamsureco-i,Pagadian,,0907322000,City of Pagadian,0907300000,0900000000
+zamsureco-i,"Pitogo, Zamboanga del Sur",,0907338000,Pitogo,0907300000,0900000000
+zamsureco-i,"Ramon Magsaysay, Zamboanga del Sur",,0907323000,Ramon Magsaysay,0907300000,0900000000
+zamsureco-i,"San Miguel, Zamboanga del Sur",,0907324000,San Miguel,0907300000,0900000000
+zamsureco-i,"San Pablo, Zamboanga del Sur",,0907325000,San Pablo,0907300000,0900000000
+zamsureco-i,Sominot,,0907340000,Sominot,0907300000,0900000000
+zamsureco-i,Tabina,,0907327000,Tabina,0907300000,0900000000
+zamsureco-i,Tambulig,,0907328000,Tambulig,0907300000,0900000000
+zamsureco-i,"Tigbao, Zamboanga del Sur",,0907344000,Tigbao,0907300000,0900000000
+zamsureco-i,Tukuran,,0907330000,Tukuran,0907300000,0900000000
+zamsureco-i,Vincenzo A. Sagun,,0907341000,Vincenzo A. Sagun,0907300000,0900000000
+zamsureco-ii,"Alicia, Zamboanga Sibugay",,0908301000,Alicia,0908300000,0900000000
+zamsureco-ii,Baliguian,,0907224000,Baliguian,0907200000,0900000000
+zamsureco-ii,Bayog,,0907303000,Bayog,0907300000,0900000000
+zamsureco-ii,Buug,,0908302000,Buug,0908300000,0900000000
+zamsureco-ii,Diplahan,,0908303000,Diplahan,0908300000,0900000000
+zamsureco-ii,"Imelda, Zamboanga Sibugay",,0908304000,Imelda,0908300000,0900000000
+zamsureco-ii,"Ipil, Zamboanga Sibugay",,0908305000,Ipil,0908300000,0900000000
+zamsureco-ii,Kabasalan,,0908306000,Kabasalan,0908300000,0900000000
+zamsureco-ii,Kumalarang,,0907311000,Kumalarang,0907300000,0900000000
+zamsureco-ii,"Lakewood, Zamboanga del Sur",,0907333000,Lakewood,0907300000,0900000000
+zamsureco-ii,"Mabuhay, Zamboanga Sibugay",,0908307000,Mabuhay,0908300000,0900000000
+zamsureco-ii,Malangas,,0908308000,Malangas,0908300000,0900000000
+zamsureco-ii,"Naga, Zamboanga Sibugay",,0908309000,Naga,0908300000,0900000000
+zamsureco-ii,"Olutanga, Zamboanga Sibugay",,0908310000,Olutanga,0908300000,0900000000
+zamsureco-ii,"Payao, Zamboanga Sibugay",,0908311000,Payao,0908300000,0900000000
+zamsureco-ii,"Roseller Lim, Zamboanga Sibugay",,0908312000,Roseller Lim,0908300000,0900000000
+zamsureco-ii,Siay,,0908313000,Siay,0908300000,0900000000
+zamsureco-ii,Sibuco,,0907216000,Sibuco,0907200000,0900000000
+zamsureco-ii,Siocon,,0907219000,Siocon,0907200000,0900000000
+zamsureco-ii,Sirawai,,0907220000,Sirawai,0907200000,0900000000
+zamsureco-ii,Talusan,,0908314000,Talusan,0908300000,0900000000
+zamsureco-ii,Titay,,0908315000,Titay,0908300000,0900000000
+zamsureco-ii,Tungawan,,0908316000,Tungawan,0908300000,0900000000
+zaneco,Dapitan,,0907201000,City of Dapitan,0907200000,0900000000
+zaneco,Dipolog,,0907202000,City of Dipolog,0907200000,0900000000
+zaneco,Godod,,0907225000,Godod,0907200000,0900000000
+zaneco,Gutalac,,0907223000,Gutalac,0907200000,0900000000
+zaneco,Jose Dalman,,0907222000,Jose Dalman,0907200000,0900000000
+zaneco,Kalawit,,0907227000,Kalawit,0907200000,0900000000
+zaneco,"Katipunan, Zamboanga del Norte",,0907203000,Katipunan,0907200000,0900000000
+zaneco,"La Libertad, Zamboanga del Norte",,0907204000,La Libertad,0907200000,0900000000
+zaneco,Labason,,0907205000,Labason,0907200000,0900000000
+zaneco,Liloy,,0907206000,Liloy,0907200000,0900000000
+zaneco,"Manukan, Zamboanga del Norte",,0907207000,Manukan,0907200000,0900000000
+zaneco,"Mutia, Zamboanga del Norte",,0907208000,Mutia,0907200000,0900000000
+zaneco,Piñan,,0907209000,Piñan,0907200000,0900000000
+zaneco,"Polanco, Zamboanga del Norte",,0907210000,Polanco,0907200000,0900000000
+zaneco,"Rizal, Zamboanga del Norte",,0907212000,Rizal,0907200000,0900000000
+zaneco,Salug,,0907213000,Salug,0907200000,0900000000
+zaneco,"Siayan, Zamboanga del Norte",,0907215000,Siayan,0907200000,0900000000
+zaneco,Sibutad,,0907217000,Sibutad,0907200000,0900000000
+zaneco,Sindangan,,0907218000,Sindangan,0907200000,0900000000
+zaneco,Tampilisan,,0907221000,Tampilisan,0907200000,0900000000
+buseco,Baungon,,1001301000,Baungon,1001300000,1000000000
+buseco,Cabanglasan,,1001322000,Cabanglasan,1001300000,1000000000
+buseco,Impasugong,,1001305000,Impasug-ong,1001300000,1000000000
+buseco,Lantapan,,1001310000,Lantapan,1001300000,1000000000
+buseco,Libona,,1001311000,Libona,1001300000,1000000000
+buseco,Malaybalay,,1001312000,City of Malaybalay,1001300000,1000000000
+buseco,"Malitbog, Bukidnon",,1001313000,Malitbog,1001300000,1000000000
+buseco,Manolo Fortich,,1001314000,Manolo Fortich,1001300000,1000000000
+buseco,Sumilao,,1001319000,Sumilao,1001300000,1000000000
+buseco,Talakag,Some areas only,1001320000,Talakag,1001300000,1000000000
+camelco,"Catarman, Camiguin",,1001801000,Catarman,1001800000,1000000000
+camelco,Guinsiliban,,1001802000,Guinsiliban,1001800000,1000000000
+camelco,Mahinog,,1001803000,Mahinog,1001800000,1000000000
+camelco,Mambajao,,1001804000,Mambajao,1001800000,1000000000
+camelco,"Sagay, Camiguin",,1001805000,Sagay,1001800000,1000000000
+fibeco,Amai Manabilang,,1903637000,Amai Manabilang,1903600000,1900000000
+fibeco,Damulog,,1001302000,Damulog,1001300000,1000000000
+fibeco,Dangcagan,,1001303000,Dangcagan,1001300000,1000000000
+fibeco,"Don Carlos, Bukidnon",,1001304000,Don Carlos,1001300000,1000000000
+fibeco,Kadingilan,,1001306000,Kadingilan,1001300000,1000000000
+fibeco,Kalilangan,,1001307000,Kalilangan,1001300000,1000000000
+fibeco,Kibawe,,1001308000,Kibawe,1001300000,1000000000
+fibeco,Kitaotao,,1001309000,Kitaotao,1001300000,1000000000
+fibeco,Maramag,,1001315000,Maramag,1001300000,1000000000
+fibeco,Pangantucan,,1001316000,Pangantucan,1001300000,1000000000
+fibeco,"Quezon, Bukidnon",,1001317000,Quezon,1001300000,1000000000
+fibeco,"San Fernando, Bukidnon",,1001318000,San Fernando,1001300000,1000000000
+fibeco,"Valencia, Bukidnon",,1001321000,City of Valencia,1001300000,1000000000
+fibeco,"Wao, Lanao del Sur",,1903630000,Wao,1903600000,1900000000
+laneco,"Bacolod, Lanao del Norte",,1003501000,Bacolod,1003500000,1000000000
+laneco,Balo-i,,1003502000,Baloi,1003500000,1000000000
+laneco,Baroy,,1003503000,Baroy,1003500000,1000000000
+laneco,"Kapatagan, Lanao del Norte",,1003505000,Kapatagan,1003500000,1000000000
+laneco,Kauswagan,,1003507000,Kauswagan,1003500000,1000000000
+laneco,Kolambugan,,1003508000,Kolambugan,1003500000,1000000000
+laneco,"Lala, Lanao del Norte",,1003509000,Lala,1003500000,1000000000
+laneco,Linamon,,1003510000,Linamon,1003500000,1000000000
+laneco,"Magsaysay, Lanao del Norte",,1003511000,Magsaysay,1003500000,1000000000
+laneco,Maigo,,1003512000,Maigo,1003500000,1000000000
+laneco,Matungao,,1003513000,Matungao,1003500000,1000000000
+laneco,Munai,,1003514000,Munai,1003500000,1000000000
+laneco,Poona Piagapo,,1003517000,Poona Piagapo,1003500000,1000000000
+laneco,"Salvador, Lanao del Norte",,1003518000,Salvador,1003500000,1000000000
+laneco,Sapad,,1003519000,Sapad,1003500000,1000000000
+laneco,Sultan Naga Dimaporo,,1003506000,Sultan Naga Dimaporo,1003500000,1000000000
+laneco,Tangcal,,1003521000,Tangcal,1003500000,1000000000
+laneco,"Tubod, Lanao del Norte",,1003522000,Tubod,1003500000,1000000000
+moelci-i,Aloran,,1004201000,Aloran,1004200000,1000000000
+moelci-i,Baliangao,,1004202000,Baliangao,1004200000,1000000000
+moelci-i,"Calamba, Misamis Occidental",,1004204000,Calamba,1004200000,1000000000
+moelci-i,"Concepcion, Misamis Occidental",,1004206000,Concepcion,1004200000,1000000000
+moelci-i,Lopez Jaena,,1004208000,Lopez Jaena,1004200000,1000000000
+moelci-i,Oroquieta,,1004209000,City of Oroquieta,1004200000,1000000000
+moelci-i,"Plaridel, Misamis Occidental",,1004212000,Plaridel,1004200000,1000000000
+moelci-i,Sapang Dalaga,,1004213000,Sapang Dalaga,1004200000,1000000000
+moelci-ii,"Bonifacio, Misamis Occidental",,1004203000,Bonifacio,1004200000,1000000000
+moelci-ii,"Clarin, Misamis Occidental",,1004205000,Clarin,1004200000,1000000000
+moelci-ii,"Jimenez, Misamis Occidental",,1004207000,Jimenez,1004200000,1000000000
+moelci-ii,Ozamiz,,1004210000,City of Ozamiz,1004200000,1000000000
+moelci-ii,"Panaon, Misamis Occidental",,1004211000,Panaon,1004200000,1000000000
+moelci-ii,Sinacaban,,1004214000,Sinacaban,1004200000,1000000000
+moelci-ii,Tangub,,1004215000,City of Tangub,1004200000,1000000000
+moelci-ii,"Tudela, Misamis Occidental",,1004216000,Tudela,1004200000,1000000000
+moresco-i,Alubijid,,1004301000,Alubijid,1004300000,1000000000
+moresco-i,Baungon,,1001301000,Baungon,1001300000,1000000000
+moresco-i,Cagayan de Oro,Some areas only,1030500000,City of Cagayan De Oro,,1000000000
+moresco-i,"El Salvador, Misamis Oriental",,1004307000,City of El Salvador,1004300000,1000000000
+moresco-i,Gitagum,,1004309000,Gitagum,1004300000,1000000000
+moresco-i,Iligan,Some areas only,1030900000,City of Iligan,,1000000000
+moresco-i,Initao,,1004310000,Initao,1004300000,1000000000
+moresco-i,Laguindingan,,1004314000,Laguindingan,1004300000,1000000000
+moresco-i,"Libertad, Misamis Oriental",,1004315000,Libertad,1004300000,1000000000
+moresco-i,Lugait,,1004316000,Lugait,1004300000,1000000000
+moresco-i,Manticao,,1004318000,Manticao,1004300000,1000000000
+moresco-i,Naawan,,1004320000,Naawan,1004300000,1000000000
+moresco-i,Opol,,1004321000,Opol,1004300000,1000000000
+moresco-i,Talakag,,1001320000,Talakag,1001300000,1000000000
+moresco-ii,Balingasag,,1004302000,Balingasag,1004300000,1000000000
+moresco-ii,Balingoan,,1004303000,Balingoan,1004300000,1000000000
+moresco-ii,Binuangan,,1004304000,Binuangan,1004300000,1000000000
+moresco-ii,"Claveria, Misamis Oriental",,1004306000,Claveria,1004300000,1000000000
+moresco-ii,Gingoog,,1004308000,City of Gingoog,1004300000,1000000000
+moresco-ii,Jasaan,Some areas only,1004311000,Jasaan,1004300000,1000000000
+moresco-ii,Kinoguitan,,1004312000,Kinoguitan,1004300000,1000000000
+moresco-ii,Lagonglong,,1004313000,Lagonglong,1004300000,1000000000
+moresco-ii,"Magsaysay, Misamis Oriental",,1004317000,Magsaysay,1004300000,1000000000
+moresco-ii,"Medina, Misamis Oriental",,1004319000,Medina,1004300000,1000000000
+moresco-ii,Salay,,1004322000,Salay,1004300000,1000000000
+moresco-ii,Sugbongcogon,,1004323000,Sugbongcogon,1004300000,1000000000
+moresco-ii,Talisayan,,1004325000,Talisayan,1004300000,1000000000
+daneco-nordeco,"Compostela, Davao de Oro",,1108201000,Compostela,1108200000,1100000000
+daneco-nordeco,"Laak, Davao de Oro",,1108202000,Laak,1108200000,1100000000
+daneco-nordeco,"Mabini, Davao de Oro",,1108203000,Mabini,1108200000,1100000000
+daneco-nordeco,"Maco, Davao de Oro",,1108204000,Maco,1108200000,1100000000
+daneco-nordeco,Maragusan,,1108205000,Maragusan,1108200000,1100000000
+daneco-nordeco,Mawab,,1108206000,Mawab,1108200000,1100000000
+daneco-nordeco,Monkayo,,1108207000,Monkayo,1108200000,1100000000
+daneco-nordeco,Montevista,,1108208000,Montevista,1108200000,1100000000
+daneco-nordeco,Nabunturan,,1108209000,Nabunturan,1108200000,1100000000
+daneco-nordeco,New Bataan,,1108210000,New Bataan,1108200000,1100000000
+daneco-nordeco,Pantukan,,1108211000,Pantukan,1108200000,1100000000
+dasureco,Bansalan,,1102401000,Bansalan,1102400000,1100000000
+dasureco,Digos,,1102403000,City of Digos,1102400000,1100000000
+dasureco,Don Marcelino,,1108601000,Don Marcelino,1108600000,1100000000
+dasureco,"Hagonoy, Davao del Sur",,1102404000,Hagonoy,1102400000,1100000000
+dasureco,"Jose Abad Santos, Davao Occidental",,1108602000,Jose Abad Santos,1108600000,1100000000
+dasureco,Kiblawan,,1102406000,Kiblawan,1102400000,1100000000
+dasureco,"Magsaysay, Davao del Sur",,1102407000,Magsaysay,1102400000,1100000000
+dasureco,Malalag,,1102408000,Malalag,1102400000,1100000000
+dasureco,Matanao,,1102410000,Matanao,1102400000,1100000000
+dasureco,Malita,,1108603000,Malita,1108600000,1100000000
+dasureco,Padada,,1102411000,Padada,1102400000,1100000000
+dasureco,"Santa Cruz, Davao del Sur",,1102412000,Santa Cruz,1102400000,1100000000
+dasureco,"Santa Maria, Davao Occidental",,1108604000,Santa Maria,1108600000,1100000000
+dasureco,"Sarangani, Davao Occidental",Some areas are off-the-grid,1108605000,Sarangani,1108600000,1100000000
+dasureco,Sulop,,1102414000,Sulop,1102400000,1100000000
+doreco,Banaybanay,,1102502000,Banaybanay,1102500000,1100000000
+doreco,Baganga,,1102501000,Baganga,1102500000,1100000000
+doreco,"Boston, Davao Oriental",,1102503000,Boston,1102500000,1100000000
+doreco,"Caraga, Davao Oriental",,1102504000,Caraga,1102500000,1100000000
+doreco,Cateel,,1102505000,Cateel,1102500000,1100000000
+doreco,Governor Generoso,,1102506000,Governor Generoso,1102500000,1100000000
+doreco,Lupon,,1102507000,Lupon,1102500000,1100000000
+doreco,"Manay, Davao Oriental",,1102508000,Manay,1102500000,1100000000
+doreco,"Mati, Davao Oriental",,1102509000,City of Mati,1102500000,1100000000
+doreco,"San Isidro, Davao Oriental",,1102510000,San Isidro,1102500000,1100000000
+doreco,"Tarragona, Davao Oriental",,1102511000,Tarragona,1102500000,1100000000
+cotelco,"Antipas, Cotabato",,1204715000,Antipas,1204700000,1200000000
+cotelco,"Arakan, Cotabato",,1204718000,Arakan,1204700000,1200000000
+cotelco,Banisilan,,1204716000,Banisilan,1204700000,1200000000
+cotelco,"Carmen, Cotabato",,1204702000,Carmen,1204700000,1200000000
+cotelco,Kabacan,,1204703000,Kabacan,1204700000,1200000000
+cotelco,Kidapawan,,1204704000,City of Kidapawan,1204700000,1200000000
+cotelco,Magpet,,1204706000,Magpet,1204700000,1200000000
+cotelco,Makilala,,1204707000,Makilala,1204700000,1200000000
+cotelco,Matalam,,1204708000,Matalam,1204700000,1200000000
+cotelco,M'lang,,1204710000,M'Lang,1204700000,1200000000
+cotelco,"President Roxas, Cotabato",,1204713000,President Roxas,1204700000,1200000000
+cotelco,Tulunan,,1204714000,Tulunan,1204700000,1200000000
+ppalma,Alamada,,1204701000,Alamada,1204700000,1200000000
+ppalma,Aleosan,,1204717000,Aleosan,1204700000,1200000000
+ppalma,Libungan,,1204705000,Libungan,1204700000,1200000000
+ppalma,Midsayap,,1204709000,Midsayap,1204700000,1200000000
+ppalma,Pikit,,1204712000,Pikit,1204700000,1200000000
+socoteco-i,"Banga, South Cotabato",,1206302000,Banga,1206300000,1200000000
+socoteco-i,Koronadal,,1206306000,City of Koronadal,1206300000,1200000000
+socoteco-i,"Lake Sebu, South Cotabato",,1206319000,Lake Sebu,1206300000,1200000000
+socoteco-i,Lutayan,,1206507000,Lutayan,1206500000,1200000000
+socoteco-i,Norala,,1206311000,Norala,1206300000,1200000000
+socoteco-i,"Santo Niño, South Cotabato",,1206318000,Santo Niño,1206300000,1200000000
+socoteco-i,Surallah,,1206313000,Surallah,1206300000,1200000000
+socoteco-i,"T'Boli, South Cotabato",,1206316000,T'Boli,1206300000,1200000000
+socoteco-i,Tampakan,,1206314000,Tampakan,1206300000,1200000000
+socoteco-i,Tantangan,,1206315000,Tantangan,1206300000,1200000000
+socoteco-ii,Alabel,,1208001000,Alabel,1208000000,1200000000
+socoteco-ii,General Santos,,1230800000,City of General Santos,,1200000000
+socoteco-ii,"Glan, Sarangani",,1208002000,Glan,1208000000,1200000000
+socoteco-ii,"Kiamba, Sarangani",,1208003000,Kiamba,1208000000,1200000000
+socoteco-ii,Maasim,,1208004000,Maasim,1208000000,1200000000
+socoteco-ii,Maitum,,1208005000,Maitum,1208000000,1200000000
+socoteco-ii,Malapatan,,1208006000,Malapatan,1208000000,1200000000
+socoteco-ii,Malungon,,1208007000,Malungon,1208000000,1200000000
+socoteco-ii,Polomolok,,1206312000,Polomolok,1206300000,1200000000
+socoteco-ii,"Tupi, South Cotabato",,1206317000,Tupi,1206300000,1200000000
+sukelco,"Bagumbayan, Sultan Kudarat",,1206501000,Bagumbayan,1206500000,1200000000
+sukelco,Buluan,,1908802000,Buluan,1908800000,1900000000
+sukelco,Columbio,,1206502000,Columbio,1206500000,1200000000
+sukelco,Datu Paglas,,1908806000,Datu Paglas,1908800000,1900000000
+sukelco,"Esperanza, Sultan Kudarat",,1206503000,Esperanza,1206500000,1200000000
+sukelco,Isulan,,1206504000,Isulan,1206500000,1200000000
+sukelco,Kalamansig,Off-the-grid,1206505000,Kalamansig,1206500000,1200000000
+sukelco,Lambayong,,1206508000,Lambayong,1206500000,1200000000
+sukelco,"Lebak, Sultan Kudarat",Off-the-grid,1206506000,Lebak,1206500000,1200000000
+sukelco,"Mangudadatu, Maguindanao del Sur",,1908814000,Mangudadatu,1908800000,1900000000
+sukelco,Paglat,,1908817000,Paglat,1908800000,1900000000
+sukelco,Palimbang,Off-the-grid,1206509000,Palimbang,1206500000,1200000000
+sukelco,Pandag,,1908818000,Pandag,1908800000,1900000000
+sukelco,"President Quirino, Sultan Kudarat",,1206510000,President Quirino,1206500000,1200000000
+sukelco,Tacurong,,1206511000,City of Tacurong,1206500000,1200000000
+aneco,"Buenavista, Agusan del Norte",,1600201000,Buenavista,1600200000,1600000000
+aneco,Butuan,,1630400000,City of Butuan,,1600000000
+aneco,Cabadbaran,,1600203000,City of Cabadbaran,1600200000,1600000000
+aneco,"Carmen, Agusan del Norte",,1600204000,Carmen,1600200000,1600000000
+aneco,Jabonga,,1600205000,Jabonga,1600200000,1600000000
+aneco,Kitcharao,,1600206000,Kitcharao,1600200000,1600000000
+aneco,"Las Nieves, Agusan del Norte",,1600207000,Las Nieves,1600200000,1600000000
+aneco,"Magallanes, Agusan del Norte",,1600208000,Magallanes,1600200000,1600000000
+aneco,Nasipit,,1600209000,Nasipit,1600200000,1600000000
+aneco,Remedios T. Romualdez,,1600212000,Remedios T. Romualdez,1600200000,1600000000
+aneco,"Santiago, Agusan del Norte",,1600210000,Santiago,1600200000,1600000000
+aneco,Tubay,,1600211000,Tubay,1600200000,1600000000
+aselco,Bayugan,,1600301000,City of Bayugan,1600300000,1600000000
+aselco,Bunawan,,1600302000,Bunawan,1600300000,1600000000
+aselco,"Esperanza, Agusan del Sur",,1600303000,Esperanza,1600300000,1600000000
+aselco,"La Paz, Agusan del Sur",,1600304000,La Paz,1600300000,1600000000
+aselco,"Loreto, Agusan del Sur",,1600305000,Loreto,1600300000,1600000000
+aselco,Prosperidad,,1600306000,Prosperidad,1600300000,1600000000
+aselco,"Rosario, Agusan del Sur",,1600307000,Rosario,1600300000,1600000000
+aselco,"San Francisco, Agusan del Sur",,1600308000,San Francisco,1600300000,1600000000
+aselco,"San Luis, Agusan del Sur",,1600309000,San Luis,1600300000,1600000000
+aselco,Santa Josefa,,1600310000,Santa Josefa,1600300000,1600000000
+aselco,Sibagat,,1600314000,Sibagat,1600300000,1600000000
+aselco,Talacogon,,1600311000,Talacogon,1600300000,1600000000
+aselco,"Trento, Agusan del Sur",,1600312000,Trento,1600300000,1600000000
+aselco,Veruela,,1600313000,Veruela,1600300000,1600000000
+dielco,Basilisa,,1608501000,Basilisa,1608500000,1600000000
+dielco,Cagdianao,,1608502000,Cagdianao,1608500000,1600000000
+dielco,"Dinagat, Dinagat Islands",,1608503000,Dinagat,1608500000,1600000000
+dielco,Libjo,,1608504000,Libjo,1608500000,1600000000
+dielco,"Loreto, Dinagat Islands",,1608505000,Loreto,1608500000,1600000000
+dielco,"San Jose, Dinagat Islands",,1608506000,San Jose,1608500000,1600000000
+dielco,Tubajon,,1608507000,Tubajon,1608500000,1600000000
+siarelco,"Burgos, Surigao del Norte",,1606704000,Burgos,1606700000,1600000000
+siarelco,"Dapa, Surigao del Norte",,1606707000,Dapa,1606700000,1600000000
+siarelco,"Del Carmen, Surigao del Norte",,1606708000,Del Carmen,1606700000,1600000000
+siarelco,"General Luna, Surigao del Norte",,1606710000,General Luna,1606700000,1600000000
+siarelco,"Pilar, Surigao del Norte",,1606716000,Pilar,1606700000,1600000000
+siarelco,"San Benito, Surigao del Norte",,1606718000,San Benito,1606700000,1600000000
+siarelco,"San Isidro, Surigao del Norte",,1606720000,San Isidro,1606700000,1600000000
+siarelco,"Santa Monica, Surigao del Norte",,1606721000,Santa Monica,1606700000,1600000000
+siarelco,"Socorro, Surigao del Norte",,1606723000,Socorro,1606700000,1600000000
+surneco,"Alegria, Surigao del Norte",,1606701000,Alegria,1606700000,1600000000
+surneco,Bacuag,,1606702000,Bacuag,1606700000,1600000000
+surneco,"Claver, Surigao del Norte",,1606706000,Claver,1606700000,1600000000
+surneco,Gigaquit,,1606711000,Gigaquit,1606700000,1600000000
+surneco,Mainit,,1606714000,Mainit,1606700000,1600000000
+surneco,Malimono,,1606715000,Malimono,1606700000,1600000000
+surneco,"Placer, Surigao del Norte",,1606717000,Placer,1606700000,1600000000
+surneco,"San Francisco, Surigao del Norte",,1606719000,San Francisco,1606700000,1600000000
+surneco,"Sison, Surigao del Norte",,1606722000,Sison,1606700000,1600000000
+surneco,Surigao City,Hikdop and Nonoc are off-the-grid,1606724000,City of Surigao,1606700000,1600000000
+surneco,Tagana-an,,1606725000,Tagana-An,1606700000,1600000000
+surneco,"Tubod, Surigao del Norte",,1606727000,Tubod,1606700000,1600000000
+surseco-i,Barobo,,1606801000,Barobo,1606800000,1600000000
+surseco-i,Bislig,,1606803000,City of Bislig,1606800000,1600000000
+surseco-i,Hinatuan,,1606809000,Hinatuan,1606800000,1600000000
+surseco-i,Lingig,,1606812000,Lingig,1606800000,1600000000
+surseco-i,Tagbina,,1606817000,Tagbina,1606800000,1600000000
+surseco-ii,"Bayabas, Surigao del Sur",,1606802000,Bayabas,1606800000,1600000000
+surseco-ii,Cagwait,,1606804000,Cagwait,1606800000,1600000000
+surseco-ii,Cantilan,,1606805000,Cantilan,1606800000,1600000000
+surseco-ii,"Carmen, Surigao del Sur",,1606806000,Carmen,1606800000,1600000000
+surseco-ii,Carrascal,,1606807000,Carrascal,1606800000,1600000000
+surseco-ii,"Cortes, Surigao del Sur",,1606808000,Cortes,1606800000,1600000000
+surseco-ii,"Lanuza, Surigao del Sur",,1606810000,Lanuza,1606800000,1600000000
+surseco-ii,Lianga,,1606811000,Lianga,1606800000,1600000000
+surseco-ii,"Madrid, Surigao del Sur",,1606813000,Madrid,1606800000,1600000000
+surseco-ii,Marihatag,,1606814000,Marihatag,1606800000,1600000000
+surseco-ii,"San Agustin, Surigao del Sur",,1606815000,San Agustin,1606800000,1600000000
+surseco-ii,"San Miguel, Surigao del Sur",,1606816000,San Miguel,1606800000,1600000000
+surseco-ii,"Tago, Surigao del Sur",,1606818000,Tago,1606800000,1600000000
+surseco-ii,Tandag,,1606819000,City of Tandag,1606800000,1600000000
+baselco,"Akbar, Basilan",,1900708000,Akbar,1900700000,1900000000
+baselco,Al-Barka,,1900709000,Al-Barka,1900700000,1900000000
+baselco,Hadji Mohammad Ajul,,1900710000,Hadji Mohammad Ajul,1900700000,1900000000
+baselco,Hadji Muhtamad,,1900712000,Hadji Muhtamad,1900700000,1900000000
+baselco,Lamitan,,1900702000,City of Lamitan,1900700000,1900000000
+baselco,Lantawan,,1900703000,Lantawan,1900700000,1900000000
+baselco,Maluso,,1900704000,Maluso,1900700000,1900000000
+baselco,Sumisip,,1900705000,Sumisip,1900700000,1900000000
+baselco,Tabuan-Lasa,,1900713000,Tabuan-Lasa,1900700000,1900000000
+baselco,Tipo-Tipo,,1900706000,Tipo-Tipo,1900700000,1900000000
+baselco,"Tuburan, Basilan",,1900707000,Tuburan,1900700000,1900000000
+baselco,Ungkaya Pukan,,1900711000,Ungkaya Pukan,1900700000,1900000000
+caselco,Mapun,,1907003000,Mapun,1907000000,1900000000
+caselco,"Turtle Islands, Tawi-Tawi",,1907008000,Turtle Islands,1907000000,1900000000
+lasureco,Bacolod-Kalawi,,1903601000,Bacolod-Kalawi,1903600000,1900000000
+lasureco,Balabagan,,1903602000,Balabagan,1903600000,1900000000
+lasureco,Balindong,,1903603000,Balindong,1903600000,1900000000
+lasureco,Balo-i,Some areas only,1003502000,Baloi,1003500000,1000000000
+lasureco,Bayang,,1903604000,Bayang,1903600000,1900000000
+lasureco,Binidayan,,1903605000,Binidayan,1903600000,1900000000
+lasureco,Buadiposo-Buntong,,1903633000,Buadiposo-Buntong,1903600000,1900000000
+lasureco,Bubong,,1903606000,Bubong,1903600000,1900000000
+lasureco,Butig,,1903607000,Butig,1903600000,1900000000
+lasureco,Calanogas,,1903632000,Calanogas,1903600000,1900000000
+lasureco,Ditsaan-Ramain,,1903624000,Ditsaan-Ramain,1903600000,1900000000
+lasureco,"Ganassi, Lanao del Sur",,1903609000,Ganassi,1903600000,1900000000
+lasureco,Kapai,,1903610000,Kapai,1903600000,1900000000
+lasureco,"Kapatagan, Lanao del Sur",,1903639000,Kapatagan,1903600000,1900000000
+lasureco,Lumba-Bayabao,,1903611000,Lumba-Bayabao,1903600000,1900000000
+lasureco,Lumbaca-Unayan,,1903641000,Lumbaca-Unayan,1903600000,1900000000
+lasureco,Lumbatan,,1903612000,Lumbatan,1903600000,1900000000
+lasureco,Lumbayanague,,1903636000,Lumbayanague,1903600000,1900000000
+lasureco,Madalum,,1903613000,Madalum,1903600000,1900000000
+lasureco,Madamba,,1903614000,Madamba,1903600000,1900000000
+lasureco,Maguing,,1903634000,Maguing,1903600000,1900000000
+lasureco,Malabang,,1903615000,Malabang,1903600000,1900000000
+lasureco,Marantao,,1903616000,Marantao,1903600000,1900000000
+lasureco,Marogong,,1903631000,Marogong,1903600000,1900000000
+lasureco,Masiu,,1903618000,Masiu,1903600000,1900000000
+lasureco,"Mulondo, Lanao del Sur",,1903619000,Mulondo,1903600000,1900000000
+lasureco,Pagayawan,,1903620000,Pagayawan,1903600000,1900000000
+lasureco,"Pantar, Lanao del Norte",,1003523000,Pantar,1003500000,1000000000
+lasureco,Pantao Ragat,,1003516000,Pantao Ragat,1003500000,1000000000
+lasureco,Piagapo,,1903621000,Piagapo,1903600000,1900000000
+lasureco,"Picong, Lanao del Sur",,1903635000,Picong,1903600000,1900000000
+lasureco,Poona Bayabao,,1903622000,Poona Bayabao,1903600000,1900000000
+lasureco,Pualas,,1903623000,Pualas,1903600000,1900000000
+lasureco,Saguiaran,,1903625000,Saguiaran,1903600000,1900000000
+lasureco,Sultan Dumalondong,,1903640000,Sultan Dumalondong,1903600000,1900000000
+lasureco,Tamparan,,1903626000,Tamparan,1903600000,1900000000
+lasureco,"Taraka, Lanao del Sur",,1903627000,Taraka,1903600000,1900000000
+lasureco,Tubaran,,1903628000,Tubaran,1903600000,1900000000
+lasureco,Tugaya,,1903629000,Tugaya,1903600000,1900000000
+magelco,"Ampatuan, Maguindanao del Sur",,1908801000,Ampatuan,1908800000,1900000000
+magelco,Barira,,1908701000,Barira,1908700000,1900000000
+magelco,Buldon,,1908702000,Buldon,1908700000,1900000000
+magelco,Datu Abdullah Sangki,,1908803000,Datu Abdullah Sangki,1908800000,1900000000
+magelco,Datu Anggal Midtimbang,,1908804000,Datu Anggal Midtimbang,1908800000,1900000000
+magelco,"Datu Blah T. Sinsuat, Maguindanao del Norte",,1908704000,Datu Blah T. Sinsuat,1908700000,1900000000
+magelco,Datu Hoffer Ampatuan,,1908805000,Datu Hoffer Ampatuan,1908800000,1900000000
+magelco,Datu Odin Sinsuat,,1908705000,Datu Odin Sinsuat,1908700000,1900000000
+magelco,Datu Piang,,1908807000,Datu Piang,1908800000,1900000000
+magelco,Datu Salibo,,1908808000,Datu Salibo,1908800000,1900000000
+magelco,Datu Saudi Ampatuan,,1908809000,Datu Saudi Ampatuan,1908800000,1900000000
+magelco,Datu Unsay,,1908810000,Datu Unsay,1908800000,1900000000
+magelco,Guindulungan,,1908812000,Guindulungan,1908800000,1900000000
+magelco,Kabuntalan,,1908706000,Kabuntalan,1908700000,1900000000
+magelco,Mamasapano,,1908813000,Mamasapano,1908800000,1900000000
+magelco,Matanog,,1908707000,Matanog,1908700000,1900000000
+magelco,Northern Kabuntalan,,1908708000,Northern Kabuntalan,1908700000,1900000000
+magelco,Pagalungan,,1908816000,Pagalungan,1908800000,1900000000
+magelco,"Parang, Maguindanao del Norte",,1908709000,Parang,1908700000,1900000000
+magelco,Rajah Buayan,,1908819000,Rajah Buayan,1908800000,1900000000
+magelco,Shariff Aguak,,1908820000,Shariff Aguak,1908800000,1900000000
+magelco,Shariff Saydona Mustapha,,1908821000,Shariff Saydona Mustapha,1908800000,1900000000
+magelco,South Upi,,1908822000,South Upi,1908800000,1900000000
+magelco,"Sultan Kudarat, Maguindanao del Norte",,1908710000,Sultan Kudarat,1908700000,1900000000
+magelco,Sultan Mastura,,1908711000,Sultan Mastura,1908700000,1900000000
+magelco,Sultan sa Barongis,,1908823000,Sultan Sa Barongis,1908800000,1900000000
+magelco,Talayan,,1908824000,Talayan,1908800000,1900000000
+magelco,Talitay,,1908712000,Talitay,1908700000,1900000000
+magelco,"Upi, Maguindanao del Norte",,1908713000,Upi,1908700000,1900000000
+siaselco,Siasi,,0906612000,Siasi,0906600000,0900000000
+suleco,Indanan,,0906601000,Indanan,0906600000,0900000000
+suleco,"Jolo, Sulu",,0906602000,Jolo,0906600000,0900000000
+suleco,"Luuk, Sulu",,0906604000,Luuk,0906600000,0900000000
+suleco,Maimbung,,0906605000,Maimbung,0906600000,0900000000
+suleco,"Parang, Sulu",,0906609000,Parang,0906600000,0900000000
+suleco,Patikul,,0906611000,Patikul,0906600000,0900000000
+suleco,Talipao,,0906613000,Talipao,0906600000,0900000000
+tawelco,Bongao,,1907002000,Bongao,1907000000,1900000000
+tawelco,Languyan,,1907009000,Languyan,1907000000,1900000000
+tawelco,Panglima Sugala,,1907001000,Panglima Sugala,1907000000,1900000000
+tawelco,Sapa-Sapa,,1907010000,Sapa-Sapa,1907000000,1900000000
+tawelco,Sibutu,,1907011000,Sibutu,1907000000,1900000000
+tawelco,Simunul,,1907004000,Simunul,1907000000,1900000000
+tawelco,Sitangkai,,1907005000,Sitangkai,1907000000,1900000000
+tawelco,South Ubian,,1907006000,South Ubian,1907000000,1900000000
+tawelco,Tandubas,,1907007000,Tandubas,1907000000,1900000000

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Source checks · PH electricity rates</title>
+<meta name="description" content="DOE's monthly electricity rates checked against each utility's own rate documents, with the source page shown and the figure highlighted.">
+<link rel="stylesheet" href="style.css?v=d2b106ffd0">
+</head>
+<body>
+<header class="site"><nav aria-label="Site">
+  <a class="brand" href="./">PH electricity rates<small>Prototype</small></a>
+  <a href="./">Explorer</a>
+  <a href="checks.html" aria-current="page">Source checks</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="data.html">Data &amp; API</a>
+</nav></header>
+<div id="page">
+<main>
+  <p class="eyebrow">Automated checks · last <span id="lookback">12</span> months</p>
+  <h1>DOE's figures against the utilities' own documents</h1>
+  <p class="lede">For three utilities, a script reads the rate document the utility itself publishes each month and compares it with the number in DOE's sheet. Select a row's source to see the page it came from, with the figure highlighted, next to the table.</p>
+  <noscript><p class="card">This page needs JavaScript. The same comparisons are in <a href="data/qa/discrepancies.csv">discrepancies.csv</a>.</p></noscript>
+
+  <div class="stats card" id="summary" aria-live="polite"></div>
+
+  <section aria-labelledby="src-title">
+    <h2 id="src-title" class="sr-heading">Where each figure comes from</h2>
+    <div class="srcgrid" id="sources"></div>
+  </section>
+
+  <section class="card" aria-labelledby="tbl-title">
+    <h2 id="tbl-title">Every comparison</h2>
+    <div class="controls">
+      <div><span class="label" id="ulabel">Utility</span><div class="seg" role="group" aria-labelledby="ulabel" id="fu"></div></div>
+      <div><span class="label" id="mlabel">Figure</span><div class="seg" role="group" aria-labelledby="mlabel" id="fm"></div></div>
+      <label class="check"><input type="checkbox" id="fd"> Only where they differ</label>
+    </div>
+    <p class="note" id="count" style="margin-top:12px"></p>
+    <div class="tablewrap" style="max-height:none" id="table"></div>
+    <p class="note" style="margin-top:12px">DOE prints two decimals, so a gap of up to <span id="tol">0.006</span> PHP/kWh counts as a match. "DOE" links open the exact cell in DOE's Google Sheet; "Source" opens the utility's page beside the table (keyboard: <kbd>j</kbd>/<kbd>k</kbd> for next/previous, <kbd>Esc</kbd> to close).</p>
+  </section>
+
+  <section class="card" aria-labelledby="na-title">
+    <h2 id="na-title">Tried, not automated yet</h2>
+    <ul class="plain note" id="notauto"></ul>
+    <details style="margin-top:12px"><summary>DOE's source link for every utility</summary>
+      <p class="note" style="margin-top:8px">What DOE's SOURCES column links to, and whether it loaded when checked. A 200 is not proof the page holds rates: CELCOR's link answers 200 and then draws its own "Error 404" in the browser.</p>
+      <div class="tablewrap" id="links"></div>
+    </details>
+  </section>
+</main>
+</div>
+
+<aside class="viewer" id="viewer" hidden aria-labelledby="v-title">
+  <div class="vhead">
+    <div class="vtitle">
+      <p class="eyebrow" style="margin:0" id="v-eyebrow"></p>
+      <h2 id="v-title"></h2>
+    </div>
+    <div class="vnav">
+      <button type="button" id="v-prev" aria-label="Previous comparison">↑</button>
+      <button type="button" id="v-next" aria-label="Next comparison">↓</button>
+      <button type="button" id="v-close" aria-label="Close the source">✕</button>
+    </div>
+  </div>
+  <div class="vfigs" id="v-figs"></div>
+  <div class="vtools">
+    <div class="seg" role="group" aria-label="Zoom" id="v-zoom">
+      <button type="button" data-z="fit">Fit</button><button type="button" data-z="read" aria-pressed="true">Readable</button>
+    </div>
+    <span class="note" id="v-links"></span>
+  </div>
+  <div class="vdoc" id="v-doc">
+    <div class="vpage" id="v-page"><img id="v-img" alt=""><i class="hl-row" id="v-row"></i><i class="hl-val" id="v-val"></i></div>
+  </div>
+  <p class="vrow note" id="v-rowtext"></p>
+</aside>
+<script src="checks.js?v=a6ef1dab9e" defer></script>
+</body>
+</html>

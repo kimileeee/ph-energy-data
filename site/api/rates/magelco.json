@@ -1,0 +1,1 @@
+{"utility_id":"magelco","unit":"PHP/kWh","series":{"residential":[["2023-03",12.38],["2023-04",11.63]],"commercial":[["2023-03",12.38],["2023-04",11.63]],"industrial":[["2023-03",12.38],["2023-04",11.63]],"generation":[]},"nda_months":{"residential":104,"commercial":104,"industrial":104},"flagged_by_qa":[]}

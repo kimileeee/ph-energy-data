@@ -1,0 +1,142 @@
+utility_id,doe_name,doe_source_url,doe_source_text,kind,http_status
+aec,AEC,https://angeleselectric.com.ph/advisories/,Advisories – Angeles Electric,website,200
+cedc,CEDC,https://www.clarkelectric.ph/bills-and-payment/generation-charges-and-bill-rates,Generation Charges and Bill Rates | Clark Electric Distribution Corporation,website,200
+celcor,CELCOR,https://www.celcor.com.ph/rate-archives,CELCOR | Rates Archives,website,200
+decorp,DECORP,https://www.facebook.com/dagupanelectric/photos,https://www.facebook.com/dagupanelectric/photos,facebook,
+fbpc,FBPC,https://firstbaypower.com/,First Bay Power Corporation,website,403
+ieec,IEEC,https://www.facebook.com/ibaanelectric,Ibaan Electric Corporation,facebook,
+lueco,LUECO,https://www.luecoinc.com/,LUECOINC,website,200
+meralco,MERALCO,https://company.meralco.com.ph/news-and-advisories,News & Advisories,website,200
+oedc,OEDC,https://www.facebook.com/OEDCOfficial,"Olongapo Electricity Distribution Company, Inc.",facebook,
+pames,PAMES,,,none,
+sfelapco,SFELAPCO,https://www.facebook.com/sfelapco,San Fernando Electric Light and Power Company,facebook,
+tei,TEI,https://tarlacelectric.com/rate-schedule-customer-class,Rate Schedule / Customer Class – Tarlac Electric,website,200
+blci,BLCI,https://www.bohollight.com/main/power-rates-2024/,"Power Rates 2024 – Bohol Light Company, Inc.",website,ConnectError
+ceneco-nepc,CENECO/NEPC,https://www.facebook.com/negrospowerph,https://www.facebook.com/negrospowerph,facebook,
+meco,MECO,https://mecomactan.com/rates/,RATES,website,403
+more-power,MORE Power,https://morepower.com.ph/monthly-rates/,Rates « MORE Power,website,200
+veco,VECO,https://visayanelectric.com/page.html?main=clients&sub1=your%20bill&sub2=Average%20Monthly%20Rate,Average Monthly Rate,website,400
+cepalco,CEPALCO,https://www.facebook.com/cepalcoofficial/,https://www.facebook.com/cepalcoofficial/,facebook,
+clpc,CLPC,https://www.cotabatolight.com/index.php?option=com_content&view=article&id=330&Itemid=367,https://www.cotabatolight.com/index.php?option=com_content&view=article&id=330&Itemid=367,website,400
+dlpc,DLPC,https://www.davaolight.com/index.php/pages/rates,Monthly Rate Schedule,website,400
+ilpi,ILPI,https://www.facebook.com/iliganlight/photos,"Photos of Iligan Light & Power, Inc.",facebook,
+abreco,ABRECO,https://www.facebook.com/AbraElectricCoop/,Abra Electric Cooperative | Bangued,facebook,
+beneco,BENECO,https://www.beneco.com.ph/rates.php,Benguet Electric Cooperative | Electricity Rates,website,200
+ifelco,IFELCO,https://www.facebook.com/ifelco.ifugao/photos?locale=tl_PH,https://www.facebook.com/ifelco.ifugao/photos?locale=tl_PH,facebook,
+kaelco,KAELCO,https://www.facebook.com/kaelcoincorporated/photos,https://www.facebook.com/kaelcoincorporated/photos,facebook,
+mopreco,MOPRECO,https://mopreco.com.ph/tables.html,https://mopreco.com.ph/tables.html,website,200
+cenpelco,CENPELCO,https://cenpelco.com/,CENPELCO Central Pangasinan Electric Cooperative,website,200
+inec,INEC,https://inec-ec.com/residential-rate/,"October Rates 2023 – Ilocos Norte Electric Cooperative, Inc.",website,200
+iseco,ISECO,https://www.iseco.org/rates/2025/2025.html,https://www.iseco.org/rates/2025/2025.html,website,200
+luelco,LUELCO,https://www.iseco.org/rates/2025/2025.html,https://www.iseco.org/rates/2025/2025.html,website,200
+panelco-i,PANELCO I,https://www.facebook.com/PANELCOI,https://www.facebook.com/PANELCOI,facebook,
+panelco-iii,PANELCO III,https://www.panelco3.online/rates/rates.php,https://www.panelco3.online/rates/rates.php,website,200
+batanelco,BATANELCO,https://www.facebook.com/BatanesBatanelco/photos,https://www.facebook.com/BatanesBatanelco/photos,facebook,
+cagelco-i,CAGELCO I,https://www.cagelco1.org.ph/billing-rates,https://www.cagelco1.org.ph/billingrates,website,200
+cagelco-ii,CAGELCO II,https://cagelco2.org.ph/power-rates-2024/,https://cagelco2.org.ph/powerrates2024/,website,404
+iselco-i,ISELCO I,https://iselcouno.com/services/billing-rates,ISELCO Uno  Billing Rates,website,404
+iselco-ii,ISELCO II,https://www.facebook.com/ISELCOII/photos,https://www.facebook.com/ISELCOII/photos,facebook,
+nuvelco,NUVELCO,https://www.nuvelco.com/,https://www.nuvelco.com/,website,503
+quirelco,QUIRELCO,https://www.facebook.com/quirelco/photos,https://www.facebook.com/quirelco/photos,facebook,
+aurelco,AURELCO,https://aurelco.com.ph/index.html,https://aurelco.com.ph/index.html,website,ConnectError
+neeco-i,NEECO I,https://neeco1.org/unbundled-power-rates,https://neeco1.org/unbundled-power-rates,website,200
+neeco-ii-area-i,NEECO II  AREA I,https://neeco2area1.com/unbundled-power-rates,Neeco II  Area 1 | Rate Archive,website,200
+neeco-ii-area-ii,NEECO II  AREA II,https://www.facebook.com/NEECO2AREA1OFFICIAL/photos,https://www.facebook.com/NEECO2AREA1OFFICIAL/photos,facebook,
+pelco-i,PELCO I,https://www.pelco1.org.ph/,https://www.pelco1.org.ph/,website,200
+pelco-ii,PELCO II,https://www.facebook.com/Pelco2/photos,https://www.facebook.com/Pelco2/photos,facebook,
+pelco-iii,PELCO III,https://www.facebook.com/pelco3official,https://www.facebook.com/pelco3official,facebook,
+penelco,PENELCO,https://www.penelco.com/,https://www.penelco.com/,website,200
+presco,PRESCO,https://presco1968.wixsite.com/presco/copy-of-rate-2023,https://presco1968.wixsite.com/presco/copyofrate2023,website,200
+sajelco,SAJELCO,https://sajelco.ph/,https://sajelco.ph/#,website,ConnectError
+tarelco-i,TARELCO I,https://www.facebook.com/TARLAC1ELECTRICCOOPERATIVE,https://www.facebook.com/TARLAC1ELECTRICCOOPERATIVE,facebook,
+tarelco-ii,TARELCO II,https://www.tarelco2.com/rates.html,rates  Tarlac,website,200
+zameco-i,ZAMECO I,https://www.facebook.com/ZAMECOI/photos,https://www.facebook.com/ZAMECOI/photos,facebook,
+zameco-ii,ZAMECO II,https://www.facebook.com/zameco2official/photos,https://www.facebook.com/zameco2official/photos,facebook,
+batelec-i,BATELEC I,https://www.batelec1.com.ph/,BATELEC I,website,200
+batelec-ii,BATELEC II,https://www.batelec2.com.ph/,Batelec II Electric Cooperative,website,200
+fleco,FLECO,https://fleco.com.ph/newsite/unbundled.php,Effective Unbundled Rate,website,200
+quezelco-i,QUEZELCO I,https://quezelco1.org/rates,https://quezelco1.org/rates,website,200
+quezelco-ii,QUEZELCO II,https://www.facebook.com/photo.php?fbid=855841420026485&set=pb.100068019054739.-2207520000&type=3,https://www.facebook.com/photo.php?fbid=855841420026485&set=pb.100068019054739.2207520000&type=3,facebook,
+biselco,BISELCO,https://www.facebook.com/biselco.coronpalawan/,Biselco EC | Facebook,facebook,
+lubelco,LUBELCO,,,none,
+marelco,MARELCO,https://www.marelco.org.ph/news_and_updates/power_rates,https://www.marelco.org.ph/news_and_updates/power_rates,website,200
+omeco,OMECO,https://www.omeco.com.ph/,https://www.omeco.com.ph/,website,200
+ormeco,ORMECO,https://www.facebook.com/OrientalMindoroElectricCooperativeInc/photos,https://www.facebook.com/OrientalMindoroElectricCooperativeInc/photos,facebook,
+paleco,PALECO,https://paleco.net/paleco/rates-generation-charges/,https://paleco.net/paleco/ratesgenerationcharges/,website,200
+romelco,ROMELCO,https://www.facebook.com/officialromelco/photos,https://www.facebook.com/officialromelco/photos,facebook,
+tielco,TIELCO,https://tielcoelecdu.com/,TIELCO,website,403
+aleco,ALECO,https://web.alecoinc.com.ph/,Albay Electric Cooperative. Inc.,website,200
+canoreco,CANORECO,https://canoreco.com.ph/,https://canoreco.com.ph/,website,200
+casureco1,CASURECO1,https://www.casureco1.com/,CASURECO I,website,200
+casureco2,CASURECO2,https://casureco2.com.ph/,CASURECO II,website,200
+casureco3,CASURECO3,https://www.casureco3.com/rates.html,RATES,website,200
+casureco4,CASURECO4,https://www.casureco4.com/billingrates,https://www.casureco4.com/billingrates,website,200
+ficelco,FICELCO,https://www.facebook.com/ficelco/photos_by,https://www.facebook.com/ficelco/photos_by,facebook,
+maselco,MASELCO,https://www.facebook.com/OfficialMASELCO,"Masbate Electric Coop., Inc | Mobo",facebook,
+soreco1,SORECO1,https://www.facebook.com/soreco1/photos,https://www.facebook.com/soreco1/photos,facebook,
+soreco2,SORECO2,https://www.facebook.com/profile.php?id=100068019054739&sk=photos,https://www.facebook.com/profile.php?id=100068019054739&sk=photos,facebook,
+tiselco,TISELCO,https://www.facebook.com/profile.php?id=61557599057473&sk=photos,https://www.facebook.com/profile.php?id=61557599057473&sk=photos,facebook,
+noceco,NOCECO,https://web.facebook.com/taylor.cena.52,https://web.facebook.com/taylor.cena.52,facebook,
+noneco,NONECO,https://www.facebook.com/nncooperative/photos,"Photos of Northern Negros Electric Cooperative, Inc.",facebook,
+noreco-i,NORECO I,https://www.facebook.com/profile.php?id=100069147744919&sk=photos_by,https://www.facebook.com/profile.php?id=100069147744919&sk=photos_by,facebook,
+noreco-ii,NORECO II,https://www.noreco2.com.ph/unbundled-rates,Unbundled Rates | NORECO II,website,200
+akelco,AKELCO,https://www.akelco.com.ph/rates.html,Power Rates,website,200
+anteco,ANTECO,https://www.facebook.com/antecoPH/,"Antique Electric Cooperative, Inc. | San Jose de Buenavista",facebook,
+capelco,CAPELCO,https://www.facebook.com/CAPELCO.Official/,"Capiz Electric Cooperative, Inc. | Roxas City",facebook,
+guimelco,GUIMELCO,https://www.guimelco.com/member-consumer-owners/monthly-rates-schedule/,Monthly Rates Schedule | GUIMELCO Official Website,website,403
+ileco-i,ILECO I,https://ileco1.com/rates/,https://ileco1.com/rates/,website,200
+ileco-ii,ILECO II,https://www.ileco2.ph/Generation/?,ILECO 2 | GENERATION RATES,website,403
+ileco-iii,ILECO III,https://ileco3.com/,"ILOILO III ELECTRIC COOPERATIVE, INC.",website,200
+banelco,BANELCO,https://banelcobantayan.com/october-2023-generation-rates/,October 2023 Generation Rates,website,200
+boheco-i,BOHECO I,https://www.facebook.com/BOHECO1officialpage/photos_by,https://www.facebook.com/BOHECO1officialpage/photos_by,facebook,
+boheco-ii,BOHECO II,https://boheco2.net/rate-advisory,Rate Advisory,website,ConnectError
+cebeco-i,CEBECO I,https://www.cebeco-1.com/2024-effective-power-rates,https://www.cebeco1.com/2024effectivepowerrates,website,200
+cebeco-ii,CEBECO II,https://www.facebook.com/cebeco2.official/photos,https://www.facebook.com/cebeco2.official/photos,facebook,
+cebeco-iii,CEBECO III,http://www.cebeco3.com.ph/2024/07/09/rate-schedule-for-the-year-2024/,RATE SCHEDULE FOR THE YEAR 2024 – CEBECO III,website,ConnectTimeout
+celco,CELCO,https://www.facebook.com/profile.php?id=100070228032299&sk=photos,https://www.facebook.com/profile.php?id=100070228032299&sk=photos,facebook,
+prosielco,PROSIELCO,https://prosielco.com/prosielco-unbundled-rate/,PROSIELCO Generation Charges/Unbundled Rate,website,200
+bileco,BILECO,https://www.facebook.com/bilecoofficial/photos,https://www.facebook.com/bilecoofficial/photos,facebook,
+esamelco,ESAMELCO,https://www.facebook.com/esamelco1977/photos,https://www.facebook.com/esamelco1977/photos,facebook,
+leyeco-1-dorelco,LEYECO 1/DORELCO,https://www.facebook.com/dorelco,DORELCO | Tolosa,facebook,
+leyeco-ii,LEYECO II,https://www.leyeco2.online/anonymous/rates-inquiry,https://www.leyeco2.online/anonymous/ratesinquiry,website,200
+leyeco-iii,LEYECO III,https://www.leyeco3.com/news-and-updates,News and Updates | leyeco3,website,200
+leyeco-iv,LEYECO IV,https://www.facebook.com/leyeco4/photos_by,https://www.facebook.com/leyeco4/photos_by,facebook,
+leyeco-v,LEYECO V,https://www.leyeco-v.com.ph/power-rate,LEYECO V Power Rate  Ormoc,website,200
+norsamelco,NORSAMELCO,https://www.facebook.com/profile.php?id=100057438819334&sk=photos,https://www.facebook.com/profile.php?id=100057438819334&sk=photos,facebook,
+samelco-i,SAMELCO I,https://samelco1.com/monthly-power-rates/,https://samelco1.com/monthly-power-rates/,website,200
+samelco-ii,SAMELCO II,https://www.facebook.com/samelco2paranas/photos,https://www.facebook.com/samelco2paranas/photos,facebook,
+soleco,SOLECO,https://www.soleco.com.ph/,https://www.soleco.com.ph/,website,200
+zamcelco,ZAMCELCO,https://www.zamcelco.com.ph/,New ZAMCELCO,website,200
+zamsureco-i,ZAMSURECO I,,,none,
+zamsureco-ii,ZAMSURECO II,https://www.facebook.com/ZamsurecoDos,"Zamboanga del Sur II Electric Cooperative, Inc.",facebook,
+zaneco,ZANECO,https://zaneco.ph/,ZANECO,website,200
+buseco,BUSECO,https://www.facebook.com/BUSECOKasanagMCOs/photos,https://www.facebook.com/BUSECOKasanagMCOs/photos,facebook,
+camelco,CAMELCO,https://www.facebook.com/camelco1977/photos,https://www.facebook.com/camelco1977/photos,facebook,
+fibeco,FIBECO,https://fibeco.ph/rates.php?id=2023&Rates,FIBECO INC. | Rates,website,200
+laneco,LANECO,https://laneco.co/electric-billing-rates/,https://laneco.co/electricbillingrates/,website,200
+moelci-i,MOELCI I,https://moelci-1.com/powerrates,Power Rates | MOELCI 1,website,200
+moelci-ii,MOELCI II,https://moelci2.com/,moelciii,website,200
+moresco-i,MORESCO I,https://www.facebook.com/moresco.one/photos,Laguindingan  MORESCO1,facebook,
+moresco-ii,MORESCO II,https://www.facebook.com/MORESCOIIofficial/photos,https://www.facebook.com/MORESCOIIofficial/photos,facebook,
+daneco-nordeco,DANECO/NORDECO,https://www.facebook.com/nordecoinc/photos,https://www.facebook.com/nordecoinc/photos,facebook,
+dasureco,DASURECO,https://www.facebook.com/DasurecoOfficial/photos,https://www.facebook.com/DasurecoOfficial/photos,facebook,
+doreco,DORECO,https://www.doreco.net/latest-power-rates/,https://www.doreco.net/latestpowerrates/,website,200
+cotelco,COTELCO,https://cotelco.com.ph/power-rates/,Power Rates | Cotelco Inc.,website,200
+ppalma,PPALMA,https://www.ppalmacotelco.com/powerrates,https://www.ppalmacotelco.com/powerrates,website,200
+socoteco-i,SOCOTECO I,https://www.facebook.com/socoteco1.koronadal/photos,https://www.facebook.com/socoteco1.koronadal/photos,facebook,
+socoteco-ii,SOCOTECO II,https://www.socoteco2.com/,https://www.socoteco2.com/,website,200
+sukelco,SUKELCO,https://www.facebook.com/sukelco/photos_by,https://www.facebook.com/sukelco/photos_by,facebook,
+aneco,ANECO,https://www.aneco.ph/,"Agusan del Norte Electric Cooperative, Inc.",website,307
+aselco,ASELCO,https://aselco.ph/consumer-services/power-rates/,https://aselco.ph/consumerservices/powerrates/#tab3624510,website,404
+dielco,DIELCO,,,none,
+siarelco,SIARELCO,https://siarelco.com/?s=rate,https://siarelco.com/?s=rate,website,403
+surneco,SURNECO,https://www.facebook.com/surneco/photos_by,https://www.facebook.com/surneco/photos_by,facebook,
+surseco-i,SURSECO I,https://surseco1.ph/ComAvPR.aspx,Comparative Average Power Rates,website,200
+surseco-ii,SURSECO II,http://surseco2.com.ph/,"SURSECO II, Inc",website,200
+baselco,BASELCO,https://www.facebook.com/baselco.basilan.3720/photos_by,https://www.facebook.com/baselco.basilan.3720/photos_by,facebook,
+caselco,CASELCO,,,none,
+lasureco,LASURECO,https://lasureco.com/,LASURECO,website,200
+magelco,MAGELCO,,,none,
+siaselco,SIASELCO,,,none,
+suleco,SULECO,,,none,
+tawelco,TAWELCO,,,none,

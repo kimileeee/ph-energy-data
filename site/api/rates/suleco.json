@@ -1,0 +1,1 @@
+{"utility_id":"suleco","unit":"PHP/kWh","series":{"residential":[["2023-03",15.65],["2023-04",15.31],["2023-05",15.26]],"commercial":[["2023-03",15.65],["2023-04",15.31],["2023-05",15.26]],"industrial":[["2023-03",15.65],["2023-04",15.31],["2023-05",15.26]],"generation":[]},"nda_months":{"residential":103,"commercial":103,"industrial":103},"flagged_by_qa":[]}

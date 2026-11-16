@@ -1,0 +1,24 @@
+check,doe_name,tab,field,value,residential_value,sheet_row
+attribute differs across tabs,ILECO II,commercial,grid,OFFGRID,ONGRID,122
+attribute differs across tabs,ILECO III,commercial,grid,OFFGRID,ONGRID,123
+attribute differs across tabs,CLPC,industrial,region,Region 12,BARMM,33
+attribute differs across tabs,CLPC,industrial,island,BARMM,Mindanao,33
+attribute differs across tabs,ILECO II,industrial,grid,OFFGRID,ONGRID,122
+attribute differs across tabs,ILECO III,industrial,grid,OFFGRID,ONGRID,123
+attribute differs across tabs,DANECO/NORDECO,generation,doe_name,DANECO,DANECO/NORDECO,166
+outside 1.0-40.0 PHP/kWh,ISELCO I,generation,2025-02,0.55,,58
+outside 1.0-40.0 PHP/kWh,PRESCO,generation,2025-03,-0.73,,72
+outside 1.0-40.0 PHP/kWh,PRESCO,industrial,2025-03,-0.14,,72
+outside 1.0-40.0 PHP/kWh,SAJELCO,industrial,2025-03,0.67,,73
+outside 1.0-40.0 PHP/kWh,ZAMECO I,generation,2025-01,0.64,,76
+outside 1.0-40.0 PHP/kWh,BISELCO,residential,2020-10,0.83,,87
+outside 1.0-40.0 PHP/kWh,BISELCO,residential,2020-11,0.83,,87
+outside 1.0-40.0 PHP/kWh,BISELCO,residential,2020-12,0.83,,87
+outside 1.0-40.0 PHP/kWh,BISELCO,industrial,2020-10,0.83,,87
+outside 1.0-40.0 PHP/kWh,BISELCO,industrial,2020-11,0.83,,87
+outside 1.0-40.0 PHP/kWh,BISELCO,industrial,2020-12,0.83,,87
+unparseable cell,NONECO,residential,2026-10,Jan-16,,112
+outside 1.0-40.0 PHP/kWh,BANELCO,commercial,2018-12,6447.0,,126
+outside 1.0-40.0 PHP/kWh,BOHECO II,commercial,2019-02,0.09,,128
+outside 1.0-40.0 PHP/kWh,SOLECO,commercial,2022-01,0.0,,146
+outside 1.0-40.0 PHP/kWh,DORECO,commercial,2018-07,0.06,,168

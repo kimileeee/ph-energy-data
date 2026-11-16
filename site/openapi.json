@@ -1,0 +1,1977 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Philippine electricity rates (prototype)",
+  "version": "0.1.0",
+  "summary": "DOE's monthly rate sheet as static JSON: utilities, monthly rates, medians, source checks.",
+  "description": "Every endpoint is a static file: no key, no rate limit, cacheable. Files regenerate when the pipeline runs. Join to LGUs on PSGC codes. Bulk CSV/Parquet and a Frictionless datapackage are listed in /api/catalog.json.",
+  "license": {
+   "name": "ODC-BY-1.0 (data), MIT (code)",
+   "url": "https://opendatacommons.org/licenses/by/1-0/"
+  }
+ },
+ "servers": [
+  {
+   "url": ".",
+   "description": "This site"
+  }
+ ],
+ "security": [],
+ "tags": [
+  {
+   "name": "Utilities",
+   "description": "The master list: one stable ID per distribution utility, with PSGC coverage."
+  },
+  {
+   "name": "Rates",
+   "description": "Monthly PHP/kWh per customer class, as DOE compiled them, and medians."
+  },
+  {
+   "name": "Checks",
+   "description": "DOE's figures against utilities' own rate documents."
+  },
+  {
+   "name": "Geography",
+   "description": "Municipal boundaries joined to the utilities serving them."
+  },
+  {
+   "name": "Meta",
+   "description": "Coverage numbers for the build."
+  }
+ ],
+ "paths": {
+  "/api/utilities.json": {
+   "get": {
+    "operationId": "listUtilities",
+    "summary": "List utilities",
+    "description": "Master list v0 with each utility's latest rate per class.",
+    "tags": [
+     "Utilities"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/UtilityList"
+        },
+        "example": {
+         "generated": "2026-11-16T15:54:17+00:00",
+         "count": 141,
+         "utilities": [
+          {
+           "utility_id": "aec",
+           "doe_name": "AEC",
+           "name": "Angeles Electric Corporation",
+           "du_type": "PIOU",
+           "grid": "ONGRID",
+           "region": "Region 3",
+           "psgc_region_code": "0300000000",
+           "island": "Luzon",
+           "psgc_province_codes": "0305400000",
+           "psgc_provinces": "Pampanga",
+           "psgc_independent_city_codes": "0330100000",
+           "independent_cities": "City of Angeles"
+          },
+          {
+           "utility_id": "cedc",
+           "doe_name": "CEDC",
+           "name": "Clark Electric Distribution Corporation",
+           "du_type": "PIOU",
+           "grid": "ONGRID",
+           "region": "Region 3",
+           "psgc_region_code": "0300000000",
+           "island": "Luzon",
+           "psgc_province_codes": "0305400000;0306900000",
+           "psgc_provinces": "Pampanga;Tarlac",
+           "psgc_independent_city_codes": "0330100000",
+           "independent_cities": "City of Angeles"
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/rates/{utility_id}.json": {
+   "get": {
+    "operationId": "getRates",
+    "summary": "Rates for one utility",
+    "description": "Monthly residential, commercial and industrial rates and the generation charge.",
+    "tags": [
+     "Rates"
+    ],
+    "parameters": [
+     {
+      "name": "utility_id",
+      "in": "path",
+      "required": true,
+      "description": "From /api/utilities.json",
+      "schema": {
+       "type": "string",
+       "enum": [
+        "abreco",
+        "aec",
+        "akelco",
+        "aleco",
+        "aneco",
+        "anteco",
+        "aselco",
+        "aurelco",
+        "banelco",
+        "baselco",
+        "batanelco",
+        "batelec-i",
+        "batelec-ii",
+        "beneco",
+        "bileco",
+        "biselco",
+        "blci",
+        "boheco-i",
+        "boheco-ii",
+        "buseco",
+        "cagelco-i",
+        "cagelco-ii",
+        "camelco",
+        "canoreco",
+        "capelco",
+        "caselco",
+        "casureco1",
+        "casureco2",
+        "casureco3",
+        "casureco4",
+        "cebeco-i",
+        "cebeco-ii",
+        "cebeco-iii",
+        "cedc",
+        "celco",
+        "celcor",
+        "ceneco-nepc",
+        "cenpelco",
+        "cepalco",
+        "clpc",
+        "cotelco",
+        "daneco-nordeco",
+        "dasureco",
+        "decorp",
+        "dielco",
+        "dlpc",
+        "doreco",
+        "esamelco",
+        "fbpc",
+        "fibeco",
+        "ficelco",
+        "fleco",
+        "guimelco",
+        "ieec",
+        "ifelco",
+        "ileco-i",
+        "ileco-ii",
+        "ileco-iii",
+        "ilpi",
+        "inec",
+        "iseco",
+        "iselco-i",
+        "iselco-ii",
+        "kaelco",
+        "laneco",
+        "lasureco",
+        "leyeco-1-dorelco",
+        "leyeco-ii",
+        "leyeco-iii",
+        "leyeco-iv",
+        "leyeco-v",
+        "lubelco",
+        "lueco",
+        "luelco",
+        "magelco",
+        "marelco",
+        "maselco",
+        "meco",
+        "meralco",
+        "moelci-i",
+        "moelci-ii",
+        "mopreco",
+        "more-power",
+        "moresco-i",
+        "moresco-ii",
+        "neeco-i",
+        "neeco-ii-area-i",
+        "neeco-ii-area-ii",
+        "noceco",
+        "noneco",
+        "noreco-i",
+        "noreco-ii",
+        "norsamelco",
+        "nuvelco",
+        "oedc",
+        "omeco",
+        "ormeco",
+        "paleco",
+        "pames",
+        "panelco-i",
+        "panelco-iii",
+        "pelco-i",
+        "pelco-ii",
+        "pelco-iii",
+        "penelco",
+        "ppalma",
+        "presco",
+        "prosielco",
+        "quezelco-i",
+        "quezelco-ii",
+        "quirelco",
+        "romelco",
+        "sajelco",
+        "samelco-i",
+        "samelco-ii",
+        "sfelapco",
+        "siarelco",
+        "siaselco",
+        "socoteco-i",
+        "socoteco-ii",
+        "soleco",
+        "soreco1",
+        "soreco2",
+        "sukelco",
+        "suleco",
+        "surneco",
+        "surseco-i",
+        "surseco-ii",
+        "tarelco-i",
+        "tarelco-ii",
+        "tawelco",
+        "tei",
+        "tielco",
+        "tiselco",
+        "veco",
+        "zamcelco",
+        "zameco-i",
+        "zameco-ii",
+        "zamsureco-i",
+        "zamsureco-ii",
+        "zaneco"
+       ]
+      },
+      "example": "meralco"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Rates"
+        },
+        "example": {
+         "utility_id": "meralco",
+         "unit": "PHP/kWh",
+         "series": {
+          "residential": [
+           [
+            "2018-01",
+            9.04
+           ],
+           [
+            "2018-02",
+            10.11
+           ],
+           [
+            "2018-03",
+            10.96
+           ]
+          ],
+          "commercial": [
+           [
+            "2018-01",
+            10.48
+           ],
+           [
+            "2023-01",
+            11.52
+           ],
+           [
+            "2023-02",
+            11.51
+           ]
+          ],
+          "industrial": [
+           [
+            "2018-01",
+            8.76
+           ],
+           [
+            "2018-02",
+            9.75
+           ],
+           [
+            "2018-03",
+            10.13
+           ]
+          ],
+          "generation": [
+           [
+            "2020-01",
+            4.9
+           ],
+           [
+            "2020-02",
+            4.51
+           ],
+           [
+            "2020-03",
+            4.66
+           ]
+          ]
+         },
+         "nda_months": {
+          "residential": 0,
+          "commercial": 59,
+          "industrial": 0
+         },
+         "flagged_by_qa": []
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "No such utility_id"
+     }
+    }
+   }
+  },
+  "/api/panel.json": {
+   "get": {
+    "operationId": "getPanel",
+    "summary": "Every utility, every month",
+    "description": "All series in one file, month-aligned (drives the map).",
+    "tags": [
+     "Rates"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Panel"
+        },
+        "example": {
+         "unit": "PHP/kWh",
+         "months": [
+          "2018-01",
+          "2018-02"
+         ],
+         "series": {
+          "residential": {
+           "abreco": [
+            9.03,
+            7.83
+           ],
+           "aec": [
+            null,
+            null
+           ],
+           "akelco": [
+            7.9,
+            7.76
+           ],
+           "aleco": [
+            null,
+            null
+           ],
+           "aneco": [
+            null,
+            null
+           ],
+           "anteco": [
+            null,
+            null
+           ],
+           "aselco": [
+            null,
+            null
+           ],
+           "aurelco": [
+            null,
+            null
+           ],
+           "banelco": [
+            10.19,
+            9.52
+           ],
+           "baselco": [
+            8.87,
+            9.01
+           ],
+           "batanelco": [
+            10.61,
+            10.76
+           ],
+           "batelec-i": [
+            7.44,
+            7.61
+           ]
+          },
+          "commercial": {
+           "abreco": [
+            7.23,
+            6.66
+           ],
+           "aec": [
+            null,
+            null
+           ],
+           "akelco": [
+            9.52,
+            9.3
+           ],
+           "aleco": [
+            null,
+            null
+           ],
+           "aneco": [
+            null,
+            null
+           ],
+           "anteco": [
+            null,
+            null
+           ],
+           "aselco": [
+            null,
+            null
+           ],
+           "aurelco": [
+            null,
+            null
+           ],
+           "banelco": [
+            9.65,
+            8.98
+           ],
+           "baselco": [
+            7.79,
+            7.94
+           ],
+           "batanelco": [
+            9.63,
+            9.76
+           ],
+           "batelec-i": [
+            6.35,
+            6.58
+           ]
+          },
+          "industrial": {
+           "abreco": [
+            7.23,
+            6.66
+           ],
+           "aec": [
+            null,
+            null
+           ],
+           "akelco": [
+            7.9,
+            7.76
+           ],
+           "aleco": [
+            null,
+            null
+           ],
+           "aneco": [
+            null,
+            null
+           ],
+           "anteco": [
+            null,
+            null
+           ],
+           "aselco": [
+            null,
+            null
+           ],
+           "aurelco": [
+            null,
+            null
+           ],
+           "banelco": [
+            9.69,
+            9.02
+           ],
+           "baselco": [
+            8.69,
+            8.84
+           ],
+           "batanelco": [
+            null,
+            null
+           ],
+           "batelec-i": [
+            7.44,
+            7.61
+           ]
+          },
+          "generation": {
+           "abreco": [
+            null,
+            null
+           ],
+           "aec": [
+            null,
+            null
+           ],
+           "akelco": [
+            5.71,
+            5.53
+           ],
+           "aleco": [
+            null,
+            null
+           ],
+           "aneco": [
+            null,
+            null
+           ],
+           "anteco": [
+            null,
+            null
+           ],
+           "aselco": [
+            null,
+            null
+           ],
+           "aurelco": [
+            null,
+            null
+           ],
+           "banelco": [
+            null,
+            null
+           ],
+           "baselco": [
+            null,
+            null
+           ],
+           "batanelco": [
+            null,
+            null
+           ],
+           "batelec-i": [
+            null,
+            null
+           ]
+          }
+         },
+         "note": "null = NDA, blank, or a value flagged by QA (see /api/rates/<id>.json)"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/medians.json": {
+   "get": {
+    "operationId": "getMedians",
+    "summary": "National and regional medians",
+    "description": "Unweighted medians per class and month.",
+    "tags": [
+     "Rates"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Medians"
+        },
+        "example": {
+         "note": "Median across utilities with a value that month (NDA excluded). Unweighted: each utility counts once, regardless of customers served.",
+         "national": {
+          "residential": {
+           "2018-01": 9.12,
+           "2018-02": 9.355,
+           "2018-03": 9.54,
+           "2018-04": 9.93,
+           "2018-05": 9.46,
+           "2018-06": 9.59,
+           "2018-07": 9.65,
+           "2018-08": 9.91,
+           "2018-09": 9.645,
+           "2018-10": 9.76,
+           "2018-11": 9.69,
+           "2018-12": 9.62
+          },
+          "commercial": {
+           "2018-01": 9.1,
+           "2018-02": 9.12,
+           "2018-03": 9.33,
+           "2018-04": 9.55,
+           "2018-05": 9.25,
+           "2018-06": 9.2,
+           "2018-07": 9.595,
+           "2018-08": 9.6,
+           "2018-09": 9.44,
+           "2018-10": 9.65,
+           "2018-11": 9.52,
+           "2018-12": 9.485
+          },
+          "industrial": {
+           "2018-01": 8.335,
+           "2018-02": 8.4,
+           "2018-03": 8.53,
+           "2018-04": 8.76,
+           "2018-05": 8.69,
+           "2018-06": 8.575,
+           "2018-07": 8.685,
+           "2018-08": 8.675,
+           "2018-09": 8.59,
+           "2018-10": 8.785,
+           "2018-11": 8.675,
+           "2018-12": 8.545
+          }
+         },
+         "regions": {
+          "BARMM": {
+           "residential": {
+            "2018-01": 8.635,
+            "2018-02": 8.8,
+            "2018-03": 8.485,
+            "2018-04": 8.735,
+            "2018-05": 8.785,
+            "2018-06": 9.045,
+            "2018-07": 9.46,
+            "2018-08": 6.59,
+            "2018-09": 8.96,
+            "2018-10": 8.995,
+            "2018-11": 9.08,
+            "2018-12": 9.015
+           },
+           "commercial": {
+            "2018-01": 7.79,
+            "2018-02": 7.94,
+            "2018-03": 7.8,
+            "2018-04": 7.87,
+            "2018-05": 7.9,
+            "2018-06": 7.86,
+            "2018-07": 7.98,
+            "2018-08": 7.89,
+            "2018-09": 7.79,
+            "2018-10": 7.84,
+            "2018-11": 7.81,
+            "2018-12": 7.85
+           },
+           "industrial": {
+            "2018-01": 8.69,
+            "2018-02": 8.84,
+            "2018-03": 8.7,
+            "2018-04": 8.78,
+            "2018-05": 8.8,
+            "2018-06": 8.76,
+            "2018-07": 8.88,
+            "2018-08": 8.79,
+            "2018-09": 8.7,
+            "2018-10": 8.74,
+            "2018-11": 8.71,
+            "2018-12": 8.76
+           }
+          },
+          "CAR": {
+           "residential": {
+            "2018-01": 8.11,
+            "2018-02": 5.385,
+            "2018-03": 9.21,
+            "2018-04": 10.7,
+            "2018-05": 9.46,
+            "2018-06": 9.47,
+            "2018-07": 9.43,
+            "2018-08": 8.94,
+            "2018-09": 8.08,
+            "2018-10": 7.76,
+            "2018-11": 8.37,
+            "2018-12": 8.09
+           },
+           "commercial": {
+            "2018-01": 7.125,
+            "2018-02": 6.66,
+            "2018-03": 7.64,
+            "2018-04": 8.535,
+            "2018-05": 7.935,
+            "2018-06": 7.965,
+            "2018-07": 7.84,
+            "2018-08": 7.41,
+            "2018-09": 6.69,
+            "2018-10": 6.43,
+            "2018-11": 7.25,
+            "2018-12": 6.975
+           },
+           "industrial": {
+            "2018-01": 7.11,
+            "2018-02": 6.66,
+            "2018-03": 7.625,
+            "2018-04": 8.52,
+            "2018-05": 7.92,
+            "2018-06": 7.95,
+            "2018-07": 7.825,
+            "2018-08": 7.395,
+            "2018-09": 6.675,
+            "2018-10": 6.415,
+            "2018-11": 7.235,
+            "2018-12": 6.96
+           }
+          },
+          "CARAGA": {
+           "residential": {
+            "2018-01": 7.52,
+            "2018-02": 7.85,
+            "2018-03": 7.96,
+            "2018-04": 7.91,
+            "2018-05": 7.87,
+            "2018-06": 7.8,
+            "2018-07": 7.88,
+            "2018-08": 7.53,
+            "2018-09": 7.49,
+            "2018-10": 7.46,
+            "2018-11": 7.69,
+            "2018-12": 7.72
+           },
+           "commercial": {
+            "2018-01": 11.01,
+            "2018-02": 10.2,
+            "2018-03": 10.48,
+            "2018-04": 10.39,
+            "2018-05": 10.57,
+            "2018-06": 10.04,
+            "2018-07": 10.11,
+            "2018-08": 10.55,
+            "2018-09": 10.13,
+            "2018-10": 10.37,
+            "2018-11": 10.3,
+            "2018-12": 10.34
+           },
+           "industrial": {
+            "2018-01": 8.13,
+            "2018-02": 7.13,
+            "2018-03": 7.33,
+            "2018-04": 7.31,
+            "2018-05": 7.29,
+            "2018-06": 6.92,
+            "2018-07": 6.97,
+            "2018-08": 7.28,
+            "2018-09": 7.1,
+            "2018-10": 7.29,
+            "2018-11": 7.21,
+            "2018-12": 7.21
+           }
+          },
+          "NCR": {
+           "residential": {
+            "2018-01": 9.04,
+            "2018-02": 10.11,
+            "2018-03": 10.96,
+            "2018-04": 11.18,
+            "2018-05": 10.64,
+            "2018-06": 10.51,
+            "2018-07": 10.85,
+            "2018-08": 10.82,
+            "2018-09": 10.71,
+            "2018-10": 10.61,
+            "2018-11": 10.72,
+            "2018-12": 10.81
+           },
+           "commercial": {
+            "2018-01": 10.48,
+            "2023-01": 11.52,
+            "2023-02": 11.51,
+            "2023-03": 11.74,
+            "2023-04": 11.63,
+            "2023-05": 11.49,
+            "2023-06": 11.91,
+            "2023-07": 11.19,
+            "2023-08": 10.9,
+            "2023-09": 11.23,
+            "2023-10": 11.55,
+            "2023-11": 11.79
+           },
+           "industrial": {
+            "2018-01": 8.76,
+            "2018-02": 9.75,
+            "2018-03": 10.13,
+            "2018-04": 9.42,
+            "2018-05": 9.59,
+            "2018-06": 9.59,
+            "2018-07": 9.57,
+            "2018-08": 9.67,
+            "2018-09": 9.99,
+            "2018-10": 9.79,
+            "2018-11": 9.97,
+            "2018-12": 9.64
+           }
+          },
+          "NIR": {
+           "residential": {
+            "2018-01": 8.48,
+            "2018-02": 9.075,
+            "2018-03": 9.3,
+            "2018-04": 9.77,
+            "2018-05": 9.17,
+            "2018-06": 9.32,
+            "2018-07": 9.415,
+            "2018-08": 9.275,
+            "2018-09": 8.83,
+            "2018-10": 9.175,
+            "2018-11": 9.3792,
+            "2018-12": 8.85
+           },
+           "commercial": {
+            "2018-01": 9.49,
+            "2018-02": 9.97,
+            "2018-03": 9.945,
+            "2018-04": 10.585,
+            "2018-05": 9.97,
+            "2018-06": 10.345,
+            "2018-07": 10.565,
+            "2018-08": 10.625,
+            "2018-09": 10.215,
+            "2018-10": 10.365,
+            "2018-11": 10.4742,
+            "2018-12": 9.9
+           },
+           "industrial": {
+            "2018-01": 8.62,
+            "2018-02": 9.12,
+            "2018-03": 9.33,
+            "2018-04": 9.73,
+            "2018-05": 9.25,
+            "2018-06": 9.49,
+            "2018-07": 9.65,
+            "2018-08": 9.6,
+            "2018-09": 9.16,
+            "2018-10": 9.52,
+            "2018-11": 9.5285,
+            "2018-12": 9.11
+           }
+          },
+          "Region 1": {
+           "residential": {
+            "2018-01": 9.67,
+            "2018-02": 9.73,
+            "2018-03": 10.37,
+            "2018-04": 10.79,
+            "2018-05": 10.39,
+            "2018-06": 10.09,
+            "2018-07": 10.37,
+            "2018-08": 10.37,
+            "2018-09": 10.1,
+            "2018-10": 10.51,
+            "2018-11": 10.81,
+            "2018-12": 9.67
+           },
+           "commercial": {
+            "2018-01": 9.48,
+            "2018-02": 9.56,
+            "2018-03": 9.8,
+            "2018-04": 10.09,
+            "2018-05": 10.03,
+            "2018-06": 9.87,
+            "2018-07": 9.76,
+            "2018-08": 10.21,
+            "2018-09": 10.38,
+            "2018-10": 10.39,
+            "2018-11": 10.35,
+            "2018-12": 9.32
+           },
+           "industrial": {
+            "2020-01": 7.98,
+            "2020-02": 8.08,
+            "2020-03": 7.97,
+            "2020-04": 7.32,
+            "2020-05": 6.84,
+            "2020-06": 6.8,
+            "2020-07": 7.06,
+            "2020-08": 7.1,
+            "2020-09": 7.32,
+            "2020-10": 6.53,
+            "2020-11": 6.69,
+            "2020-12": 6.22
+           }
+          },
+          "Region 10": {
+           "residential": {
+            "2018-01": 11.73,
+            "2018-02": 11.8,
+            "2018-03": 11.915,
+            "2018-04": 12.01,
+            "2018-05": 11.985,
+            "2018-06": 12.85,
+            "2018-07": 13.0,
+            "2018-08": 13.12,
+            "2018-09": 13.11,
+            "2018-10": 13.135,
+            "2018-11": 13.14,
+            "2018-12": 13.09
+           },
+           "commercial": {
+            "2018-01": 10.525,
+            "2018-02": 10.605,
+            "2018-03": 10.715,
+            "2018-04": 10.775,
+            "2018-05": 10.83,
+            "2018-06": 11.59,
+            "2018-07": 11.725,
+            "2018-08": 11.835,
+            "2018-09": 11.82,
+            "2018-10": 11.875,
+            "2018-11": 11.87,
+            "2018-12": 11.86
+           },
+           "industrial": {
+            "2018-01": 7.42,
+            "2018-02": 7.42,
+            "2018-03": 7.24,
+            "2018-04": 7.43,
+            "2018-05": 7.27,
+            "2018-06": 9.34,
+            "2018-07": 9.37,
+            "2018-08": 9.53,
+            "2018-09": 9.64,
+            "2018-10": 9.6,
+            "2018-11": 9.64,
+            "2018-12": 9.68
+           }
+          },
+          "Region 11": {
+           "residential": {
+            "2018-01": 9.45,
+            "2018-02": 9.315,
+            "2018-03": 8.905,
+            "2018-04": 9.57,
+            "2018-05": 9.905,
+            "2018-06": 9.58,
+            "2018-07": 9.855,
+            "2018-08": 10.04,
+            "2018-09": 9.805,
+            "2018-10": 9.905,
+            "2018-11": 9.82,
+            "2018-12": 9.755
+           },
+           "commercial": {
+            "2018-01": 9.1,
+            "2018-02": 9.04,
+            "2018-03": 9.18,
+            "2018-04": 9.37,
+            "2018-05": 9.11,
+            "2018-06": 9.16,
+            "2018-08": 9.57,
+            "2018-09": 9.92,
+            "2018-10": 10.45,
+            "2018-11": 10.47,
+            "2018-12": 10.12,
+            "2019-01": 9.69
+           },
+           "industrial": {
+            "2022-06": 10.7,
+            "2022-07": 11.92,
+            "2022-08": 13.82,
+            "2022-09": 13.63,
+            "2022-10": 11.98,
+            "2022-11": 12.49,
+            "2022-12": 11.27,
+            "2023-01": 11.33,
+            "2023-02": 12.335,
+            "2023-03": 11.765,
+            "2023-04": 12.32,
+            "2023-05": 11.19
+           }
+          },
+          "Region 12": {
+           "residential": {
+            "2018-01": 10.75,
+            "2018-02": 10.16,
+            "2018-03": 9.91,
+            "2018-04": 10.68,
+            "2018-05": 10.53,
+            "2018-06": 10.38,
+            "2018-07": 10.55,
+            "2018-08": 10.675,
+            "2018-09": 10.35,
+            "2018-10": 10.25,
+            "2018-11": 10.115,
+            "2018-12": 10.005
+           },
+           "commercial": {
+            "2018-01": 9.79,
+            "2018-02": 9.34,
+            "2018-03": 9.45,
+            "2018-04": 9.735,
+            "2018-05": 9.825,
+            "2018-06": 9.475,
+            "2018-07": 9.81,
+            "2018-08": 10.15,
+            "2018-09": 9.975,
+            "2018-10": 9.73,
+            "2018-11": 9.48,
+            "2018-12": 9.47
+           },
+           "industrial": {
+            "2018-01": 8.365,
+            "2018-02": 8.34,
+            "2018-03": 8.47,
+            "2018-04": 8.325,
+            "2018-05": 8.515,
+            "2018-06": 8.01,
+            "2018-07": 8.315,
+            "2018-08": 8.54,
+            "2018-09": 8.355,
+            "2018-10": 8.46,
+            "2018-11": 8.18,
+            "2018-12": 7.965
+           }
+          },
+          "Region 2": {
+           "residential": {
+            "2018-01": 10.61,
+            "2018-02": 10.76,
+            "2018-03": 10.14,
+            "2018-04": 10.19,
+            "2018-05": 10.11,
+            "2018-06": 9.78,
+            "2018-07": 9.68,
+            "2018-08": 10.0,
+            "2018-09": 10.03,
+            "2018-10": 9.7,
+            "2018-11": 10.01,
+            "2018-12": 10.08
+           },
+           "commercial": {
+            "2018-01": 9.63,
+            "2018-02": 9.76,
+            "2018-03": 9.66,
+            "2018-04": 9.36,
+            "2018-05": 9.16,
+            "2018-06": 9.11,
+            "2018-07": 9.02,
+            "2018-08": 8.97,
+            "2018-09": 9.01,
+            "2018-10": 9.31,
+            "2018-11": 9.01,
+            "2018-12": 8.68
+           },
+           "industrial": {
+            "2018-01": 9.88,
+            "2018-02": 9.59,
+            "2018-03": 9.93,
+            "2018-04": 9.805,
+            "2018-05": 9.765,
+            "2018-06": 9.165,
+            "2018-07": 9.12,
+            "2018-08": 9.035,
+            "2018-09": 8.725,
+            "2018-10": 8.82,
+            "2018-11": 9.225,
+            "2018-12": 9.3
+           }
+          },
+          "Region 3": {
+           "residential": {
+            "2018-01": 9.12,
+            "2018-02": 9.71,
+            "2018-03": 10.24,
+            "2018-04": 10.48,
+            "2018-05": 10.22,
+            "2018-06": 9.88,
+            "2018-07": 10.27,
+            "2018-08": 10.58,
+            "2018-09": 10.38,
+            "2018-10": 10.58,
+            "2018-11": 10.46,
+            "2018-12": 10.63
+           },
+           "commercial": {
+            "2018-01": 8.38,
+            "2018-02": 8.965,
+            "2018-03": 9.185,
+            "2018-04": 9.435,
+            "2018-05": 9.155,
+            "2018-06": 9.055,
+            "2018-07": 9.225,
+            "2018-08": 9.705,
+            "2018-09": 9.635,
+            "2018-10": 9.56,
+            "2018-11": 9.6,
+            "2018-12": 9.22
+           },
+           "industrial": {
+            "2018-01": 6.595,
+            "2018-02": 7.365,
+            "2018-03": 7.6,
+            "2018-04": 7.875,
+            "2018-05": 7.635,
+            "2018-06": 7.495,
+            "2018-07": 7.715,
+            "2018-08": 8.015,
+            "2018-09": 7.875,
+            "2018-10": 7.895,
+            "2018-11": 7.985,
+            "2018-12": 7.605
+           }
+          },
+          "Region 4A": {
+           "residential": {
+            "2018-01": 8.08,
+            "2018-02": 7.885,
+            "2018-03": 8.565,
+            "2018-04": 8.555,
+            "2018-05": 8.11,
+            "2018-06": 8.02,
+            "2018-07": 8.505,
+            "2018-08": 8.39,
+            "2018-09": 8.405,
+            "2018-10": 8.625,
+            "2018-11": 8.23,
+            "2018-12": 8.14
+           },
+           "commercial": {
+            "2018-01": 8.42,
+            "2018-02": 9.12,
+            "2018-03": 9.65,
+            "2018-04": 9.55,
+            "2018-05": 9.26,
+            "2018-06": 8.95,
+            "2018-07": 9.27,
+            "2018-08": 9.05,
+            "2018-09": 8.85,
+            "2018-10": 9.04,
+            "2018-11": 8.86,
+            "2018-12": 8.85
+           },
+           "industrial": {
+            "2018-01": 7.44,
+            "2018-02": 7.61,
+            "2018-03": 8.33,
+            "2018-04": 8.47,
+            "2018-05": 8.08,
+            "2018-06": 8.07,
+            "2018-07": 8.77,
+            "2018-08": 8.74,
+            "2018-09": 9.02,
+            "2018-10": 8.84,
+            "2018-11": 8.31,
+            "2018-12": 8.37
+           }
+          }
+         },
+         "counts": {
+          "residential": {
+           "2018-01": 69,
+           "2018-02": 68,
+           "2018-03": 68,
+           "2018-04": 69,
+           "2018-05": 69,
+           "2018-06": 69,
+           "2018-07": 69,
+           "2018-08": 69,
+           "2018-09": 68,
+           "2018-10": 68,
+           "2018-11": 69,
+           "2018-12": 69
+          },
+          "commercial": {
+           "2018-01": 53,
+           "2018-02": 50,
+           "2018-03": 51,
+           "2018-04": 51,
+           "2018-05": 51,
+           "2018-06": 51,
+           "2018-07": 50,
+           "2018-08": 51,
+           "2018-09": 51,
+           "2018-10": 51,
+           "2018-11": 51,
+           "2018-12": 50
+          },
+          "industrial": {
+           "2018-01": 46,
+           "2018-02": 45,
+           "2018-03": 46,
+           "2018-04": 46,
+           "2018-05": 46,
+           "2018-06": 46,
+           "2018-07": 46,
+           "2018-08": 46,
+           "2018-09": 46,
+           "2018-10": 46,
+           "2018-11": 46,
+           "2018-12": 46
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/checks.json": {
+   "get": {
+    "operationId": "getChecks",
+    "summary": "Source checks",
+    "description": "DOE's figures compared with utilities' own rate documents, with evidence locations.",
+    "tags": [
+     "Checks"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Checks"
+        },
+        "example": {
+         "built": "2026-11-16T15:54:17+00:00",
+         "tolerance": 0.006,
+         "lookback_months": 12,
+         "sheet_url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I",
+         "sources": [
+          {
+           "name": "Meralco",
+           "archive": "https://www.meralco.com.ph/governance/regulatory/rates-archive",
+           "how": "Rates archive page lists each month's PDFs; the residential-bills table prints PHP/kWh per consumption level.",
+           "utility_id": "meralco",
+           "checks": 22,
+           "matches": 22,
+           "doe_source_url": "https://company.meralco.com.ph/news-and-advisories",
+           "doe_source_status": "200"
+          }
+         ],
+         "not_automated": [
+          {
+           "utility_id": "",
+           "name": "54 utilities linked to Facebook",
+           "url": "",
+           "why": "Facebook pages can't be read without logging in, and Meta's terms forbid automated collection without its permission. Until a sanctioned route exists (Graph API Page Public Content Access, utilities connecting their Pages, or a DOE filing), a person saves the month's rate post into data/inbox/<utility_id>/ and the same image reader takes it from there."
+          }
+         ],
+         "checks": [
+          {
+           "id": "aec-2026-07-generation-change",
+           "utility_id": "aec",
+           "doe_name": "AEC",
+           "month": "2026-07",
+           "measure": "generation",
+           "status": "match",
+           "doe_value": 0.84,
+           "doe_cell": "generation tab, cell DD11",
+           "doe_cell_url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I/edit#gid=714337242&range=DD11",
+           "source_value": 0.8384,
+           "abs_diff": 0.0016,
+           "check_type": "change"
+          }
+         ],
+         "link_audit": [
+          {
+           "utility_id": "aec",
+           "doe_name": "AEC",
+           "doe_source_url": "https://angeleselectric.com.ph/advisories/",
+           "kind": "website",
+           "http_status": "200"
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/geo/municipalities.geojson": {
+   "get": {
+    "operationId": "getMunicipalities",
+    "summary": "Municipal boundaries",
+    "description": "PSGC 3Q 2026 municipalities/cities as GeoJSON (WGS84), joined to the utilities serving each.",
+    "tags": [
+     "Geography"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Municipalities"
+        },
+        "example": {
+         "type": "FeatureCollection",
+         "features": [
+          {
+           "type": "Feature",
+           "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+             [
+              [
+               120.59,
+               16.38
+              ],
+              [
+               120.61,
+               16.38
+              ],
+              [
+               120.6,
+               16.42
+              ],
+              [
+               120.59,
+               16.38
+              ]
+             ]
+            ]
+           },
+           "properties": {
+            "c": "1430300000",
+            "n": "City of Baguio",
+            "p": "Benguet",
+            "u": "[[\"beneco\", \"\"]]",
+            "b": [
+             120.55,
+             16.36,
+             120.64,
+             16.44
+            ]
+           }
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/stats.json": {
+   "get": {
+    "operationId": "getStats",
+    "summary": "Coverage numbers",
+    "description": "Counts and shares for this build.",
+    "tags": [
+     "Meta"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Stats"
+        },
+        "example": {
+         "built_at": "2026-11-16T15:54:17+00:00",
+         "utilities": 141,
+         "utilities_by_type": {
+          "EC": 120,
+          "PIOU": 21
+         },
+         "months_compiled": 106,
+         "first_month": "2018-01",
+         "latest_month": "2026-10",
+         "months_in_sheet_not_compiled": [
+          "2026-11"
+         ],
+         "rate_cells": 44838,
+         "rate_cells_with_value": 27534,
+         "rate_cells_nda": 17303,
+         "nda_share": 0.3859,
+         "nda_share_by_class": {
+          "commercial": 0.4117,
+          "industrial": 0.4661,
+          "residential": 0.2799
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Utility": {
+    "type": "object",
+    "description": "One distribution utility in DOE's rate sheet (master list v0).",
+    "properties": {
+     "utility_id": {
+      "type": "string",
+      "description": "Stable ID, issued once from the name DOE prints."
+     },
+     "doe_name": {
+      "type": "string",
+      "description": "Name exactly as DOE prints it (usually the acronym)."
+     },
+     "name": {
+      "type": "string",
+      "description": "Full name, from the coverage source. Empty if unmatched."
+     },
+     "du_type": {
+      "enum": [
+       "PIOU",
+       "EC"
+      ],
+      "description": "Private investor-owned utility or electric cooperative."
+     },
+     "grid": {
+      "enum": [
+       "ONGRID",
+       "OFFGRID"
+      ]
+     },
+     "region": {
+      "type": "string",
+      "description": "Region as DOE labels it (e.g. 'Region 4A', 'NCR', 'BARMM')."
+     },
+     "psgc_region_code": {
+      "type": "string",
+      "description": "10-digit PSGC code of that region."
+     },
+     "island": {
+      "enum": [
+       "Luzon",
+       "Visayas",
+       "Mindanao"
+      ]
+     },
+     "psgc_province_codes": {
+      "type": "string",
+      "description": "Semicolon-separated 10-digit PSGC province codes of the franchise area."
+     },
+     "psgc_provinces": {
+      "type": "string",
+      "description": "Their names, same order."
+     },
+     "psgc_independent_city_codes": {
+      "type": "string",
+      "description": "Served cities that belong to no province (HUCs, ICCs, NCR)."
+     },
+     "independent_cities": {
+      "type": "string",
+      "description": "Their names, same order."
+     },
+     "doe_source_url": {
+      "type": "string",
+      "description": "The link in DOE's SOURCES column."
+     },
+     "coverage_note": {
+      "type": "string",
+      "description": "Caveats on the coverage match."
+     },
+     "latest": {
+      "type": "object",
+      "properties": {
+       "residential": {
+        "type": "object",
+        "properties": {
+         "month": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}$",
+          "description": "YYYY-MM",
+          "examples": [
+           "2026-10"
+          ]
+         },
+         "rate": {
+          "type": "number"
+         }
+        },
+        "required": [
+         "month",
+         "rate"
+        ]
+       },
+       "commercial": {
+        "type": "object",
+        "properties": {
+         "month": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}$",
+          "description": "YYYY-MM",
+          "examples": [
+           "2026-10"
+          ]
+         },
+         "rate": {
+          "type": "number"
+         }
+        },
+        "required": [
+         "month",
+         "rate"
+        ]
+       },
+       "industrial": {
+        "type": "object",
+        "properties": {
+         "month": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}$",
+          "description": "YYYY-MM",
+          "examples": [
+           "2026-10"
+          ]
+         },
+         "rate": {
+          "type": "number"
+         }
+        },
+        "required": [
+         "month",
+         "rate"
+        ]
+       }
+      },
+      "description": "Most recent month with a plausible value, per class."
+     },
+     "rates_url": {
+      "type": "string",
+      "description": "Path of this utility's rates file."
+     }
+    }
+   },
+   "UtilityList": {
+    "type": "object",
+    "properties": {
+     "generated": {
+      "type": "string",
+      "format": "date-time"
+     },
+     "count": {
+      "type": "integer"
+     },
+     "utilities": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Utility"
+      }
+     }
+    }
+   },
+   "Rates": {
+    "type": "object",
+    "description": "Monthly series for one utility, PHP/kWh, as DOE entered them.",
+    "properties": {
+     "utility_id": {
+      "type": "string"
+     },
+     "unit": {
+      "const": "PHP/kWh"
+     },
+     "series": {
+      "type": "object",
+      "properties": {
+       "residential": {
+        "type": "array",
+        "description": "[month, PHP/kWh] pairs, months with a value only",
+        "items": {
+         "type": "array",
+         "prefixItems": [
+          {
+           "type": "string",
+           "pattern": "^\\d{4}-\\d{2}$",
+           "description": "YYYY-MM",
+           "examples": [
+            "2026-10"
+           ]
+          },
+          {
+           "type": "number"
+          }
+         ],
+         "minItems": 2,
+         "maxItems": 2
+        }
+       },
+       "commercial": {
+        "type": "array",
+        "description": "[month, PHP/kWh] pairs, months with a value only",
+        "items": {
+         "type": "array",
+         "prefixItems": [
+          {
+           "type": "string",
+           "pattern": "^\\d{4}-\\d{2}$",
+           "description": "YYYY-MM",
+           "examples": [
+            "2026-10"
+           ]
+          },
+          {
+           "type": "number"
+          }
+         ],
+         "minItems": 2,
+         "maxItems": 2
+        }
+       },
+       "industrial": {
+        "type": "array",
+        "description": "[month, PHP/kWh] pairs, months with a value only",
+        "items": {
+         "type": "array",
+         "prefixItems": [
+          {
+           "type": "string",
+           "pattern": "^\\d{4}-\\d{2}$",
+           "description": "YYYY-MM",
+           "examples": [
+            "2026-10"
+           ]
+          },
+          {
+           "type": "number"
+          }
+         ],
+         "minItems": 2,
+         "maxItems": 2
+        }
+       },
+       "generation": {
+        "type": "array",
+        "description": "[month, PHP/kWh] pairs, months with a value only",
+        "items": {
+         "type": "array",
+         "prefixItems": [
+          {
+           "type": "string",
+           "pattern": "^\\d{4}-\\d{2}$",
+           "description": "YYYY-MM",
+           "examples": [
+            "2026-10"
+           ]
+          },
+          {
+           "type": "number"
+          }
+         ],
+         "minItems": 2,
+         "maxItems": 2
+        }
+       }
+      }
+     },
+     "nda_months": {
+      "type": "object",
+      "properties": {
+       "residential": {
+        "type": "integer"
+       },
+       "commercial": {
+        "type": "integer"
+       },
+       "industrial": {
+        "type": "integer"
+       }
+      },
+      "description": "Months DOE marked NDA (no data available)."
+     },
+     "flagged_by_qa": {
+      "type": "array",
+      "description": "Values left out of the series as implausible (outside 1-40 PHP/kWh). Still in rates.csv.",
+      "items": {
+       "type": "object",
+       "properties": {
+        "month": {
+         "type": "string",
+         "pattern": "^\\d{4}-\\d{2}$",
+         "description": "YYYY-MM",
+         "examples": [
+          "2026-10"
+         ]
+        },
+        "class": {
+         "type": "string"
+        },
+        "value": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   },
+   "Panel": {
+    "type": "object",
+    "description": "Every utility's series in one file, aligned to `months`.",
+    "properties": {
+     "unit": {
+      "const": "PHP/kWh"
+     },
+     "months": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "pattern": "^\\d{4}-\\d{2}$",
+       "description": "YYYY-MM",
+       "examples": [
+        "2026-10"
+       ]
+      }
+     },
+     "series": {
+      "type": "object",
+      "description": "class -> utility_id -> values (same order as months; null = no plausible value)",
+      "additionalProperties": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "array",
+        "items": {
+         "type": [
+          "number",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   },
+   "Medians": {
+    "type": "object",
+    "description": "Unweighted medians across utilities with a value that month.",
+    "properties": {
+     "note": {
+      "type": "string"
+     },
+     "national": {
+      "type": "object",
+      "description": "class -> month -> median",
+      "additionalProperties": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "number"
+       }
+      }
+     },
+     "regions": {
+      "type": "object",
+      "description": "region -> class -> month -> median"
+     },
+     "counts": {
+      "type": "object",
+      "description": "class -> month -> number of utilities in the national median"
+     }
+    }
+   },
+   "Check": {
+    "type": "object",
+    "description": "One DOE figure compared with the utility's own document.",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "utility_id": {
+      "type": "string"
+     },
+     "doe_name": {
+      "type": "string"
+     },
+     "month": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$",
+      "description": "YYYY-MM",
+      "examples": [
+       "2026-10"
+      ]
+     },
+     "measure": {
+      "enum": [
+       "residential",
+       "generation"
+      ]
+     },
+     "status": {
+      "type": "string",
+      "description": "match | mismatch | doe_missing (blank|NDA)"
+     },
+     "doe_value": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "doe_cell": {
+      "type": "string"
+     },
+     "doe_cell_url": {
+      "type": "string",
+      "description": "Opens the exact cell in DOE's Google Sheet."
+     },
+     "source_value": {
+      "type": "number"
+     },
+     "abs_diff": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "method": {
+      "type": "string"
+     },
+     "explain": {
+      "type": "string"
+     },
+     "source_document": {
+      "type": "string"
+     },
+     "source_url": {
+      "type": "string",
+      "description": "The utility's original file."
+     },
+     "source_page_url": {
+      "type": "string"
+     },
+     "mirror": {
+      "type": "string",
+      "description": "Copy of the file kept by this site."
+     },
+     "sha256": {
+      "type": "string"
+     },
+     "page": {
+      "type": "integer"
+     },
+     "image": {
+      "type": "string",
+      "description": "Rendered page image."
+     },
+     "row_text": {
+      "type": "string"
+     },
+     "row_box": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      },
+      "description": "x0, top, x1, bottom as fractions of the page"
+     },
+     "value_box": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      },
+      "description": "Same, for the value itself"
+     }
+    }
+   },
+   "Checks": {
+    "type": "object",
+    "properties": {
+     "built": {
+      "type": "string"
+     },
+     "tolerance": {
+      "type": "number"
+     },
+     "lookback_months": {
+      "type": "integer"
+     },
+     "sheet_url": {
+      "type": "string"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "not_automated": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "checks": {
+      "type": "array",
+      "items": {
+       "$ref": "#/components/schemas/Check"
+      }
+     },
+     "link_audit": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     }
+    }
+   },
+   "Stats": {
+    "type": "object",
+    "description": "Coverage numbers for this build.",
+    "additionalProperties": true
+   },
+   "Municipalities": {
+    "type": "object",
+    "description": "GeoJSON FeatureCollection of municipalities and cities, with the utilities serving each.",
+    "properties": {
+     "type": {
+      "const": "FeatureCollection"
+     },
+     "features": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "type": {
+         "const": "Feature"
+        },
+        "geometry": {
+         "type": "object",
+         "description": "Polygon or MultiPolygon, WGS84 lon/lat"
+        },
+        "properties": {
+         "type": "object",
+         "properties": {
+          "c": {
+           "type": "string",
+           "description": "10-digit PSGC code"
+          },
+          "n": {
+           "type": "string",
+           "description": "name"
+          },
+          "p": {
+           "type": "string",
+           "description": "province ('' for independent cities)"
+          },
+          "u": {
+           "type": "string",
+           "description": "JSON-encoded [utility_id, qualifier] pairs"
+          },
+          "b": {
+           "type": "array",
+           "items": {
+            "type": "number"
+           },
+           "description": "bounding box [west, south, east, north]"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

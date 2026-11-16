@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your utility, your price</title>
+<meta name="description" content="Monthly electricity rates for every Philippine distribution utility in DOE's rate sheet: a trend chart, a map by municipality, and a table, with regional and national medians. Open data prototype.">
+<link rel="stylesheet" href="vendor/maplibre-gl-6.16.0/maplibre-gl.css">
+<link rel="stylesheet" href="style.css?v=d2b106ffd0">
+</head>
+<body>
+<header class="site"><nav aria-label="Site">
+  <a class="brand" href="./">PH electricity rates<small>Prototype</small></a>
+  <a href="./" aria-current="page">Explorer</a>
+  <a href="checks.html">Source checks</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="data.html">Data &amp; API</a>
+</nav></header>
+<main>
+  <p class="eyebrow">DOE rate sheet · 141 distribution utilities</p>
+  <h1>Your utility, your price</h1>
+  <p class="lede">What households and businesses pay per kilowatt-hour, utility by utility, from the Department of Energy's monthly rate sheet. Pick your utility to see its trend against the median for its region and the country, find it on the map, or compare every utility in one table.</p>
+  <noscript><p class="card">The explorer needs JavaScript. The data itself is plain files: see <a href="data.html">Data and API</a>, and <a href="methodology.html">how it was made</a>.</p></noscript>
+
+  <section class="card" aria-label="Choose a utility and customer class">
+    <div class="controls">
+      <div><label for="du">Distribution utility</label><select id="du"></select></div>
+      <div><span class="label" id="classlabel">Customer class</span>
+        <div class="seg" role="group" aria-labelledby="classlabel" id="classes"></div></div>
+    </div>
+    <p class="meta" id="meta"></p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section class="card" aria-label="Views">
+    <div class="tabs" role="tablist" aria-label="View">
+      <button role="tab" id="tab-chart" aria-controls="panel-chart" aria-selected="true">Chart</button>
+      <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">Map</button>
+      <button role="tab" id="tab-table" aria-controls="panel-table" aria-selected="false" tabindex="-1">Table</button>
+    </div>
+
+    <div id="monthbar" hidden style="margin-bottom:16px">
+      <div class="monthrow"><label for="month">Month</label><strong id="monthlabel"></strong></div>
+      <input type="range" id="month" min="0" max="0" value="0" aria-describedby="monthlabel">
+    </div>
+
+    <div role="tabpanel" id="panel-chart" aria-labelledby="tab-chart">
+      <h2 id="trend-title">Monthly rate, PHP per kWh</h2>
+      <div class="legend" id="legend"></div>
+      <div class="chart" id="chart"><div class="tip" id="tip" role="status"></div></div>
+      <p class="note" id="gaps"></p>
+      <details><summary>Show this utility's numbers</summary><div class="tablewrap" id="table"></div></details>
+    </div>
+
+    <div role="tabpanel" id="panel-map" aria-labelledby="tab-map" hidden>
+      <h2 id="map-title">Rate by municipality</h2>
+      <div class="mapgrid">
+        <div class="map" id="map"><div class="tip" id="maptip" role="status"></div></div>
+        <div>
+          <div class="placecard" id="placecard" hidden aria-live="polite"></div>
+          <p class="label">PHP per kWh</p>
+          <div class="ramp" id="ramp"></div>
+          <div class="ramp-labels" id="rampl"></div>
+          <div class="keys">
+            <span><i class="box" style="background:var(--nodata)"></i>Utility has no figure this month (NDA)</span>
+            <span><i class="box" style="background:none;border:1px dashed var(--ink-faint)"></i>No utility listed for this place</span>
+            <span><i class="box" style="background:none;border:2px solid var(--ink)"></i><span id="selkey">Selected utility's area</span></span>
+          </div>
+          <label class="check" style="margin-top:8px"><input type="checkbox" id="basemap" checked> Street map underneath</label>
+          <p class="note" id="mapnote" style="margin-top:4px"></p>
+          <p class="note">Each city or municipality takes its utility's rate. Where two utilities serve one place, it shows their median, and hovering lists both. Scroll or pinch to zoom, drag to pan, click a place for its details. Areas come from Wikipedia's list of utilities; some utilities serve only part of a town (marked in the hover). Street map © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, via <a href="https://openfreemap.org">OpenFreeMap</a>; turning it off stops the map's only request to another site. <a href="methodology.html#map">How the map is made</a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div role="tabpanel" id="panel-table" aria-labelledby="tab-table" hidden>
+      <h2 id="all-title">Every utility</h2>
+      <p class="note" id="allnote"></p>
+      <div class="tablewrap" id="alltable" style="max-height:560px"></div>
+    </div>
+  </section>
+
+  <p class="note" style="margin-top:16px">The tables, the JSON API and its OpenAPI reference are on <a href="data.html">Data &amp; API</a>; how it was made is on the <a href="methodology.html">methodology page</a>. An independent prototype, not an official DOE product.</p>
+</main>
+<script src="app.js?v=70212033e5" defer></script>
+</body>
+</html>

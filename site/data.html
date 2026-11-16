@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data &amp; API · PH electricity rates</title>
+<meta name="description" content="Download the Philippine electricity rates dataset (CSV, Parquet, Frictionless datapackage) or call its static JSON API, documented with OpenAPI 3.1.">
+<link rel="stylesheet" href="style.css?v=d2b106ffd0">
+</head>
+<body>
+<header class="site"><nav aria-label="Site">
+  <a class="brand" href="./">PH electricity rates<small>Prototype</small></a>
+  <a href="./">Explorer</a>
+  <a href="checks.html">Source checks</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="data.html" aria-current="page">Data &amp; API</a>
+</nav></header>
+<main>
+  <p class="eyebrow">Open data · no key · no tracking</p>
+  <h1>Data and API</h1>
+  <p class="lede">Everything behind the explorer is a plain file: download the tables, or call the JSON endpoints straight from code. Join to LGUs on 10-digit PSGC codes.</p>
+
+  <section class="card" aria-labelledby="cov-title">
+    <h2 id="cov-title">What's in it</h2>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="card" aria-labelledby="dl-title">
+    <h2 id="dl-title">Bulk downloads</h2>
+    <p class="note">Each table is described, field by field, in the Frictionless <a href="data/datapackage.json">datapackage.json</a>, with keys between tables. Parquet reads directly in DuckDB, pandas, Polars and R.</p>
+    <div class="tablewrap" id="files" style="max-height:none"></div>
+  </section>
+
+  <section class="card" aria-labelledby="api-title">
+    <div class="apihead">
+      <div>
+        <h2 id="api-title">API reference</h2>
+        <p class="note" id="api-desc"></p>
+      </div>
+      <a class="btn" href="openapi.json" download>openapi.json</a>
+    </div>
+    <p class="note">OpenAPI 3.1. Load <code>openapi.json</code> into Swagger UI, Postman or a client generator to get a typed client. "Send" below fetches the real file from this site.</p>
+    <div id="ops"></div>
+  </section>
+
+  <section class="card" aria-labelledby="use-title">
+    <h2 id="use-title">Use it</h2>
+    <div class="tabs" role="tablist" aria-label="Language" id="langs"></div>
+    <pre class="code" id="snippet"></pre>
+    <p class="note">Replace <code id="base"></code> with this site's address once it is deployed.</p>
+  </section>
+
+  <section class="card" aria-labelledby="terms-title">
+    <h2 id="terms-title">Terms</h2>
+    <p class="note">Compiled data: <a href="https://opendatacommons.org/licenses/by/1-0/">ODC-BY 1.0</a>. Code: MIT. Source data stays under its publishers' terms (DOE's rate sheet, PSA's PSGC, the utilities' own documents). Cite as "PH electricity rates (prototype), from DOE's rate sheet", with the build date from <a href="api/stats.json">stats.json</a>. Values are DOE's as entered; read the <a href="methodology.html">methodology</a> before drawing conclusions.</p>
+  </section>
+</main>
+<script src="data.js?v=ff1ac7cbb2" defer></script>
+</body>
+</html>
