@@ -34,7 +34,7 @@ Built 16 Nov 2026 (one evening) as the optional prototype for the BetterGov Fell
 
 ## Next
 
-1. OCR for image-only rate posts (AEC, CEDC); for the 54 Facebook-only utilities, a filing template rather than scraping.
-2. Ask DOE how it derives CELCOR's residential figure (see the checks page).
+1. Run the image reader in CI (Anthropic API key + Tesseract instead of Apple Vision) and extend discovery to more utilities; for the 54 Facebook-only utilities, the inbox now and a filing template later.
+2. Ask DOE about the 18 residential differences (CELCOR's method, AEC's Aug 2026 jump, CEDC below its own pre-tax charges); see the checks page.
 3. Replace the Wikipedia coverage source with ERC/NEA records; add ERC/NEA/DOE source IDs to the master list.
 4. Monthly scheduled run (GitHub Actions) so the check report updates itself.
