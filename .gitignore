@@ -6,3 +6,4 @@ data/raw/doe_rates.xlsx
 .DS_Store
 .vercel
 data/raw/geo/
+.env*

@@ -34,6 +34,7 @@ Numbers as of 16 Nov 2026, from `data/stats.json` and `reports/discrepancy-repor
 
 ## One-liners for the form
 
-- Prototype sentence (Page 5, after "Your solution"): *A working prototype already turns DOE's monthly rate sheet into an open dataset and API for all 141 utilities (Jan 2018–Oct 2026), with PSGC codes for 137 franchise areas and automated checks of DOE's figures against utilities' own rate PDFs: [link].*
+- Prototype sentence (Page 5, after "Your solution"; in Notion): *A working prototype already turns DOE's monthly rate sheet into an open dataset and API for all 141 utilities (Jan 2018–Oct 2026), with PSGC codes for 137 franchise areas and automated checks of DOE's figures against five utilities' own rate documents, PDFs and images: https://ph-energy-data.vercel.app (code: https://github.com/kimileeee/ph-energy-data).*
+- Prototype link for the form's optional field: https://ph-energy-data.vercel.app
 - Why it matters: *38.6% of DOE's rate cells are empty, 54 of 141 utilities publish rates only on Facebook, and a utility's November rates sit on its website while DOE's column is still blank.*
 - Credibility: *Reading five utilities' own rate documents (PDFs and images), every generation charge DOE entered matched (46 of 46), and 18 residential figures at three utilities didn't. One jumps ₱2.89 in a month the utility says moved ₱0.002, one sits below the utility's own pre-tax charges. Automation makes the count faster and shows exactly where to look.*

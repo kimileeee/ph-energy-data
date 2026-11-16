@@ -12,7 +12,7 @@ Built 16 Nov 2026 (one evening) as the optional prototype for the BetterGov Fell
 | 6. Map + methodology page | Done, local | Map tab (municipal choropleth, month slider, click to select a utility), all-utilities Table tab, generated methodology page. Patterned on the Naga budget portal's explorer research and methodology page. |
 | 7. Source checks page, CELCOR, Data & API page | Done, local | CELCOR added through its archive's JSON API (43/54 match; all 11 differences are CELCOR residential). `checks.html`: every comparison with DOE's cell link and a docked viewer of the source page, value highlighted (Naga source-viewer pattern). `data.html`: downloads + Swagger-style reference from a generated OpenAPI 3.1 spec. Methodology checks section rewritten with sources and the tools assessment. |
 | 8. Image reading, bill formula, basemap | Done, local | `extract.py` (OCR + vision model + schema + checks) reads AEC and CEDC images; text parsers fall back to it; inbox for Facebook-only utilities. `billcalc.py` formula, tested on CELCOR. Map moved to MapLibre over OpenFreeMap with click-to-zoom place panel. |
-| Deploy | Waiting on Kim | Not deployed, no public repo yet. |
+| Deploy | Done (17 Nov) | Public repo github.com/kimileeee/ph-energy-data; Vercel project ph-energy-data (scope kimileeees-projects), Git-connected; live at https://ph-energy-data.vercel.app. Link added to the Notion application page. |
 
 ## Deviations from the brief, and why
 
@@ -34,8 +34,7 @@ Built 16 Nov 2026 (one evening) as the optional prototype for the BetterGov Fell
 
 ## Next
 
-1. Deploy `site/` as a static site (Kim's call: Vercel or GitHub Pages) and put the link in the Notion application page.
-2. OCR for image-only rate posts (AEC, CEDC); for the 54 Facebook-only utilities, a filing template rather than scraping.
-3. Ask DOE how it derives CELCOR's residential figure (see the checks page).
-4. Replace the Wikipedia coverage source with ERC/NEA records; add ERC/NEA/DOE source IDs to the master list.
-5. Monthly scheduled run (GitHub Actions) so the check report updates itself.
+1. OCR for image-only rate posts (AEC, CEDC); for the 54 Facebook-only utilities, a filing template rather than scraping.
+2. Ask DOE how it derives CELCOR's residential figure (see the checks page).
+3. Replace the Wikipedia coverage source with ERC/NEA records; add ERC/NEA/DOE source IDs to the master list.
+4. Monthly scheduled run (GitHub Actions) so the check report updates itself.

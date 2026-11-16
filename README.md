@@ -4,6 +4,8 @@ Philippine electricity rates per distribution utility as an open, joinable datas
 
 Prototype for the BetterGov Fellowship 2026 Energy track. Not an official DOE product.
 
+**Live:** https://ph-energy-data.vercel.app · [source checks](https://ph-energy-data.vercel.app/checks.html) · [methodology](https://ph-energy-data.vercel.app/methodology.html) · [data & API](https://ph-energy-data.vercel.app/data.html) ([OpenAPI](https://ph-energy-data.vercel.app/openapi.json))
+
 ## What's in it
 
 | File | What it is |
@@ -38,6 +40,8 @@ uv run python -m pipeline --offline    # rebuild from data/raw and the last chec
 uv run python -m pipeline.test_pipeline
 python3 -m http.server 8765 --directory site   # then open http://localhost:8765
 ```
+
+Deploy: Vercel serves `site/` as static files (`vercel.json`: no build step, CORS on `api/`, `data/`, `geo/` and `openapi.json`, a content-security policy that allows only the basemap tiles from outside). The GitHub repo is connected, so a push to `main` redeploys; `vercel deploy --prod` does the same by hand.
 
 Steps, each runnable on its own as `python -m pipeline.<step>`:
 
