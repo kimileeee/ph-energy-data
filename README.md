@@ -57,7 +57,7 @@ Steps, each runnable on its own as `python -m pipeline.<step>`:
 
 The explorer keeps its whole view in the URL hash (`#du=meralco&class=residential&view=map&month=2026-10`), so any view can be shared as a link. The layout follows the Naga budget portal's data explorer research (Chart / Map / Table tabs after Our World in Data's Grapher, with a table as the accessible fallback) and its methodology page (live figures inside prose that stays true).
 
-## Outages (branch `outages`, not on the site)
+## Outages
 
 `uv run python -m pipeline.reliability` reads NEA's quarterly SAIFI/SAIDI per cooperative (2024 Q1–2026 Q2) into `data/outages/reliability_nea.csv`. `uv run python -m pipeline.outages` reads planned-interruption notices (Meralco's maintenance archive as HTML; Angeles Electric's PDF/image notices through the image reader) into `data/outages/interruptions.csv` and `interruption_areas.csv`, with each barangay matched to its 10-digit PSGC code inside the utility's franchise area. `OUTAGES.md` has what exists (NEA/ERC reliability indices, NGCP grid alerts, Facebook-only utilities), what blocks it, Meralco's terms, and a recommendation for an Outages view.
 
