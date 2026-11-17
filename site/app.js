@@ -328,6 +328,11 @@ async function buildMap() {
   map.addControl(new ml.NavigationControl({ showCompass: false }), "top-right");
   map.addControl(new ml.FullscreenControl(), "top-right");
   map.on("style.load", () => { addLayers(); paintMap(); });
+  // until someone pans, zooms or picks a place, keep the whole country framed as the container settles
+  // (a map built while its box is still growing, e.g. a panel opening or a phone rotating, otherwise stays zoomed out)
+  let touched = false;
+  map.on("movestart", (e) => { if (e.originalEvent) touched = true; });
+  map.on("resize", () => { if (!touched && !state.place) map.fitBounds(PH_BOUNDS, { padding: 12, duration: 0 }); });
 
   const tip = $("maptip");
   map.on("mousemove", "munis-fill", (e) => {
