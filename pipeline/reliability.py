@@ -124,6 +124,9 @@ def issues(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
+    if OFFLINE and not all((SRC / f"{p}.pdf").exists() for p in REPORTS):  # PDFs are gitignored: a fresh clone has none
+        print("NEA: reports not cached; keeping the committed data/outages/reliability_nea.csv", file=sys.stderr)
+        return
     ids, rows = utility_ids(), []
     for period, fid in REPORTS.items():
         path, digest = fetch(period)

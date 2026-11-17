@@ -200,6 +200,16 @@ effective rate(Q) = bill(Q) ÷ Q</pre>
       </dd>
     </div>
 
+    <div id="interruptions">
+      <dt>Power interruptions</dt>
+      <dd>
+        <p>How often the power goes out comes from the National Electrification Administration's quarterly <em>Compliance Report on the Performance of ECs</em>, listed on its <a href="{{rel_page}}">EC Classifications page</a>. Appendix B of each report gives, per electric cooperative, SAIFI (sustained interruptions per customer), SAIDI (minutes without power per customer), system loss, and NEA's compliant or non-compliant flag for each. The reports are text PDFs, so they are parsed directly; the parser stops on any line it doesn't recognise rather than skip it. {{rel_quarters}} reports, {{rel_first}} to {{rel_last}}, give {{rel_rows}} rows for {{rel_ecs}} cooperatives, each joined to the master list's <code>utility_id</code>. NEA's earlier reports are no longer on its website.</p>
+        <p><strong>Year to date.</strong> The figures rise through each year and start again each first quarter, so they read as year to date, and the {{rel_full_q}} figure is the full year. NEA doesn't say so; the data marks the basis as inferred. NEA's yearly standards are 25 interruptions and 2,700 minutes (45 hours) per customer for on-grid cooperatives, 30 and 3,375 off-grid. In {{rel_full}}, the median cooperative's customers had {{rel_saifi_med}} interruptions and {{rel_saidi_med_h}} hours without power ({{rel_full_with}} cooperatives with a figure; unweighted, as with the rate medians). The longest: {{rel_worst}}.</p>
+        <p><strong>What NEA doesn't print.</strong> {{rel_missing}} rows have no figure because the cooperative sent none; NEA prints a code (dns, nds or nda) and flags it non-compliant, so its compliance counts mix unreliable service with missing reports. The explorer says which. {{rel_issues}} year-to-date figures fall from one quarter to the next within a year, which a running total can't do; for example, {{rel_issue_example}}. They are published as <a href="data/qa/nea_reliability_issues.csv">questions for NEA</a>, and the figures are shown as printed.</p>
+        <p><strong>Private utilities</strong> are regulated by ERC, which collects reliability data from them in its reporting template but doesn't publish it, so they show as "not published", not as having no outages. On the map, a cooperative's figure is its average over its whole area, so every place it serves takes the same colour; it doesn't say which towns lose power most.</p>
+      </dd>
+    </div>
+
     <div id="limits">
       <dt>What this does not tell you</dt>
       <dd>
@@ -218,6 +228,7 @@ effective rate(Q) = bill(Q) ÷ Q</pre>
       <dd>
         <ul>
           <li>Rates: Department of Energy, <a href="{{sheet_url}}">electricity rates per distribution utility</a>.</li>
+          <li>Power interruptions: National Electrification Administration, quarterly compliance reports on electric cooperatives (<a href="{{rel_page}}">EC Classifications</a>).</li>
           <li>Utility documents: Meralco <a href="https://www.meralco.com.ph/governance/regulatory/rates-archive">rates archive</a>; Tarlac Electric <a href="https://tarlacelectric.com/rate-schedule-customer-class">rate schedules</a>.</li>
           <li>PSGC: Philippine Statistics Authority, via <a href="https://github.com/bendlikeabamboo/barangay"><code>bendlikeabamboo/barangay</code></a> (MIT).</li>
           <li>Boundaries: <a href="https://github.com/faeldon/philippines-json-maps"><code>faeldon/philippines-json-maps</code></a> (MIT). Street map: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL), tiles by <a href="https://openfreemap.org">OpenFreeMap</a>; map engine <a href="https://maplibre.org">MapLibre GL JS</a> 6.16.0 (BSD-3-Clause).</li>

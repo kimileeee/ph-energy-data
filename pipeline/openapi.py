@@ -84,6 +84,24 @@ def schemas() -> dict:
             "checks": {"type": "array", "items": {"$ref": "#/components/schemas/Check"}},
             "link_audit": {"type": "array", "items": {"type": "object"}}}},
         "Stats": {"type": "object", "description": "Coverage numbers for this build.", "additionalProperties": True},
+        "ReliabilityQuarter": {"type": "object", "description": "One cooperative, one quarter, as NEA printed it (year to date).", "properties": {
+            "period": {**STR, "pattern": r"^\d{4}-Q[1-4]$", "examples": ["2025-Q4"]},
+            "saifi": {**NUM_OR_NULL, "description": "Sustained interruptions per customer, year to date. Null where NEA printed no figure."},
+            "saidi_minutes": {**NUM_OR_NULL, "description": "Minutes without power per customer, year to date."},
+            "saifi_status": {**STR, "description": "NEA's flag: C (compliant) or NC (non-compliant; also given when no data was sent)."},
+            "saidi_status": STR,
+            "missing": {**STR, "description": "NEA's code where it printed no figure (dns, nds, nda, inc), else empty."},
+            "page": {"type": "integer", "description": "Page of NEA's report the row is on."}}},
+        "Reliability": {"type": "object", "description": "SAIFI and SAIDI per electric cooperative per quarter, from NEA's compliance reports.", "properties": {
+            "source": STR, "source_page": STR, "basis": STR, "covers": STR,
+            "standards": {"type": "object", "description": "NEA's yearly standards per customer, on-grid and off-grid."},
+            "periods": {"type": "array", "items": STR}, "full_year": STR, "full_year_period": STR,
+            "source_urls": {"type": "object", "description": "period -> NEA's report file", "additionalProperties": STR},
+            "medians": {"type": "object", "description": "period -> median SAIFI and SAIDI across cooperatives with a figure (unweighted)"},
+            "utilities": {"type": "object", "description": "utility_id -> quarters",
+                          "additionalProperties": {"type": "array", "items": {"$ref": "#/components/schemas/ReliabilityQuarter"}}},
+            "issues": {"type": "object", "description": "utility_id -> year-to-date figures that fall within a year (questions for NEA)",
+                       "additionalProperties": {"type": "array", "items": STR}}}},
         "Municipalities": {"type": "object", "description": "GeoJSON FeatureCollection of municipalities and cities, with the utilities serving each.", "properties": {
             "type": {"const": "FeatureCollection"},
             "features": {"type": "array", "items": {"type": "object", "properties": {
@@ -124,7 +142,7 @@ def main() -> None:
         "info": {
             "title": "Philippine electricity rates (prototype)",
             "version": "0.1.0",
-            "summary": "DOE's monthly rate sheet as static JSON: utilities, monthly rates, medians, source checks.",
+            "summary": "DOE's monthly rate sheet as static JSON: utilities, monthly rates, medians, source checks, and NEA's power-interruption indices.",
             "description": "Every endpoint is a static file: no key, no rate limit, cacheable. Files regenerate when the pipeline runs. "
                            "Join to LGUs on PSGC codes. Bulk CSV/Parquet and a Frictionless datapackage are listed in /api/catalog.json.",
             "license": {"name": "ODC-BY-1.0 (data), MIT (code)", "url": "https://opendatacommons.org/licenses/by/1-0/"},
@@ -134,6 +152,7 @@ def main() -> None:
         "tags": [{"name": "Utilities", "description": "The master list: one stable ID per distribution utility, with PSGC coverage."},
                  {"name": "Rates", "description": "Monthly PHP/kWh per customer class, as DOE compiled them, and medians."},
                  {"name": "Checks", "description": "DOE's figures against utilities' own rate documents."},
+                 {"name": "Reliability", "description": "Power interruptions per electric cooperative (NEA's SAIFI and SAIDI)."},
                  {"name": "Geography", "description": "Municipal boundaries joined to the utilities serving them."},
                  {"name": "Meta", "description": "Coverage numbers for the build."}],
         "paths": {
@@ -150,6 +169,9 @@ def main() -> None:
                                      "Medians", example("api/medians.json", 2), "Rates"),
             "/api/checks.json": get("getChecks", "Source checks", "DOE's figures compared with utilities' own rate documents, with evidence locations.",
                                     "Checks", example("api/checks.json", 1), "Checks"),
+            "/api/reliability.json": get("getReliability", "Power interruptions per cooperative",
+                                         "NEA's quarterly SAIFI and SAIDI for every electric cooperative, year to date, with medians and NEA's compliance flags.",
+                                         "Reliability", example("api/reliability.json", 2), "Reliability"),
             "/geo/municipalities.geojson": get("getMunicipalities", "Municipal boundaries", "PSGC 3Q 2026 municipalities/cities as GeoJSON (WGS84), joined to the utilities serving each.",
                                             "Municipalities", {"type": "FeatureCollection", "features": [{"type": "Feature",
                                                 "geometry": {"type": "Polygon", "coordinates": [[[120.59, 16.38], [120.61, 16.38], [120.6, 16.42], [120.59, 16.38]]]},

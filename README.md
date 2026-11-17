@@ -24,6 +24,7 @@ Prototype for the BetterGov Fellowship 2026 Energy track. Not an official DOE pr
 - `/api/rates/<utility_id>.json`: monthly series per class and generation charge, NDA counts, values flagged by QA
 - `/api/panel.json`: every utility's monthly series in one file, aligned to a shared month list (drives the map and the all-utilities table)
 - `/api/medians.json`: national and regional medians per month and class (unweighted)
+- `/api/reliability.json`: NEA's quarterly SAIFI and SAIDI per electric cooperative (year to date), with medians, NEA's compliance flags and the figures that look wrong
 - `/api/checks.json`: every DOE-vs-source comparison, with DOE's cell link, the source document, page and value location
 - `/api/catalog.json`: the bulk files with row counts and sizes
 - `/openapi.json`: OpenAPI 3.1 description of all of the above (lints clean with Redocly)

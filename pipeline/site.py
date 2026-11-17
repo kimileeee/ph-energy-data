@@ -52,6 +52,30 @@ def runs(months: list[str]) -> str:
     return out[0] if len(out) == 1 else ", ".join(out[:-1]) + " and " + out[-1]
 
 
+def interruptions() -> dict[str, str]:
+    """Figures for the methodology's NEA section, from data/outages/reliability_nea.csv."""
+    from pipeline.reliability import PAGE
+
+    df = pd.read_csv(DATA / "outages" / "reliability_nea.csv", keep_default_na=False, na_values=[""])
+    iss = pd.read_csv(DATA / "qa" / "nea_reliability_issues.csv", keep_default_na=False)
+    periods = sorted(df.period.unique())
+    full = max(p for p in periods if p.endswith("Q4"))
+    fy = df[df.period == full].dropna(subset=["saidi_minutes"])
+    q = lambda p: f"{p[5:]} {p[:4]}"
+    worst = fy.nlargest(3, "saidi_minutes")
+    names = dict(df[["utility_id", "nea_name"]].drop_duplicates("utility_id").values)
+    big = iss[iss.measure == "saidi_minutes"].assign(drop=lambda d: d.previous_value - d.value).nlargest(1, "drop")
+    return {
+        "rel_page": PAGE, "rel_rows": n(len(df)), "rel_ecs": n(df.utility_id.nunique()), "rel_quarters": n(len(periods)),
+        "rel_first": q(periods[0]), "rel_last": q(periods[-1]), "rel_full": full[:4], "rel_full_q": q(full),
+        "rel_full_with": n(len(fy)), "rel_saifi_med": f"{fy.saifi.median():.1f}", "rel_saidi_med_h": f"{fy.saidi_minutes.median() / 60:.1f}",
+        "rel_missing": n(int(df.missing.notna().sum())), "rel_issues": n(len(iss)),
+        "rel_worst": ", ".join(f"{names[r.utility_id]} ({r.saidi_minutes / 60:,.0f} hours)" for r in worst.itertuples()),
+        "rel_issue_example": (f"{names[big.iloc[0].utility_id]}'s {big.iloc[0].period[:4]} figure falls from {big.iloc[0].previous_value:,.0f} minutes "
+                              f"in {q(big.iloc[0].previous_period)} to {big.iloc[0].value:,.0f} in {q(big.iloc[0].period)}") if len(big) else "none so far",
+    }
+
+
 def values() -> dict[str, str]:
     s = json.loads((DATA / "stats.json").read_text())
     manifest = json.loads((RAW / "manifest.json").read_text())
@@ -167,6 +191,8 @@ def values() -> dict[str, str]:
     feats = [{**f["properties"], "u": json.loads(f["properties"]["u"])} for f in geo["features"]]
     wiki_rev = manifest.get("wikipedia/du_list.wiki", {}).get("revision", {})
     lead = issues.check.value_counts()
+
+    per |= interruptions()
 
     return {
         "built": s["built_at"][:10],

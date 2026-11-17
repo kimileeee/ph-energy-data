@@ -1,7 +1,7 @@
 """Publish: Parquet copies, Frictionless datapackage.json, static JSON API, coverage stats.
 
 Outputs: data/*.parquet, data/datapackage.json, data/stats.json,
-         site/api/{utilities,medians,stats}.json, site/api/rates/<utility_id>.json, site/data/* (downloads)
+         site/api/{utilities,medians,stats,reliability}.json, site/api/rates/<utility_id>.json, site/data/* (downloads)
 """
 
 import json
@@ -29,6 +29,8 @@ RESOURCES = {
     "qa/source_links": "Reachability of each link in DOE's SOURCES column.",
     "qa/unmatched_areas": "Areas the coverage source lists that could not be matched to one PSGC code.",
     "filled": "Cells DOE's sheet leaves empty (NDA or blank) that the utility's own rate document fills, with the document.",
+    "outages/reliability_nea": "Power interruptions per electric cooperative per quarter (SAIFI, SAIDI, system loss), from NEA's quarterly compliance reports, year to date.",
+    "qa/nea_reliability_issues": "NEA year-to-date figures that fall from one quarter to the next within a year: questions for NEA.",
 }
 DESCRIPTIONS = {
     "utility_id": "Stable slug ID, issued once from DOE's printed name and never reissued.",
@@ -41,6 +43,10 @@ DESCRIPTIONS = {
     "psgc_independent_city_codes": "PSGC codes of served cities that belong to no province (highly urbanised and independent component cities, all of NCR).",
     "psgc_code": "10-digit PSGC code of the city or municipality.",
     "month": "YYYY-MM.",
+    "saifi": "System Average Interruption Frequency Index: sustained interruptions per customer, year to date (inferred). Null where NEA printed no figure.",
+    "saidi_minutes": "System Average Interruption Duration Index: minutes without power per customer, year to date (inferred).",
+    "period": "Quarter, YYYY-Qn; Q4 is the full year.",
+    "missing": "NEA's code where it printed no figure (dns/nds: did not submit; nda: no data submitted; inc: incomplete).",
 }
 
 
@@ -56,7 +62,7 @@ def datapackage(frames: dict[str, pd.DataFrame], stats: dict) -> dict:
     res = []
     for name, df in frames.items():
         res.append({
-            "name": name.replace("qa/", "qa_"),
+            "name": name.replace("/", "_"),
             "path": f"{name}.csv",
             "format": "csv",
             "mediatype": "text/csv",
@@ -121,7 +127,8 @@ def coverage_stats(rates: pd.DataFrame, utilities: pd.DataFrame, areas: pd.DataF
 
 def write_json(path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")))
+    # allow_nan=False: a NaN is not JSON, and browsers refuse the whole file
+    path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":"), allow_nan=False))
 
 
 def api(rates: pd.DataFrame, utilities: pd.DataFrame, stats: dict) -> None:
@@ -185,6 +192,36 @@ def api(rates: pd.DataFrame, utilities: pd.DataFrame, stats: dict) -> None:
         panel["generation"][uid] = row
     write_json(out / "panel.json", {"unit": "PHP/kWh", "months": months, "series": panel,
                                     "note": "null = NDA, blank, or a value flagged by QA (see /api/rates/<id>.json)"})
+
+
+def reliability_api() -> None:
+    """/api/reliability.json: NEA's SAIFI/SAIDI per electric cooperative and quarter, with medians and NEA's own flags."""
+    from pipeline.reliability import PAGE
+
+    df = pd.read_csv(DATA / "outages" / "reliability_nea.csv", keep_default_na=False, na_values=[""])
+    issues = pd.read_csv(DATA / "qa" / "nea_reliability_issues.csv", keep_default_na=False)
+    periods = sorted(df.period.unique())
+    full = max(p for p in periods if p.endswith("Q4"))
+    num = lambda v: None if pd.isna(v) else float(v)
+    med = {p: {"saifi": num(g.saifi.median()), "saidi_minutes": num(g.saidi_minutes.median()),
+               "with_figures": int(g.saidi_minutes.notna().sum()), "assessed": len(g)} for p, g in df.groupby("period")}
+    write_json(SITE / "api" / "reliability.json", {
+        "source": "National Electrification Administration, Compliance Report on the Performance of ECs (Appendix B)",
+        "source_page": PAGE,
+        "basis": "Year to date: figures rise through each year and restart each Q1, so Q4 is the full year. Inferred; NEA does not say.",
+        "standards": {"on_grid": {"saifi": 25, "saidi_minutes": 2700}, "off_grid": {"saifi": 30, "saidi_minutes": 3375},
+                      "note": "NEA's yearly standards per customer"},
+        "covers": "Electric cooperatives only. ERC does not publish these indices for private utilities.",
+        "periods": periods, "full_year": full[:4], "full_year_period": full,
+        "source_urls": dict(df.drop_duplicates("period")[["period", "source_url"]].values),
+        "medians": med,
+        "utilities": {uid: [{"period": r.period, "saifi": num(r.saifi), "saidi_minutes": num(r.saidi_minutes),
+                             "saifi_status": r.saifi_status, "saidi_status": r.saidi_status,
+                             "missing": "" if pd.isna(r.missing) else r.missing, "page": int(r.page)}
+                            for r in g.sort_values("period").itertuples()] for uid, g in df.groupby("utility_id")},
+        "issues": {uid: [f"{r.measure.split('_')[0].upper()} {r.period} ({r.value:g}) is below {r.previous_period} ({r.previous_value:g})"
+                         for r in g.itertuples()] for uid, g in issues.groupby("utility_id")},
+    })
 
 
 def col_letter(n: int) -> str:
@@ -258,6 +295,7 @@ def main() -> None:
 
     api(rates, frames["utilities"], stats)
     checks_api(rates, frames["utilities"], stats)
+    reliability_api()
     downloads = SITE / "data"
     shutil.rmtree(downloads, ignore_errors=True)
     for name in list(RESOURCES) + ["utilities.parquet", "rates.parquet", "utility_areas.parquet", "datapackage.json"]:

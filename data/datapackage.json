@@ -3,7 +3,7 @@
   "title": "Philippine electricity rates per distribution utility (prototype)",
   "description": "DOE's hand-compiled monthly rate sheet as a tidy, joinable dataset, with a master list of distribution utilities keyed by a stable ID and PSGC codes, and automated checks against utilities' own rate documents.",
   "version": "0.1.0",
-  "created": "2026-11-17T08:39:14+00:00",
+  "created": "2026-11-17T09:37:13+00:00",
   "licenses": [
     {
       "name": "ODC-BY-1.0",
@@ -491,6 +491,131 @@
           {
             "name": "page",
             "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "outages_reliability_nea",
+      "path": "outages/reliability_nea.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Power interruptions per electric cooperative per quarter (SAIFI, SAIDI, system loss), from NEA's quarterly compliance reports, year to date.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "nea_name",
+            "type": "string"
+          },
+          {
+            "name": "region_as_printed",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Quarter, YYYY-Qn; Q4 is the full year."
+          },
+          {
+            "name": "saifi",
+            "type": "number",
+            "description": "System Average Interruption Frequency Index: sustained interruptions per customer, year to date (inferred). Null where NEA printed no figure."
+          },
+          {
+            "name": "saifi_status",
+            "type": "string"
+          },
+          {
+            "name": "saidi_minutes",
+            "type": "number",
+            "description": "System Average Interruption Duration Index: minutes without power per customer, year to date (inferred)."
+          },
+          {
+            "name": "saidi_status",
+            "type": "string"
+          },
+          {
+            "name": "loss_pct",
+            "type": "number"
+          },
+          {
+            "name": "loss_status",
+            "type": "string"
+          },
+          {
+            "name": "missing",
+            "type": "string",
+            "description": "NEA's code where it printed no figure (dns/nds: did not submit; nda: no data submitted; inc: incomplete)."
+          },
+          {
+            "name": "basis",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "source_page",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "type": "integer"
+          },
+          {
+            "name": "row_as_printed",
+            "type": "string"
+          },
+          {
+            "name": "sha256",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_nea_reliability_issues",
+      "path": "qa/nea_reliability_issues.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "NEA year-to-date figures that fall from one quarter to the next within a year: questions for NEA.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "measure",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Quarter, YYYY-Qn; Q4 is the full year."
+          },
+          {
+            "name": "value",
+            "type": "number"
+          },
+          {
+            "name": "previous_period",
+            "type": "string"
+          },
+          {
+            "name": "previous_value",
+            "type": "number"
+          },
+          {
+            "name": "issue",
+            "type": "string"
           }
         ]
       }

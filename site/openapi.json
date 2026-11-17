@@ -3,7 +3,7 @@
  "info": {
   "title": "Philippine electricity rates (prototype)",
   "version": "0.1.0",
-  "summary": "DOE's monthly rate sheet as static JSON: utilities, monthly rates, medians, source checks.",
+  "summary": "DOE's monthly rate sheet as static JSON: utilities, monthly rates, medians, source checks, and NEA's power-interruption indices.",
   "description": "Every endpoint is a static file: no key, no rate limit, cacheable. Files regenerate when the pipeline runs. Join to LGUs on PSGC codes. Bulk CSV/Parquet and a Frictionless datapackage are listed in /api/catalog.json.",
   "license": {
    "name": "ODC-BY-1.0 (data), MIT (code)",
@@ -29,6 +29,10 @@
   {
    "name": "Checks",
    "description": "DOE's figures against utilities' own rate documents."
+  },
+  {
+   "name": "Reliability",
+   "description": "Power interruptions per electric cooperative (NEA's SAIFI and SAIDI)."
   },
   {
    "name": "Geography",
@@ -57,7 +61,7 @@
          "$ref": "#/components/schemas/UtilityList"
         },
         "example": {
-         "generated": "2026-11-17T08:39:14+00:00",
+         "generated": "2026-11-17T09:37:13+00:00",
          "count": 141,
          "utilities": [
           {
@@ -1236,7 +1240,7 @@
          "$ref": "#/components/schemas/Checks"
         },
         "example": {
-         "built": "2026-11-17T08:39:14+00:00",
+         "built": "2026-11-17T09:37:13+00:00",
          "tolerance": 0.006,
          "lookback_months": 12,
          "sheet_url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I",
@@ -1285,6 +1289,414 @@
            "http_status": "200"
           }
          ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/reliability.json": {
+   "get": {
+    "operationId": "getReliability",
+    "summary": "Power interruptions per cooperative",
+    "description": "NEA's quarterly SAIFI and SAIDI for every electric cooperative, year to date, with medians and NEA's compliance flags.",
+    "tags": [
+     "Reliability"
+    ],
+    "responses": {
+     "200": {
+      "description": "OK",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Reliability"
+        },
+        "example": {
+         "source": "National Electrification Administration, Compliance Report on the Performance of ECs (Appendix B)",
+         "source_page": "https://nea.gov.ph/ec-classifications/",
+         "basis": "Year to date: figures rise through each year and restart each Q1, so Q4 is the full year. Inferred; NEA does not say.",
+         "standards": {
+          "on_grid": {
+           "saifi": 25,
+           "saidi_minutes": 2700
+          },
+          "off_grid": {
+           "saifi": 30,
+           "saidi_minutes": 3375
+          },
+          "note": "NEA's yearly standards per customer"
+         },
+         "covers": "Electric cooperatives only. ERC does not publish these indices for private utilities.",
+         "periods": [
+          "2024-Q1",
+          "2024-Q2"
+         ],
+         "full_year": "2025",
+         "full_year_period": "2025-Q4",
+         "source_urls": {
+          "2024-Q1": "https://drive.google.com/file/d/1Xne0kf420Ln1uNLkGEG3gAwffYSJIWG4/view",
+          "2024-Q2": "https://drive.google.com/file/d/1bJHA-92K2-fHZkobl-oyOuOs__Tne2nf/view",
+          "2024-Q3": "https://drive.google.com/file/d/1gV7iOD-YfaJP1fyUvlKtIMQBZYRhAlRs/view",
+          "2024-Q4": "https://drive.google.com/file/d/1MGQ-dgeT2i5NGjGE-_IZdxsgNYLVU2yC/view",
+          "2025-Q1": "https://drive.google.com/file/d/1_Tz1u1C0ZH-xr6TG8o8RhVoJA5_WO4uJ/view",
+          "2025-Q2": "https://drive.google.com/file/d/18EPcIT_taVr9nMg09B3J9nzJoNw-tlt2/view",
+          "2025-Q3": "https://drive.google.com/file/d/1G_tiLdBdU9HlT1-__d_KEPgioAk3NiK1/view",
+          "2025-Q4": "https://drive.google.com/file/d/1ZhgRg7aefS6KbO-j32FT0udlKee9Sh4Q/view",
+          "2026-Q1": "https://drive.google.com/file/d/18EiEEd9vLVW5Z4cwyvBYmNitSXhvX5UE/view",
+          "2026-Q2": "https://drive.google.com/file/d/1V3LiDjQk-7eamX5eCyWahSNnpG9pyA7p/view"
+         },
+         "medians": {
+          "2024-Q1": {
+           "saifi": 2.55,
+           "saidi_minutes": 124.24,
+           "with_figures": 119,
+           "assessed": 121
+          },
+          "2024-Q2": {
+           "saifi": 6.06,
+           "saidi_minutes": 313.9,
+           "with_figures": 119,
+           "assessed": 121
+          },
+          "2024-Q3": {
+           "saifi": 9.49,
+           "saidi_minutes": 463.08,
+           "with_figures": 115,
+           "assessed": 121
+          },
+          "2024-Q4": {
+           "saifi": 11.315,
+           "saidi_minutes": 569.74,
+           "with_figures": 116,
+           "assessed": 121
+          },
+          "2025-Q1": {
+           "saifi": 2.07,
+           "saidi_minutes": 118.35,
+           "with_figures": 115,
+           "assessed": 121
+          },
+          "2025-Q2": {
+           "saifi": 5.34,
+           "saidi_minutes": 303.01,
+           "with_figures": 111,
+           "assessed": 121
+          },
+          "2025-Q3": {
+           "saifi": 8.99,
+           "saidi_minutes": 509.7,
+           "with_figures": 115,
+           "assessed": 121
+          },
+          "2025-Q4": {
+           "saifi": 11.86,
+           "saidi_minutes": 649.39,
+           "with_figures": 117,
+           "assessed": 121
+          },
+          "2026-Q1": {
+           "saifi": 2.0199999999999996,
+           "saidi_minutes": 101.045,
+           "with_figures": 114,
+           "assessed": 120
+          },
+          "2026-Q2": {
+           "saifi": 5.98,
+           "saidi_minutes": 270.5,
+           "with_figures": 117,
+           "assessed": 120
+          }
+         },
+         "utilities": {
+          "abreco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.21,
+            "saidi_minutes": 28.84,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 4.0,
+            "saidi_minutes": 120.54,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 32
+           }
+          ],
+          "akelco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 4.59,
+            "saidi_minutes": 207.07,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 9.03,
+            "saidi_minutes": 421.16,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           }
+          ],
+          "aleco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 11.69,
+            "saidi_minutes": 555.99,
+            "saifi_status": "NC",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 37.74,
+            "saidi_minutes": 1512.56,
+            "saifi_status": "NC",
+            "saidi_status": "NC",
+            "missing": "",
+            "page": 33
+           }
+          ],
+          "aneco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.87,
+            "saidi_minutes": 84.65,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 36
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 3.91,
+            "saidi_minutes": 215.24,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 35
+           }
+          ],
+          "anteco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 2.55,
+            "saidi_minutes": 129.61,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 6.06,
+            "saidi_minutes": 279.48,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           }
+          ],
+          "aselco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 3.84,
+            "saidi_minutes": 216.5,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 36
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 7.27,
+            "saidi_minutes": 431.38,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 35
+           }
+          ],
+          "aurelco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.11,
+            "saidi_minutes": 136.15,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 2.78,
+            "saidi_minutes": 248.69,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 32
+           }
+          ],
+          "banelco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.02,
+            "saidi_minutes": 61.1,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 35
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 4.24,
+            "saidi_minutes": 337.67,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           }
+          ],
+          "baselco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 71.93,
+            "saidi_minutes": 2426.62,
+            "saifi_status": "NC",
+            "saidi_status": "NC",
+            "missing": "",
+            "page": 36
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 156.97,
+            "saidi_minutes": 5646.48,
+            "saifi_status": "NC",
+            "saidi_status": "NC",
+            "missing": "",
+            "page": 35
+           }
+          ],
+          "batanelco": [
+           {
+            "period": "2024-Q1",
+            "saifi": 0.55,
+            "saidi_minutes": 23.54,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 0.94,
+            "saidi_minutes": 41.83,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 32
+           }
+          ],
+          "batelec-i": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.08,
+            "saidi_minutes": 49.93,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 3.53,
+            "saidi_minutes": 229.32,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           }
+          ],
+          "batelec-ii": [
+           {
+            "period": "2024-Q1",
+            "saifi": 1.56,
+            "saidi_minutes": 76.08,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 34
+           },
+           {
+            "period": "2024-Q2",
+            "saifi": 4.9,
+            "saidi_minutes": 172.15,
+            "saifi_status": "C",
+            "saidi_status": "C",
+            "missing": "",
+            "page": 33
+           }
+          ]
+         },
+         "issues": {
+          "aurelco": [
+           "SAIFI 2024-Q4 (2.74) is below 2024-Q3 (4.06)",
+           "SAIDI 2024-Q4 (290.7) is below 2024-Q3 (384.86)"
+          ],
+          "canoreco": [
+           "SAIDI 2024-Q4 (32.09) is below 2024-Q3 (32.22)"
+          ],
+          "ceneco-nepc": [
+           "SAIFI 2024-Q3 (13.01) is below 2024-Q2 (13.05)",
+           "SAIDI 2024-Q3 (471.58) is below 2024-Q2 (472.98)"
+          ],
+          "inec": [
+           "SAIFI 2024-Q4 (4.59) is below 2024-Q3 (7.68)",
+           "SAIDI 2024-Q4 (410.36) is below 2024-Q3 (719.48)"
+          ],
+          "leyeco-iv": [
+           "SAIFI 2024-Q4 (12.59) is below 2024-Q3 (12.69)",
+           "SAIDI 2024-Q4 (627.15) is below 2024-Q3 (647.33)"
+          ],
+          "moelci-i": [
+           "SAIFI 2024-Q4 (1.53) is below 2024-Q3 (17.16)",
+           "SAIDI 2024-Q4 (47.25) is below 2024-Q3 (1162.85)"
+          ],
+          "paleco": [
+           "SAIDI 2024-Q4 (93.07) is below 2024-Q3 (909.43)"
+          ],
+          "ppalma": [
+           "SAIDI 2025-Q3 (259.84) is below 2025-Q2 (285.75)"
+          ],
+          "presco": [
+           "SAIFI 2025-Q4 (2.9) is below 2025-Q3 (2.97)",
+           "SAIDI 2025-Q4 (137.63) is below 2025-Q3 (140.79)"
+          ],
+          "samelco-ii": [
+           "SAIFI 2024-Q3 (2.03) is below 2024-Q2 (2.12)",
+           "SAIDI 2024-Q3 (56.25) is below 2024-Q2 (358.54)"
+          ],
+          "siaselco": [
+           "SAIFI 2024-Q4 (8.47) is below 2024-Q2 (10.37)",
+           "SAIDI 2024-Q4 (2838.3) is below 2024-Q2 (4227.03)"
+          ],
+          "suleco": [
+           "SAIFI 2024-Q2 (5.46) is below 2024-Q1 (5.53)",
+           "SAIDI 2024-Q2 (79.3) is below 2024-Q1 (80.41)"
+          ]
+         }
         }
        }
       }
@@ -1374,7 +1786,7 @@
          "$ref": "#/components/schemas/Stats"
         },
         "example": {
-         "built_at": "2026-11-17T08:39:14+00:00",
+         "built_at": "2026-11-17T09:37:13+00:00",
          "utilities": 141,
          "utilities_by_type": {
           "EC": 120,
@@ -1919,6 +2331,113 @@
     "type": "object",
     "description": "Coverage numbers for this build.",
     "additionalProperties": true
+   },
+   "ReliabilityQuarter": {
+    "type": "object",
+    "description": "One cooperative, one quarter, as NEA printed it (year to date).",
+    "properties": {
+     "period": {
+      "type": "string",
+      "pattern": "^\\d{4}-Q[1-4]$",
+      "examples": [
+       "2025-Q4"
+      ]
+     },
+     "saifi": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "Sustained interruptions per customer, year to date. Null where NEA printed no figure."
+     },
+     "saidi_minutes": {
+      "type": [
+       "number",
+       "null"
+      ],
+      "description": "Minutes without power per customer, year to date."
+     },
+     "saifi_status": {
+      "type": "string",
+      "description": "NEA's flag: C (compliant) or NC (non-compliant; also given when no data was sent)."
+     },
+     "saidi_status": {
+      "type": "string"
+     },
+     "missing": {
+      "type": "string",
+      "description": "NEA's code where it printed no figure (dns, nds, nda, inc), else empty."
+     },
+     "page": {
+      "type": "integer",
+      "description": "Page of NEA's report the row is on."
+     }
+    }
+   },
+   "Reliability": {
+    "type": "object",
+    "description": "SAIFI and SAIDI per electric cooperative per quarter, from NEA's compliance reports.",
+    "properties": {
+     "source": {
+      "type": "string"
+     },
+     "source_page": {
+      "type": "string"
+     },
+     "basis": {
+      "type": "string"
+     },
+     "covers": {
+      "type": "string"
+     },
+     "standards": {
+      "type": "object",
+      "description": "NEA's yearly standards per customer, on-grid and off-grid."
+     },
+     "periods": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "full_year": {
+      "type": "string"
+     },
+     "full_year_period": {
+      "type": "string"
+     },
+     "source_urls": {
+      "type": "object",
+      "description": "period -> NEA's report file",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "medians": {
+      "type": "object",
+      "description": "period -> median SAIFI and SAIDI across cooperatives with a figure (unweighted)"
+     },
+     "utilities": {
+      "type": "object",
+      "description": "utility_id -> quarters",
+      "additionalProperties": {
+       "type": "array",
+       "items": {
+        "$ref": "#/components/schemas/ReliabilityQuarter"
+       }
+      }
+     },
+     "issues": {
+      "type": "object",
+      "description": "utility_id -> year-to-date figures that fall within a year (questions for NEA)",
+      "additionalProperties": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
    },
    "Municipalities": {
     "type": "object",

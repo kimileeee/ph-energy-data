@@ -1,0 +1,26 @@
+utility_id,measure,period,value,previous_period,previous_value,issue
+aurelco,saifi,2024-Q4,2.74,2024-Q3,4.06,year-to-date figure lower than the previous quarter's
+aurelco,saidi_minutes,2024-Q4,290.7,2024-Q3,384.86,year-to-date figure lower than the previous quarter's
+canoreco,saidi_minutes,2024-Q4,32.09,2024-Q3,32.22,year-to-date figure lower than the previous quarter's
+ceneco-nepc,saifi,2024-Q3,13.01,2024-Q2,13.05,year-to-date figure lower than the previous quarter's
+ceneco-nepc,saidi_minutes,2024-Q3,471.58,2024-Q2,472.98,year-to-date figure lower than the previous quarter's
+inec,saifi,2024-Q4,4.59,2024-Q3,7.68,year-to-date figure lower than the previous quarter's
+inec,saidi_minutes,2024-Q4,410.36,2024-Q3,719.48,year-to-date figure lower than the previous quarter's
+leyeco-iv,saifi,2024-Q4,12.59,2024-Q3,12.69,year-to-date figure lower than the previous quarter's
+leyeco-iv,saidi_minutes,2024-Q4,627.15,2024-Q3,647.33,year-to-date figure lower than the previous quarter's
+moelci-i,saifi,2024-Q4,1.53,2024-Q3,17.16,year-to-date figure lower than the previous quarter's
+moelci-i,saidi_minutes,2024-Q4,47.25,2024-Q3,1162.85,year-to-date figure lower than the previous quarter's
+paleco,saidi_minutes,2024-Q4,93.07,2024-Q3,909.43,year-to-date figure lower than the previous quarter's
+ppalma,saidi_minutes,2025-Q3,259.84,2025-Q2,285.75,year-to-date figure lower than the previous quarter's
+presco,saifi,2025-Q4,2.9,2025-Q3,2.97,year-to-date figure lower than the previous quarter's
+presco,saidi_minutes,2025-Q4,137.63,2025-Q3,140.79,year-to-date figure lower than the previous quarter's
+samelco-ii,saifi,2024-Q3,2.03,2024-Q2,2.12,year-to-date figure lower than the previous quarter's
+samelco-ii,saidi_minutes,2024-Q3,56.25,2024-Q2,358.54,year-to-date figure lower than the previous quarter's
+siaselco,saifi,2024-Q4,8.47,2024-Q2,10.37,year-to-date figure lower than the previous quarter's
+siaselco,saidi_minutes,2024-Q4,2838.3,2024-Q2,4227.03,year-to-date figure lower than the previous quarter's
+suleco,saifi,2024-Q2,5.46,2024-Q1,5.53,year-to-date figure lower than the previous quarter's
+suleco,saidi_minutes,2024-Q2,79.3,2024-Q1,80.41,year-to-date figure lower than the previous quarter's
+suleco,saifi,2025-Q3,1.98,2025-Q1,2.0,year-to-date figure lower than the previous quarter's
+suleco,saidi_minutes,2025-Q3,31.69,2025-Q1,32.0,year-to-date figure lower than the previous quarter's
+tielco,saifi,2024-Q4,1.33,2024-Q3,11.37,year-to-date figure lower than the previous quarter's
+tielco,saidi_minutes,2024-Q4,88.63,2024-Q3,790.66,year-to-date figure lower than the previous quarter's

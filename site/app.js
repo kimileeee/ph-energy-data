@@ -1,10 +1,11 @@
 // "Your utility, your price": Chart | Map | Table over one view held in the URL hash
-// (#du=meralco&class=residential&view=map&month=2026-10). Reads the static JSON API next to this page. No dependencies.
+// (#du=meralco&class=residential&view=map&month=2026-10[&measure=saidi]). Reads the static JSON API next to this page. No dependencies.
 const CLASSES = { residential: "Residential", commercial: "Commercial", industrial: "Industrial", generation: "Generation charge" };
 const VIEWS = ["chart", "map", "table"];
 const MIN_PEERS = 3; // a "regional median" of one or two utilities is just those utilities
 // fixed bins so colours mean the same thing in every month; generation charge runs lower than retail rates
-const BINS = { retail: [10, 12, 14, 16], generation: [5, 6.5, 8, 9.5] };
+const BINS = { retail: [10, 12, 14, 16], generation: [5, 6.5, 8, 9.5], saidi: [4, 8, 16, 32] }; // saidi: hours a year
+const MEASURES = ["rate", "saidi"];
 const $ = (id) => document.getElementById(id);
 const fmt = (v) => (v == null ? "–" : v.toFixed(2));
 const monthLabel = (m) => new Date(m + "-01T00:00:00").toLocaleDateString("en-PH", { month: "short", year: "numeric" });
@@ -15,8 +16,8 @@ const median = (xs) => {
   return s.length % 2 ? s[h] : (s[h - 1] + s[h]) / 2;
 };
 
-let utilities, byId, medians, panel, months, geo, current;
-const state = { du: "meralco", klass: "residential", view: "chart", month: null, place: null, base: true };
+let utilities, byId, medians, panel, months, geo, current, rel;
+const state = { du: "meralco", klass: "residential", view: "chart", month: null, place: null, base: true, measure: "rate" };
 
 async function json(path) {
   const r = await fetch(path);
@@ -25,8 +26,8 @@ async function json(path) {
 }
 
 async function init() {
-  [{ utilities }, medians, panel] = await Promise.all(
-    ["api/utilities.json", "api/medians.json", "api/panel.json"].map(json));
+  [{ utilities }, medians, panel, rel] = await Promise.all(
+    ["api/utilities.json", "api/medians.json", "api/panel.json", "api/reliability.json"].map(json));
   byId = new Map(utilities.map((u) => [u.utility_id, u]));
   // months the sheet actually has figures for (the newest column can be empty until DOE compiles it)
   months = panel.months.filter((m, i) => Object.values(panel.series.residential).some((s) => s[i] != null));
@@ -38,6 +39,7 @@ async function init() {
   $("classes").innerHTML = Object.entries(CLASSES).map(([k, v]) => `<button type="button" data-k="${k}">${v}</button>`).join("");
   $("classes").addEventListener("click", (e) => e.target.dataset?.k && go({ klass: e.target.dataset.k }));
   $("du").addEventListener("change", () => go({ du: $("du").value }));
+  $("measures").addEventListener("click", (e) => e.target.dataset?.m && go({ measure: e.target.dataset.m }));
 
   const tabs = [...document.querySelectorAll('[role="tab"]')];
   tabs.forEach((t, i) => {
@@ -71,6 +73,7 @@ function readHash() {
     month: months.includes(p.get("month")) ? p.get("month") : state.month || months.at(-1),
     place: /^\d{10}$/.test(p.get("place") || "") ? p.get("place") : null,
     base: p.get("base") !== "0",
+    measure: MEASURES.includes(p.get("measure")) ? p.get("measure") : "rate",
   };
   Object.assign(state, next);
 }
@@ -78,7 +81,7 @@ function readHash() {
 // every control writes the hash; the hash is the only state (back/forward and shared links just work)
 function go(patch, replace = false) {
   Object.assign(state, patch);
-  const h = `#du=${state.du}&class=${state.klass}&view=${state.view}&month=${state.month}${state.place ? `&place=${state.place}` : ""}${state.base ? "" : "&base=0"}`;
+  const h = `#du=${state.du}&class=${state.klass}&view=${state.view}&month=${state.month}${state.place ? `&place=${state.place}` : ""}${state.base ? "" : "&base=0"}${state.measure === "rate" ? "" : `&measure=${state.measure}`}`;
   if (replace) { history.replaceState(null, "", h); load(); }
   else if (location.hash !== h) location.hash = h;
   else load();
@@ -103,10 +106,11 @@ async function load() {
     t.tabIndex = on ? 0 : -1;
     $(t.getAttribute("aria-controls")).hidden = !on;
   });
-  $("monthbar").hidden = state.view === "chart";
+  $("monthbar").hidden = state.view === "chart" || (state.view === "map" && state.measure === "saidi"); // NEA's figure is yearly
   $("month").value = months.indexOf(state.month);
   $("monthlabel").textContent = monthLabel(state.month);
   renderSummary();
+  renderReliability();
   if (state.view === "chart") renderChart();
   if (state.view === "map") await renderMap();
   if (state.view === "table") renderTable();
@@ -131,6 +135,48 @@ function renderSummary() {
   }
   $("tiles").innerHTML = tiles.map((t) => `<div class="tile"><div class="k">${t.sw ? `<i class="sw" style="background:${t.sw}"></i>` : ""}${esc(t.k)}</div>
     <div class="v">${t.txt ?? fmt(t.v)}</div><div class="s">${esc(t.s)}</div></div>`).join("");
+}
+
+// ---------- Power interruptions (NEA, electric cooperatives) ----------
+
+const hours = (min) => (min == null ? "–" : `${(min / 60).toFixed(1)} h`);
+const quarterLabel = (p) => `${p.slice(5)} ${p.slice(0, 4)}`;
+const relRows = (uid) => rel.utilities[uid] || [];
+const fullYear = (uid) => relRows(uid).find((r) => r.period === rel.full_year_period) || null;
+// the place a figure stands: hours without power per customer in the last full year, or null (private utility, or none sent)
+const saidiHours = (uid) => { const r = fullYear(uid); return r?.saidi_minutes == null ? null : r.saidi_minutes / 60; };
+
+function renderReliability() {
+  const u = current.u, box = $("rel");
+  if (u.du_type !== "EC") {
+    box.innerHTML = `<p>${esc(u.doe_name)} is a private utility. ERC, which regulates private utilities, doesn't publish how often their customers lose power; NEA's reports cover electric cooperatives only.</p>`;
+    return;
+  }
+  const rows = relRows(u.utility_id);
+  if (!rows.length) { box.innerHTML = `<p class="note">NEA's reports don't list ${esc(u.doe_name)}.</p>`; return; }
+  const std = rel.standards[u.grid === "OFFGRID" ? "off_grid" : "on_grid"], fy = fullYear(u.utility_id), med = rel.medians[rel.full_year_period];
+  const latest = rows.at(-1), y = rel.full_year;
+  const tiles = [];
+  if (fy?.saifi != null) {
+    tiles.push({ k: `Interruptions per customer, ${y}`, v: fy.saifi.toFixed(1), s: `Cooperative median ${med.saifi.toFixed(1)} · NEA standard ${std.saifi}` });
+    tiles.push({ k: `Hours without power per customer, ${y}`, v: hours(fy.saidi_minutes), s: `Median ${hours(med.saidi_minutes)} · standard ${hours(std.saidi_minutes)}` });
+  }
+  if (latest.period !== rel.full_year_period && latest.saifi != null)
+    tiles.push({ k: `So far in ${latest.period.slice(0, 4)} (to ${latest.period.slice(5)})`, v: hours(latest.saidi_minutes), s: `${latest.saifi.toFixed(1)} interruptions per customer` });
+  const flags = fy && !fy.missing ? [fy.saifi_status === "NC" && "interruptions", fy.saidi_status === "NC" && "hours"].filter(Boolean) : [];
+  const notes = [
+    !fy ? `NEA's ${quarterLabel(rel.full_year_period)} report doesn't list ${esc(u.doe_name)}.` : "",
+    fy?.missing ? `${esc(u.doe_name)} sent NEA no figures for ${y} (NEA prints “${esc(fy.missing)}”), and NEA counts that as not meeting the standard.` : "",
+    flags.length ? `NEA rates ${esc(u.doe_name)} below its standard on ${flags.join(" and ")} for ${y}.` : "",
+    ...(rel.issues[u.utility_id] || []).map((t) => `Question for NEA: ${esc(t)}; a year-to-date figure can't fall within a year.`),
+  ].filter(Boolean);
+  box.innerHTML = `<p class="note">From NEA's quarterly compliance reports. The figures run year to date, so ${y}'s full year is its Q4 figure. Medians are across cooperatives with a figure, unweighted. <a href="methodology.html#interruptions">How these are read</a>.</p>
+    ${tiles.length ? `<div class="tiles">${tiles.map((t) => `<div class="tile"><div class="k">${esc(t.k)}</div><div class="v">${t.v}</div><div class="s">${esc(t.s)}</div></div>`).join("")}</div>` : ""}
+    ${notes.map((n) => `<p class="note">${n}</p>`).join("")}
+    <details><summary>Every quarter from NEA</summary><div class="tablewrap"><table><thead><tr><th class="l">Quarter</th><th>Interruptions</th><th>Minutes</th><th>Hours</th><th class="l">NEA's flags</th><th class="l">Source</th></tr></thead><tbody>${
+      [...rows].reverse().map((r) => `<tr><td class="l">${quarterLabel(r.period)}</td><td>${r.saifi == null ? "–" : r.saifi.toFixed(2)}</td><td>${r.saidi_minutes == null ? "–" : r.saidi_minutes.toLocaleString("en-PH")}</td><td>${hours(r.saidi_minutes)}</td>
+        <td class="l">${r.missing ? esc(r.missing) : `${r.saifi_status} / ${r.saidi_status}`}</td><td class="l"><a href="${esc(rel.source_urls[r.period])}" rel="noopener">report, p. ${r.page}</a></td></tr>`).join("")}</tbody></table></div>
+      <p class="note">Flags: C meets NEA's standard, NC doesn't (NEA also gives NC when no data was sent). Figures as printed; the yearly standard applies to the full year.</p></details>`;
 }
 
 function medianSeries() {
@@ -228,10 +274,15 @@ function place(tip, box, e) {
 
 // ---------- Map ----------
 
-const bins = () => (state.klass === "generation" ? BINS.generation : BINS.retail);
+const saidiMode = () => state.measure === "saidi";
+const bins = () => (saidiMode() ? BINS.saidi : state.klass === "generation" ? BINS.generation : BINS.retail);
 const binOf = (v) => bins().findIndex((t) => v < t) + 1 || bins().length + 1; // 1..5
 
 function rateOf(uid, mi) { return panel.series[state.klass][uid]?.[mi] ?? null; }
+// what the map shows for one utility: this month's rate, or last full year's hours without power
+const valueOf = (uid, mi) => (saidiMode() ? saidiHours(uid) : rateOf(uid, mi));
+const showValue = (uid, v) => (v != null ? (saidiMode() ? `${v.toFixed(1)} h` : fmt(v))
+  : saidiMode() && byId.get(uid)?.du_type !== "EC" ? "not published" : "no figure");
 
 // The map: MapLibre (self-hosted under vendor/) over an OpenFreeMap basemap (OpenStreetMap data, no key, no cookies).
 // The basemap is the site's only third-party request, and it can be switched off (#...&base=0).
@@ -285,8 +336,8 @@ async function buildMap() {
     map.setFilter("hov", ["==", ["get", "c"], f.c]);
     const mi = panel.months.indexOf(state.month);
     const rows = f.u.length ? f.u.map(([id, q]) => {
-      const v = rateOf(id, mi);
-      return `<div class="row"><span>${esc(byId.get(id)?.doe_name || id)}</span><span>${v == null ? "no figure" : fmt(v)}</span></div>${q ? `<div class="q">${esc(q)}</div>` : ""}`;
+      const v = valueOf(id, mi);
+      return `<div class="row"><span>${esc(byId.get(id)?.doe_name || id)}</span><span>${showValue(id, v)}</span></div>${q ? `<div class="q">${esc(q)}</div>` : ""}`;
     }).join("") : `<div class="q">No utility listed in the coverage source</div>`;
     tip.innerHTML = `<b>${esc(f.n)}</b><div class="q">${esc(f.p || "independent city")}</div>${rows}`;
     place(tip, $("map"), e.originalEvent);
@@ -308,7 +359,7 @@ function paintMap() {
     let k;
     if (!f.u.length) { k = 0; counts.none++; }
     else {
-      const v = median(f.u.map(([id]) => rateOf(id, mi)).filter((x) => x != null));
+      const v = median(f.u.map(([id]) => valueOf(id, mi)).filter((x) => x != null));
       if (v == null) { k = 6; counts.nodata++; } else { k = binOf(v); counts.colored++; }
     }
     if (ready) map.setFeatureState({ source: "munis", id: f.c }, { k });
@@ -332,7 +383,11 @@ async function renderMap() {
   }
   $("basemap").checked = state.base;
   map.resize();
-  $("map-title").textContent = `${CLASSES[state.klass]} by municipality, ${monthLabel(state.month)}`;
+  for (const b of $("measures").children) b.setAttribute("aria-pressed", b.dataset.m === state.measure);
+  $("map-title").textContent = saidiMode() ? `Hours without power per customer, ${rel.full_year}, by municipality`
+    : `${CLASSES[state.klass]} by municipality, ${monthLabel(state.month)}`;
+  $("ramptitle").textContent = saidiMode() ? `Hours without power per customer in ${rel.full_year} (NEA's SAIDI)` : "PHP per kWh";
+  $("nodatakey").textContent = saidiMode() ? "No NEA figure: private utility (not published) or none sent" : "Utility has no figure this month (NDA)";
   const counts = paintMap();
   $("selkey").textContent = `${current.u.doe_name}'s area`;
 
@@ -340,7 +395,9 @@ async function renderMap() {
   $("ramp").innerHTML = [1, 2, 3, 4, 5].map((k) => `<i style="background:var(--seq-${k})"></i>`).join("");
   $("rampl").innerHTML = [`< ${b[0]}`, `${b[0]}–${b[1]}`, `${b[1]}–${b[2]}`, `${b[2]}–${b[3]}`, `${b[3]}+`].map((t) => `<span>${t}</span>`).join("");
   const n = (x) => x.toLocaleString("en-PH");
-  $("mapnote").textContent = `${n(counts.colored)} places with a figure, ${n(counts.nodata)} whose utility has none this month, ${n(counts.none)} with no utility listed.`;
+  $("mapnote").textContent = saidiMode()
+    ? `${n(counts.colored)} places with an NEA figure for ${rel.full_year}, ${n(counts.nodata)} served only by a private utility or a cooperative that sent none, ${n(counts.none)} with no utility listed. NEA's figure is the cooperative's average across its whole area, so every place it serves takes the same colour.`
+    : `${n(counts.colored)} places with a figure, ${n(counts.nodata)} whose utility has none this month, ${n(counts.none)} with no utility listed.`;
   renderPlace();
 }
 
@@ -359,7 +416,8 @@ function renderPlace() {
   if (shownPlace !== f.c) fly([[f.b[0], f.b[1]], [f.b[2], f.b[3]]], 11);
   shownPlace = f.c;
   const mi = panel.months.indexOf(state.month);
-  const nat = median(Object.values(panel.series[state.klass]).map((s) => s[mi]).filter((v) => v != null));
+  const nat = saidiMode() ? rel.medians[rel.full_year_period].saidi_minutes / 60
+    : median(Object.values(panel.series[state.klass]).map((s) => s[mi]).filter((v) => v != null));
   const spark = (uid) => {
     const s = panel.series[state.klass][uid].slice(-36);
     const vals = s.filter((v) => v != null);
@@ -378,12 +436,14 @@ function renderPlace() {
       <p class="note">${esc(f.p || "Independent city")} · PSGC <code>${f.c}</code></p></div>
       <button type="button" class="pc-close" aria-label="Close and show the whole country">✕</button></div>
     ${f.u.length ? f.u.map(([id, q]) => {
-      const u = byId.get(id), v = rateOf(id, mi);
+      const u = byId.get(id), v = valueOf(id, mi);
       return `<div class="pc-du">
         <div class="pc-name"><strong>${esc(u.doe_name)}</strong> <span class="note">${esc(u.name || "")}</span></div>
-        <div class="pc-figs"><div><span class="pc-v">${v == null ? "–" : fmt(v)}</span> <span class="note">PHP/kWh, ${CLASSES[state.klass].toLowerCase()}, ${monthLabel(state.month)}</span>
-          ${v != null && nat ? `<div class="note">${v >= nat ? "+" : "−"}${Math.abs((v - nat) / nat * 100).toFixed(0)}% vs. national median (${fmt(nat)})</div>` : `<div class="note">DOE has no figure this month</div>`}</div>
-          ${spark(id)}</div>
+        <div class="pc-figs"><div><span class="pc-v">${v == null ? "–" : saidiMode() ? v.toFixed(1) : fmt(v)}</span> <span class="note">${saidiMode()
+            ? `hours without power per customer, ${rel.full_year}` : `PHP/kWh, ${CLASSES[state.klass].toLowerCase()}, ${monthLabel(state.month)}`}</span>
+          ${v != null && nat ? `<div class="note">${v >= nat ? "+" : "−"}${Math.abs((v - nat) / nat * 100).toFixed(0)}% vs. ${saidiMode() ? "cooperative" : "national"} median (${saidiMode() ? `${nat.toFixed(1)} h` : fmt(nat)})</div>`
+            : `<div class="note">${saidiMode() ? (u.du_type === "EC" ? "No NEA figure for this year" : "Private utility: ERC doesn't publish this") : "DOE has no figure this month"}</div>`}</div>
+          ${saidiMode() ? "" : spark(id)}</div>
         ${q ? `<p class="note">Coverage note: ${esc(q)}</p>` : ""}
         <div class="pc-actions"><button type="button" class="btn ghost" data-trend="${id}">See trend</button>
           <button type="button" class="btn ghost" data-area="${id}">Outline its area</button></div></div>`;
@@ -405,12 +465,13 @@ function renderTable() {
   rows.sort((a, b) => (b.v ?? -1) - (a.v ?? -1) || a.u.doe_name.localeCompare(b.u.doe_name));
   const have = rows.filter((r) => r.v != null).length;
   $("all-title").textContent = `${CLASSES[state.klass]}, ${monthLabel(state.month)}`;
-  $("allnote").innerHTML = `${have} of ${rows.length} utilities have a figure; national median ${fmt(nat)} PHP/kWh. Select a name to see its trend.`;
-  $("alltable").innerHTML = `<table><thead><tr><th class="l">Utility</th><th class="l">Region</th><th class="l">Type</th><th>PHP/kWh</th><th>vs. median</th></tr></thead><tbody>${
+  $("allnote").innerHTML = `${have} of ${rows.length} utilities have a figure; national median ${fmt(nat)} PHP/kWh. Select a name to see its trend. Hours without power per customer are NEA's full-year figures for electric cooperatives; ERC publishes none for private utilities.`;
+  $("alltable").innerHTML = `<table><thead><tr><th class="l">Utility</th><th class="l">Region</th><th class="l">Type</th><th>PHP/kWh</th><th>vs. median</th><th>Hours without power, ${rel.full_year}</th></tr></thead><tbody>${
     rows.map(({ u, v }) => `<tr${u.utility_id === state.du ? ' style="background:var(--paper-tint)"' : ""}>
       <td><button class="link" data-id="${u.utility_id}">${esc(u.doe_name)}</button></td><td class="l">${esc(u.region)}</td><td class="l">${u.du_type}</td>
       <td>${v == null ? '<span class="note">no figure</span>' : `<i class="bar" style="width:${(v / max) * 60}px"></i>${fmt(v)}`}</td>
-      <td>${v == null || !nat ? "" : `${v >= nat ? "+" : "−"}${Math.abs(((v - nat) / nat) * 100).toFixed(0)}%`}</td></tr>`).join("")}</tbody></table>`;
+      <td>${v == null || !nat ? "" : `${v >= nat ? "+" : "−"}${Math.abs(((v - nat) / nat) * 100).toFixed(0)}%`}</td>
+      <td>${u.du_type !== "EC" ? '<span class="note">not published</span>' : saidiHours(u.utility_id) == null ? '<span class="note">no figure</span>' : saidiHours(u.utility_id).toFixed(1)}</td></tr>`).join("")}</tbody></table>`;
   $("alltable").onclick = (e) => e.target.dataset?.id && go({ du: e.target.dataset.id, view: "chart" });
 }
 

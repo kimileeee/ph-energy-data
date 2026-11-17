@@ -5,10 +5,11 @@
 
 import sys
 
-from pipeline import coverage, doe, fetch, geo, publish, report, site, verify
+from pipeline import coverage, doe, fetch, geo, publish, reliability, report, site, verify
 
 offline = "--offline" in sys.argv
-steps = [doe, coverage, geo, publish, report, site] if offline else [fetch, doe, coverage, geo, verify, publish, report, site]
+steps = ([doe, coverage, geo, reliability, publish, report, site] if offline
+         else [fetch, doe, coverage, geo, verify, reliability, publish, report, site])
 for step in steps:
     print(f"== {step.__name__}", file=sys.stderr)
     step.main()

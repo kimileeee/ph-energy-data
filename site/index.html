@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Your utility, your price</title>
-<meta name="description" content="Monthly electricity rates for every Philippine distribution utility in DOE's rate sheet: a trend chart, a map by municipality, and a table, with regional and national medians. Open data prototype.">
+<meta name="description" content="Monthly electricity rates for every Philippine distribution utility in DOE's rate sheet, and power interruptions per electric cooperative from NEA: a trend chart, a map by municipality, and a table, with regional and national medians. Open data prototype.">
 <link rel="stylesheet" href="vendor/maplibre-gl-6.16.0/maplibre-gl.css">
-<link rel="stylesheet" href="style.css?v=9b23588fb0">
+<link rel="stylesheet" href="style.css?v=6ccece7512">
 </head>
 <body>
 <header class="site"><nav aria-label="Site">
@@ -20,7 +20,7 @@
 <main>
   <p class="eyebrow">DOE rate sheet · 141 distribution utilities</p>
   <h1>Your utility, your price</h1>
-  <p class="lede">What households and businesses pay per kilowatt-hour, utility by utility, from the Department of Energy's monthly rate sheet. Pick your utility to see its trend against the median for its region and the country, find it on the map, or compare every utility in one table.</p>
+  <p class="lede">What households and businesses pay per kilowatt-hour, utility by utility, from the Department of Energy's monthly rate sheet, and how often the power goes out, from the National Electrification Administration's reports on electric cooperatives. Pick your utility to see its trend against the median for its region and the country, find it on the map, or compare every utility in one table.</p>
   <noscript><p class="card">The explorer needs JavaScript. The data itself is plain files: see <a href="data.html">Data and API</a>, and <a href="methodology.html">how it was made</a>.</p></noscript>
 
   <section class="card" aria-label="Choose a utility and customer class">
@@ -31,6 +31,11 @@
     </div>
     <p class="meta" id="meta"></p>
     <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section class="card" aria-labelledby="rel-title">
+    <h2 id="rel-title">Power interruptions</h2>
+    <div id="rel"><p class="note">Loading NEA's figures…</p></div>
   </section>
 
   <section class="card" aria-label="Views">
@@ -59,11 +64,14 @@
         <div class="map" id="map"><div class="tip" id="maptip" role="status"></div></div>
         <div>
           <div class="placecard" id="placecard" hidden aria-live="polite"></div>
-          <p class="label">PHP per kWh</p>
+          <span class="label" id="measurelabel">Colour by</span>
+          <div class="seg" role="group" aria-labelledby="measurelabel" id="measures" style="margin-bottom:12px">
+            <button type="button" data-m="rate">Rate</button><button type="button" data-m="saidi">Hours without power</button></div>
+          <p class="label" id="ramptitle">PHP per kWh</p>
           <div class="ramp" id="ramp"></div>
           <div class="ramp-labels" id="rampl"></div>
           <div class="keys">
-            <span><i class="box" style="background:var(--nodata)"></i>Utility has no figure this month (NDA)</span>
+            <span><i class="box" style="background:var(--nodata)"></i><span id="nodatakey">Utility has no figure this month (NDA)</span></span>
             <span><i class="box" style="background:none;border:1px dashed var(--ink-faint)"></i>No utility listed for this place</span>
             <span><i class="box" style="background:none;border:2px solid var(--ink)"></i><span id="selkey">Selected utility's area</span></span>
           </div>
@@ -83,6 +91,6 @@
 
   <p class="note" style="margin-top:16px">The tables, the JSON API and its OpenAPI reference are on <a href="data.html">Data &amp; API</a>; how it was made is on the <a href="methodology.html">methodology page</a>. An independent prototype, not an official DOE product.</p>
 </main>
-<script src="app.js?v=70212033e5" defer></script>
+<script src="app.js?v=1b222e2969" defer></script>
 </body>
 </html>
