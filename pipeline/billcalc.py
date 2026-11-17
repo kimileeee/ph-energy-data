@@ -15,8 +15,10 @@ using Q kWh in a month:
 
     effective rate(Q) = bill(Q) / Q
 
-There is no single "true rate": the fixed per-customer charges are spread over Q, so the rate falls as Q rises.
-The convention (Meralco's published typical bills; the figures DOE copies for Meralco) is Q = 200 kWh.
+There is no single "true rate": fixed per-customer charges are spread over Q, lifeline discounts apply at low Q, and some
+charges are tiered, so the rate changes with Q (it rises with Q in Meralco's 2018 tables, falls in CELCOR's).
+The convention (Meralco's published typical bills; the figures DOE copies for Meralco since Dec 2025) is Q = 200 kWh.
+DOE's 2018-2019 Meralco figures match the 400 kWh row instead, so the level matters and should be stated.
 
 Verified against CELCOR's October 2026 documents: its schedule's per-kWh charges x 200 plus its per-customer charges
 reproduce every non-tax line of its published 200 kWh bill to the centavo, and its franchise tax is exactly 0.825% of

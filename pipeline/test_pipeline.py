@@ -63,6 +63,7 @@ def test_meralco_pdf_row():
     assert (got["residential"], got["generation"]) == (15.551, 10.6349)
     # the raw tokens the viewer looks for on the page, as printed (spaces removed)
     assert got["_find"] == {"residential": ("15.5510", "last"), "generation": ("10.6349", "first")}
+    assert got["_levels"] == {200: 15.551}  # the pesos row (3,110.19) has no 4-decimal total, so only the PHP/kWh row counts
     assert meralco_bills("SUMMARY SCHEDULE OF RATES") is None
 
 

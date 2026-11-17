@@ -3,7 +3,7 @@
   "title": "Philippine electricity rates per distribution utility (prototype)",
   "description": "DOE's hand-compiled monthly rate sheet as a tidy, joinable dataset, with a master list of distribution utilities keyed by a stable ID and PSGC codes, and automated checks against utilities' own rate documents.",
   "version": "0.1.0",
-  "created": "2026-11-16T15:54:17+00:00",
+  "created": "2026-11-17T08:39:14+00:00",
   "licenses": [
     {
       "name": "ODC-BY-1.0",
@@ -438,6 +438,59 @@
           {
             "name": "qualifier",
             "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "filled",
+      "path": "filled.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Cells DOE's sheet leaves empty (NDA or blank) that the utility's own rate document fills, with the document.",
+      "schema": {
+        "fields": [
+          {
+            "name": "utility_id",
+            "type": "string",
+            "description": "Stable slug ID, issued once from DOE's printed name and never reissued."
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "YYYY-MM."
+          },
+          {
+            "name": "measure",
+            "type": "string"
+          },
+          {
+            "name": "value_php_per_kwh",
+            "type": "number"
+          },
+          {
+            "name": "doe_note",
+            "type": "string"
+          },
+          {
+            "name": "read_by",
+            "type": "string"
+          },
+          {
+            "name": "method",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "doc",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "type": "integer"
           }
         ]
       }

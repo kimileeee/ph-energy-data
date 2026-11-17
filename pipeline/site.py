@@ -36,6 +36,22 @@ def month(m: str) -> str:
     return datetime.strptime(m, "%Y-%m").strftime("%b %Y")
 
 
+def runs(months: list[str]) -> str:
+    """Consecutive months as readable runs: "Jan 2018 to Dec 2019, Jul 2025 and Oct 2026"."""
+    idx = lambda m: int(m[:4]) * 12 + int(m[5:]) - 1
+    out, start, prev = [], None, None
+    for m in sorted(months):
+        if prev is not None and idx(m) == idx(prev) + 1:
+            prev = m
+            continue
+        if start:
+            out.append(month(start) if start == prev else f"{month(start)} to {month(prev)}")
+        start = prev = m
+    if start:
+        out.append(month(start) if start == prev else f"{month(start)} to {month(prev)}")
+    return out[0] if len(out) == 1 else ", ".join(out[:-1]) + " and " + out[-1]
+
+
 def values() -> dict[str, str]:
     s = json.loads((DATA / "stats.json").read_text())
     manifest = json.loads((RAW / "manifest.json").read_text())
@@ -104,6 +120,42 @@ def values() -> dict[str, str]:
                      f"{int((cg.status == 'match').sum())} of {len(cg)} months, and fills a month DOE marks NDA."
                      if len(below) else "DOE's figure clears CEDC's own charges before tax in every month checked.")
     per |= {"aec_sentence": aec_sentence, "cedc_sentence": cedc_sentence}
+
+    # Meralco: which consumption level DOE's figure corresponds to, by period
+    mr = checked[(checked.utility_id == "meralco") & (checked.measure == "residential")].sort_values("month")
+    ok = mr[mr.status == "match"]
+    bad = mr[mr.status == "mismatch"]
+    lvl = bad.explain.str.extract(r"matches the (\d+) kWh bill")[0].dropna()
+    top = lvl.value_counts()
+    per |= {"meralco_200_from": month(ok.month.min()) if len(ok) else "–", "meralco_200_to": month(ok.month.max()) if len(ok) else "–",
+            "meralco_level": top.index[0] if len(top) else "another",
+            "meralco_level_n": f"{int(top.iloc[0])} of the {len(bad)}" if len(top) else "none of the",
+            "meralco_sentence": (f"Meralco's archive goes back to 2009, so the check also covered the older months where DOE has no "
+                                 f"generation charge and does have a residential figure. In {'all' if len(ok[ok.month < '2025-01']) == 0 else len(bad)} "
+                                 f"{len(bad)} of them ({runs(list(bad.month))}), DOE's figure differs from Meralco's 200 kWh bill. In {len(lvl)} of those it equals another row of Meralco's own "
+                                 f"table exactly: the {top.index[0]} kWh bill in {int(top.iloc[0])} months"
+                                 + (f", and other levels in {len(lvl) - int(top.iloc[0])}" if len(lvl) > int(top.iloc[0]) else "")
+                                 + ". So DOE's figures are copied correctly, but at a different consumption level than it uses today, which a "
+                                 "series spanning both periods needs to say." if len(bad) else
+                                 "DOE's Meralco figures match the 200 kWh bill in every month checked.")}
+
+    # cells DOE leaves empty that a utility's own document fills, grouped into runs of months for the proposal
+    fills = disc[disc.status.str.startswith("doe_missing") & (disc.check_type == "same")]
+    label = {"meralco": "Meralco", "cedc": "Clark Electric", "celcor": "CELCOR", "tei": "Tarlac Electric", "aec": "Angeles Electric"}
+    what = {"generation": "generation charge", "residential": "residential rate"}
+    parts = []
+    for (u, m), g in fills.groupby(["utility_id", "measure"]):
+        ms = sorted(g.month)
+        kind = "images" if (g.read_by == "image").any() else "PDFs"
+        count = f"{len(ms)} months" if len(ms) > 1 else "one month"
+        parts.append((len(ms), f"{label.get(u, u)}'s {what[m]} for {count} ({runs(ms)}, from its {kind})"))
+    parts = [t for _, t in sorted(parts, reverse=True)]
+    per |= {"fill_sentence": (f"Reading the utilities' own archives back to 2018 gave {len(fills)} figures DOE's sheet doesn't have: "
+                              + "; ".join(parts) + "." if parts else "No empty cell could be filled from the documents read so far."),
+            "gen_matches": n(int(((checked.measure == "generation") & (checked.status == "match")).sum())),
+            "diff_list": "; ".join(f"{label.get(u, u)} ({k})" for (u, mm), k in
+                                   checked[checked.status == "mismatch"].groupby(["utility_id", "measure"]).size().sort_values(ascending=False).items()),
+            "filled_cells": n(len(fills))}
     cgen = checked[(checked.utility_id == "celcor") & (checked.measure == "generation")]
     mism = checked[checked.status == "mismatch"]
     groups = mism.groupby(["utility_id", "measure"]).size()

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-16T15:54:17+00:00",
+  "built_at": "2026-11-17T08:39:14+00:00",
   "utilities": 141,
   "utilities_by_type": {
     "EC": 120,
@@ -32,7 +32,7 @@
     "attribute differs across tabs": 7,
     "unparseable cell": 1
   },
-  "source_checks": 82,
+  "source_checks": 131,
   "source_check_utilities": [
     "aec",
     "cedc",
@@ -40,8 +40,9 @@
     "meralco",
     "tei"
   ],
-  "source_check_mismatches": 18,
-  "source_published_but_doe_blank": 6,
+  "source_check_mismatches": 43,
+  "source_published_but_doe_blank": 102,
+  "filled_cells": 52,
   "doe_source_links": {
     "website": 78,
     "facebook": 54,

@@ -116,12 +116,17 @@ def meralco_bills(text: str) -> dict | None:
     """Meralco residential-bills PDF: the 200 kWh row of the PHP/kWh table (4-decimal numbers)."""
     if "RESIDENTIAL BILLS AT TYPICAL" not in text.upper():
         return None
+    levels, found = {}, None  # kWh -> PHP/kWh, to say which consumption level DOE's figure corresponds to
     for line in text.splitlines():
         toks = rejoin(line)
-        if toks[:1] == ["200"] and re.fullmatch(r"\d+\.\d{4}", toks[-1]):
-            return {"residential": num(toks[-1]), "generation": num(toks[1]),
-                    "_find": {"residential": (toks[-1], "last"), "generation": (toks[1], "first")}}
-    raise ValueError("residential bills PDF without a 200 kWh PHP/kWh row; layout changed?")
+        if toks and toks[0].isdigit() and int(toks[0]) > 0 and len(toks) > 3 and re.fullmatch(r"\d+\.\d{4}", toks[-1]):
+            levels[int(toks[0])] = num(toks[-1])
+            if toks[0] == "200" and not found:
+                found = {"residential": num(toks[-1]), "generation": num(toks[1]),
+                         "_find": {"residential": (toks[-1], "last"), "generation": (toks[1], "first")}}
+    if not found:
+        raise ValueError("residential bills PDF without a 200 kWh PHP/kWh row; layout changed?")
+    return found | {"_levels": levels}
 
 
 def celcor_bills(text: str) -> dict:
@@ -211,8 +216,9 @@ def scrape_meralco(months: list[str]) -> list[dict]:
                     out += from_extracted("meralco", doc, url, base, "Meralco residential bills", [key])
                     break
                 if got:
+                    levels = got.pop("_levels")
                     for measure, (raw, which) in got.pop("_find").items():
-                        out.append({"utility_id": "meralco", "month": key, "measure": measure, "source_value": got[measure],
+                        out.append({"levels": levels if measure == "residential" else None, "utility_id": "meralco", "month": key, "measure": measure, "source_value": got[measure],
                                     "source_url": url, "doc": doc, "source_page_url": base,
                                     "source_document": f"Residential Bills at Typical Consumption Levels, {key}",
                                     "method": ("Printed: PHP/kWh at 200 kWh, non-lifeline (Total column)" if measure == "residential"
@@ -353,7 +359,7 @@ def scrape_cedc(months: list[str]) -> list[dict]:
     """Discovery only: CEDC's rates page lists each month under a "<Month> <Year>" heading followed by its images.
     The tables themselves print no month, so the heading is the month the reader is told."""
     base = SOURCES["cedc"]["archive"]
-    out = []
+    todo = []
     with client() as c:
         page = c.get(base).text
         current, seen = None, set()
@@ -369,8 +375,11 @@ def scrape_cedc(months: list[str]) -> list[dict]:
             url = urljoin(base, src)
             doc = f"cedc/{current}-{src.rsplit('/', 1)[-1]}"
             fetch(c, url, doc)
-            out += from_extracted("cedc", doc, url, base, "CEDC rate image", months, period_hint=current)
-    return out
+            todo.append((doc, url, current))
+    # ponytail: 4 parallel reads; the model backend is the bottleneck, raise if the API's rate limit allows
+    with ThreadPoolExecutor(4) as pool:
+        parts = pool.map(lambda t: from_extracted("cedc", t[0], t[1], base, "CEDC rate image", months, period_hint=t[2]), todo)
+    return [row for part in parts for row in part]
 
 
 def scrape_inbox(months: list[str]) -> list[dict]:
@@ -529,13 +538,29 @@ def audit_links() -> pd.DataFrame:
         return pd.DataFrame(pool.map(check, u.to_dict("records")))
 
 
+def gap_months(utility_id: str) -> list[str]:
+    """Months where DOE's sheet has no residential rate or no generation charge for this utility (NDA or blank)."""
+    rates = pd.read_csv(DATA / "rates.csv", keep_default_na=False)
+    r = rates[(rates.utility_id == utility_id) & (rates.customer_class == "residential")]
+    return sorted(r[(r.rate_php_per_kwh == "") | (r.generation_charge == "")].month)
+
+
+# utilities whose own archives reach back far enough to fill DOE's older gaps
+FILL_FROM_ARCHIVE = ("meralco", "cedc")
+
+
 def main() -> None:
     months = recent_months(date.today(), LOOKBACK)
-    found = scrape_meralco(months) + scrape_celcor(months) + scrape_tei(months)
-    found += scrape_aec(months) + scrape_cedc(months) + scrape_inbox(months)
+    window = {u: sorted(set(months) | (set(gap_months(u)) if u in FILL_FROM_ARCHIVE else set())) for u in SOURCES}
+    found = scrape_meralco(window["meralco"]) + scrape_celcor(months) + scrape_tei(months)
+    found += scrape_aec(months) + scrape_cedc(window["cedc"]) + scrape_inbox(months)
     found = flag_thin_breakdowns(dedupe(drop_mislabels(found)))
     disc = compare(found)
     disc.to_csv(DATA / "qa" / "discrepancies.csv", index=False)
+    filled = disc[disc.status.str.startswith("doe_missing") & (disc.check_type == "same")]
+    filled.assign(doe_note=filled.status.str.extract(r"\((.*)\)")[0])[
+        ["utility_id", "month", "measure", "source_value", "doe_note", "read_by", "method", "source_url", "doc", "page"]
+    ].rename(columns={"source_value": "value_php_per_kwh"}).to_csv(DATA / "filled.csv", index=False)
     publish_evidence(disc)
     links = audit_links()
     links.to_csv(DATA / "qa" / "source_links.csv", index=False)

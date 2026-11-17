@@ -57,7 +57,7 @@
          "$ref": "#/components/schemas/UtilityList"
         },
         "example": {
-         "generated": "2026-11-16T15:54:17+00:00",
+         "generated": "2026-11-17T08:39:14+00:00",
          "count": 141,
          "utilities": [
           {
@@ -1236,7 +1236,7 @@
          "$ref": "#/components/schemas/Checks"
         },
         "example": {
-         "built": "2026-11-16T15:54:17+00:00",
+         "built": "2026-11-17T08:39:14+00:00",
          "tolerance": 0.006,
          "lookback_months": 12,
          "sheet_url": "https://docs.google.com/spreadsheets/d/1oGc1iGpacELS6tkHjesvAeKZo8v2iv4UkYFY04e0p-I",
@@ -1246,7 +1246,7 @@
            "archive": "https://www.meralco.com.ph/governance/regulatory/rates-archive",
            "how": "Rates archive page lists each month's PDFs; the residential-bills table prints PHP/kWh per consumption level.",
            "utility_id": "meralco",
-           "checks": 22,
+           "checks": 46,
            "matches": 22,
            "doe_source_url": "https://company.meralco.com.ph/news-and-advisories",
            "doe_source_status": "200"
@@ -1374,7 +1374,7 @@
          "$ref": "#/components/schemas/Stats"
         },
         "example": {
-         "built_at": "2026-11-16T15:54:17+00:00",
+         "built_at": "2026-11-17T08:39:14+00:00",
          "utilities": 141,
          "utilities_by_type": {
           "EC": 120,

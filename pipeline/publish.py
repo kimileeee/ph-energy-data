@@ -28,6 +28,7 @@ RESOURCES = {
     "qa/doe_sheet_issues": "Problems found in DOE's sheet itself: cross-tab disagreements, implausible and unparseable cells.",
     "qa/source_links": "Reachability of each link in DOE's SOURCES column.",
     "qa/unmatched_areas": "Areas the coverage source lists that could not be matched to one PSGC code.",
+    "filled": "Cells DOE's sheet leaves empty (NDA or blank) that the utility's own rate document fills, with the document.",
 }
 DESCRIPTIONS = {
     "utility_id": "Stable slug ID, issued once from DOE's printed name and never reissued.",
@@ -112,6 +113,7 @@ def coverage_stats(rates: pd.DataFrame, utilities: pd.DataFrame, areas: pd.DataF
         "source_checks": len(checked), "source_check_utilities": sorted(checked.utility_id.unique()),
         "source_check_mismatches": int((checked.status == "mismatch").sum()),
         "source_published_but_doe_blank": int(disc.status.str.startswith("doe_missing").sum()),
+        "filled_cells": int((disc.status.str.startswith("doe_missing") & (disc.check_type == "same")).sum()),
         "doe_source_links": links.kind.value_counts().to_dict(),
         "doe_source_links_not_ok": int(((links.kind == "website") & (links.http_status != "200")).sum()),
     }

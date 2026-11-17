@@ -158,7 +158,7 @@ function renderViewer() {
       ${c.check_type === "floor" ? "The figure is computed from the charges read off the schedule below." :
         c.grounded ? "The printed value was found in the OCR text (boxed on the page below)." : "<strong>The OCR did not confirm this value</strong>; check it against the page."}
       ${c.doc_status === "review" ? " This document failed an arithmetic check and is marked for review." : ""}</p>` : ""}
-    ${c.explain ? `<p class="note" style="grid-column:1/-1;margin:0">${esc(c.explain)}.${c.utility_id === "celcor" ? " DOE does not publish its method; the 200 kWh bill reproduces Meralco's figures exactly." : ""}</p>` : ""}
+    ${c.explain ? `<p class="note" style="grid-column:1/-1;margin:0">${esc(c.explain)}.${c.utility_id === "celcor" ? " DOE does not publish its method; the 200 kWh bill reproduces Meralco's recent figures exactly." : ""}</p>` : ""}
     ${bd ? `<details class="bd" style="grid-column:1/-1" open><summary class="note">How it's computed: ${bd.kwh} kWh with the schedule's residential charges</summary>
       <table class="fields"><tbody>${Object.entries(bd.items).map(([k, v]) => `<tr><td class="l">${esc(k)}</td><td>₱${v.toFixed(2)}</td></tr>`).join("")}
       <tr><td class="l"><strong>Before VAT and local taxes</strong></td><td><strong>₱${bd.subtotal.toFixed(2)}</strong> = ${bd.rate_before_tax.toFixed(4)}/kWh</td></tr></tbody></table>
