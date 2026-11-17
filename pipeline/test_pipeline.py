@@ -7,6 +7,7 @@ from pipeline.billcalc import bill
 from pipeline.coverage import acronym_key, area_items, full_key, match_areas, norm
 from pipeline.doe import month_key, parse_value, slug
 from pipeline.extract import check_sums, ground
+from pipeline.outages import Places, barangay_mentions, check_notice, key, list_items, window
 from pipeline.verify import celcor_bills, meralco_bills, tei_generation
 
 
@@ -108,6 +109,48 @@ def test_image_reader_checks():
 
 def test_tei_pdf_row():
     assert tei_generation("1Generation Charge1 PhP/kWh 6.74890 0.71120 6.74890") == 6.7489
+
+
+def test_outage_windows():
+    from datetime import datetime as dt
+    # Meralco prints the dates only when a window crosses midnight
+    assert window("BETWEEN 11:00PM (WED., 06/10/26) AND 4:00AM (THU., 06/11/26) – PORTION OF CIRCUIT DILIMAN 434VU",
+                  "2026-06-10") == (dt(2026, 6, 10, 23), dt(2026, 6, 11, 4))
+    assert window("BETWEEN 9:00AM AND 2:00PM", "2026-11-18") == (dt(2026, 11, 18, 9), dt(2026, 11, 18, 14))
+    assert window("BETWEEN 10:00PM AND 4:00AM", "2026-11-18")[1] == dt(2026, 11, 19, 4)
+    assert window("BETWEEN 12:00 NN AND 3:00 PM", "2026-01-02")[0] == dt(2026, 1, 2, 12)
+    try:
+        window("FROM 9 TO 5", "2026-01-02")
+        raise AssertionError("a window that doesn't parse must raise, not vanish")
+    except ValueError:
+        pass
+
+
+def test_outage_barangays():
+    assert key("Bgy. Sto. Niño") == key("Santo Niño") and key("Amaya 1") == key("Amaya I")
+    assert key("Gen. Trias City") == key("City of General Trias") and key("Garita 1-A") == key("Garita I-A")
+    assert list_items("Bucandala I, II, III & IV") == ["Bucandala I", "Bucandala II", "Bucandala III", "Bucandala IV"]
+    assert list_items("Bayan Luma 7 – 8") == ["Bayan Luma 7", "Bayan Luma 8"]
+    p = Places("meralco")
+    got = {n: p.match(n, h, [])["psgc_code"] for n, h, _ in barangay_mentions(
+        "in Bgy. B. F. International Village, Las Piñas City to Calcutta St.; Phases 1 & 3 in Bgy. B. F. Homes, Parañaque City.", p)}
+    assert got == {"B. F. International Village": "1380200011", "B. F. Homes": "1381000007"}
+    # a town name in the middle of a list is a barangay ('San Mateo' in Dasmariñas), not a city that binds the rest
+    names = [n for n, h, _ in barangay_mentions("in Bgys. Burol III, San Mateo, San Roque and Santa Fe. Line works", p)]
+    assert names == ["Burol III", "San Mateo", "San Roque", "Santa Fe"]
+    # a city outside the franchise list binds the list too: nothing in it may match elsewhere
+    (n, h, _), = barangay_mentions("facilities in Bgy. Tibag, Baliwag City, Bulacan.", p)
+    assert n == "Tibag" and p.match(n, h, list(p.cities))["match"] == "not found"
+
+
+def test_outage_notice_checks():
+    lines = [{"text": "November 13, 2026", "box": [0, 0, 1, 1]}, {"text": "Brgy. Capaya and Brgy. Mining", "box": [0, 0, 1, 1]}]
+    read = {"notice_type": "scheduled", "areas": [{"barangay_printed": "Capaya"}, {"barangay_printed": "Mining"}],
+            "windows": [{"date": "2026-11-13", "start": "05:00", "end": "10:00", "date_printed": "November 13, 2026", "time_printed": ""}]}
+    assert check_notice(read, lines, "11-13-2026 Mining, Capaya") == []
+    read["areas"].append({"barangay_printed": "Cutcut"})  # a barangay the page doesn't print
+    read["windows"][0]["date"] = "2026-11-14"  # a misread day
+    assert len(check_notice(read, lines, "11-13-2026 Mining, Capaya")) == 2
 
 
 if __name__ == "__main__":

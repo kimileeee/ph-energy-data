@@ -118,9 +118,10 @@ def ocr(image: Path) -> list[dict]:
     return json.loads(r.stdout)
 
 
-def read_with_model(image: Path, lines: list[dict], context: dict) -> dict:
+def read_with_model(image: Path, lines: list[dict], context: dict, prompt: str = PROMPT, schema: dict = FACTS_SCHEMA) -> dict:
+    """One page through the vision model into `schema`. Rates use the defaults; outages pass their own (pipeline/outages.py)."""
     ocr_text = "\n".join(f"[{l['box'][0]:.2f},{l['box'][1]:.2f}] {l['text']}" for l in lines)
-    prompt = PROMPT.format(image=image, ocr=ocr_text, **context)
+    prompt = prompt.format(image=image, ocr=ocr_text, **context)
     if os.environ.get("ANTHROPIC_API_KEY"):
         import base64
 
@@ -128,7 +129,7 @@ def read_with_model(image: Path, lines: list[dict], context: dict) -> dict:
 
         msg = anthropic.Anthropic().messages.create(
             model=MODEL, max_tokens=8000,
-            tools=[{"name": "record_facts", "description": "Record the extracted facts", "input_schema": FACTS_SCHEMA}],
+            tools=[{"name": "record_facts", "description": "Record the extracted facts", "input_schema": schema}],
             tool_choice={"type": "tool", "name": "record_facts"},
             messages=[{"role": "user", "content": [
                 {"type": "image", "source": {"type": "base64", "media_type": "image/png",
@@ -136,11 +137,11 @@ def read_with_model(image: Path, lines: list[dict], context: dict) -> dict:
                 {"type": "text", "text": prompt.replace(f"Read the image at: {image}", "The image is attached.")}]}])
         return next(b.input for b in msg.content if b.type == "tool_use")
     r = subprocess.run(
-        ["claude", "-p", prompt, "--output-format", "json", "--json-schema", json.dumps(FACTS_SCHEMA),
+        ["claude", "-p", prompt, "--output-format", "json", "--json-schema", json.dumps(schema),
          "--model", MODEL, "--allowedTools", "Read", "--add-dir", str(image.parent)],
-        capture_output=True, text=True, timeout=600, cwd=image.parent)
+        capture_output=True, text=True, timeout=600, cwd=image.parent, stdin=subprocess.DEVNULL)
     if r.returncode:
-        raise RuntimeError(f"claude -p failed: {r.stderr[-400:] or r.stdout[-400:]}")
+        raise RuntimeError(f"claude -p failed: {r.stdout[-300:]} {r.stderr[-200:]}")
     out = json.loads(r.stdout)
     result = out.get("structured_output") or out.get("result")
     return result if isinstance(result, dict) else json.loads(re.search(r"\{.*\}", result, re.S).group(0))

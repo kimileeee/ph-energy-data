@@ -38,6 +38,16 @@ def get(client: httpx.Client, url: str) -> bytes:
     return r.content
 
 
+def write_barangays(psgc: list[dict]) -> int:
+    """Barangays (42k rows) in their own file; only the outage notices need them."""
+    rows = [p for p in psgc if p["type"] == "barangay"]
+    with (RAW / "psgc" / "barangays.csv").open("w", newline="") as f:
+        w = csv.DictWriter(f, ["psgc_id", "name", "parent_psgc_id"], extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    return len(rows)
+
+
 def main() -> None:
     manifest = {}
     with httpx.Client(headers={"User-Agent": UA}) as client:
@@ -47,8 +57,9 @@ def main() -> None:
             path.write_bytes(get(client, url))
             manifest[name] = {"url": url, "bytes": path.stat().st_size}
             print(f"fetched {name} ({path.stat().st_size:,} B)", file=sys.stderr)
-        # keep everything above barangay level (~1.8k rows); barangays are 42k rows we don't need
-        places = [p for p in json.loads(get(client, PSGC_URL)) if p["type"] != "barangay"]
+        # places.csv keeps everything above barangay level (~1.8k rows); barangays go to barangays.csv
+        psgc = json.loads(get(client, PSGC_URL))
+        places = [p for p in psgc if p["type"] != "barangay"]
         path = RAW / "psgc" / "places.csv"
         path.parent.mkdir(exist_ok=True)
         with path.open("w", newline="") as f:
@@ -56,6 +67,7 @@ def main() -> None:
             w.writeheader()
             w.writerows(places)
         manifest["psgc/places.csv"] = {"url": PSGC_URL, "rows": len(places)}
+        manifest["psgc/barangays.csv"] = {"url": PSGC_URL, "rows": write_barangays(psgc)}
         rev = client.get(
             "https://en.wikipedia.org/w/api.php",
             params={"action": "query", "prop": "revisions", "rvprop": "ids|timestamp", "titles": WIKI_TITLE, "format": "json"},

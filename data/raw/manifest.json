@@ -32,5 +32,9 @@
     "url": "https://raw.githubusercontent.com/bendlikeabamboo/barangay/v2026.10.12.0/barangay/data/barangay_flat.json",
     "rows": 1758
   },
+  "psgc/barangays.csv": {
+    "url": "https://raw.githubusercontent.com/bendlikeabamboo/barangay/v2026.10.12.0/barangay/data/barangay_flat.json",
+    "rows": 42010
+  },
   "_fetched_at": "2026-11-16T12:36:28+00:00"
 }

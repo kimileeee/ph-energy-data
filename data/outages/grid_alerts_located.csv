@@ -1,0 +1,35 @@
+date,grid,alert_level,start_local,end_local,hours,times_basis,source_url,source_type,note
+2026-04-16,Luzon,yellow,16:00,22:00,6,NGCP advisory as quoted,https://context.ph/2026/04/16/luzon-grid-under-yellow-alert-due-to-power-plant-outages/,news,first Luzon yellow alert of 2026 per the article; reported lifted at 19:33
+2026-04-16,Visayas,yellow,18:00,19:00,1,NGCP advisory as quoted,https://business.inquirer.net/585649/luzon-electricity-grid-placed-under-yellow-alert,news,
+2026-05-13,Luzon,red,15:00,20:00,5,NGCP advisory as quoted,https://tribune.net.ph/2026/05/13/ngcp-places-luzon-visayas-under-first-red-alert-of-2026,news,first red alert of 2026 per the article
+2026-05-13,Luzon,yellow,14:00,15:00,1,NGCP advisory as quoted,https://tribune.net.ph/2026/05/13/ngcp-places-luzon-visayas-under-first-red-alert-of-2026,news,
+2026-05-13,Luzon,yellow,20:00,22:00,2,NGCP advisory as quoted,https://tribune.net.ph/2026/05/13/ngcp-places-luzon-visayas-under-first-red-alert-of-2026,news,
+2026-05-13,Visayas,red,,,,date only,https://tribune.net.ph/2026/05/13/ngcp-places-luzon-visayas-under-first-red-alert-of-2026,news,hours not in the located coverage
+2026-05-14,Luzon,red,16:00,22:00,6,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/987577/luzon-visayas-grids-to-be-placed-under-red-yellow-alerts-thursday-may-14-2026/story/,news,sources disagree: another article gives 15:00-22:00 (tribune.net.ph/2026/05/14)
+2026-05-15,Luzon,red,15:00,22:00,7,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/987730/luzon-visayas-red-yellow-alerts-ngcp-may-15-2026/story/,news,sources disagree: another article reports 14:00-23:00 (tribune.net.ph/2026/05/15)
+2026-05-15,Visayas,yellow,,,,date only,https://www.gmanetwork.com/news/money/economy/987730/luzon-visayas-red-yellow-alerts-ngcp-may-15-2026/story/,news,
+2026-06-10,Visayas,red,,,,date only,https://www.gmanetwork.com/news/money/economy/990931/red-alert-visayas-grid-yellow-alert-mindanao-grid-june-10-2026/story/,news,
+2026-06-10,Mindanao,yellow,,,,date only,https://www.gmanetwork.com/news/money/economy/990931/red-alert-visayas-grid-yellow-alert-mindanao-grid-june-10-2026/story/,news,reported as Mindanao's first yellow alert of 2026
+2026-07-08,Visayas,red,15:00,21:00,6,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/994172/ngcp-visayas-grid-red-alert-july-8-2026/story/,news,yellow alerts before and after
+2026-07-09,Visayas,red,17:00,19:00,2,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/994265/ngcp-visayas-grid-red-yellow-alert/story/,news,another report says the red alert was lifted at 12:45 (dzrh.com.ph); actual hours uncertain
+2026-07-09,Visayas,yellow,15:00,17:00,2,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/994265/ngcp-visayas-grid-red-yellow-alert/story/,news,
+2026-07-09,Visayas,yellow,19:00,22:00,3,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/994265/ngcp-visayas-grid-red-yellow-alert/story/,news,
+2026-08-07,Visayas,red,,,,date only,https://www.dzrh.com.ph/post/visayas-grid-under-red-yellow-alerts-on-aug-7-ngcp,news,red and yellow
+2026-08-08,Visayas,red,,,,date only,https://www.dzrh.com.ph/post/red-yellow-alerts-raised-over-visayas-grid-on-aug-8,news,red and yellow
+2026-08-10,Visayas,red,,,,date only,https://mb.com.ph/2026/08/10/visayas-grid-placed-on-red-alert-again-amid-reduced-mindanao-supply,news,
+2026-08-11,Visayas,red,,,,date only,https://www.dzrh.com.ph/post/red-yellow-alerts-up-over-visayas-grid-on-aug-11,news,red and yellow
+2026-08-12,Visayas,red,,,,date only,https://www.gmanetwork.com/news/money/economy/998258/visayas-grid-under-red-yellow-alerts-mindanao-on-yellow-alert-on-aug-12-2026/story/,news,red and yellow
+2026-08-12,Mindanao,yellow,,,,date only,https://www.gmanetwork.com/news/money/economy/998258/visayas-grid-under-red-yellow-alerts-mindanao-on-yellow-alert-on-aug-12-2026/story/,news,
+2026-08-13,Visayas,red,,,,date only,https://www.dzrh.com.ph/post/visayas-grid-placed-under-red-yellow-alerts-anew-as-power-supply-tightens-on-aug-13,news,red and yellow
+2026-08-14,Visayas,red,,,,date only,https://www.dzrh.com.ph/post/red-yellow-alerts-raised-again-over-visayas-mindanao-on-aug-14,news,red and yellow over Visayas and Mindanao; split by grid not in the located coverage
+2026-08-14,Mindanao,yellow,,,,date only,https://www.dzrh.com.ph/post/red-yellow-alerts-raised-again-over-visayas-mindanao-on-aug-14,news,see Visayas row
+2026-08-16,Visayas,yellow,,,,date only,https://www.philstar.com/bansa/2026/08/16/2549683/visayas-grid-under-yellow-alert-ngcp,news,
+2026-08-29,Visayas,red,,,,date only,https://www.gmanetwork.com/news/topstories/nation/1000311/red-yellow-alerts-raised-over-visayas-grid-on-aug-29-2026-ngcp/story/,news,red and yellow
+2026-08-30,Visayas,red,,,,date only,https://www.gmanetwork.com/news/money/economy/1000397/visayas-grid-under-red-yellow-alerts-on-august-30-2026-ngcp/story/,news,red and yellow
+2026-09-02,Mindanao,red,,,,date only,https://newsinfo.inquirer.net/2297720/mindanao-grid-placed-under-red-yellow-alerts,news,red and yellow
+2026-09-03,Mindanao,red,12:00,21:00,9,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/1000958/visayas-mindanao-grids-placed-on-red-alert-on-september-3-2026/story/,news,
+2026-09-03,Mindanao,yellow,10:00,12:00,2,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/1000958/visayas-mindanao-grids-placed-on-red-alert-on-september-3-2026/story/,news,
+2026-09-03,Mindanao,yellow,21:00,22:00,1,NGCP advisory as quoted,https://www.gmanetwork.com/news/money/economy/1000958/visayas-mindanao-grids-placed-on-red-alert-on-september-3-2026/story/,news,
+2026-09-03,Visayas,red,,,,date only,https://www.gmanetwork.com/news/money/economy/1000958/visayas-mindanao-grids-placed-on-red-alert-on-september-3-2026/story/,news,
+2026-09-09,Mindanao,yellow,,,,date only,https://www.gmanetwork.com/news/topstories/regions/1001701/mindanao-grid-under-yellow-alert-on-sept-9-2026/story/,news,Visayas also yellow per the article
+2026-09-09,Visayas,yellow,,,,date only,https://www.gmanetwork.com/news/topstories/regions/1001701/mindanao-grid-under-yellow-alert-on-sept-9-2026/story/,news,
