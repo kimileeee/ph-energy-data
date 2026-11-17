@@ -7,6 +7,7 @@ from pipeline.billcalc import bill
 from pipeline.coverage import acronym_key, area_items, full_key, match_areas, norm
 from pipeline.doe import month_key, parse_value, slug
 from pipeline.extract import check_sums, ground
+from pipeline.reliability import ROW as NEA_ROW, issues as nea_issues, number as nea_number
 from pipeline.outages import Places, barangay_mentions, check_notice, key, list_items, window
 from pipeline.verify import celcor_bills, meralco_bills, tei_generation
 
@@ -151,6 +152,22 @@ def test_outage_notice_checks():
     read["areas"].append({"barangay_printed": "Cutcut"})  # a barangay the page doesn't print
     read["windows"][0]["date"] = "2026-11-14"  # a misread day
     assert len(check_notice(read, lines, "11-13-2026 Mining, Capaya")) == 2
+
+
+def test_nea_appendix_rows():
+    m = NEA_ROW.match("NEECO II - AREA 1 0.89 C 72.95 C 5.06 C")
+    assert m.group(1) == "NEECO II - AREA 1" and nea_number(m.group(4)) == 72.95
+    m = NEA_ROW.match("ALECO 37.74 NC 1,512.56 C 23.75% NC")  # thousands separator, a percent sign, NC flags
+    assert (nea_number(m.group(2)), nea_number(m.group(4)), nea_number(m.group(6)), m.group(7)) == (37.74, 1512.56, 23.75, "NC")
+    for code in ("dns", "nda", "nds", "NDA", "inc"):  # no figure: kept as printed, never read as zero
+        m = NEA_ROW.match(f"TISELCO {code} NC {code} NC {code} NC")
+        assert m and nea_number(m.group(2)) is None
+    assert NEA_ROW.match("Region IV-A") is None
+    import pandas as pd
+    df = pd.DataFrame([{"utility_id": "x", "period": "2024-Q3", "saifi": 7.68, "saidi_minutes": 719.48},
+                       {"utility_id": "x", "period": "2024-Q4", "saifi": 4.59, "saidi_minutes": 410.36},
+                       {"utility_id": "x", "period": "2025-Q1", "saifi": 1.13, "saidi_minutes": 141.23}])
+    assert len(nea_issues(df)) == 2  # Q4 below Q3 is an issue; Q1 restarting the year is not
 
 
 if __name__ == "__main__":

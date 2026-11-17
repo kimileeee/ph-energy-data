@@ -58,7 +58,7 @@ The explorer keeps its whole view in the URL hash (`#du=meralco&class=residentia
 
 ## Outages (branch `outages`, not on the site)
 
-`uv run python -m pipeline.outages` reads planned-interruption notices (Meralco's maintenance archive as HTML; Angeles Electric's PDF/image notices through the image reader) into `data/outages/interruptions.csv` and `interruption_areas.csv`, with each barangay matched to its 10-digit PSGC code inside the utility's franchise area. `OUTAGES.md` has what exists (NEA/ERC reliability indices, NGCP grid alerts, Facebook-only utilities), what blocks it, Meralco's terms, and a recommendation for an Outages view.
+`uv run python -m pipeline.reliability` reads NEA's quarterly SAIFI/SAIDI per cooperative (2024 Q1–2026 Q2) into `data/outages/reliability_nea.csv`. `uv run python -m pipeline.outages` reads planned-interruption notices (Meralco's maintenance archive as HTML; Angeles Electric's PDF/image notices through the image reader) into `data/outages/interruptions.csv` and `interruption_areas.csv`, with each barangay matched to its 10-digit PSGC code inside the utility's franchise area. `OUTAGES.md` has what exists (NEA/ERC reliability indices, NGCP grid alerts, Facebook-only utilities), what blocks it, Meralco's terms, and a recommendation for an Outages view.
 
 ## Reading any document (images, scans, Facebook posts)
 
