@@ -214,6 +214,7 @@ def values() -> dict[str, str]:
         "issues_outside": n(int(lead.filter(like="outside").sum())),
         "issues_tabs": n(int(lead.get("attribute differs across tabs", 0))),
         "issues_unparsed": n(int(lead.get("unparseable cell", 0))),
+        "issues_bad": n(int(lead.filter(like="outside").sum()) + int(lead.get("unparseable cell", 0))),
         "with_prov": n(s["utilities_with_province_psgc"]),
         "without_prov": n(s["utilities"] - s["utilities_with_province_psgc"]),
         "areas_listed": n(s["areas_listed"]), "areas_matched": n(s["areas_matched_to_psgc"]),
