@@ -19,8 +19,9 @@ from pipeline.verify import LOOKBACK, TOLERANCE
 
 DATA = RAW.parent
 ROOT = DATA.parent
-TEMPLATE = Path(__file__).parent / "templates" / "methodology.html"
-OUT = ROOT / "site" / "methodology.html"
+TEMPLATES = Path(__file__).parent / "templates"
+PAGES = ["methodology.html", "proposal.html"]  # each rendered from templates/<name> to site/<name>
+WORDS = {2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}
 
 
 def n(x) -> str:
@@ -147,6 +148,8 @@ def values() -> dict[str, str]:
         "doe_blank": n(int(disc.status.str.startswith("doe_missing").sum())),
         "tolerance": f"{TOLERANCE:g}", "lookback": n(LOOKBACK),
         **per, "diff_sentence": diff_sentence,
+        "n_checked": WORDS.get(checked.utility_id.nunique(), str(checked.utility_id.nunique())),
+        "gen_checks": n(int((checked.measure == "generation").sum())),
         "celcor_res_n": n(len(cres)), "celcor_below": n(int((cres.gap < 0).sum())), "celcor_above": n(int((cres.gap > 0).sum())),
         "celcor_max_below": f"{-cres.gap.min():.2f}" if (cres.gap < 0).any() else "0",
         "celcor_res_mismatch": n(int((cres.status == "mismatch").sum())),
@@ -175,10 +178,11 @@ def bust_cache() -> None:
 
 def main() -> None:
     v = values()
-    html = re.sub(r"\{\{(\w+)\}\}", lambda m: v[m.group(1)], TEMPLATE.read_text())
-    OUT.write_text(html)
+    for name in PAGES:
+        html = re.sub(r"\{\{(\w+)\}\}", lambda m: v[m.group(1)], (TEMPLATES / name).read_text())
+        (ROOT / "site" / name).write_text(html)
+        print(f"wrote site/{name}")
     bust_cache()
-    print(f"wrote {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
